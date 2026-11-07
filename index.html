@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mohammad Amin Talaghat | Head of Technical Office & Contracts | Civil Engineer & AI Researcher</title>
+    <meta name="description" content="Official Interactive Executive Resume & Academic Portfolio of Dr. Mohammad Amin Talaghat. Head of Technical Office & Contracts, Ph.D. in Construction Management, AI Pavement Digital Twins Researcher.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22serif%22 fill=%22%2310b981%22>T</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            950: '#060913',
+                            900: '#0b1120',
+                            800: '#111c35',
+                            700: '#1b2a4e',
+                        },
+                        emerald: {
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                        },
+                        amber: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        },
+                        cyan: {
+                            400: '#22d3ee',
+                            500: '#06b6d4',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'Vazirmatn', 'sans-serif'],
+                        mono: ['"Fira Code"', 'monospace'],
+                        fa: ['Vazirmatn', '"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        ::selection { background: #10b981; color: #060913; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #060913; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #10b981; }
+
+        .glass-panel {
+            background: rgba(17, 28, 53, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card:hover {
+            border-color: rgba(16, 185, 129, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px -10px rgba(16, 185, 129, 0.15);
+        }
+        .glow-emerald {
+            box-shadow: 0 0 40px -10px rgba(16, 185, 129, 0.25);
+        }
+        .glow-amber {
+            box-shadow: 0 0 40px -10px rgba(245, 158, 11, 0.25);
+        }
+        .text-gradient-emerald {
+            background: linear-gradient(135deg, #ffffff 20%, #34d399 70%, #10b981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-gradient-amber {
+            background: linear-gradient(135deg, #ffffff 20%, #fbbf24 70%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .badge-active {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-navy-950 text-slate-200 font-sans antialiased selection:bg-emerald-500 selection:text-navy-950 relative overflow-x-hidden min-h-screen">
+
+    <!-- Ambient Background Canvas -->
+    <canvas id="ambient-canvas" class="fixed inset-0 pointer-events-none z-0 opacity-40"></canvas>
+
+    <!-- Top Sticky Navigation -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-white/5 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3.5 group">
+                <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-500 to-cyan-500 flex items-center justify-center font-bold text-navy-950 text-xl shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
+                    T
+                </div>
+                <div>
+                    <div class="text-base font-bold text-white tracking-tight flex items-center gap-2">
+                        Dr. Mohammad Amin Talaghat
+                        <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Ph.D.</span>
+                    </div>
+                    <p class="text-xs text-slate-400 font-medium">Head of Technical Office & Contracts | AI Researcher</p>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden lg:flex items-center gap-1 text-sm font-medium text-slate-300">
+                <a href="#about" class="px-3 py-1.5 rounded-lg hover:text-emerald-400 hover:bg-white/5 transition-colors">Profile</a>
+                <a href="#experience" class="px-3 py-1.5 rounded-lg hover:text-emerald-400 hover:bg-white/5 transition-colors">Experience (8)</a>
+                <a href="#projects" class="px-3 py-1.5 rounded-lg hover:text-emerald-400 hover:bg-white/5 transition-colors">Landmark Projects (10)</a>
+                <a href="#publications" class="px-3 py-1.5 rounded-lg hover:text-emerald-400 hover:bg-white/5 transition-colors">Publications (19)</a>
+                <a href="#education" class="px-3 py-1.5 rounded-lg hover:text-emerald-400 hover:bg-white/5 transition-colors">Education & Honors</a>
+                <a href="#references" class="px-3 py-1.5 rounded-lg hover:text-emerald-400 hover:bg-white/5 transition-colors">References</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-3">
+                <button id="sound-toggle" onclick="toggleAudio()" class="p-2 rounded-lg glass-card text-slate-400 hover:text-emerald-400 text-xs flex items-center gap-1.5 transition-colors" title="Toggle UI Sound Effects">
+                    <i data-lucide="volume-2" class="w-4 h-4"></i>
+                    <span class="hidden sm:inline text-[11px] font-mono">SFX</span>
+                </button>
+                <div class="relative group">
+                    <a href="assets/Mohammad_Amin_Talaghat_CV_EN_2026.pdf" download class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-navy-950 font-bold text-xs uppercase tracking-wider hover:shadow-lg hover:shadow-emerald-500/25 hover:brightness-110 transition-all">
+                        <i data-lucide="download" class="w-4 h-4"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-20">
+
+        <!-- Hero & Executive Summary Section -->
+        <section id="about" class="grid lg:grid-cols-12 gap-8 items-center pt-4">
+            <div class="lg:col-span-8 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    Verified Academic & Executive Profile
+                </div>
+
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-white">
+                    Civil Engineer & Infrastructure Management Professional
+                    <span class="block text-gradient-emerald mt-2">Specialized in Contracts, PMO & AI Digital Twins</span>
+                </h1>
+
+                <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
+                    Civil engineer and construction management professional with a completed <strong>Ph.D. in Construction Management</strong> from Amirkabir University of Technology (Tehran Polytechnic) and research collaboration at the <strong>University of Oulu (Finland)</strong>. Experienced in connecting high-impact scientific research with commercial and product-oriented infrastructure applications.
+                </p>
+
+                <p class="text-sm sm:text-base text-slate-400 leading-relaxed">
+                    Combines practical leadership in construction project management, technical office supervision, FIDIC/National contract administration (Circular 4311), delay claims (Circular 5090), cost estimation, and variation analysis with advanced research in road pavement digital twins, automated AI-driven condition assessment, and BIM/IoT smart infrastructure systems.
+                </p>
+
+                <!-- Core Badges & Verified Coordinates -->
+                <div class="flex flex-wrap gap-3 pt-2 text-xs">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg glass-card text-slate-300">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i> Shiraz & Tehran, Iran
+                    </span>
+                    <a href="tel:+989171883502" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg glass-card text-slate-300 hover:text-emerald-400">
+                        <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i> +98 917 188 3502
+                    </a>
+                    <a href="tel:+358417182239" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg glass-card text-slate-300 hover:text-emerald-400">
+                        <i data-lucide="phone" class="w-4 h-4 text-cyan-400"></i> +358 41 7182 239 (Finland)
+                    </a>
+                    <a href="mailto:atalaghat@aut.ac.ir" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg glass-card text-slate-300 hover:text-emerald-400">
+                        <i data-lucide="mail" class="w-4 h-4 text-emerald-400"></i> atalaghat@aut.ac.ir
+                    </a>
+                    <a href="mailto:atalaghat@gmail.com" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg glass-card text-slate-300 hover:text-emerald-400">
+                        <i data-lucide="mail" class="w-4 h-4 text-amber-400"></i> atalaghat@gmail.com
+                    </a>
+                </div>
+
+                <!-- Verified External Portals Links -->
+                <div class="flex flex-wrap items-center gap-3 pt-2">
+                    <a href="https://scholar.google.com/citations?user=QW77YRoAAAAJ" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="graduation-cap" class="w-4 h-4 text-emerald-400"></i> Google Scholar (91 Cites)
+                    </a>
+                    <a href="https://orcid.org/0009-0004-9467-3323" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="award" class="w-4 h-4 text-emerald-400"></i> ORCID
+                    </a>
+                    <a href="https://www.linkedin.com/in/atalaghat/" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="linkedin" class="w-4 h-4 text-cyan-400"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/atalaghat" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="github" class="w-4 h-4 text-slate-300"></i> GitHub
+                    </a>
+                    <a href="https://facebook.com/amintalaghat" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="facebook" class="w-4 h-4 text-cyan-400"></i> Facebook
+                    </a>
+                    <a href="https://webalfa.net/" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="globe" class="w-4 h-4 text-amber-400"></i> WebAlfa.net
+                    </a>
+                </div>
+            </div>
+
+            <!-- Executive Quick Metrics Dashboard Card -->
+            <div class="lg:col-span-4">
+                <div class="glass-panel p-6 rounded-2xl glow-emerald space-y-6">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center justify-between border-b border-white/5 pb-3">
+                        <span>Career Benchmarks</span>
+                        <i data-lucide="activity" class="w-4 h-4"></i>
+                    </h3>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="glass-card p-4 rounded-xl">
+                            <div class="text-3xl font-extrabold text-white">19</div>
+                            <div class="text-xs text-slate-400 mt-1 font-medium">Recorded Works</div>
+                            <div class="text-[10px] text-emerald-400 mt-0.5">10 Published + 9 Review</div>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl">
+                            <div class="text-3xl font-extrabold text-white">91</div>
+                            <div class="text-xs text-slate-400 mt-1 font-medium">Verified Citations</div>
+                            <div class="text-[10px] text-cyan-400 mt-0.5">Google Scholar Verified</div>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl">
+                            <div class="text-3xl font-extrabold text-white">h-4</div>
+                            <div class="text-xs text-slate-400 mt-1 font-medium">H-Index / i10=1</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5">High Academic Impact</div>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl">
+                            <div class="text-3xl font-extrabold text-white">#20</div>
+                            <div class="text-xs text-slate-400 mt-1 font-medium">National Ph.D. Exam</div>
+                            <div class="text-[10px] text-amber-400 mt-0.5">Nationwide Top 20</div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3 pt-2 text-xs">
+                        <div class="flex items-center justify-between text-slate-300">
+                            <span class="text-slate-400">Engineering PE License:</span>
+                            <span class="font-bold text-white">Grade 3 Supervisor & Executor</span>
+                        </div>
+                        <div class="flex items-center justify-between text-slate-300">
+                            <span class="text-slate-400">National Elites Foundation:</span>
+                            <span class="font-bold text-amber-400">Winner (Talented Award)</span>
+                        </div>
+                        <div class="flex items-center justify-between text-slate-300">
+                            <span class="text-slate-400">International Fellowship:</span>
+                            <span class="font-bold text-cyan-400">University of Oulu, Finland</span>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 border-t border-white/5 flex gap-2">
+                        <a href="assets/Mohammad_Amin_Talaghat_CV_FA_2026.pdf" download class="w-1/2 py-2 px-3 text-center rounded-lg glass-card text-xs font-semibold text-slate-300 hover:text-white hover:border-emerald-500/50 transition-colors">
+                            Persian CV (PDF)
+                        </a>
+                        <a href="assets/Mohammad_Amin_Talaghat_CV_EN_2026.pdf" download class="w-1/2 py-2 px-3 text-center rounded-lg glass-card text-xs font-semibold text-slate-300 hover:text-white hover:border-cyan-500/50 transition-colors">
+                            English CV (PDF)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Collaboration & Strategic Fit -->
+        <section class="glass-panel p-8 rounded-2xl space-y-6">
+            <div class="flex items-center gap-3">
+                <div class="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400">
+                    <i data-lucide="target" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold text-white tracking-tight">Target Collaboration & Professional Fit</h2>
+                    <p class="text-xs text-slate-400">Connecting academic rigor with product-oriented infrastructure deployment</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 pt-2">
+                <div class="glass-card p-5 rounded-xl space-y-3">
+                    <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm">01</div>
+                    <h3 class="text-base font-bold text-white">Direct Strongest Area</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Highway, road, and urban pavement digital twin solutions, including AI-based distress detection, condition assessment, PCI-oriented workflows, and multi-objective maintenance optimization.
+                    </p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl space-y-3">
+                    <div class="w-8 h-8 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center font-bold text-sm">02</div>
+                    <h3 class="text-base font-bold text-white">Transferable Adjacent Area</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Airport pavement monitoring and railway track superstructure digital twin implementation, leveraging georeferenced inspection data, computer vision, data fusion, and decision-support algorithms.
+                    </p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl space-y-3">
+                    <div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center font-bold text-sm">03</div>
+                    <h3 class="text-base font-bold text-white">Commercial Bridge</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Regional infrastructure leadership combining ISI Q1 research credibility, extensive local contracting/claim management experience (Articles 30 & 54), and product-oriented technical communication.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section (All 8 Roles from CV) -->
+        <section id="experience" class="space-y-8">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/5 pb-4">
+                <div>
+                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Career Trajectory</div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Professional & Research Experience</h2>
+                </div>
+                <div class="text-xs text-slate-400 font-mono">8 Verified Positions (2016 – Present)</div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Role 1 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                Current Role
+                            </div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Technical & Contracts Affairs Specialist / Manager
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">Sahar Sazeh Novin Paydar Co. | Shiraz, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            Jun 2025 – Present
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Manage technical office workflows and contractual documentation, including project correspondence, progress reporting, estimation, contract records, and claim-related evidence.</li>
+                        <li>Prepare and review comprehensive project control documents, technical reports, quantity take-offs (QTO), interim payment statements, variation orders, and price analysis (Circular 4951).</li>
+                        <li>Administer contract compliance, delay analysis, and Extension of Time (EOT) dossiers under General Conditions of Contract (Circular 4311).</li>
+                    </ul>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded text-[11px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                                International Research
+                            </div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                                Research Collaborator / Research Assistant — DigiPave Project
+                            </h3>
+                            <div class="text-sm font-medium text-cyan-400">University of Oulu | Oulu, Finland / Hybrid</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            Jan 2024 – Present
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Formulated AI-driven road pavement digital twin architectures, automated condition assessment systems, and data-driven maintenance decision support pipelines.</li>
+                        <li>Integrated pavement engineering principles, georeferenced inspection data, computer vision algorithms, AI analytics, and BIM/IoT concepts into practical decision-making frameworks.</li>
+                        <li>Published premier journal papers in <em>Automation in Construction</em>, <em>Scientific Reports</em>, and <em>International Journal of Pavement Engineering</em>.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 3 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Co-Founder, CEO and Project Manager
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">ArkaNoyan Industry Development Co. | Shiraz, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            2019 – Present
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Led construction contracting and engineering activities covering project coordination, execution management, technical office supervision, project planning, and cost control.</li>
+                        <li>Coordinated multidisciplinary engineering teams across executive, technical, financial, and contractual facets of infrastructure and building developments.</li>
+                        <li>Directed corporate project delivery, client negotiations, bidding strategy, and quality assurance standards.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 4 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Technical Office and Project Controls Supervisor
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">Arshsazan Negin Co. | Shiraz, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            Apr 2025 – Jun 2025
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Supervised technical office workflows, project controls, documentation, quantity surveying, and scheduling models.</li>
+                        <li>Ensured seamless alignment and contractual coordination between site execution teams, consulting engineering firms, and upper management.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 5 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Contract Affairs Expert
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">Iran Gas Engineering and Development Co. (NIGC Eng.) | Tehran, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            Jan 2022 – Jan 2024
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Handled contract affairs, risk analysis, contractual documentation, project finance, and BOT-related studies for large-scale energy and infrastructure projects.</li>
+                        <li>Contributed to research and technical studies regarding fair contractual risk allocation, financing models, and contractual mechanisms.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 6 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Technical & Execution Supervisor
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">Peynavardan Shahr Co. | Shiraz, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            2020 – 2021
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Supervised on-site execution activities, technical submittals, construction quality assurance, and site coordination.</li>
+                        <li>Prepared baseline schedules, progress tracking reports, quantity surveying sheets, and subcontractor claims.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 7 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Technical Office Engineer & Project Controls Engineer
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">Debleh Construction Co. | Tehran, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            2018 – 2019
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Developed CPM schedules, WBS structures, and monthly physical/financial S-Curves using Primavera P6 and Microsoft Project.</li>
+                        <li>Calculated detailed quantity takeoffs, prepared monthly interim payment certificates, and audited subcontractor bills.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 8 -->
+                <div class="glass-card p-6 sm:p-7 rounded-2xl relative overflow-hidden group">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4">
+                        <div class="space-y-2">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                Web Developer, Designer & Director
+                            </h3>
+                            <div class="text-sm font-medium text-emerald-400">WebAlfa and Tarnamagostar Parslabkhand Co. | Shiraz, Iran</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400 lg:text-right bg-white/5 px-3 py-1.5 rounded-lg border border-white/5 whitespace-nowrap">
+                            2016 – Present
+                        </div>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Designed and engineered high-performance web platforms, software dashboards, and specialized digital engineering portals.</li>
+                        <li>Architected custom UI/UX solutions utilizing modern web frameworks (React.js, PHP/Laravel, JavaScript, Tailwind, and WordPress).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Landmark Projects Section (All 10 Real Projects from CV) -->
+        <section id="projects" class="space-y-8">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/5 pb-4">
+                <div>
+                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Portfolio of Record</div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Landmark Engineering & Research Projects</h2>
+                </div>
+                <div class="text-xs text-slate-400 font-mono">10 Verified Projects</div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                            International Infrastructure
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Oulu, Finland</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Road Pavement Digital Twin / DigiPave</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Formulated an implemented decision-support system for road pavement maintenance in Finland, bridging LiDAR/photogrammetric surface scans, AI-driven distress classification, and network-level multi-year lifecycle cost optimization.
+                    </p>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                            Smart Infrastructure & BIM
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Florida, USA</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">BIM/IoT Energy Management System (Roger Williams College)</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Designed a smart building management framework integrating BIM models and real-time IoT sensors to monitor and optimize energy efficiency and thermal comfort in educational campus facilities.
+                    </p>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                            Railway Infrastructure
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Tehran, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Vision-Based Railway Condition Assessment</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Deep vision-based railway track superstructure condition assessment using computer vision and georeferenced maintenance intelligence on the Zanjan-Tehran operational railway corridor.
+                    </p>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                            Industrial Megaproject
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Kharameh, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Fars Cement Factory (3,300 Ton/Day) Delay & Claims</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Comprehensive delay and damages claim preparation, critical path impact modeling (CPM), financial escalation dossiers, and detailed progress scheduling for a 3,300-ton/day industrial plant.
+                    </p>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                            Commercial Complex
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Khorramabad, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Q Residential-Commercial Complex (170,000 m²) Claims</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Preparation of comprehensive delay claim documentation, contractor claims analysis, and contractual risk assessments for a large-scale 170,000 square-meter mixed-use complex.
+                    </p>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                            Large-Scale Housing
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Pardis, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Mehr Housing Project (1,210 Units — 120,000 m²) Controls</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Executive project planning and controls, WBS design, master CPM scheduling, and physical/financial progress tracking for 1,210 residential units in Pardis New City.
+                    </p>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                            Civil Landscaping
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Pardis, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Mehr Housing 60-Hectare Landscaping Takeoff & Estimates</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Full quantity surveying, bill of quantities (BOQ), earthwork volume calculation, and cost estimation for 60 hectares of urban site development and landscaping.
+                    </p>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                            Academic Building
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Shiraz, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Electrical & Computer Engineering Faculty (6,000 m²)</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Construction supervision, technical office management, quality control inspection, and site coordination for the 6,000 m² ECE faculty complex at Shiraz University.
+                    </p>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                            Structural Design
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Shiraz, Iran</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">6-Story Residential Building Structural Calculations (2,000 m²)</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Complete architectural drafting, structural modeling, seismic calculations under Standard 2800, and foundation design using ETABS and SAFE for a 2,000 m² residential building.
+                    </p>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex items-start justify-between gap-3">
+                        <span class="inline-flex items-center px-2.5 py-1 rounded text-[11px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                            Digital Engineering Platforms
+                        </span>
+                        <span class="text-xs font-mono text-slate-400">Global / Web</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">WebAlfa, BIMGate, Paprika & TwinUp Platforms</h3>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Full-stack architecture, UI/UX design, and deployment of specialized digital engineering and management portals integrating web dashboards with engineering data workflows.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications & Scholarly Record Section (All 19 Works from CV) -->
+        <section id="publications" class="space-y-8">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/5 pb-4">
+                <div>
+                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Scholarly Contributions</div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Publications & Research Record</h2>
+                </div>
+                <!-- Filter Tabs -->
+                <div class="flex items-center gap-1.5 p-1 rounded-xl glass-card text-xs">
+                    <button onclick="filterPubs('all')" id="btn-pub-all" class="px-3 py-1.5 rounded-lg badge-active font-semibold transition-all">All (19)</button>
+                    <button onclick="filterPubs('published')" id="btn-pub-published" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white font-semibold transition-all">Published Q1/Conf (10)</button>
+                    <button onclick="filterPubs('review')" id="btn-pub-review" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white font-semibold transition-all">Under Review (9)</button>
+                </div>
+            </div>
+
+            <!-- Publications Container -->
+            <div id="pubs-container" class="space-y-4">
+                <!-- Pub 1 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Scientific Reports (2026)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1038/s41598-026-46719-z" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1038/s41598-026-46719-z <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub1')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 2 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Int. Journal of Pavement Engineering (2026)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Hybrid MLP–LSTM deep predictive modeling of pavement distress severity and density and condition indices
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Shahhosseini, V., Rasti, M., Daneshvar, A., & Moghadas Nejad, F.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1080/10298436.2026.2624565" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1080/10298436.2026.2624565 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub2')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 3 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Journal of Computing in Civil Engineering (2026)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Road Pavement Digital Twin: A Blueprint with a Case Study
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Rasti, M., & Shahhosseini, V.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1061/JCCEE5.CPENG-7187" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1061/JCCEE5.CPENG-7187 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub3')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 4 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Int. Journal of Pavement Engineering (2025)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Enhancing pavement distress segmentation model with diffusion-based generative AI: a digital twin perspective
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1080/10298436.2025.2540076" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1080/10298436.2025.2540076 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub4')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 5 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Automation in Construction (2024)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Digital twin technology for road pavement
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Kharbouch, A., Rasti, M., Heikkilä, R., & Jurva, R.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1016/j.autcon.2024.105826" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1016/j.autcon.2024.105826 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub5')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 6 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Results in Engineering (2026)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Fully automated pavement crack quantification and PCI estimation via a digital twin-ready vision-based deep learning pipeline
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1016/j.rineng.2026.111659" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1016/j.rineng.2026.111659 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub6')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 7 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Q1</span>
+                        <span class="text-xs font-mono text-slate-400">Scientific Reports (2026)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Explainable AI–enhanced pavement deterioration modeling using hybrid classification–regression deep learning architecture
+                    </h3>
+                    <p class="text-xs text-slate-300">Sedighian-Fard, M., Golroo, A., Javanmardi, M., Alahi, A., Dehghan Tezerjani, H., Talaghat, M. A., Shahhosseini, V., & Rasti, M.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.1038/s41598-026-67842-x" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.1038/s41598-026-67842-x <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub7')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 8 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-500/15 text-cyan-400 border border-cyan-500/30 uppercase">Conference Paper</span>
+                        <span class="text-xs font-mono text-slate-400">AM3P Proceedings, Vienna (2025)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Leveraging digital twin technology for data-driven pavement maintenance
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Sedighian-Fard, M., Golroo, A., & Rasti, M.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.34726/10886" target="_blank" class="inline-flex items-center gap-1 text-cyan-400 hover:underline font-mono">
+                            DOI: 10.34726/10886 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub8')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 9 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-500/15 text-cyan-400 border border-cyan-500/30 uppercase">Conference Paper</span>
+                        <span class="text-xs font-mono text-slate-400">AM3P Proceedings, Vienna (2025)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Improving Pavement Distress segmentation with Diffusion-Based Generative AI
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., & Rasti, M.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.34726/10798" target="_blank" class="inline-flex items-center gap-1 text-cyan-400 hover:underline font-mono">
+                            DOI: 10.34726/10798 <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub9')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 10 -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="published">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 uppercase">Published Journal</span>
+                        <span class="text-xs font-mono text-slate-400">Lean Construction Journal (2022)</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM
+                    </h3>
+                    <p class="text-xs text-slate-300">Saghatforoush, E., Abbasianjahromi, H., Talaghat, M. A., & Kahvandi, Z.</p>
+                    <div class="pt-2 flex items-center justify-between text-xs">
+                        <a href="https://doi.org/10.60164/54i5b7h5h" target="_blank" class="inline-flex items-center gap-1 text-emerald-400 hover:underline font-mono">
+                            DOI: 10.60164/54i5b7h5h <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                        <button onclick="copyBibtex('pub10')" class="text-slate-400 hover:text-white text-[11px] font-mono">Copy BibTeX</button>
+                    </div>
+                </div>
+
+                <!-- Pub 11 (Under Review 1) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Int. Journal of Pavement Engineering</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        A data-driven optimization framework for network-level pavement maintenance planning
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., Golroo, A., Shahhosseini, V., Rasti, M., & Daneshvar, A.</p>
+                </div>
+
+                <!-- Pub 12 (Under Review 2) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">IEEE Transactions on Intelligent Transportation Systems</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Self-supervised crack segmentation with data-driven severity detection
+                    </h3>
+                    <p class="text-xs text-slate-300">Nouri, S., Rezaeemanesh, M., Talaghat, M. A., Rasti, M., & Golroo, A.</p>
+                </div>
+
+                <!-- Pub 13 (Under Review 3) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Scientific Reports</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Deep vision-based railway track superstructure condition assessment using YOLOv26 and georeferenced maintenance intelligence: Field validation on the Zanjan-Tehran railway line
+                    </h3>
+                    <p class="text-xs text-slate-300">Sedighian-Fard, M., Talaghat, M. A., et al.</p>
+                </div>
+
+                <!-- Pub 14 (Under Review 4) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Case Studies in Construction Materials</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        A complete pipeline for automated pavement distress detection, segmentation, and quantification using a new surface condition index
+                    </h3>
+                    <p class="text-xs text-slate-300">Sedighian-Fard, M., Golroo, A., Javanmardi, M., Alahi, A., Talaghat, M. A., Shahhoseini, V., Amiri, S., & Moghadas Nejad, F.</p>
+                </div>
+
+                <!-- Pub 15 (Under Review 5) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Journal of Traffic and Transportation Engineering</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Vehicle-based pavement condition monitoring: A review of evidence, technology readiness, and management integration
+                    </h3>
+                    <p class="text-xs text-slate-300">Sedighian-Fard, M., Javanmardi, M., Alahi, A., Talaghat, M. A., & Shahhosseini, V.</p>
+                </div>
+
+                <!-- Pub 16 (Under Review 6) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Measurement</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Synchronized 2D–3D edge sensing for automated ASTM D6433 pavement condition assessment: A Baghdad case study
+                    </h3>
+                    <p class="text-xs text-slate-300">Alobaidi, M., Golroo, A., Sedighian-Fard, M., & Talaghat, M. A.</p>
+                </div>
+
+                <!-- Pub 17 (Under Review 7) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">International Journal of Railway Research</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in climatically diverse Iranian railways
+                    </h3>
+                    <p class="text-xs text-slate-300">Sedighian-Fard, M., Fathali, M., Yazdani Tabai, S. H., Homavandi, S., Akbari, M., & Talaghat, M. A.</p>
+                </div>
+
+                <!-- Pub 18 (Under Review 8) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Targeting Smart Infrastructure Journals</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., & Sedighian-Fard, M.</p>
+                </div>
+
+                <!-- Pub 19 (Under Review 9) -->
+                <div class="pub-card glass-card p-5 rounded-xl space-y-2.5" data-category="review">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/30 uppercase">Under Review</span>
+                        <span class="text-xs font-mono text-slate-400">Sustainable Energy, Grids and Networks</span>
+                    </div>
+                    <h3 class="text-base font-bold text-white leading-snug">
+                        A self-updating, two-way building digital twin for grid-interactive operation: Forecasting equipment faults and jointly optimising energy, peak demand, carbon and maintenance
+                    </h3>
+                    <p class="text-xs text-slate-300">Talaghat, M. A., & Sedighian-Fard, M.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Honors Section -->
+        <section id="education" class="grid lg:grid-cols-2 gap-8">
+            <!-- Education Column -->
+            <div class="space-y-6">
+                <div class="border-b border-white/5 pb-3">
+                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Academic Pedigree</div>
+                    <h2 class="text-2xl font-bold text-white">Higher Education</h2>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="glass-card p-5 rounded-xl space-y-2">
+                        <div class="flex justify-between items-start gap-2">
+                            <h3 class="text-base font-bold text-white">Ph.D. in Civil Engineering (Construction Management)</h3>
+                            <span class="text-xs font-mono text-emerald-400 whitespace-nowrap">2021 – 2025</span>
+                        </div>
+                        <p class="text-xs text-emerald-400 font-medium">Amirkabir University of Technology (Tehran Polytechnic) | Tehran, Iran</p>
+                        <p class="text-xs text-slate-300 mt-2"><strong>Thesis:</strong> Development of a digital twin-based intelligent decision support system for asphalt pavement maintenance</p>
+                        <p class="text-xs text-slate-400"><strong>Supervisor:</strong> Dr. Amir Golroo</p>
+                    </div>
+
+                    <div class="glass-card p-5 rounded-xl space-y-2">
+                        <div class="flex justify-between items-start gap-2">
+                            <h3 class="text-base font-bold text-white">Ph.D. Visiting Scholar (Funded Fellowship)</h3>
+                            <span class="text-xs font-mono text-cyan-400 whitespace-nowrap">Oct 2024 – Apr 2025</span>
+                        </div>
+                        <p class="text-xs text-cyan-400 font-medium">University of Oulu — DigiPave Project | Oulu, Finland</p>
+                        <p class="text-xs text-slate-300 mt-2"><strong>Research Focus:</strong> Road pavement digital twin, AI-driven infrastructure monitoring and intelligent maintenance systems</p>
+                        <p class="text-xs text-slate-400"><strong>Host Professor:</strong> Professor Rauno Heikkilä</p>
+                    </div>
+
+                    <div class="glass-card p-5 rounded-xl space-y-2">
+                        <div class="flex justify-between items-start gap-2">
+                            <h3 class="text-base font-bold text-white">M.Sc. in Civil Engineering (Construction Management)</h3>
+                            <span class="text-xs font-mono text-emerald-400 whitespace-nowrap">2017 – 2020</span>
+                        </div>
+                        <p class="text-xs text-emerald-400 font-medium">K. N. Toosi University of Technology | Tehran, Iran</p>
+                        <p class="text-xs text-slate-300 mt-2"><strong>Thesis:</strong> Development of a building energy management system by integrating BIM and IoT to improve efficiency in public buildings</p>
+                        <p class="text-xs text-slate-400"><strong>Supervisor:</strong> Dr. Ehsan Saghatforoush</p>
+                    </div>
+
+                    <div class="glass-card p-5 rounded-xl space-y-2">
+                        <div class="flex justify-between items-start gap-2">
+                            <h3 class="text-base font-bold text-white">B.Sc. in Civil Engineering</h3>
+                            <span class="text-xs font-mono text-emerald-400 whitespace-nowrap">2011 – 2016</span>
+                        </div>
+                        <p class="text-xs text-emerald-400 font-medium">Shiraz University | Shiraz, Iran</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Honors & Licenses Column -->
+            <div class="space-y-6">
+                <div class="border-b border-white/5 pb-3">
+                    <div class="text-xs font-bold uppercase tracking-wider text-amber-400 mb-1">Recognition of Excellence</div>
+                    <h2 class="text-2xl font-bold text-white">Honors, Licenses & Certifications</h2>
+                </div>
+
+                <div class="space-y-3.5">
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3.5">
+                        <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 mt-0.5">
+                            <i data-lucide="shield-check" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Professional Engineering (PE) License — Grade 3</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">Member of Iran Construction Engineering Organization (سازمان نظام مهندسی ساختمان); Licensed Construction Supervisor & Executor.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3.5">
+                        <div class="p-2 rounded-lg bg-amber-500/10 text-amber-400 mt-0.5">
+                            <i data-lucide="award" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Winner of National Elites Foundation Talented Award (2021)</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">Awarded by Iran's National Elites Foundation (بنیاد ملی نخبگان) in recognition of top academic and research achievements.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3.5">
+                        <div class="p-2 rounded-lg bg-cyan-500/10 text-cyan-400 mt-0.5">
+                            <i data-lucide="trophy" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Ranked 20th in Nationwide Ph.D. Entrance Examination (2021)</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">Ranked 20th across all nationwide examinees in Civil & Construction Management.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3.5">
+                        <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 mt-0.5">
+                            <i data-lucide="medal" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Ranked 3rd Among M.Sc. Graduating Cohort (2020)</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">K. N. Toosi University of Technology, Construction Engineering and Management.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3.5">
+                        <div class="p-2 rounded-lg bg-slate-700/50 text-slate-300 mt-0.5">
+                            <i data-lucide="file-check" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-white">Professional Engineering Certifications</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">HSE, MATLAB Engineering Programming, ETABS/SAFE Structural Design, AutoCAD, Revit/BIM, Python Machine Learning, Microsoft Project, Taksa Quantity Surveying & Payment Statements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Tools & Competency Matrix Section -->
+        <section class="glass-panel p-8 rounded-2xl space-y-6">
+            <div class="border-b border-white/5 pb-3">
+                <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Competency Architecture</div>
+                <h2 class="text-2xl font-bold text-white">Technical Tools & Domain Expertise</h2>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Group 1 -->
+                <div class="space-y-3">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-2">
+                        <i data-lucide="code" class="w-4 h-4"></i> Programming & Data
+                    </h3>
+                    <div class="flex flex-wrap gap-1.5 text-xs">
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Python</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">MATLAB</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">JavaScript</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">React.js</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">PHP / Laravel</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">HTML / CSS</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">RapidMiner</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Weka</span>
+                    </div>
+                </div>
+
+                <!-- Group 2 -->
+                <div class="space-y-3">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-2">
+                        <i data-lucide="box" class="w-4 h-4"></i> Engineering & CAD/BIM
+                    </h3>
+                    <div class="flex flex-wrap gap-1.5 text-xs">
+                        <span class="px-2.5 py-1 rounded-lg glass-card">AutoCAD</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Civil 3D</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Revit</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">InfraWorks</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">ETABS</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">SAFE</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Tekla Structures</span>
+                    </div>
+                </div>
+
+                <!-- Group 3 -->
+                <div class="space-y-3">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                        <i data-lucide="calendar" class="w-4 h-4"></i> PMO & Technical Office
+                    </h3>
+                    <div class="flex flex-wrap gap-1.5 text-xs">
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Microsoft Project (MSP)</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Primavera P6</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Taksa (تکسا)</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Quantity Takeoff (QTO)</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Delay Analysis (5090)</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Circular 173073</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">EVM Analytics</span>
+                    </div>
+                </div>
+
+                <!-- Group 4 -->
+                <div class="space-y-3">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-2">
+                        <i data-lucide="layers" class="w-4 h-4"></i> Domain & Languages
+                    </h3>
+                    <div class="flex flex-wrap gap-1.5 text-xs">
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Pavement Management (PMS)</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">Digital Twin</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">BIM & IoT</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">PMBOK</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card">QA/QC & HSE</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card font-semibold text-emerald-400">Persian (Native)</span>
+                        <span class="px-2.5 py-1 rounded-lg glass-card font-semibold text-cyan-400">English (Professional)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic References Section (All 7 Global Professors from CV) -->
+        <section id="references" class="space-y-8">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-white/5 pb-4">
+                <div>
+                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Global Verification</div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Academic & Professional References</h2>
+                </div>
+                <div class="text-xs text-slate-400 font-mono">7 Distinguished Faculty Members</div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- Ref 1 -->
+                <div class="glass-card p-5 rounded-xl space-y-2">
+                    <h3 class="text-base font-bold text-white">Dr. Amir Golroo</h3>
+                    <p class="text-xs text-emerald-400">Associate Professor of Civil & Environmental Engineering</p>
+                    <p class="text-xs text-slate-300">Amirkabir University of Technology (Tehran Polytechnic)</p>
+                    <a href="mailto:agolroo@aut.ac.ir" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-emerald-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> agolroo@aut.ac.ir
+                    </a>
+                </div>
+
+                <!-- Ref 2 -->
+                <div class="glass-card p-5 rounded-xl space-y-2">
+                    <h3 class="text-base font-bold text-white">Dr. Mehdi Rasti</h3>
+                    <p class="text-xs text-cyan-400">Associate Professor of Information Tech & Electrical Engineering</p>
+                    <p class="text-xs text-slate-300">University of Oulu, Finland</p>
+                    <a href="mailto:mehdi.rasti@oulu.fi" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-cyan-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> mehdi.rasti@oulu.fi
+                    </a>
+                </div>
+
+                <!-- Ref 3 -->
+                <div class="glass-card p-5 rounded-xl space-y-2">
+                    <h3 class="text-base font-bold text-white">Dr. Rauno Heikkilä</h3>
+                    <p class="text-xs text-cyan-400">Professor of Digitalized Construction and Mining Operations</p>
+                    <p class="text-xs text-slate-300">Head of Structures & Construction Unit, University of Oulu</p>
+                    <a href="mailto:rauno.heikkila@oulu.fi" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-cyan-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> rauno.heikkila@oulu.fi
+                    </a>
+                </div>
+
+                <!-- Ref 4 -->
+                <div class="glass-card p-5 rounded-xl space-y-2">
+                    <h3 class="text-base font-bold text-white">Dr. Vahid Shah Hosseini</h3>
+                    <p class="text-xs text-emerald-400">Associate Professor of Civil Engineering</p>
+                    <p class="text-xs text-slate-300">Amirkabir University of Technology (Tehran Polytechnic)</p>
+                    <a href="mailto:shahhosseini@aut.ac.ir" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-emerald-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> shahhosseini@aut.ac.ir
+                    </a>
+                </div>
+
+                <!-- Ref 5 -->
+                <div class="glass-card p-5 rounded-xl space-y-2">
+                    <h3 class="text-base font-bold text-white">Dr. Ehsan Saghatforoush</h3>
+                    <p class="text-xs text-amber-400">Associate Professor of Construction Economics and Management</p>
+                    <p class="text-xs text-slate-300">Wits University, South Africa</p>
+                    <a href="mailto:ehsan.saghatforoush@wits.ac.za" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-amber-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> ehsan.saghatforoush@wits.ac.za
+                    </a>
+                </div>
+
+                <!-- Ref 6 -->
+                <div class="glass-card p-5 rounded-xl space-y-2">
+                    <h3 class="text-base font-bold text-white">Dr. Hamidreza Abbasianjahromi</h3>
+                    <p class="text-xs text-emerald-400">Assistant Professor of Civil Engineering</p>
+                    <p class="text-xs text-slate-300">K. N. Toosi University of Technology</p>
+                    <a href="mailto:habasian@kntu.ac.ir" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-emerald-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> habasian@kntu.ac.ir
+                    </a>
+                </div>
+
+                <!-- Ref 7 -->
+                <div class="glass-card p-5 rounded-xl space-y-2 sm:col-span-2 lg:col-span-1">
+                    <h3 class="text-base font-bold text-white">Dr. Mohammad Reza Talaghat</h3>
+                    <p class="text-xs text-emerald-400">Associate Professor, Chemical, Oil & Gas Engineering</p>
+                    <p class="text-xs text-slate-300">Shiraz University of Technology</p>
+                    <a href="mailto:talaghat@sutech.ac.ir" class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-emerald-400 font-mono mt-2 pt-2 border-t border-white/5 w-full">
+                        <i data-lucide="mail" class="w-3.5 h-3.5"></i> talaghat@sutech.ac.ir
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Executive Contact & Global Footer -->
+        <footer class="border-t border-white/10 pt-10 pb-8 text-center space-y-6">
+            <div class="max-w-2xl mx-auto space-y-3">
+                <h3 class="text-xl font-bold text-white">Looking for Executive Collaboration or Technical Consultation?</h3>
+                <p class="text-xs sm:text-sm text-slate-400">
+                    Open to technical office leadership, construction project controls, delay claims consulting, and smart infrastructure research partnerships.
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 pt-2">
+                    <a href="mailto:atalaghat@aut.ac.ir" class="px-5 py-2.5 rounded-xl bg-emerald-500 text-navy-950 font-bold text-xs uppercase tracking-wider hover:brightness-110 transition-all inline-flex items-center gap-2">
+                        <i data-lucide="mail" class="w-4 h-4"></i> Initiate Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/atalaghat/" target="_blank" class="px-5 py-2.5 rounded-xl glass-card text-white font-bold text-xs uppercase tracking-wider hover:border-emerald-500 transition-all inline-flex items-center gap-2">
+                        <i data-lucide="linkedin" class="w-4 h-4 text-cyan-400"></i> LinkedIn Network
+                    </a>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-white/5 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div>© 2026 Dr. Mohammad Amin Talaghat. All rights reserved.</div>
+                <div class="font-mono text-[11px] text-slate-400">
+                    Live at <a href="https://atalaghat.github.io/atalaghat/" class="text-emerald-400 hover:underline">atalaghat.github.io/atalaghat</a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 glass-card px-4 py-3 rounded-xl border-emerald-500/40 text-emerald-400 text-xs font-semibold shadow-2xl flex items-center gap-2.5 translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+        <i data-lucide="check-circle" class="w-4 h-4"></i>
+        <span id="toast-msg">Copied to clipboard!</span>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Publications Filter
+        function filterPubs(cat) {
+            playAudioBeep(600, 0.05);
+            const cards = document.querySelectorAll('.pub-card');
+            const btns = ['all', 'published', 'review'];
+            
+            btns.forEach(b => {
+                const btn = document.getElementById('btn-pub-' + b);
+                if (b === cat) {
+                    btn.className = 'px-3 py-1.5 rounded-lg badge-active font-semibold transition-all';
+                } else {
+                    btn.className = 'px-3 py-1.5 rounded-lg text-slate-400 hover:text-white font-semibold transition-all';
+                }
+            });
+
+            cards.forEach(card => {
+                if (cat === 'all') {
+                    card.style.display = 'block';
+                } else {
+                    if (card.getAttribute('data-category') === cat) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        // Web Audio API UI Feedback (SFX)
+        let sfxEnabled = true;
+        let audioCtx = null;
+        function playAudioBeep(freq = 520, duration = 0.04) {
+            if (!sfxEnabled) return;
+            try {
+                if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+                gain.gain.setValueAtTime(0.04, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + duration);
+            } catch (e) {}
+        }
+
+        function toggleAudio() {
+            sfxEnabled = !sfxEnabled;
+            showToast(sfxEnabled ? 'Audio SFX Enabled' : 'Audio SFX Muted');
+            playAudioBeep(800, 0.08);
+        }
+
+        // Copy BibTeX helper
+        const bibtexEntries = {
+            pub1: `@article{talaghat2026implemented,\n  title={An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi},\n  journal={Scientific Reports},\n  year={2026},\n  doi={10.1038/s41598-026-46719-z}\n}`,
+            pub2: `@article{talaghat2026hybrid,\n  title={Hybrid MLP--LSTM deep predictive modeling of pavement distress severity and density and condition indices},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi and Daneshvar, Amin and Moghadas Nejad, Fereidoon},\n  journal={International Journal of Pavement Engineering},\n  volume={27},\n  number={1},\n  pages={2624565},\n  year={2026},\n  doi={10.1080/10298436.2026.2624565}\n}`,
+            pub3: `@article{talaghat2026road,\n  title={Road Pavement Digital Twin: A Blueprint with a Case Study},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Rasti, Mehdi and Shahhosseini, Vahid},\n  journal={Journal of Computing in Civil Engineering},\n  volume={40},\n  number={3},\n  pages={05026001},\n  year={2026},\n  doi={10.1061/JCCEE5.CPENG-7187}\n}`,
+            pub4: `@article{talaghat2025enhancing,\n  title={Enhancing pavement distress segmentation model with diffusion-based generative AI: a digital twin perspective},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi},\n  journal={International Journal of Pavement Engineering},\n  volume={26},\n  number={1},\n  pages={2540076},\n  year={2025},\n  doi={10.1080/10298436.2025.2540076}\n}`,
+            pub5: `@article{talaghat2024digital,\n  title={Digital twin technology for road pavement},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Kharbouch, Ahmed and Rasti, Mehdi and Heikkil{\"a}, Rauno and Jurva, Risto},\n  journal={Automation in Construction},\n  volume={168},\n  pages={105826},\n  year={2024},\n  doi={10.1016/j.autcon.2024.105826}\n}`,
+            pub6: `@article{talaghat2026fully,\n  title={Fully automated pavement crack quantification and PCI estimation via a digital twin-ready vision-based deep learning pipeline},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi},\n  journal={Results in Engineering},\n  pages={111659},\n  year={2026},\n  doi={10.1016/j.rineng.2026.111659}\n}`,
+            pub7: `@article{sedighian2026explainable,\n  title={Explainable AI--enhanced pavement deterioration modeling using deep learning},\n  author={Sedighian-Fard, Mohammad and Golroo, Amir and Javanmardi, Mohammad and Alahi, Alexandre and Dehghan Tezerjani, H and Talaghat, Mohammad Amin and Shahhosseini, Vahid and Rasti, Mehdi},\n  journal={Scientific Reports},\n  year={2026},\n  doi={10.1038/s41598-026-67842-x}\n}`,
+            pub8: `@inproceedings{talaghat2025leveraging,\n  title={Leveraging digital twin technology for data-driven pavement maintenance},\n  author={Talaghat, Mohammad Amin and Sedighian-Fard, Mohammad and Golroo, Amir and Rasti, Mehdi},\n  booktitle={AM3P Conference},\n  volume={4},\n  pages={604--608},\n  year={2025},\n  doi={10.34726/10886}\n}`,
+            pub9: `@inproceedings{talaghat2025improving,\n  title={Improving Pavement Distress segmentation with Diffusion-Based Generative AI},\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Rasti, Mehdi},\n  booktitle={AM3P Conference},\n  volume={4},\n  pages={579--582},\n  year={2025},\n  doi={10.34726/10798}\n}`,
+            pub10: `@article{saghatforoush2022development,\n  title={Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM},\n  author={Saghatforoush, Ehsan and Abbasianjahromi, Hamidreza and Talaghat, Mohammad Amin and Kahvandi, Zahra},\n  journal={Lean Construction Journal},\n  year={2022},\n  doi={10.60164/54i5b7h5h}\n}`
+        };
+
+        function copyBibtex(id) {
+            const entry = bibtexEntries[id];
+            if (entry) {
+                navigator.clipboard.writeText(entry.replace(/\\n/g, '\n'));
+                playAudioBeep(750, 0.05);
+                showToast('BibTeX citation copied to clipboard!');
+            }
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-msg').textContent = msg;
+            toast.classList.remove('translate-y-24', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('translate-y-24', 'opacity-0');
+            }, 3000);
+        }
+
+        // Ambient Background Particle Mesh (Super lightweight, 40 points)
+        const canvas = document.getElementById('ambient-canvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        });
+
+        const points = [];
+        for (let i = 0; i < 40; i++) {
+            points.push({
+                x: Math.random() * width,
+                y: Math.random() * height,
+                vx: (Math.random() - 0.5) * 0.4,
+                vy: (Math.random() - 0.5) * 0.4,
+                r: Math.random() * 1.5 + 0.5
+            });
+        }
+
+        function drawAmbient() {
+            ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = 'rgba(16, 185, 129, 0.4)';
+            ctx.strokeStyle = 'rgba(16, 185, 129, 0.05)';
+            ctx.lineWidth = 1;
+
+            for (let i = 0; i < points.length; i++) {
+                const p = points[i];
+                p.x += p.vx;
+                p.y += p.vy;
+
+                if (p.x < 0) p.x = width;
+                if (p.x > width) p.x = 0;
+                if (p.y < 0) p.y = height;
+                if (p.y > height) p.y = 0;
+
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fill();
+
+                for (let j = i + 1; j < points.length; j++) {
+                    const p2 = points[j];
+                    const dx = p.x - p2.x;
+                    const dy = p.y - p2.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 130) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(drawAmbient);
+        }
+        drawAmbient();
+    </script>
+</body>
+</html>
