@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دکتر محمد امین طلاقت | مدیر امور فنی و پیمان | Dr. Mohammad Amin Talaghat</title>
+    
+    <!-- Meta Tags for SEO & Executive Branding -->
+    <meta name="description" content="پرتال رسمی دکتر محمد امین طلاقت - مدیر امور فنی و پیمان، دکتری مهندسی و مدیریت ساخت دانشگاه امیرکبیر، ۱۸ مقاله ISI چارک Q1، پروانه اشتغال نظام مهندسی.">
+    <meta name="keywords" content="محمد امین طلاقت, مدیر امور فنی و پیمان, سرپرست دفتر فنی, نشریه 4311, بخشنامه 5090, بخشنامه 173073, تکسا, پریماورا P6, بیم, BIM, دوقلوی دیجیتال, روسازی">
+    <meta name="author" content="Dr. Mohammad Amin Talaghat">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#1e40af',
+                            600: '#1d4ed8',
+                            700: '#1e3a8a',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        accent: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Vazirmatn', 'Segoe UI', 'Tahoma', 'sans-serif'],
+                        en: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts: Vazirmatn & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- KaTeX for Mathematical Formulas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+
+    <!-- Chart.js for Interactive Metrics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .ltr-mode {
+            direction: ltr !important;
+            text-align: left !important;
+            font-family: 'Inter', system-ui, sans-serif !important;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .dark .glass-card {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(51, 65, 85, 0.8);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0369a1 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 glass-card shadow-sm border-b border-slate-200/80 dark:border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Title -->
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-700 to-cyan-500 text-white flex items-center justify-center font-black text-xl shadow-lg shadow-blue-500/30">
+                        MAT
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white" id="navName">دکتر محمد امین طلاقت</h1>
+                        <p class="text-xs font-semibold text-blue-600 dark:text-cyan-400" id="navTitle">مدیر امور فنی و پیمان | سرپرست دفتر فنی</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Nav Links -->
+                <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+                    <a href="#about" class="hover:text-blue-600 dark:hover:text-cyan-400 transition" id="navLinkAbout">درباره و شایستگی‌ها</a>
+                    <a href="#experience" class="hover:text-blue-600 dark:hover:text-cyan-400 transition" id="navLinkExp">سوابق اجرایی</a>
+                    <a href="#publications" class="hover:text-blue-600 dark:hover:text-cyan-400 transition" id="navLinkPubs">مقالات ۱۸ گانه Q1</a>
+                    <a href="#calculators" class="hover:text-blue-600 dark:hover:text-cyan-400 transition" id="navLinkCalc">ماشین‌حساب‌های مهندسی</a>
+                    <a href="#platforms" class="hover:text-blue-600 dark:hover:text-cyan-400 transition" id="navLinkPortals">پرتال‌ها و شبکه‌ها</a>
+                    <a href="#contact" class="hover:text-blue-600 dark:hover:text-cyan-400 transition" id="navLinkContact">تماس و سفارش</a>
+                </div>
+
+                <!-- Action Controls: Theme & Lang -->
+                <div class="flex items-center gap-3">
+                    <!-- Language Switcher -->
+                    <button id="langToggleBtn" onclick="toggleLanguage()" class="px-3 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 text-xs font-bold transition flex items-center gap-1.5">
+                        <i class="fa-solid fa-globe text-blue-500"></i>
+                        <span id="langLabel">English</span>
+                    </button>
+
+                    <!-- Dark Mode Switcher -->
+                    <button onclick="toggleDarkMode()" class="w-10 h-10 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition flex items-center justify-center">
+                        <i id="themeIcon" class="fa-solid fa-moon"></i>
+                    </button>
+
+                    <!-- CTA Button -->
+                    <a href="#contact" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-md shadow-blue-600/30 transition" id="heroHireBtn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>ارسال پروژه / استعلام</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative hero-gradient text-white py-24 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Left/Right Text Content -->
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/30 text-cyan-300 text-xs font-semibold backdrop-blur-md">
+                        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                        <span id="heroBadge">مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و هوش مصنوعی احداث</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight" id="heroHeading">
+                        رهبری استراتژیک امور فنی، قراردادها، ادعا و دوقلوی دیجیتال پروژه‌های عمرانی
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-200 leading-relaxed max-w-3xl" id="heroDesc">
+                        دکتر محمد امین طلاقت؛ دانش‌آموخته دکتری مهندسی و مدیریت ساخت دانشگاه صنعتی امیرکبیر، پژوهشگر پیشین دانشگاه اولو فنلاند و دارای پروانه اشتغال به کار مهندسی. تخصص مسلط در دفاع از لوایح تأخیرات مجاز (بخشنامه ۵۰۹۰)، رسیدگی به دعاوی پیمانکاری و مشاوره‌ای بر مبنای نشریه ۴۳۱۱ و فیدیک، تعدیل آحاد بها (بخشنامه ۱۷۳۰۷۳)، استقرار سیستم‌های کنترل پروژه تکسا و پریماورا P6، و یکپارچه‌سازی بینایی ماشین (YOLOv11) با مدل‌های اطلاعات ساخت (BIM).
+                    </p>
+
+                    <!-- Key Badges Strip -->
+                    <div class="flex flex-wrap gap-2.5 pt-2">
+                        <span class="px-3 py-1 rounded-md bg-white/10 text-xs font-medium border border-white/10"><i class="fa-solid fa-graduation-cap ml-1 text-cyan-400"></i> دکتری امیرکبیر (معدل ۱۸٫۹۸)</span>
+                        <span class="px-3 py-1 rounded-md bg-white/10 text-xs font-medium border border-white/10"><i class="fa-solid fa-book-open ml-1 text-yellow-400"></i> ۱۸ مقاله نمایه شده ISI (Q1)</span>
+                        <span class="px-3 py-1 rounded-md bg-white/10 text-xs font-medium border border-white/10"><i class="fa-solid fa-id-card ml-1 text-emerald-400"></i> پروانه نظارت و اجرا نظام مهندسی</span>
+                        <span class="px-3 py-1 rounded-md bg-white/10 text-xs font-medium border border-white/10"><i class="fa-solid fa-shield-halved ml-1 text-purple-400"></i> مهار نشت مالی و دفاع ۱۰۰+ میلیارد ریالی</span>
+                    </div>
+
+                    <!-- Hero Actions -->
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="#publications" class="px-6 py-3.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-sm shadow-lg shadow-cyan-500/25 transition flex items-center gap-2" id="heroPubsBtn">
+                            <i class="fa-solid fa-file-invoice"></i>
+                            <span>مشاهده ۱۸ مقاله ISI چارک Q1</span>
+                        </a>
+                        <a href="#calculators" class="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm border border-white/20 backdrop-blur-sm transition flex items-center gap-2" id="heroCalcBtn">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>ماشین‌حساب‌های تأخیرات و تعدیل</span>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-1245-4689" target="_blank" class="px-4 py-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 text-slate-200 font-semibold text-sm border border-slate-700 transition flex items-center gap-2">
+                            <i class="fa-brands fa-orcid text-emerald-400"></i>
+                            <span>ORCID</span>
+                        </a>
+                        <a href="https://linkedin.com/in/atalaghat" target="_blank" class="px-4 py-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 text-slate-200 font-semibold text-sm border border-slate-700 transition flex items-center gap-2">
+                            <i class="fa-brands fa-linkedin text-blue-400"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Card / Executive Highlights -->
+                <div class="lg:col-span-4">
+                    <div class="glass-card !bg-white/10 dark:!bg-slate-900/50 border border-white/20 rounded-2xl p-6 text-white shadow-2xl backdrop-blur-xl space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-400 to-orange-500 text-slate-950 flex items-center justify-center font-black text-2xl shadow-lg">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">دکتر محمد امین طلاقت</h3>
+                                <p class="text-xs text-cyan-300 font-medium">Head of Technical Office & Contracts</p>
+                                <p class="text-xs text-slate-300 pt-0.5"><i class="fa-solid fa-envelope ml-1"></i> atalaghat@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <hr class="border-white/10">
+
+                        <div class="grid grid-cols-2 gap-3 text-center">
+                            <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                                <span class="block text-2xl font-black text-cyan-400">۱۸</span>
+                                <span class="text-xs text-slate-300 font-medium">مقاله ISI / علمی</span>
+                            </div>
+                            <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                                <span class="block text-2xl font-black text-amber-400">+۱۰ سال</span>
+                                <span class="text-xs text-slate-300 font-medium">تجربه مدیریت و احداث</span>
+                            </div>
+                            <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                                <span class="block text-2xl font-black text-emerald-400">+۱۰۰ م.ر</span>
+                                <span class="text-xs text-slate-300 font-medium">دفاع موفق دعاوی مالی</span>
+                            </div>
+                            <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                                <span class="block text-2xl font-black text-purple-400">Q1</span>
+                                <span class="text-xs text-slate-300 font-medium">ژورنال‌های Nature/Elsevier</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 text-xs text-slate-300 space-y-2">
+                            <div class="flex items-center justify-between">
+                                <span>سامانه تکسا و آنالیز ۴ گانه (۴۹۵۱):</span>
+                                <span class="font-bold text-cyan-300">مسلط و پیشرفته</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span>لوایح تأخیرات ۵۰۹۰ و نشریه ۴۳۱۱:</span>
+                                <span class="font-bold text-amber-300">دفاع ۱۰۰٪ مستند</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span>زمان‌بندی CPM و کنترل EVM:</span>
+                                <span class="font-bold text-emerald-300">MSP & Primavera P6</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: Executive Overview & Core Competencies -->
+    <section id="about" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-cyan-400 mb-2">شایستگی‌های محوری و صلاحیت‌ها</h2>
+            <h3 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">ارکان مدیریت فنی، امور پیمان و هوش مصنوعی احداث</h3>
+            <p class="text-sm sm:text-base text-slate-600 dark:text-slate-400 mt-4">
+                تلفیق منحصر‌به‌فرد تجربه کارگاهی و قراردادهای عمرانی کشور با لبه دانش جهانی در دانشگاه اولو فنلاند و دانشگاه صنعتی امیرکبیر.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Pillar 1: Technical Office & Contracts -->
+            <div class="glass-card rounded-2xl p-7 shadow-sm hover:shadow-xl transition border border-slate-200 dark:border-slate-800">
+                <div class="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center text-xl mb-5">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">امور پیمان، دعاوی و تأخیرات (Claims)</h4>
+                <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                    تسلط بی‌بدیل بر شرایط عمومی پیمان (نشریه ۴۳۱۱)، مواد ۵۴ گانه پیمانکاری، تنظیم دقیق لوایح تأخیرات مجاز طبق بخشنامه ۵۰۹۰ با تفکیک هم‌پوشانی‌های مالی و تحلیل زمانی (TIA).
+                </p>
+                <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 font-medium">
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> دفاع از تمدید مدت مجاز پیمان (ماده ۳۰)</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> مهار سقف ۲۵٪ تغییر مقادیر (ماده ۲۹)</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> حل اختلافات قراردادی کارفرما و پیمانکار (ماده ۵۳)</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 2: Cost Escalation & Taksa Office -->
+            <div class="glass-card rounded-2xl p-7 shadow-sm hover:shadow-xl transition border border-slate-200 dark:border-slate-800">
+                <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 flex items-center justify-center text-xl mb-5">
+                    <i class="fa-solid fa-coins"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">متره، برآورد، صورت‌وضعیت و تعدیل</h4>
+                <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                    محاسبات پیشرفته تعدیل آحاد بها طبق بخشنامه ۱۷۳۰۷۳، آنالیز ۴ گانه بهای بخشنامه ۴۹۵۱ جهت اقلام ستاره‌دار و قیمت جدید، و استخراج شیت‌های استاندارد در نرم‌افزار تکسا (Taksa).
+                </p>
+                <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 font-medium">
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> دفاع از صورت‌وضعیت‌های کارکرد و قطعی</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> کنترل جریمه ضریب ۰٫۹۵ در تأخیرات غیرمجاز</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> موازنه مصالح و لیستوفر بهینه میلگرد</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 3: Project Controls (P6 & MSP) -->
+            <div class="glass-card rounded-2xl p-7 shadow-sm hover:shadow-xl transition border border-slate-200 dark:border-slate-800">
+                <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl mb-5">
+                    <i class="fa-solid fa-chart-gantt"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">کنترل پروژه، CPM و ارزش کسب‌شده (EVM)</h4>
+                <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                    تدوین ساختار شکست کار (WBS)، زمان‌بندی مسیر بحرانی (CPM)، ردیابی انحرافات زمانی و ریالی (CV, SV, CPI, SPI) و ترسیم منحنی‌های S-Curve پیشرفت فیزیکی در Primavera P6 و MSP.
+                </p>
+                <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 font-medium">
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> ممیزی ۱۴ گانه استاندارد DCMA روی فایل‌های XER</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> تخصیص منابع انسانی و ماشین‌آلات و تسطیح بار کاری</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> گزارش‌های مدیریتی پیش‌بینی هزینه نهایی (EAC)</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 4: BIM & Structural Detailing -->
+            <div class="glass-card rounded-2xl p-7 shadow-sm hover:shadow-xl transition border border-slate-200 dark:border-slate-800">
+                <div class="w-12 h-12 rounded-xl bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xl mb-5">
+                    <i class="fa-solid fa-cubes"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">مدل‌سازی BIM، تکلا و شاپ‌دراوینگ</h4>
+                <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                    مدلسازی سازه‌های فولادی در Tekla Structures، استخراج خروجی‌های کارگاهی NC/DSTV، شاپ‌دراوینگ نقشه‌های سازه و معماری با اتوکد، و مدلسازی پارامتریک در Revit.
+                </p>
+                <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 font-medium">
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> کنترل تداخلات مدل ساختمانی (Clash Detection)</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> استخراج جدول مصالح ساخت (MTO) با خطای صفر</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> استانداردهای مبحث ۹ بتن و مبحث ۱۰ فولاد ایران</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 5: AI & Digital Twin -->
+            <div class="glass-card rounded-2xl p-7 shadow-sm hover:shadow-xl transition border border-slate-200 dark:border-slate-800">
+                <div class="w-12 h-12 rounded-xl bg-cyan-100 dark:bg-cyan-900/50 text-cyan-600 dark:text-cyan-400 flex items-center justify-center text-xl mb-5">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">هوش مصنوعی، بینایی ماشین و دوقلوی دیجیتال</h4>
+                <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                    توسعه خط لوله‌های پیشرفته یادگیری عمیق (YOLOv8/v11 و SAM) برای آشکارسازی و سگمنتیشن خودکار آسیب‌های روسازی آسفالتی و سازه، پیوند با شاخص PCI (استاندارد ASTM D6433).
+                </p>
+                <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 font-medium">
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> دوقلوی دیجیتال شبکه راه‌ها (پروژه فنلاند)</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> الگوریتم‌های زوال روسازی با مدل‌های ترکیبی LSTM</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> کدنویسی کامل پایتون، PyTorch و Scikit-Learn</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 6: Academic Research & ISI Writing -->
+            <div class="glass-card rounded-2xl p-7 shadow-sm hover:shadow-xl transition border border-slate-200 dark:border-slate-800">
+                <div class="w-12 h-12 rounded-xl bg-rose-100 dark:bg-rose-900/50 text-rose-600 dark:text-rose-400 flex items-center justify-center text-xl mb-5">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-2">نگارش علمی، متدولوژی پژوهش و داوری بین‌المللی</h4>
+                <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                    نویسنده ۱۸ مقاله علمی معتبر در برترین ژورنال‌های انتشارات Nature و Elsevier (Automation in Construction, Scientific Reports)، داور رسمی و مسلط به فرآیند ریباتال و پذیرش مقالات.
+                </p>
+                <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 font-medium">
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> تدوین چارچوب‌های IMRaD با تحلیل آماری مستحکم</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> فرمول‌نویسی دقیق ریاضی با کدهای LaTeX</li>
+                    <li><i class="fa-solid fa-check text-emerald-500 ml-1.5"></i> استخراج شکاف پژوهش (Research Gap) در مدیریت ساخت</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Interactive 18 ISI Q1 Publications Hub -->
+    <section id="publications" class="py-20 bg-slate-100/60 dark:bg-slate-900/40 border-y border-slate-200/80 dark:border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+                <div>
+                    <h2 class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-cyan-400 mb-2">تولیدات و سوابق علمی</h2>
+                    <h3 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">۱۸ مقاله علمی و بین‌المللی نمایه شده (Q1)</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-2">
+                        فهرست کامل مقالات پژوهشی دکتر محمد امین طلاقت همراه با شناسه رسمی DOI، رتبه ژورنال و امکان دریافت مستقیم فایل BibTeX.
+                    </p>
+                </div>
+
+                <!-- Category Filters & Search -->
+                <div class="flex flex-col sm:flex-row items-center gap-3">
+                    <div class="relative w-full sm:w-64">
+                        <i class="fa-solid fa-magnifying-glass absolute right-3.5 top-3 text-slate-400 text-xs"></i>
+                        <input type="text" id="pubSearchInput" oninput="filterPublications()" placeholder="جستجو در مقالات، ژورنال، سال..." class="w-full pl-3 pr-9 py-2 rounded-xl text-xs bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-white">
+                    </div>
+                    <button onclick="downloadAllBibTeX()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition flex items-center gap-2 whitespace-nowrap shadow-sm">
+                        <i class="fa-solid fa-download"></i>
+                        <span>دانلود فایل جامع BibTeX (۱۸ مقاله)</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Publications Grid -->
+            <div id="publicationsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Dynamically Rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Live Interactive Engineering Calculators (Circular 5090 & 173073) -->
+    <section id="calculators" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mb-2">ابزارهای محاسباتی هوشمند دفتر فنی</h2>
+            <h3 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">ماشین‌حساب‌های اختصاصی تأخیرات ۵۰۹۰ و تعدیل ۱۷۳۰۷۳</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mt-3">
+                محاسبه آنلاین و کاملاً مستند به روابط ریاضی مصوب سازمان برنامه و بودجه جهت برآورد تمدید پیمان و زیان مالی ناشی از تأخیرات غیرمجاز.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <!-- Calculator 1: Circular 5090 Delay Claim -->
+            <div class="glass-card rounded-2xl p-8 border border-slate-200 dark:border-slate-800 shadow-md">
+                <div class="flex items-center justify-between mb-6 pb-4 border-b border-slate-200 dark:border-slate-800">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                            <i class="fa-solid fa-business-time text-blue-600 dark:text-blue-400"></i>
+                            محاسبه تمدید مدت پیمان طبق بخشنامه ۵۰۹۰
+                        </h4>
+                        <span class="text-xs text-slate-500 dark:text-slate-400">فرمول: \( T = t 	imes rac{A}{B} \)</span>
+                    </div>
+                    <span class="px-2.5 py-1 rounded bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 text-xs font-bold">نشریه ۴۳۱۱</span>
+                </div>
+
+                <div class="space-y-4 text-xs font-medium">
+                    <div>
+                        <label class="block text-slate-700 dark:text-slate-300 mb-1">مبلغ کل اولیه پیمان با احتساب تغییر مقادیر (B) - ریال:</label>
+                        <input type="number" id="calcB" value="100000000000" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-white font-mono">
+                    </div>
+
+                    <div>
+                        <label class="block text-slate-700 dark:text-slate-300 mb-1">مبلغ خالص صورت‌وضعیت تأخیرخورده (A) - ریال:</label>
+                        <input type="number" id="calcA" value="15000000000" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-white font-mono">
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-slate-700 dark:text-slate-300 mb-1">تعداد روزهای تقویمی دیرکرد پرداخت (t):</label>
+                            <input type="number" id="calct" value="45" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-white font-mono">
+                        </div>
+                        <div>
+                            <label class="block text-slate-700 dark:text-slate-300 mb-1">مدت اولیه پیمان (روز):</label>
+                            <input type="number" id="calcInitialDuration" value="365" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-white font-mono">
+                        </div>
+                    </div>
+
+                    <button onclick="computeDelay5090()" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition mt-2">
+                        محاسبه تأخیر مجاز (EOT)
+                    </button>
+
+                    <!-- Result Box -->
+                    <div id="delayResultBox" class="p-4 rounded-xl bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900 mt-4 space-y-2">
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-slate-600 dark:text-slate-400">تمدید مجاز این صورت‌وضعیت (T):</span>
+                            <span id="delayDaysResult" class="text-lg font-black text-blue-700 dark:text-blue-400 font-mono">۶٫۷۵ روز</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-slate-600 dark:text-slate-400">درصد اضافه شدن به مدت پیمان:</span>
+                            <span id="delayPercentResult" class="font-bold text-slate-800 dark:text-slate-200 font-mono">۱٫۸۵٪</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 dark:text-slate-400 pt-1">
+                            * نکته فنی: در صورت وجود چند صورت‌وضعیت متأخر، هم‌پوشانی تاریخی فواصل بین تاریخ پرداخت واقعی و موعد سررسید بعدی باید طبق دستورالعمل ۵۰۹۰ فیلتر گردد.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calculator 2: Circular 173073 Price Escalation -->
+            <div class="glass-card rounded-2xl p-8 border border-slate-200 dark:border-slate-800 shadow-md">
+                <div class="flex items-center justify-between mb-6 pb-4 border-b border-slate-200 dark:border-slate-800">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                            <i class="fa-solid fa-money-bill-trend-up text-amber-600 dark:text-amber-400"></i>
+                            تحلیل تعدیل و جریمه تأخیر غیرمجاز (بخشنامه ۱۷۳۰۷۳)
+                        </h4>
+                        <span class="text-xs text-slate-500 dark:text-slate-400">فرمول: \( E = \left(rac{I}{I_0} - 1ight) \)</span>
+                    </div>
+                    <span class="px-2.5 py-1 rounded bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 text-xs font-bold">بند ۷ تعدیل</span>
+                </div>
+
+                <div class="space-y-4 text-xs font-medium">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-slate-700 dark:text-slate-300 mb-1">شاخص دوره مبنا (I₀):</label>
+                            <input type="number" id="calcI0" value="450.2" step="0.1" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:text-white font-mono">
+                        </div>
+                        <div>
+                            <label class="block text-slate-700 dark:text-slate-300 mb-1">شاخص دوره کارکرد واقعی (I):</label>
+                            <input type="number" id="calcI" value="785.6" step="0.1" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:text-white font-mono">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-slate-700 dark:text-slate-300 mb-1">مبلغ کارکرد ناخالص فصل در این دوره (ریال):</label>
+                        <input type="number" id="calcGrossWork" value="20000000000" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:text-white font-mono">
+                    </div>
+
+                    <div>
+                        <label class="block text-slate-700 dark:text-slate-300 mb-1">وضعیت دوره زمانی نسبت به برنامه زمانی مصوب:</label>
+                        <select id="calcDelayStatus" class="w-full p-2.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:text-white">
+                            <option value="excused">تأخیر مجاز / درون برنامه زمانی مصوب (ضریب ۱٫۰۰)</option>
+                            <option value="unexcused">تأخیر غیرمجاز پیمانکار (اعمال ضریب جریمه ۰٫۹۵)</option>
+                        </select>
+                    </div>
+
+                    <button onclick="computeEscalation173073()" class="w-full py-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-sm shadow-md transition mt-2">
+                        محاسبه مبلغ تعدیل و سنجش زیان
+                    </button>
+
+                    <!-- Result Box -->
+                    <div id="escalationResultBox" class="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900 mt-4 space-y-2">
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-slate-600 dark:text-slate-400">ضریب تعدیل به دست‌آمده (E):</span>
+                            <span id="escalationCoeffResult" class="text-base font-black text-amber-700 dark:text-amber-400 font-mono">۰٫۷۴۵</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-slate-600 dark:text-slate-400">مبلغ نهایی تعدیل قابل پرداخت:</span>
+                            <span id="escalationAmountResult" class="text-base font-black text-slate-800 dark:text-slate-100 font-mono">۱۴٬۹۰۰٬۰۰۰٬۰۰۰ ریال</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs pt-1 border-t border-amber-200 dark:border-amber-900">
+                            <span class="text-rose-600 dark:text-rose-400 font-semibold">زیان ناشی از ۵٪ جریمه در صورت غیرمجاز بودن:</span>
+                            <span id="escalationPenaltyLoss" class="font-bold text-rose-600 dark:text-rose-400 font-mono">۷۴۵٬۰۰۰٬۰۰۰ ریال</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Executive Career Timeline & Projects -->
+    <section id="experience" class="py-20 bg-slate-100/60 dark:bg-slate-900/40 border-t border-slate-200/80 dark:border-slate-800/80">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-cyan-400 mb-2">کارنامه اجرایی و پروژه‌ها</h2>
+                <h3 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">سوابق حرفه‌ای و نقش‌های کلیدی</h3>
+            </div>
+
+            <!-- Timeline -->
+            <div class="relative border-r-2 border-blue-500/30 dark:border-blue-400/20 mr-4 sm:mr-8 space-y-12">
+                <!-- Role 1: Sahar Saze -->
+                <div class="relative pr-8 group">
+                    <span class="absolute -right-[9px] top-1.5 w-4 h-4 rounded-full bg-blue-600 ring-4 ring-white dark:ring-slate-900 group-hover:scale-125 transition"></span>
+                    <div class="glass-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h4 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">مدیر امور فنی و پیمان | سرپرست دفتر فنی</h4>
+                            <span class="px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 text-xs font-semibold">سحر سازه نوین پایدار | ۱۴۰۲ - اکنون</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                            هدایت دفتر فنی مرکزی و امور پیمان و ادعا در پروژه‌های احداث مجتمع‌های مسکونی، تجاری و صنعتی بزرگ مقیاس؛ تدوین و دفاع پیروزمندانه از لوایح تأخیرات مجاز طبق بخشنامه ۵۰۹۰ با ارزش دفاعی بالغ بر ۱۰۰ میلیارد ریال، تنظیم صورت‌وضعیت‌ها و تعدیلات قطعی با نرم‌افزار تکسا، و بازنگری قراردادهای مهندسین مشاور و پیمانکاران فرعی.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Role 2: Arka Novin & WebAlpha -->
+                <div class="relative pr-8 group">
+                    <span class="absolute -right-[9px] top-1.5 w-4 h-4 rounded-full bg-amber-500 ring-4 ring-white dark:ring-slate-900 group-hover:scale-125 transition"></span>
+                    <div class="glass-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h4 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">هم‌بنیان‌گذار و مدیرعامل (CEO)</h4>
+                            <span class="px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 text-xs font-semibold">شرکت بین‌المللی آرکانویان و وب‌آلفا | ۱۳۹۵ - اکنون</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                            راهبری تیم‌های مهندسی عمران، مدلسازی BIM و فناوری اطلاعات در پیاده‌سازی سامانه‌های دیجیتال مدیریت ساخت، شاپ‌دراوینگ سازه‌های فلزی تکلا، سامانه‌های اتوماسیون پروژه‌های عمرانی و ارائه راهکارهای نوین مهندسی برای شرکت‌های کارفرمایی و پیمانکاری.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Role 3: University of Oulu -->
+                <div class="relative pr-8 group">
+                    <span class="absolute -right-[9px] top-1.5 w-4 h-4 rounded-full bg-cyan-500 ring-4 ring-white dark:ring-slate-900 group-hover:scale-125 transition"></span>
+                    <div class="glass-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h4 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">پژوهشگر مدعو دوقلوی دیجیتال و زیرساخت (Visiting Researcher)</h4>
+                            <span class="px-3 py-1 rounded-full bg-cyan-100 dark:bg-cyan-900/50 text-cyan-700 dark:text-cyan-300 text-xs font-semibold">دانشگاه اولو، فنلاند (University of Oulu) | ۲۰۲۳ - ۲۰۲۴</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                            تحقیق روی پروژه بین‌المللی دوقلوی دیجیتال روسازی (DigiPave)؛ تلفیق حسگرهای لیدار، بینایی ماشین با مدل‌های انتشار Generative AI برای پیش‌بینی فرسایش معابر شهری و زیرساخت‌های حمل‌ونقل و انتشار خروجی‌ها در ژورنال Automation in Construction (ضریب تأثیر ۱۰٫۳).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Role 4: Amirkabir University of Technology -->
+                <div class="relative pr-8 group">
+                    <span class="absolute -right-[9px] top-1.5 w-4 h-4 rounded-full bg-purple-500 ring-4 ring-white dark:ring-slate-900 group-hover:scale-125 transition"></span>
+                    <div class="glass-card rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-800 space-y-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h4 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">دانش‌آموخته دکتری مهندسی و مدیریت ساخت</h4>
+                            <span class="px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 text-xs font-semibold">دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) | ۱۳۹۷ - ۱۴۰۲</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                            فارغ‌التحصیل ممتاز با معدل ۱۸٫۹۸ و رتبه ۲۰ کنکور دکتری کشوری؛ دستیار آموزشی دروس پیشرفته مهندسی ساخت، مدیریت ادعا و قراردادها، و کنترل پروژه CPM/EVM.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Ecosystem & Platforms Visibility -->
+    <section id="platforms" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-cyan-400 mb-2">اکوسیستم حضور و پلتفرم‌های فعال</h2>
+            <h3 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">پروفایل‌های رسمی، آکادمیک و فریلنسری</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 mt-3">
+                دسترسی مستقیم و اعتبارسنجی سوابق در سامانه‌های معتبر داخلی و بین‌المللی.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+            <!-- Lanserify -->
+            <a href="https://lancerify.com/fre/10010591" target="_blank" class="glass-card rounded-xl p-4 text-center hover:scale-105 transition shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2">
+                <i class="fa-solid fa-laptop-code text-2xl text-blue-600"></i>
+                <span class="font-bold text-xs text-slate-900 dark:text-white">لنسریفای</span>
+                <span class="text-[10px] text-emerald-500 font-semibold">پروفایل تایید شده</span>
+            </a>
+
+            <!-- Anjammidam -->
+            <a href="https://anjammidam.com/atalag-13" target="_blank" class="glass-card rounded-xl p-4 text-center hover:scale-105 transition shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2">
+                <i class="fa-solid fa-handshake-angle text-2xl text-amber-500"></i>
+                <span class="font-bold text-xs text-slate-900 dark:text-white">انجام‌میدم</span>
+                <span class="text-[10px] text-blue-500 font-semibold">۲ کاره فعال رسمی</span>
+            </a>
+
+            <!-- Karlancer -->
+            <a href="https://www.karlancer.com/freelancer/atalaghat" target="_blank" class="glass-card rounded-xl p-4 text-center hover:scale-105 transition shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2">
+                <i class="fa-solid fa-briefcase text-2xl text-purple-600"></i>
+                <span class="font-bold text-xs text-slate-900 dark:text-white">کارلنسر</span>
+                <span class="text-[10px] text-slate-500 font-semibold">پروفایل فعال</span>
+            </a>
+
+            <!-- Ponisha -->
+            <a href="https://ponisha.ir/profile/atalaghat" target="_blank" class="glass-card rounded-xl p-4 text-center hover:scale-105 transition shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2">
+                <i class="fa-solid fa-bolt text-2xl text-yellow-500"></i>
+                <span class="font-bold text-xs text-slate-900 dark:text-white">پونیشا</span>
+                <span class="text-[10px] text-amber-500 font-semibold">پیشنهادات فعال</span>
+            </a>
+
+            <!-- Google Scholar -->
+            <a href="https://scholar.google.com/citations?user=atalaghat" target="_blank" class="glass-card rounded-xl p-4 text-center hover:scale-105 transition shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2">
+                <i class="fa-brands fa-google-scholar text-2xl text-blue-500"></i>
+                <span class="font-bold text-xs text-slate-900 dark:text-white">Google Scholar</span>
+                <span class="text-[10px] text-cyan-500 font-semibold">۱۸ مقاله ISI</span>
+            </a>
+
+            <!-- ResearchGate -->
+            <a href="https://www.researchgate.net/profile/Mohammad-Amin-Talaghat" target="_blank" class="glass-card rounded-xl p-4 text-center hover:scale-105 transition shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center gap-2">
+                <i class="fa-brands fa-researchgate text-2xl text-emerald-500"></i>
+                <span class="font-bold text-xs text-slate-900 dark:text-white">ResearchGate</span>
+                <span class="text-[10px] text-emerald-600 font-semibold">RG Score بالا</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 6: Contact & Direct Project Inquiry -->
+    <section id="contact" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-12">
+                <span class="px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-xs font-semibold border border-cyan-400/30">ارتباط مستقیم و شروع همکاری</span>
+                <h3 class="text-2xl sm:text-4xl font-extrabold text-white mt-4">همکاری در پروژه‌های عمرانی، دعاوی و کنترل پروژه</h3>
+                <p class="text-slate-400 text-xs sm:text-sm mt-3">
+                    برای بررسی پرونده‌های تأخیرات، دفاع از صورت‌وضعیت‌ها و تعدیلات تکسا، یا برون‌سپاری خدمات دفتر فنی پیام دهید.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center mb-10">
+                <a href="https://t.me/atalaghat" target="_blank" class="p-5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition space-y-2">
+                    <i class="fa-brands fa-telegram text-3xl text-cyan-400"></i>
+                    <h5 class="font-bold text-sm">ارتباط در تلگرام</h5>
+                    <p class="text-xs text-slate-400 font-mono">@atalaghat</p>
+                </a>
+
+                <a href="https://wa.me/989171883502" target="_blank" class="p-5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition space-y-2">
+                    <i class="fa-brands fa-whatsapp text-3xl text-emerald-400"></i>
+                    <h5 class="font-bold text-sm">واتساپ مستقیم</h5>
+                    <p class="text-xs text-slate-400 font-mono">09171883502</p>
+                </a>
+
+                <a href="mailto:atalaghat@gmail.com" class="p-5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition space-y-2">
+                    <i class="fa-solid fa-envelope text-3xl text-amber-400"></i>
+                    <h5 class="font-bold text-sm">پست الکترونیکی</h5>
+                    <p class="text-xs text-slate-400 font-mono">atalaghat@gmail.com</p>
+                </a>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+                <p>© ۲۰۲۶ دکتر محمد امین طلاقت (Dr. Mohammad Amin Talaghat). کلیه حقوق محفوظ است.</p>
+                <p class="pt-1 text-[11px] text-slate-600">پرتال رسمی مدیریت امور فنی و پیمان و پژوهش‌های دوقلوی دیجیتال</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+        // 18 ISI Q1 Publications Dataset
+        const publications = [
+            {
+                id: 1,
+                titleFa: "معماری پیاده‌سازی‌شده دوقلوی دیجیتال مبتنی بر هوش مصنوعی برای نگهداری پیشگیرانه روسازی در فنلاند",
+                titleEn: "An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland",
+                authors: "Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.",
+                journal: "Scientific Reports",
+                publisher: "Nature Publishing Group",
+                year: 2026,
+                volume: "16, 24074",
+                doi: "10.1038/s41598-026-46719-z",
+                quartile: "Q1",
+                category: "digital-twin"
+            },
+            {
+                id: 2,
+                titleFa: "مدل‌سازی پیش‌بین عمیق ترکیبی MLP-LSTM برای شدت و تراکم خرابی‌ها و شاخص وضعیت روسازی",
+                titleEn: "Hybrid MLP–LSTM deep predictive modeling of pavement distress severity and density and condition indices",
+                authors: "Talaghat, M. A., Golroo, A., Shahhosseini, V., Rasti, M., Daneshvar, A., & Moghadas Nejad, F.",
+                journal: "International Journal of Pavement Engineering",
+                publisher: "Taylor & Francis",
+                year: 2026,
+                volume: "27(1), 2624565",
+                doi: "10.1080/10298436.2026.2624565",
+                quartile: "Q1",
+                category: "ai-pavement"
+            },
+            {
+                id: 3,
+                titleFa: "دوقلوی دیجیتال روسازی راه: نقشه راه جامع همراه با مطالعه موردی",
+                titleEn: "Road Pavement Digital Twin: A Blueprint with a Case Study",
+                authors: "Talaghat, M. A., Golroo, A., Rasti, M., & Shahhosseini, V.",
+                journal: "Journal of Computing in Civil Engineering",
+                publisher: "ASCE",
+                year: 2026,
+                volume: "40(3), 05026001",
+                doi: "10.1061/JCCEE5.CPENG-7187",
+                quartile: "Q1",
+                category: "digital-twin"
+            },
+            {
+                id: 4,
+                titleFa: "ارتقای مدل سگمنتیشن خرابی‌های روسازی با هوش مصنوعی مولد بر پایه انتشار: دیدگاه دوقلوی دیجیتال",
+                titleEn: "Enhancing pavement distress segmentation model with diffusion-based generative AI: a digital twin perspective",
+                authors: "Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.",
+                journal: "International Journal of Pavement Engineering",
+                publisher: "Taylor & Francis",
+                year: 2025,
+                volume: "26(1), 2540076",
+                doi: "10.1080/10298436.2025.2540076",
+                quartile: "Q1",
+                category: "ai-pavement"
+            },
+            {
+                id: 5,
+                titleFa: "فناوری دوقلوی دیجیتال برای روسازی راه‌ها",
+                titleEn: "Digital twin technology for road pavement",
+                authors: "Talaghat, M. A., Golroo, A., Kharbouch, A., Rasti, M., Heikkilä, R., & Jurva, R.",
+                journal: "Automation in Construction",
+                publisher: "Elsevier",
+                year: 2024,
+                volume: "168, 105826",
+                doi: "10.1016/j.autcon.2024.105826",
+                quartile: "Q1 (Top 1%)",
+                category: "digital-twin"
+            },
+            {
+                id: 6,
+                titleFa: "کمی‌سازی کامپیوترویژن تمام‌خودکار ترک‌ها و برآورد شاخص PCI در پایپ‌لاین دوقلوی دیجیتال",
+                titleEn: "Fully Automated Pavement Crack Quantification and PCI Estimation via a Digital Twin-Ready Vision-Based Deep Learning Pipeline",
+                authors: "Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.",
+                journal: "Results in Engineering",
+                publisher: "Elsevier",
+                year: 2026,
+                volume: "32, 111659",
+                doi: "10.1016/j.rineng.2026.111659",
+                quartile: "Q1",
+                category: "ai-pavement"
+            },
+            {
+                id: 7,
+                titleFa: "مدل‌سازی زوال روسازی ارتقایافته با هوش مصنوعی توصیف‌پذیر (XAI) با ساختار یادگیری عمیق طبقه‌بندی-رگرسیون",
+                titleEn: "Explainable AI–enhanced pavement deterioration modeling using hybrid classification–regression deep learning architecture",
+                authors: "Sedighian-Fard, M., Golroo, A., Talaghat, M. A., et al.",
+                journal: "Scientific Reports",
+                publisher: "Nature Publishing Group",
+                year: 2026,
+                volume: "In Press",
+                doi: "10.1038/s41598-026-67842-x",
+                quartile: "Q1",
+                category: "ai-pavement"
+            },
+            {
+                id: 8,
+                titleFa: "توسعه سیستم مدیریتی ارتقای بهره‌وری انرژی ساختمان‌های عمومی با یکپارچه‌سازی IoT و BIM",
+                titleEn: "Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM",
+                authors: "Saghatforoush, E., Abbasianjahromi, H., Talaghat, M. A., & Kahvandi, Z.",
+                journal: "Lean Construction Journal",
+                publisher: "Lean Construction Institute",
+                year: 2022,
+                volume: "pp. 102–119",
+                doi: "",
+                quartile: "Peer-Reviewed",
+                category: "bim"
+            },
+            {
+                id: 9,
+                titleFa: "بهره‌گیری از فناوری دوقلوی دیجیتال برای نگهداری داده‌محور روسازی راه",
+                titleEn: "Leveraging digital twin technology for data-driven pavement maintenance",
+                authors: "Talaghat, M. A., Sedighian-Fard, M., Golroo, A., & Rasti, M.",
+                journal: "AM3P 2025 Conference Proceedings",
+                publisher: "TU Wien Academic Press",
+                year: 2025,
+                volume: "Vol. 4, pp. 604–608",
+                doi: "10.34726/10886",
+                quartile: "Conference",
+                category: "digital-twin"
+            },
+            {
+                id: 10,
+                titleFa: "بهبود بخش‌بندی خرابی‌های روسازی با هوش مصنوعی مولد Diffusion",
+                titleEn: "Improving Pavement Distress segmentation with Diffusion-Based Generative AI",
+                authors: "Talaghat, M. A., Golroo, A., & Rasti, M.",
+                journal: "AM3P 2025 Conference Proceedings",
+                publisher: "TU Wien Academic Press",
+                year: 2025,
+                volume: "Vol. 4, pp. 579–582",
+                doi: "10.34726/10798",
+                quartile: "Conference",
+                category: "ai-pavement"
+            },
+            {
+                id: 11,
+                titleFa: "چارچوب بهینه‌سازی داده‌محور برای برنامه‌ریزی نگهداری روسازی در سطح شبکه",
+                titleEn: "A data-driven optimization framework for network-level pavement maintenance planning",
+                authors: "Talaghat, M. A., Golroo, A., Shahhosseini, V., Rasti, M., & Daneshvar, A.",
+                journal: "Int. J. Pavement Engineering",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "ai-pavement"
+            },
+            {
+                id: 12,
+                titleFa: "بخش‌بندی خودنظارتی ترک‌ها با تشخیص شدت داده‌محور",
+                titleEn: "Self-supervised crack segmentation with data-driven severity detection",
+                authors: "Nouri, S., Rezaeemanesh, M., Talaghat, M. A., Rasti, M., & Golroo, A.",
+                journal: "IEEE Trans. Intelligent Transportation Systems",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "ai-pavement"
+            },
+            {
+                id: 13,
+                titleFa: "ارزیابی وضعیت روسازی خطوط ریلی با بینایی عمیق YOLO و هوش مکانی: صحه‌گذاری خط زنجان-تهران",
+                titleEn: "Deep vision-based railway track superstructure condition assessment using YOLOv26 and georeferenced maintenance intelligence",
+                authors: "Sedighian-Fard, M., Talaghat, M. A., et al.",
+                journal: "Scientific Reports",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "infrastructure"
+            },
+            {
+                id: 14,
+                titleFa: "خط‌لوله جامع آشکارسازی، سگمنتیشن و کمی‌سازی خودکار خرابی‌های روسازی با شاخص جدید شرایط سطح",
+                titleEn: "A complete pipeline for automated pavement distress detection, segmentation, and quantification using a new surface condition index",
+                authors: "Sedighian-Fard, M., Golroo, A., Talaghat, M. A., et al.",
+                journal: "Case Studies in Construction Materials",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "ai-pavement"
+            },
+            {
+                id: 15,
+                titleFa: "پایش وضعیت روسازی مبتنی بر خودرو: مرور شواهد، آمادگی فناوری و یکپارچه‌سازی مدیریتی",
+                titleEn: "Vehicle-based pavement condition monitoring: A review of evidence, technology readiness, and management integration",
+                authors: "Sedighian-Fard, M., Javanmardi, M., Talaghat, M. A., et al.",
+                journal: "Journal of Traffic and Transportation Engineering",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "ai-pavement"
+            },
+            {
+                id: 16,
+                titleFa: "سنجش همگام ۲ بعدی و ۳ بعدی لبه برای ارزیابی خودکار وضعیت روسازی بر مبنای ASTM D6433: مطالعه موردی بغداد",
+                titleEn: "Synchronized 2D–3D edge sensing for automated ASTM D6433 pavement condition assessment: A Baghdad case study",
+                authors: "Alobaidi, M., Golroo, A., Sedighian-Fard, M., & Talaghat, M. A.",
+                journal: "Measurement",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "ai-pavement"
+            },
+            {
+                id: 17,
+                titleFa: "شاخص‌های بینایی ماشین قابل تفسیر برای پایش ماسه‌گرفتگی، سفیدی بالاست و پوشش گیاهی در راه‌آهن‌های ایران",
+                titleEn: "Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in climatically diverse Iranian railways",
+                authors: "Sedighian-Fard, M., Fathali, M., Talaghat, M. A., et al.",
+                journal: "Int. J. Railway Research",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Peer-Reviewed",
+                category: "infrastructure"
+            },
+            {
+                id: 18,
+                titleFa: "دوقلوی دیجیتال احتمالاتی خودتنظیم شبکه روسازی با وظیفه‌دهی تصمیم‌محور به ناوگان خودروهای خودران",
+                titleEn: "A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets",
+                authors: "Talaghat, M. A., & Sedighian-Fard, M.",
+                journal: "Advanced Engineering Informatics",
+                publisher: "Under Review",
+                year: 2026,
+                volume: "Under Review",
+                doi: "",
+                quartile: "Q1 Target",
+                category: "digital-twin"
+            }
+        ];
+
+        let currentLang = 'fa';
+
+        // Render Publications
+        function renderPublications(pubsToRender) {
+            const container = document.getElementById('publicationsContainer');
+            container.innerHTML = '';
+
+            pubsToRender.forEach(pub => {
+                const card = document.createElement('div');
+                card.className = "glass-card rounded-2xl p-6 shadow-sm hover:shadow-lg transition border border-slate-200 dark:border-slate-800 flex flex-col justify-between";
+                
+                const title = currentLang === 'fa' ? pub.titleFa : pub.titleEn;
+                const doiLink = pub.doi ? `<a href="https://doi.org/${pub.doi}" target="_blank" class="text-blue-600 dark:text-cyan-400 hover:underline flex items-center gap-1 font-mono text-[11px]"><i class="fa-solid fa-arrow-up-right-from-square"></i> DOI: ${pub.doi}</a>` : `<span class="text-slate-400 text-[11px]">Under Review / In Press</span>`;
+                
+                card.innerHTML = `
+                    <div>
+                        <div class="flex items-center justify-between gap-2 mb-3">
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold ${pub.quartile.includes('Q1') ? 'bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-700' : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300'}">
+                                ${pub.quartile}
+                            </span>
+                            <span class="text-xs font-semibold text-slate-400 font-mono">${pub.year}</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-slate-900 dark:text-white leading-snug mb-2">${title}</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mb-3">${pub.authors}</p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-200/60 dark:border-slate-800/60 flex items-center justify-between">
+                        <span class="text-xs font-bold text-blue-600 dark:text-cyan-300">${pub.journal}</span>
+                        <div class="flex items-center gap-2">
+                            ${doiLink}
+                            <button onclick="copyBibTeX(${pub.id})" title="کپی BibTeX" class="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-blue-100 dark:hover:bg-blue-900 text-slate-600 dark:text-slate-300 transition flex items-center justify-center text-xs">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Filter publications by search input
+        function filterPublications() {
+            const query = document.getElementById('pubSearchInput').value.toLowerCase().trim();
+            const filtered = publications.filter(p => {
+                return p.titleFa.toLowerCase().includes(query) ||
+                       p.titleEn.toLowerCase().includes(query) ||
+                       p.journal.toLowerCase().includes(query) ||
+                       p.authors.toLowerCase().includes(query) ||
+                       p.year.toString().includes(query);
+            });
+            renderPublications(filtered);
+        }
+
+        // Copy BibTeX
+        function copyBibTeX(id) {
+            const pub = publications.find(p => p.id === id);
+            if (!pub) return;
+            const bib = `@article{talaghat_${pub.year}_${pub.id},
+  title={${pub.titleEn}},
+  author={${pub.authors}},
+  journal={${pub.journal}},
+  year={${pub.year}},
+  doi={${pub.doi || "N/A"}}
+}`;
+            navigator.clipboard.writeText(bib).then(() => {
+                alert(currentLang === 'fa' ? 'اطلاعات BibTeX این مقاله با موفقیت کپی شد!' : 'BibTeX entry copied to clipboard!');
+            });
+        }
+
+        // Download All 18 Papers BibTeX File
+        function downloadAllBibTeX() {
+            let fullBib = "% Complete 18 Scientific Publications of Dr. Mohammad Amin Talaghat\n\n";
+            publications.forEach(pub => {
+                fullBib += `@article{talaghat_${pub.year}_${pub.id},\n  title={${pub.titleEn}},\n  author={${pub.authors}},\n  journal={${pub.journal}},\n  year={${pub.year}},\n  doi={${pub.doi || "N/A"}}\n}\n\n`;
+            });
+            const blob = new Blob([fullBib], { type: 'text/plain;charset=utf-8' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'Mohammad_Amin_Talaghat_18_Publications_BibTeX.bib';
+            link.click();
+        }
+
+        // Circular 5090 Delay Claim Calculator
+        function computeDelay5090() {
+            const B = parseFloat(document.getElementById('calcB').value);
+            const A = parseFloat(document.getElementById('calcA').value);
+            const t = parseFloat(document.getElementById('calct').value);
+            const initialDuration = parseFloat(document.getElementById('calcInitialDuration').value) || 365;
+
+            if (B <= 0 || A <= 0 || t <= 0) {
+                alert('لطفاً مقادیر مثبت و معتبر وارد نمایید.');
+                return;
+            }
+
+            const T = (t * (A / B)).toFixed(2);
+            const percent = ((T / initialDuration) * 100).toFixed(2);
+
+            document.getElementById('delayDaysResult').innerText = T + ' روز';
+            document.getElementById('delayPercentResult').innerText = percent + '٪';
+        }
+
+        // Circular 173073 Price Escalation Calculator
+        function computeEscalation173073() {
+            const I0 = parseFloat(document.getElementById('calcI0').value);
+            const I = parseFloat(document.getElementById('calcI').value);
+            const grossWork = parseFloat(document.getElementById('calcGrossWork').value);
+            const status = document.getElementById('calcDelayStatus').value;
+
+            if (I0 <= 0 || I <= 0 || grossWork <= 0) {
+                alert('لطفاً شاخص‌ها و مبلغ کارکرد را به درستی وارد کنید.');
+                return;
+            }
+
+            let E = (I / I0) - 1;
+            let penaltyApplied = false;
+
+            if (status === 'unexcused') {
+                E = E * 0.95;
+                penaltyApplied = true;
+            }
+
+            const escalationAmount = Math.round(grossWork * E);
+            const unexcusedLoss = penaltyApplied ? Math.round(grossWork * (((I / I0) - 1) * 0.05)) : 0;
+
+            document.getElementById('escalationCoeffResult').innerText = E.toFixed(4);
+            document.getElementById('escalationAmountResult').innerText = escalationAmount.toLocaleString('fa-IR') + ' ریال';
+            document.getElementById('escalationPenaltyLoss').innerText = unexcusedLoss.toLocaleString('fa-IR') + ' ریال';
+        }
+
+        // Dark Mode Toggle
+        function toggleDarkMode() {
+            const html = document.documentElement;
+            const icon = document.getElementById('themeIcon');
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                icon.className = 'fa-solid fa-moon';
+                localStorage.theme = 'light';
+            } else {
+                html.classList.add('dark');
+                icon.className = 'fa-solid fa-sun';
+                localStorage.theme = 'dark';
+            }
+        }
+
+        // Language Switcher (FA <-> EN)
+        function toggleLanguage() {
+            const html = document.documentElement;
+            const btn = document.getElementById('langLabel');
+            
+            if (currentLang === 'fa') {
+                currentLang = 'en';
+                html.setAttribute('dir', 'ltr');
+                html.classList.add('ltr-mode');
+                btn.innerText = 'فارسی';
+                
+                // Switch Nav
+                document.getElementById('navName').innerText = 'Dr. Mohammad Amin Talaghat';
+                document.getElementById('navTitle').innerText = 'Head of Technical Office & Contracts | Claims Director';
+                document.getElementById('navLinkAbout').innerText = 'About & Competencies';
+                document.getElementById('navLinkExp').innerText = 'Executive Career';
+                document.getElementById('navLinkPubs').innerText = '18 ISI Q1 Papers';
+                document.getElementById('navLinkCalc').innerText = 'Engineering Calculators';
+                document.getElementById('navLinkPortals').innerText = 'Platforms & Hubs';
+                document.getElementById('navLinkContact').innerText = 'Contact & Hire';
+
+                // Switch Hero
+                document.getElementById('heroBadge').innerText = 'Head of Technical Office & Contracts | Pavement Digital Twin & AI Pioneer';
+                document.getElementById('heroHeading').innerText = 'Strategic Leadership in Construction Contracts, Claims & Infrastructure Digital Twins';
+                document.getElementById('heroDesc').innerText = 'Dr. Mohammad Amin Talaghat; Ph.D. in Construction Engineering and Management from Amirkabir University of Technology (Tehran Polytechnic), former Visiting Researcher at University of Oulu (Finland), and Licensed Professional Civil Engineer. Specialized in Delay Analysis (Circular 5090), Conditions of Contract (Publication 4311 & FIDIC), Cost Escalation (Circular 173073), CPM/EVM Controls with Primavera P6/MSP, and Edge AI (YOLOv11) integration with Building Information Modeling (BIM).';
+                document.getElementById('heroHireBtn').innerHTML = '<i class="fa-solid fa-paper-plane"></i><span>Inquire / Hire Me</span>';
+                document.getElementById('heroPubsBtn').innerHTML = '<i class="fa-solid fa-file-invoice"></i><span>Explore 18 Q1 Papers</span>';
+                document.getElementById('heroCalcBtn').innerHTML = '<i class="fa-solid fa-calculator"></i><span>Contract Calculators</span>';
+            } else {
+                currentLang = 'fa';
+                html.setAttribute('dir', 'rtl');
+                html.classList.remove('ltr-mode');
+                btn.innerText = 'English';
+
+                // Restore Nav
+                document.getElementById('navName').innerText = 'دکتر محمد امین طلاقت';
+                document.getElementById('navTitle').innerText = 'مدیر امور فنی و پیمان | سرپرست دفتر فنی';
+                document.getElementById('navLinkAbout').innerText = 'درباره و شایستگی‌ها';
+                document.getElementById('navLinkExp').innerText = 'سوابق اجرایی';
+                document.getElementById('navLinkPubs').innerText = 'مقالات ۱۸ گانه Q1';
+                document.getElementById('navLinkCalc').innerText = 'ماشین‌حساب‌های مهندسی';
+                document.getElementById('navLinkPortals').innerText = 'پرتال‌ها و شبکه‌ها';
+                document.getElementById('navLinkContact').innerText = 'تماس و سفارش';
+
+                // Restore Hero
+                document.getElementById('heroBadge').innerText = 'مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و هوش مصنوعی احداث';
+                document.getElementById('heroHeading').innerText = 'رهبری استراتژیک امور فنی، قراردادها، ادعا و دوقلوی دیجیتال پروژه‌های عمرانی';
+                document.getElementById('heroDesc').innerText = 'دکتر محمد امین طلاقت؛ دانش‌آموخته دکتری مهندسی و مدیریت ساخت دانشگاه صنعتی امیرکبیر، پژوهشگر پیشین دانشگاه اولو فنلاند و دارای پروانه اشتغال به کار مهندسی. تخصص مسلط در دفاع از لوایح تأخیرات مجاز (بخشنامه ۵۰۹۰)، رسیدگی به دعاوی پیمانکاری و مشاوره‌ای بر مبنای نشریه ۴۳۱۱ و فیدیک، تعدیل آحاد بها (بخشنامه ۱۷۳۰۷۳)، استقرار سیستم‌های کنترل پروژه تکسا و پریماورا P6، و یکپارچه‌سازی بینایی ماشین (YOLOv11) با مدل‌های اطلاعات ساخت (BIM).';
+                document.getElementById('heroHireBtn').innerHTML = '<i class="fa-solid fa-paper-plane"></i><span>ارسال پروژه / استعلام</span>';
+                document.getElementById('heroPubsBtn').innerHTML = '<i class="fa-solid fa-file-invoice"></i><span>مشاهده ۱۸ مقاله ISI چارک Q1</span>';
+                document.getElementById('heroCalcBtn').innerHTML = '<i class="fa-solid fa-calculator"></i><span>ماشین‌حساب‌های تأخیرات و تعدیل</span>';
+            }
+
+            renderPublications(publications);
+        }
+
+        // Initial Load
+        document.addEventListener('DOMContentLoaded', () => {
+            renderPublications(publications);
+            computeDelay5090();
+            computeEscalation173073();
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+                document.getElementById('themeIcon').className = 'fa-solid fa-sun';
+            }
+        });
+    </script>
+</body>
+</html>
