@@ -30,7 +30,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 ## Education
 - **Ph.D. in Civil Engineering — Construction Engineering and Management**  
-  *Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran (2021 – 2025)*  
+  *Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran (2021 – January 2026)*  
   *Thesis:* Development of a digital twin-based intelligent decision support system for asphalt pavement maintenance  
   *Supervisor:* Dr. Amir Golroo  
 - **Ph.D. Visiting Scholar (Funded Fellowship) — DigiPave Project**  
@@ -56,7 +56,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 ---
 
 ## Professional & Research Experience (8 Positions)
-1. **Technical & Contracts Affairs Specialist / Manager** — *Sahar Sazeh Novin Paydar Co.* (Jun 2025 – Present) | Shiraz, Iran
+1. **Technical & Contracts Affairs Manager** — *Sahar Sazeh Novin Paydar Co.* (Jun 2025 – Present) | Shiraz, Iran
    - Lead technical office documentation, correspondence, progress reporting, estimation, contract records, and delay claims (Circular 5090).
    - Prepare and audit interim payment statements, variation analysis (Circular 4951), and contractual deliverables under Circular 4311.
 2. **Research Collaborator / Research Assistant** — *University of Oulu, DigiPave Project* (Jan 2024 – Present) | Oulu, Finland / Hybrid
@@ -137,7 +137,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 ## Contact & Coordinates
 - 🌐 **Interactive Portfolio:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
-- 📄 **ORCID:** [0009-0004-9467-3323](https://orcid.org/0009-0004-9467-3323)
+- 📄 **ORCID:** [0000-0002-1245-4689](https://orcid.org/0000-0002-1245-4689)
 - 🔬 **Google Scholar:** [Mohammad Amin Talaghat (91 Citations)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 - 💼 **LinkedIn:** [linkedin.com/in/atalaghat](https://www.linkedin.com/in/atalaghat/)
 - 💻 **GitHub:** [github.com/atalaghat](https://github.com/atalaghat)
