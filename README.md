@@ -47,7 +47,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 ---
 
 ## Honors, Licenses & Certifications
-- **Professional Engineering (PE) License — Grade 3:** Member of Iran Construction Engineering Organization (سازمان نظام مهندسی ساختمان); Licensed Construction Supervisor and Executor.
+- **Iranian Construction Engineering License — Grade 3:** Member of Iran Construction Engineering Organization (سازمان نظام مهندسی ساختمان); Licensed Construction Supervisor and Executor.
 - **Winner of Iran's National Elites Foundation Talented Students' Award (2021):** Awarded by the National Elites Foundation (بنیاد ملی نخبگان).
 - **Ranked 20th in Nationwide Ph.D. Entrance Examination (2021):** Top-ranked nationwide in Civil & Construction Management.
 - **Ranked 3rd Among M.Sc. Graduating Cohort (2020):** K. N. Toosi University of Technology.
