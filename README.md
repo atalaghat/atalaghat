@@ -20,6 +20,94 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 ---
 
+---
+
+<div dir="rtl" style="font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; text-align: right; direction: rtl; line-height: 1.8;">
+
+## 📘 خدمات جامع مهندسی، مشاوره، دفتر فنی، فناوری و هوش مصنوعی (Professional Services & Consulting)
+
+**محمد امین طلاقت**  
+دکترای مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) و پژوهشگر همکار دانشگاه اولو (فنلاند)  
+🔰 **آماده همکاری تخصصی و مشاوره‌ای با کارفرمایان، پیمانکاران و مهندسان مشاور محترم در سراسر کشور و پروژه‌های بین‌المللی**
+
+---
+
+### ۱. 📘 امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی 📙
+- ✅ **تهیه آنالیز، پیشنهاد قیمت و اسناد مناقصه با نرم‌افزار تکسا** (مطابق بخشنامه ۴۹۵۱، بخشنامه ۱۲۳۲۵۷ و بررسی پلوس و مینوس)
+- ✅ **تنظیم، تهیه، رسیدگی و دفاع از صورت‌وضعیت‌های موقت و قطعی** کارکرد با فهارس بهای ابنیه، راه و باند، تأسیسات و نفت و گاز
+- ✅ **تهیه و تنظیم دقیق صورت‌وضعیت تعدیل آحادبها** بر اساس بخشنامه ۱۷۳۰۷۳ و شاخص‌های قطعی و دوره‌ای سازمان برنامه و بودجه
+- ✅ **کلیم‌های قیمت جدید و دستورکارهای اضافه‌کاری** (بر مبنای بند ج و د ماده ۲۹ شرایط عمومی پیمان و تصویب نرخ‌های جدید)
+- ✅ **آنالیز درآمد و هزینه جهت جلوگیری از ضرر پیمانکار** (تحلیل Cash Flow، سودآوری فصول و جلوگیری از زیان مالی کارگاه)
+- ✅ **تنظیم، تهیه و دفاع از صورتجلسات موقت و قطعی کارگاهی**، احجام کارکرد و ثبت اضافه کارها
+- ✅ **مدیریت ادعا و حل اختلاف (Contract Claim Management)**، مستندسازی حقوقی، لایحه ادعایی و دفاع از حقوق پیمانکار/کارفرما
+- ✅ **تهیه متره و برآورد دقیق**، تهیه ریزمتره، برگه‌های متره کارگاهی و تطبیق مقادیر با نقشه‌های اجرایی
+- ✅ **پیمان و رسیدگی و امور قراردادها** و تطبیق با شرایط عمومی پیمان (نشریه ۴۳۱۱) و قراردادهای بین‌المللی FIDIC
+- ✅ **تهیه لایحه تأخیرات مجاز و غیرمجاز** (بر مبنای بخشنامه ۵۰۹۰ و ماده ۳۰ شرایط عمومی پیمان و بررسی تداخلات و دیرکرد مالی)
+- ✅ **تهیه گزارشات ادواری مدیریتی**، گزارش‌های روزانه، هفتگی، ماهانه و داشبوردهای پیشرفت فیزیکی و ریالی پروژه
+- ✅ **تهیه برنامه زمان‌بندی با نرم‌افزارهای MSP و پریماورا P6**، تحلیل مسیر بحرانی (CPM)، ساختار شکست کار (WBS) و تخصیص منابع
+- ✅ **تهیه لایحه ضرر و زیان و خسارات مالی** ناشی از افزایش طول دوره ساخت، تعلیق، تورم و نوسانات بازار
+- ✅ **طراحی و نقشه‌کشی با اتوکد (AutoCAD)** و ترسیم دقیق نقشه‌های فاز ۱ و ۲ معماری، سازه و زیرساخت
+- ✅ **طراحی سه‌بعدی و کلش دیتکشن با رویت (Revit)** و پیاده‌سازی مدل‌های BIM ساختمانی و تأسیساتی
+- ✅ **طراحی و تحلیل سازه با نرم‌افزارهای ETABS، SAFE و SAP2000** و کنترل ضوابط آیین‌نامه‌ای (استاندارد ۲۸۰۰، مبحث ۹ و ۱۰)
+- ✅ **مدلسازی و تهیه نقشه‌های شاپ با تکلا (Tekla Structures)** و استخراج کاتینگ‌شیت، پارت‌لیست، اسمبلی و لیستوفر میلگرد
+- ✅ **تهیه داشبوردهای مدیریتی** و پیاده‌سازی سیستم مدیریت ارزش کسب‌شده (EVM) جهت رصد لحظه‌ای CPI، SPI و انحرافات
+- ✅ **مدیریت و نگهداری روسازی راه و فرودگاه (PMS & APMS)** و ارزیابی شاخص خرابی PCI (استاندارد ASTM D6433)
+
+---
+
+### ۲. 💻 طراحی، توسعه و میزبانی وب، پلتفرم‌های نرم‌افزاری و UI/UX
+- ✅ **طراحی و توسعه وب‌سایت‌ها، پلتفرم‌ها و پرتال‌های اختصاصی** شرکتی، سازمانی و مهندسی (وردپرس، PHP، ری‌اکت و Next.js)
+- ✅ **طراحی تخصصی رابط و تجربه کاربری (UI/UX)**، مدرن، تعاملی، ارگونومیک، ریسپانسیو و کاملاً سازگار با موبایل
+- ✅ **میزبانی وب، مدیریت و پیکربندی سرورهای لینوکس، لایت‌اسپید و کلود**، ارتقای امنیت و بهینه‌سازی سرعت لود و سئو تکنیکال
+- ✅ **توسعه نرم‌افزارهای اختصاصی تحت وب، ابزارهای محاسباتی مهندسی و اتوماسیون فرایندهای سازمانی**
+
+---
+
+### ۳. 🔬 امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی
+- ✅ **همکاری پژوهشی و مشاوره در نگارش مقالات علمی-پژوهشی و ISI (Q1)** در انتشارات تراز اول جهان (Nature Scientific Reports, ASCE, Elsevier, Springer)
+- ✅ **مشاوره، داوری مقالات (Reviewer)، تحلیل داوری و تدوین نامه‌های پاسخ به داوران (Rebuttal Letters)**
+- ✅ **تولید کد، آموزش و پیاده‌سازی مدل‌های هوش مصنوعی، یادگیری عمیق و بینایی ماشین** (YOLOv8/v11, PyTorch, SAM) جهت آشکارسازی و بخش‌بندی عیوب و ترک‌ها
+- ✅ **طراحی و استقرار معماری دوقلوی دیجیتال (Digital Twin)** در زیرساخت‌های حمل‌ونقل جاده‌ای، ریلی، فرودگاهی و انرژی هوشمند ساختمان
+
+</div>
+
+---
+
+## 🌐 Comprehensive Professional Services & Consulting Areas (English Overview)
+
+### 1. Civil Engineering, Technical Office & Project Controls
+- **Bidding, Pricing & Tender Documents:** Preparation of tender proposals, 4-factor price breakdown, and mark-up/discount analysis using Taksa (Circulars 4951 & 123257).
+- **Interim & Final Payment Certificates:** Compiling, auditing, and defending monthly and final billing sheets against official Price Schedules.
+- **Price Escalation & Adjustment:** Calculation of contractual price adjustment indexes adhering to Circular 173073.
+- **New Rates & Variation Orders:** Formulation and defense of new rate claims and variation orders per Clause 29 of General Conditions of Contract (Circular 4311).
+- **Revenue & Cash Flow Analytics:** Monitoring project cost/revenue balances to prevent financial exposure and contractor loss.
+- **Site Work Records & Protocols:** Preparing and defending official site measurement sheets, execution logs, and handover minutes.
+- **Contract Claim Management:** Documenting entitlement, managing disputes, and leading technical defense under Circular 4311 and FIDIC contracts.
+- **Quantity Surveying & Take-Off:** Comprehensive material takeoff sheets, bar bending schedules (BBS), and as-built re-measurement.
+- **Contract Administration & Audits:** Legal and technical appraisal of contract articles, obligations, and risk registers.
+- **Extension of Time (EOT) & Delay Analysis:** Comprehensive delay claims categorized by excusable/non-excusable delays under Circular 5090 and CPM float path analysis.
+- **Periodic Executive Reporting:** Dynamic weekly, monthly, and milestones reports tailored for executive PMO steering committees.
+- **Master CPM Scheduling & Project Controls:** Full WBS structuring, baseline scheduling, resource allocation, and progress tracking using Microsoft Project (MSP) and Primavera P6.
+- **Loss, Expense & Idle Equipment Claims:** Quantification of indirect overheads, prolongation costs, and inflation-induced financial damages.
+- **CAD Drafting & Engineering Drawings:** Architectural, structural, and infrastructure Phase 1 and Phase 2 drafting with AutoCAD.
+- **3D BIM Modeling & Clash Detection:** High-fidelity architectural, structural, and MEP modeling with Autodesk Revit.
+- **Structural Analysis & Code Detailing:** Analysis and seismic compliance verification (Standard 2800, ACI/AISC) using ETABS, SAFE, and SAP2000.
+- **Tekla Structures Shop Detailing:** Detailed steel fabrication models, CNC cutting sheets, connection details, and structural part lists.
+- **Executive BI Dashboards & EVM:** Deployment of Earned Value Management (CPI, SPI, EAC) and executive KPI dashboards.
+- **Pavement Management Systems (PMS & APMS):** ASTM D6433 PCI surveys, multi-objective M&R prioritization, and life-cycle costing.
+
+### 2. Software Architecture, Web Platforms, UI/UX & Hosting
+- **Full-Stack Web & Portal Development:** Bespoke corporate, engineering, and platform applications built with WordPress, PHP, React.js, and modern toolchains.
+- **UI/UX Design & Architecture:** Modern, ergonomic, responsive, RTL-optimized interfaces adhering to clean code standards.
+- **Web Hosting & Linux Server Administration:** Fast, secure LiteSpeed/NGINX cloud hosting setups, SSL, hardening, and performance tuning.
+- **Custom Web Applications & Automation Tools:** Bespoke engineering calculators, data ingestion portals, and workflow pipelines.
+
+### 3. R&D Consulting, Academic Research & AI Engineering
+- **Scholarly & ISI Collaboration:** Research methodology, writing, and strategic positioning for top-tier Q1 journals (Nature Scientific Reports, ASCE, Elsevier, Springer).
+- **Peer Review & Rebuttal Strategy:** Formal academic review, rebuttal letter structuring, and statistical validation.
+- **AI / Deep Learning Model Engineering:** Custom PyTorch computer vision pipelines (YOLOv8/v11, SAM) for automated defect classification and segmentation.
+- **Digital Twin Architecture:** 4D infrastructure digital twin models combining IoT telemetry, georeferenced inspection data, and BIM semantics.
+
 ## Core Expertise & Competencies
 - **Technical Office & Contract Administration:** FIDIC & Standard Conditions of Contract (Circular 4311), Price Analysis (Circular 4951), Escalation Index Analysis (Circular 173073), Extension of Time (EOT) & Delay Claims (Circular 5090).
 - **Project Planning & Controls (PMO):** Earned Value Management (EVM), Master CPM Scheduling, Float Analysis, WBS Design, Physical & Financial S-Curves (MSP / Primavera P6).
