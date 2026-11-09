@@ -90,7 +90,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 ---
 
-## Publications & Scholarly Record (19 Total Works)
+## Publications & Scholarly Record (20 Total Works)
 ### Published Peer-Reviewed Papers (10)
 1. **An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland** — *Scientific Reports* (2026). DOI: [10.1038/s41598-026-46719-z](https://doi.org/10.1038/s41598-026-46719-z)
 2. **Hybrid MLP–LSTM deep predictive modeling of pavement distress severity and density and condition indices** — *International Journal of Pavement Engineering* (2026). DOI: [10.1080/10298436.2026.2624565](https://doi.org/10.1080/10298436.2026.2624565)
@@ -103,7 +103,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 9. **Improving Pavement Distress segmentation with Diffusion-Based Generative AI** — *AM3P Proceedings*, Vienna (2025). DOI: [10.34726/10798](https://doi.org/10.34726/10798)
 10. **Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM** — *Lean Construction Journal* (2022). DOI: [10.60164/54i5b7h5h](https://doi.org/10.60164/54i5b7h5h)
 
-### Manuscripts Under Active Peer Review (9)
+### Manuscripts Under Active Peer Review (10)
 11. *A data-driven optimization framework for network-level pavement maintenance planning* — Int. J. Pavement Engineering
 12. *Self-supervised crack segmentation with data-driven severity detection* — IEEE Trans. Intelligent Transportation Systems
 13. *Deep vision-based railway track superstructure condition assessment using YOLOv26: Field validation on Zanjan-Tehran corridor* — Scientific Reports
@@ -113,6 +113,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 17. *Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in Iranian railways* — Int. J. Railway Research
 18. *A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets* — Smart Infrastructure Journals
 19. *A self-updating, two-way building digital twin for grid-interactive operation* — Sustainable Energy, Grids and Networks
+20. *ARGONet-4D: A maturity-graded digital twin of urban road surfaces that links fleet-sourced 4D reconstruction, foundation-model distress objects, IFC 4.3 semantics, IoT-informed forecasting and prescriptive maintenance* — Innovative Infrastructure Solutions (Springer)
 
 ---
 
