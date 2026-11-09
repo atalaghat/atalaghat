@@ -2,6 +2,20 @@
 ### Head of Technical Office & Contracts | Contracts & Technical Affairs Manager
 **Civil Engineering & Infrastructure Management Professional | Ph.D. in Construction Management**
 
+<div align="center">
+
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-94%20Citations-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+[![h-index](https://img.shields.io/badge/h--index-4-00C49F?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+[![i10-index](https://img.shields.io/badge/i10--index-1-FFBB28?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+[![Scientific Works](https://img.shields.io/badge/Scientific%20Works-20%20(10%20Pub%20%7C%2010%20Review)-10B981?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+[![Amirkabir University](https://img.shields.io/badge/Ph.D.-Amirkabir%20University-blue?style=flat)](https://aut.ac.ir)
+[![University of Oulu](https://img.shields.io/badge/Fellow-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
+[![PE License](https://img.shields.io/badge/IRCEO-Licensed%20Supervisor%20%26%20Executor-purple?style=flat)](https://farscee.ir)
+
+</div>
+
+
+
 🌐 **Official Interactive Executive Portfolio:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
 
 ---
@@ -205,11 +219,16 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 ---
 
-## Technical Tools & Competencies
-- **Programming / Data:** Python, MATLAB, JavaScript, React.js, PHP/Laravel, HTML/CSS, RapidMiner, Weka.
-- **Engineering / Construction:** Microsoft Project (MSP), Primavera P6, AutoCAD, Civil 3D, Revit, InfraWorks, ETABS, SAFE, Tekla Structures, Taksa.
-- **Domain & Standards:** BIM, IoT, Digital Twin, Pavement Management Systems (PMS), Project Controls, Contract Administration, PMBOK, QA/QC, HSE.
-- **Languages:** Persian (Native), English (Professional working proficiency).
+## Technical Tools & Engineering Competencies
+
+| Category | Key Software & Tools | Detailed Competencies & Applications |
+|---|---|---|
+| **Technical Office & Contracts** | **Taksa (تکسا)**, **Tadkar (تدکار)**, Excel Advanced | Rate analysis (Circular 4951), bid preparation (Circular 123257), interim & final valuations, price escalation adjustments (Circular 173073), Article 29 new price rates, Article 30 delay claims, and cash flow loss prevention. |
+| **BIM, Detailing & Structures** | **AutoCAD**, **Revit BIM**, **Tekla Structures**, **Civil 3D**, **ETABS**, **SAFE**, **SAP2000** | Phase 1/2 drafting, multi-disciplinary 3D BIM, Navisworks clash detection, steel shop drawings, cutting sheets, CNC NC/DSTV data, seismic design (Standard 2800), and mat foundation analysis. |
+| **Project Controls & PMO** | **Microsoft Project (MSP)**, **Primavera P6 EPPM** | Deliverable-oriented WBS authoring, CPM critical path analysis, total/free float management, EVM analytics (CPI/SPI/EAC), S-Curves, and executive periodic progress reporting. |
+| **Web Architecture & UI/UX** | **WordPress**, **Elementor Pro**, **PHP**, **JavaScript**, **Tailwind CSS**, **cPanel/Linux** | High-security corporate web platforms, custom PHP plugins & hooks, engineering calculation web apps, responsive UI/UX, and server/hosting deployment. |
+| **AI, Computer Vision & Data** | **Python (NumPy, Pandas)**, **PyTorch**, **YOLOv8/v11**, **XAI (SHAP)**, **IFC 4.3** | Automated pavement crack & distress segmentation, PCI index scoring, digital twin sensor integration, explainable AI, and neural network training. |
+| **Academic R&D & Publishing** | **LaTeX**, **BibTeX**, Scientific Writing, Peer Review | ISI manuscript structuring for Nature & Elsevier benchmarks, rigorous statistical hypothesis testing, journal peer reviewing, and rebuttal authoring. |
 
 ---
 
@@ -227,7 +246,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 ## Contact & Coordinates
 - 🌐 **Interactive Portfolio:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
 - 📄 **ORCID:** [0000-0002-1245-4689](https://orcid.org/0000-0002-1245-4689)
-- 🔬 **Google Scholar:** [Mohammad Amin Talaghat (91 Citations)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+- 🔬 **Google Scholar:** [Mohammad Amin Talaghat (94 Citations · h-index: 4 · i10-index: 1)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 - 💼 **LinkedIn:** [linkedin.com/in/atalaghat](https://www.linkedin.com/in/atalaghat/)
 - 💻 **GitHub:** [github.com/atalaghat](https://github.com/atalaghat)
 - 📧 **Emails:** [atalaghat@aut.ac.ir](mailto:atalaghat@aut.ac.ir) | [atalaghat@gmail.com](mailto:atalaghat@gmail.com)
