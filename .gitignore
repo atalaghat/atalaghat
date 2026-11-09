@@ -1,0 +1,4 @@
+*.bat
+README_consistency*
+_scripts/
+_intermediate/
