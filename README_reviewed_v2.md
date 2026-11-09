@@ -14,8 +14,8 @@ Alongside research, I serve as Technical and Contracts Affairs Manager at Sahar 
 - Construction project controls, technical documentation and contractual analysis
 
 ## Education
-- Ph.D., Construction Engineering and Management, Amirkabir University of Technology, 2021–January 2026; GPA 18.98/20.
-- M.Sc., Construction Engineering and Management, K. N. Toosi University of Technology, 2017–2020; GPA 17.91/20.
+- Ph.D., Construction Engineering and Management, Amirkabir University of Technology, 2021–January 2026; 
+- M.Sc., Construction Engineering and Management, K. N. Toosi University of Technology, 2017–2020; 
 - B.Sc., Civil Engineering, Shiraz University, 2011–2016.
 
 ## Published research

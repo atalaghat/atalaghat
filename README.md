@@ -16,7 +16,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 ## Target Collaboration & Strategic Fit
 - **Direct Strongest Area:** Highway, road, and urban pavement digital twin solutions, including AI-based pavement distress detection/segmentation, condition assessment, PCI-oriented workflows, and multi-objective maintenance optimization.
 - **Transferable Adjacent Area:** Airport pavement monitoring and railway track superstructure digital twin implementation, leveraging georeferenced inspection data, computer vision, data fusion, and decision-support algorithms.
-- **Commercial Bridge:** Regional infrastructure collaboration combining research credibility (ISI Q1 publications), local contracting/claims leadership, and product-oriented technical communication.
+- **Commercial Bridge:** Regional infrastructure collaboration combining research credibility (ISI معتبر publications), local contracting/claims leadership, and product-oriented technical communication.
 
 ---
 
@@ -64,7 +64,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 ---
 
 ### ۳. 🔬 امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی
-- ✅ **همکاری پژوهشی و مشاوره در نگارش مقالات علمی-پژوهشی و ISI (Q1)** در انتشارات تراز اول جهان (Nature Scientific Reports, ASCE, Elsevier, Springer)
+- ✅ **همکاری پژوهشی و مشاوره در نگارش مقالات علمی-پژوهشی و ISI معتبر** در انتشارات تراز اول جهان (Nature Scientific Reports, ASCE, Elsevier, Springer)
 - ✅ **مشاوره، داوری مقالات (Reviewer)، تحلیل داوری و تدوین نامه‌های پاسخ به داوران (Rebuttal Letters)**
 - ✅ **تولید کد، آموزش و پیاده‌سازی مدل‌های هوش مصنوعی، یادگیری عمیق و بینایی ماشین** (YOLOv8/v11, PyTorch, SAM) جهت آشکارسازی و بخش‌بندی عیوب و ترک‌ها
 - ✅ **طراحی و استقرار معماری دوقلوی دیجیتال (Digital Twin)** در زیرساخت‌های حمل‌ونقل جاده‌ای، ریلی، فرودگاهی و انرژی هوشمند ساختمان
@@ -103,7 +103,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 - **Custom Web Applications & Automation Tools:** Bespoke engineering calculators, data ingestion portals, and workflow pipelines.
 
 ### 3. R&D Consulting, Academic Research & AI Engineering
-- **Scholarly & ISI Collaboration:** Research methodology, writing, and strategic positioning for top-tier Q1 journals (Nature Scientific Reports, ASCE, Elsevier, Springer).
+- **Scholarly & ISI Collaboration:** Research methodology, writing, and strategic positioning for top-tier international journals (Nature Scientific Reports, ASCE, Elsevier, Springer).
 - **Peer Review & Rebuttal Strategy:** Formal academic review, rebuttal letter structuring, and statistical validation.
 - **AI / Deep Learning Model Engineering:** Custom PyTorch computer vision pipelines (YOLOv8/v11, SAM) for automated defect classification and segmentation.
 - **Digital Twin Architecture:** 4D infrastructure digital twin models combining IoT telemetry, georeferenced inspection data, and BIM semantics.

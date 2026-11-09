@@ -16,7 +16,7 @@ Experienced in connecting academic research with commercial, product-oriented in
 ## Target Collaboration & Strategic Fit
 - **Direct Strongest Area:** Highway, road, and urban pavement digital twin solutions, including AI-based pavement distress detection/segmentation, condition assessment, PCI-oriented workflows, and multi-objective maintenance optimization.
 - **Transferable Adjacent Area:** Airport pavement monitoring and railway track superstructure digital twin implementation, leveraging georeferenced inspection data, computer vision, data fusion, and decision-support algorithms.
-- **Commercial Bridge:** Regional infrastructure collaboration combining research credibility (ISI Q1 publications), local contracting/claims leadership, and product-oriented technical communication.
+- **Commercial Bridge:** Regional infrastructure collaboration combining research credibility (ISI معتبر publications), local contracting/claims leadership, and product-oriented technical communication.
 
 ---
 
