@@ -132,6 +132,14 @@
             0%, 100% { opacity: 1; transform: scale(1); }
             50% { opacity: 0.4; transform: scale(1.15); }
         }
+        /* Respect the visitor's system motion preference, including live changes. */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation: none !important;
+                transition: none !important;
+                scroll-behavior: auto !important;
+            }
+        }
     </style>
 </head>
 <body class="relative min-h-screen selection:bg-emerald-500 selection:text-navy-950">
@@ -1291,6 +1299,7 @@ Project Parameters:`;
         }
 
         function copyTextToClipboard(text) {
+            text = text.replace(/\\n/g, '\n');
             if (navigator.clipboard) {
                 navigator.clipboard.writeText(text).then(() => {
                     showToast(currentLang === 'fa' ? 'ارجاع استنادی BibTeX با موفقیت کپی شد!' : 'BibTeX citation copied to clipboard!');
@@ -1365,14 +1374,27 @@ ${msg}`);
             window.location.href = `mailto:atalaghat@gmail.com?subject=${subject}&body=${body}`;
         }
 
+        function prefersReducedMotion() {
+            return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        }
+
         // --- Counter Animation ---
         function initCounters() {
             const counters = document.querySelectorAll('.counter-num');
             counters.forEach(c => {
                 const target = parseInt(c.getAttribute('data-target') || '0', 10);
+                if (prefersReducedMotion()) {
+                    c.innerText = target;
+                    return;
+                }
                 let current = 0;
                 const increment = Math.max(1, Math.ceil(target / 40));
                 const timer = setInterval(() => {
+                    if (prefersReducedMotion()) {
+                        c.innerText = target;
+                        clearInterval(timer);
+                        return;
+                    }
                     current += increment;
                     if (current >= target) {
                         c.innerText = target;
@@ -1389,6 +1411,8 @@ ${msg}`);
             const canvas = document.getElementById('bg-canvas');
             if (!canvas) return;
             const ctx = canvas.getContext('2d');
+            const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+            let animationFrame = null;
             let w, h;
             let particles = [];
 
@@ -1410,6 +1434,11 @@ ${msg}`);
             }
 
             function draw() {
+                if (motionPreference.matches) {
+                    ctx.clearRect(0, 0, w, h);
+                    animationFrame = null;
+                    return;
+                }
                 ctx.clearRect(0, 0, w, h);
                 ctx.fillStyle = '#10b981';
                 ctx.strokeStyle = 'rgba(52, 211, 153, 0.12)';
@@ -1441,8 +1470,17 @@ ${msg}`);
                         }
                     }
                 }
-                requestAnimationFrame(draw);
+                animationFrame = requestAnimationFrame(draw);
             }
+            motionPreference.addEventListener('change', event => {
+                if (event.matches) {
+                    if (animationFrame !== null) cancelAnimationFrame(animationFrame);
+                    animationFrame = null;
+                    ctx.clearRect(0, 0, w, h);
+                } else if (animationFrame === null) {
+                    draw();
+                }
+            });
             draw();
         }
 
