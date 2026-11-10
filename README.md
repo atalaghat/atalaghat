@@ -103,16 +103,16 @@ Experienced in connecting executive construction management with cutting-edge da
 ---
 
 ## Landmark Projects Portfolio (10 Verified Projects)
-1. **Airport & Highway Pavement Digital Twin Platform** — DigiPave International Project (Finland & Iran) | 2024 – 2026
-2. **Comprehensive Delay & Extension of Time Dossier for Shiraz High-Rise** — Private Developer & General Contractor | 2024
-3. **Structural Modeling, Seismic Retrofitting & Execution of 120-Bed Hospital** — Medical University / Contractor | 2021 – 2023
-4. **Technical Office Operations, Valuations & Escalation for Shiraz-Isfahan Freeway** — CDTIC | 2019 – 2022
-5. **EPC Contract Audit, Article 29/30 New Rates & Claims for Gas Pipeline** — National Iranian Gas Eng. & Dev. Co. | 2018 – 2019
-6. **BIM Authoring, 3D Clash Detection & Quantity Takeoff for Mehr Civic Center** — Municipality / Lead Consultant | 2020 – 2021
-7. **Steel Detailing, Shop Drawings & CNC Data for Logistics Terminal via Tekla** — Ports Authority / Steel Plant | 2019
-8. **Deep Learning Pipeline for Automated Pavement Distress & Crack Detection** — Academic R&D & Applied Gov Project | 2022 – 2024
-9. **Cloud Engineering Automation Platform & Online Quantity Calculation Engine** — WebAlfa Technology Co. | 2021 – 2023
-10. **Master Schedule, CPM Network & EVM Controls for Offshore Industrial Facility** — Industrial Energy Consortium | 2020
+1. **Smart Pavement Management System & Infrastructure Digital Twin Platform (DigiPave)** — University of Oulu & City of Oulu, Finland | 2024 – 2026
+2. **Loss & Expense Claim, Circular 5090 Delay Dossier & Contracts Administration for Simakan Water Transmission** — Sahar Sazeh Novin Paydar Co. / Fars Regional Water Authority | 2024 – 2026
+3. **Project Planning, CPM Controls & Concrete Monitoring for Shiraz District 4 & 10 Water Reservoirs** — Sahar Sazeh Novin Paydar Co. / Shiraz Municipality | 2024 – 2026
+4. **Comprehensive Delay Claim & Extension of Time Dossier for Kio Commercial-Residential Complex (170,000 m²)** — Private Consortium / Grade 1 General Contractor | 2022 – 2023
+5. **Master Scheduling & Project Controls for 1,210-Unit Mehr Housing Project (120,000 m²)** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
+6. **Quantity Surveying, Civil 3D Earthwork Estimating & Technical Office for 60-Hectare Landscaping** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
+7. **EPC Contract Audit, Article 29/30 Claims & Unit Rate Analysis for Gas Transmission Pipelines** — National Iranian Gas Engineering & Development Co. (NIGEC) | 2021 – 2023
+8. **Construction Supervision & Technical Execution for Shiraz University ECE Faculty (6,000 m²)** — Shiraz University / Tarh Mana Shahr Co. | 2015 – 2016
+9. **Full Structural Modeling, Analysis & Engineering Drawings for 6-Story Building (2,000 m²)** — Private Client / Fars Construction Engineering Organization | 2020 – 2021
+10. **Architecture & Full-Stack Development of WebAlfa, BIMGate, Paprika & Cloud Platforms** — Arka Noyan Industry Development Co. / WebAlfa | 2020 – 2025
 
 ---
 
