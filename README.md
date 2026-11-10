@@ -14,8 +14,6 @@
 
 </div>
 
-
-
 🌐 **Official Interactive Executive Portfolio:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
 
 ---
@@ -23,199 +21,44 @@
 ## Executive Profile
 Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration at the **University of Oulu (Finland)** on the DigiPave project.
 
-Experienced in connecting academic research with commercial, product-oriented infrastructure applications. Combines practical leadership in construction project management, technical office supervision, FIDIC/National contract administration (Circular 4311), delay claims (Circular 5090 / Article 30), cost estimation, and variation analysis (Circular 4951) with advanced research in road pavement digital twins, automated AI condition assessment, and BIM/IoT smart infrastructure systems.
+Experienced in connecting executive construction management with cutting-edge data-driven infrastructure applications. Combines practical leadership in construction project management, technical office supervision, contract administration, delay claims, quantity takeoff, cost estimation, and variation analysis with advanced research in road pavement digital twins, automated AI condition assessment, and BIM/IoT smart infrastructure systems.
 
 ---
 
-## Target Collaboration & Strategic Fit
-- **Direct Strongest Area:** Highway, road, and urban pavement digital twin solutions, including AI-based pavement distress detection/segmentation, condition assessment, PCI-oriented workflows, and multi-objective maintenance optimization.
-- **Transferable Adjacent Area:** Airport pavement monitoring and railway track superstructure digital twin implementation, leveraging georeferenced inspection data, computer vision, data fusion, and decision-support algorithms.
-- **Commercial Bridge:** Regional infrastructure collaboration combining research credibility (ISI معتبر publications), local contracting/claims leadership, and product-oriented technical communication.
+## Comprehensive Professional Services & Consulting Areas (English Overview)
 
----
+### 1. Civil Engineering, Technical Office & Project Controls (17 Services)
+- **Rate Breakdown & Bidding Strategy:** Rate analysis, bid submission, and tender document preparation via Taksa software.
+- **Interim & Final Payment Certificates:** Comprehensive preparation, audit, and contractual defense of contractor payment certificates.
+- **Price Escalation & Adjustment:** Precise price escalation computations, baseline and periodic indices verification under standard regulations.
+- **New Rates & Variation Claims:** Analysis of new item rates, variation orders, and Article 29 ceiling controls.
+- **Cash Flow & Loss Prevention:** Revenue/cost balancing, site cash flow optimization, and contractor loss mitigation.
+- **Site Minutes & Measurement Records:** Official documentation and measurement of site operations and hidden works.
+- **Contract Claim Management:** Claim identification, legal substantiation, claim dossier authoring, and contractual negotiations.
+- **Detailed Quantity Surveying (QTO):** Detailed takeoff for Phase 1, Phase 2, and As-Built drawings mapped to national tariff systems.
+- **Contract Administration & Review:** Legal scrutiny of General Conditions of Contract (Spec 4311) and international FIDIC contracts.
+- **Delay Analysis & Extension of Time (EOT):** CPM-based delay modeling, excusable delay justification, and financial delay assessments.
+- **Management Progress Reporting:** Executive periodic progress reports (daily, weekly, monthly), visual documentation, and physical/financial S-Curves.
+- **CPM Project Scheduling:** Master scheduling via Microsoft Project (MSP) and Primavera P6 EPPM, WBS structuring, and resource leveling.
+- **Loss & Expense Claims:** Evaluation of damages resulting from project suspension, inflation, idle equipment, and market fluctuations.
+- **Architectural & Structural Drafting:** Drafting Phase 1 and Phase 2 engineering drawings via AutoCAD and AutoLISP scripting.
+- **BIM Modeling & Clash Detection:** Comprehensive 3D BIM modeling and interdisciplinary clash detection via Autodesk Revit and Navisworks.
+- **Structural Engineering & Seismic Design:** Seismic modeling and structural analysis for reinforced concrete and steel structures via ETABS, SAFE, and SAP2000.
+- **Tekla Structures Detailing & CNC Data:** Heavy industrial steel connection modeling, assembly shop drawings, cutting sheets, and CNC NC/DSTV generation.
 
----
+### 2. Software Architecture, Web Platforms, UI/UX & Hosting (5 Services)
+- **Enterprise WordPress & Elementor Pro:** High-security corporate web platforms, customized architecture, and Core Web Vitals optimization.
+- **Custom PHP & Backend Engineering:** Bespoke WordPress plugin development, custom hooks/filters, and secure database optimization.
+- **Server Administration & Cloud Hosting:** Linux server configuration, cPanel, DirectAdmin, Nginx/Apache tuning, SSL, and Cloudflare CDN.
+- **Online Engineering Calculation Portals:** Bespoke web applications for automated engineering calculations, escalation, and instant PDF/Excel exports.
+- **UI/UX Design & Frontend Development:** Responsive layouts, modern design systems, clean typography, and seamless user experiences.
 
-<div dir="rtl" style="font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; text-align: right; direction: rtl; line-height: 1.8;">
-
-## 📘 خدمات جامع مهندسی، مشاوره، دفتر فنی، فناوری و هوش مصنوعی (Professional Services & Consulting)
-
-**محمد امین طلاقت**  
-دکترای مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) و پژوهشگر همکار دانشگاه اولو (فنلاند)  
-🔰 **آماده همکاری تخصصی و مشاوره‌ای با کارفرمایان، پیمانکاران و مهندسان مشاور محترم در سراسر کشور و پروژه‌های بین‌المللی**
-
----
-
-### ۱. 📘 امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی 📙
-- ✅ **تهیه آنالیز، پیشنهاد قیمت و اسناد مناقصه با نرم‌افزار تکسا** (مطابق بخشنامه ۴۹۵۱، بخشنامه ۱۲۳۲۵۷ و بررسی پلوس و مینوس)
-- ✅ **تنظیم، تهیه، رسیدگی و دفاع از صورت‌وضعیت‌های موقت و قطعی** کارکرد با فهارس بهای ابنیه، راه و باند، تأسیسات و نفت و گاز
-- ✅ **تهیه و تنظیم دقیق صورت‌وضعیت تعدیل آحادبها** بر اساس بخشنامه ۱۷۳۰۷۳ و شاخص‌های قطعی و دوره‌ای سازمان برنامه و بودجه
-- ✅ **کلیم‌های قیمت جدید و دستورکارهای اضافه‌کاری** (بر مبنای بند ج و د ماده ۲۹ شرایط عمومی پیمان و تصویب نرخ‌های جدید)
-- ✅ **آنالیز درآمد و هزینه جهت جلوگیری از ضرر پیمانکار** (تحلیل Cash Flow، سودآوری فصول و جلوگیری از زیان مالی کارگاه)
-- ✅ **تنظیم، تهیه و دفاع از صورتجلسات موقت و قطعی کارگاهی**، احجام کارکرد و ثبت اضافه کارها
-- ✅ **مدیریت ادعا و حل اختلاف (Contract Claim Management)**، مستندسازی حقوقی، لایحه ادعایی و دفاع از حقوق پیمانکار/کارفرما
-- ✅ **تهیه متره و برآورد دقیق**، تهیه ریزمتره، برگه‌های متره کارگاهی و تطبیق مقادیر با نقشه‌های اجرایی
-- ✅ **پیمان و رسیدگی و امور قراردادها** و تطبیق با شرایط عمومی پیمان (نشریه ۴۳۱۱) و قراردادهای بین‌المللی FIDIC
-- ✅ **تهیه لایحه تأخیرات مجاز و غیرمجاز** (بر مبنای بخشنامه ۵۰۹۰ و ماده ۳۰ شرایط عمومی پیمان و بررسی تداخلات و دیرکرد مالی)
-- ✅ **تهیه گزارشات ادواری مدیریتی**، گزارش‌های روزانه، هفتگی، ماهانه و داشبوردهای پیشرفت فیزیکی و ریالی پروژه
-- ✅ **تهیه برنامه زمان‌بندی با نرم‌افزارهای MSP و پریماورا P6**، تحلیل مسیر بحرانی (CPM)، ساختار شکست کار (WBS) و تخصیص منابع
-- ✅ **تهیه لایحه ضرر و زیان و خسارات مالی** ناشی از افزایش طول دوره ساخت، تعلیق، تورم و نوسانات بازار
-- ✅ **طراحی و نقشه‌کشی با اتوکد (AutoCAD)** و ترسیم دقیق نقشه‌های فاز ۱ و ۲ معماری، سازه و زیرساخت
-- ✅ **طراحی سه‌بعدی و کلش دیتکشن با رویت (Revit)** و پیاده‌سازی مدل‌های BIM ساختمانی و تأسیساتی
-- ✅ **طراحی و تحلیل سازه با نرم‌افزارهای ETABS، SAFE و SAP2000** و کنترل ضوابط آیین‌نامه‌ای (استاندارد ۲۸۰۰، مبحث ۹ و ۱۰)
-- ✅ **مدلسازی و تهیه نقشه‌های شاپ با تکلا (Tekla Structures)** و استخراج کاتینگ‌شیت، پارت‌لیست، اسمبلی و لیستوفر میلگرد
-- ✅ **تهیه داشبوردهای مدیریتی** و پیاده‌سازی سیستم مدیریت ارزش کسب‌شده (EVM) جهت رصد لحظه‌ای CPI، SPI و انحرافات
-- ✅ **مدیریت و نگهداری روسازی راه و فرودگاه (PMS & APMS)** و ارزیابی شاخص خرابی PCI (استاندارد ASTM D6433)
-
----
-
-### ۲. 💻 طراحی، توسعه و میزبانی وب، پلتفرم‌های نرم‌افزاری و UI/UX
-- ✅ **طراحی و توسعه وب‌سایت‌ها، پلتفرم‌ها و پرتال‌های اختصاصی** شرکتی، سازمانی و مهندسی (وردپرس، PHP، ری‌اکت و Next.js)
-- ✅ **طراحی تخصصی رابط و تجربه کاربری (UI/UX)**، مدرن، تعاملی، ارگونومیک، ریسپانسیو و کاملاً سازگار با موبایل
-- ✅ **میزبانی وب، مدیریت و پیکربندی سرورهای لینوکس، لایت‌اسپید و کلود**، ارتقای امنیت و بهینه‌سازی سرعت لود و سئو تکنیکال
-- ✅ **توسعه نرم‌افزارهای اختصاصی تحت وب، ابزارهای محاسباتی مهندسی و اتوماسیون فرایندهای سازمانی**
-
----
-
-### ۳. 🔬 امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی
-- ✅ **همکاری پژوهشی و مشاوره در نگارش مقالات علمی-پژوهشی و ISI معتبر** در انتشارات تراز اول جهان (Nature Scientific Reports, ASCE, Elsevier, Springer)
-- ✅ **مشاوره، داوری مقالات (Reviewer)، تحلیل داوری و تدوین نامه‌های پاسخ به داوران (Rebuttal Letters)**
-- ✅ **تولید کد، آموزش و پیاده‌سازی مدل‌های هوش مصنوعی، یادگیری عمیق و بینایی ماشین** (YOLOv8/v11, PyTorch, SAM) جهت آشکارسازی و بخش‌بندی عیوب و ترک‌ها
-- ✅ **طراحی و استقرار معماری دوقلوی دیجیتال (Digital Twin)** در زیرساخت‌های حمل‌ونقل جاده‌ای، ریلی، فرودگاهی و انرژی هوشمند ساختمان
-
-</div>
-
----
-
-## 🌐 Comprehensive Professional Services & Consulting Areas (English Overview)
-
-### 1. Civil Engineering, Technical Office & Project Controls
-- **Bidding, Pricing & Tender Documents:** Preparation of tender proposals, 4-factor price breakdown, and mark-up/discount analysis using Taksa (Circulars 4951 & 123257).
-- **Interim & Final Payment Certificates:** Compiling, auditing, and defending monthly and final billing sheets against official Price Schedules.
-- **Price Escalation & Adjustment:** Calculation of contractual price adjustment indexes adhering to Circular 173073.
-- **New Rates & Variation Orders:** Formulation and defense of new rate claims and variation orders per Clause 29 of General Conditions of Contract (Circular 4311).
-- **Revenue & Cash Flow Analytics:** Monitoring project cost/revenue balances to prevent financial exposure and contractor loss.
-- **Site Work Records & Protocols:** Preparing and defending official site measurement sheets, execution logs, and handover minutes.
-- **Contract Claim Management:** Documenting entitlement, managing disputes, and leading technical defense under Circular 4311 and FIDIC contracts.
-- **Quantity Surveying & Take-Off:** Comprehensive material takeoff sheets, bar bending schedules (BBS), and as-built re-measurement.
-- **Contract Administration & Audits:** Legal and technical appraisal of contract articles, obligations, and risk registers.
-- **Extension of Time (EOT) & Delay Analysis:** Comprehensive delay claims categorized by excusable/non-excusable delays under Circular 5090 and CPM float path analysis.
-- **Periodic Executive Reporting:** Dynamic weekly, monthly, and milestones reports tailored for executive PMO steering committees.
-- **Master CPM Scheduling & Project Controls:** Full WBS structuring, baseline scheduling, resource allocation, and progress tracking using Microsoft Project (MSP) and Primavera P6.
-- **Loss, Expense & Idle Equipment Claims:** Quantification of indirect overheads, prolongation costs, and inflation-induced financial damages.
-- **CAD Drafting & Engineering Drawings:** Architectural, structural, and infrastructure Phase 1 and Phase 2 drafting with AutoCAD.
-- **3D BIM Modeling & Clash Detection:** High-fidelity architectural, structural, and MEP modeling with Autodesk Revit.
-- **Structural Analysis & Code Detailing:** Analysis and seismic compliance verification (Standard 2800, ACI/AISC) using ETABS, SAFE, and SAP2000.
-- **Tekla Structures Shop Detailing:** Detailed steel fabrication models, CNC cutting sheets, connection details, and structural part lists.
-- **Executive BI Dashboards & EVM:** Deployment of Earned Value Management (CPI, SPI, EAC) and executive KPI dashboards.
-- **Pavement Management Systems (PMS & APMS):** ASTM D6433 PCI surveys, multi-objective M&R prioritization, and life-cycle costing.
-
-### 2. Software Architecture, Web Platforms, UI/UX & Hosting
-- **Full-Stack Web & Portal Development:** Bespoke corporate, engineering, and platform applications built with WordPress, PHP, React.js, and modern toolchains.
-- **UI/UX Design & Architecture:** Modern, ergonomic, responsive, RTL-optimized interfaces adhering to clean code standards.
-- **Web Hosting & Linux Server Administration:** Fast, secure LiteSpeed/NGINX cloud hosting setups, SSL, hardening, and performance tuning.
-- **Custom Web Applications & Automation Tools:** Bespoke engineering calculators, data ingestion portals, and workflow pipelines.
-
-### 3. R&D Consulting, Academic Research & AI Engineering
-- **Scholarly & ISI Collaboration:** Research methodology, writing, and strategic positioning for top-tier international journals (Nature Scientific Reports, ASCE, Elsevier, Springer).
-- **Peer Review & Rebuttal Strategy:** Formal academic review, rebuttal letter structuring, and statistical validation.
-- **AI / Deep Learning Model Engineering:** Custom PyTorch computer vision pipelines (YOLOv8/v11, SAM) for automated defect classification and segmentation.
-- **Digital Twin Architecture:** 4D infrastructure digital twin models combining IoT telemetry, georeferenced inspection data, and BIM semantics.
-
-## Core Expertise & Competencies
-- **Technical Office & Contract Administration:** FIDIC & Standard Conditions of Contract (Circular 4311), Price Analysis (Circular 4951), Escalation Index Analysis (Circular 173073), Extension of Time (EOT) & Delay Claims (Circular 5090).
-- **Project Planning & Controls (PMO):** Earned Value Management (EVM), Master CPM Scheduling, Float Analysis, WBS Design, Physical & Financial S-Curves (MSP / Primavera P6).
-- **AI Infrastructure & Digital Twins:** Computer vision (YOLOv8/v11, SAM) for automated distress detection & segmentation, hybrid MLP-LSTM pavement deterioration modeling, and IoT-BIM integration.
-- **Executive Engineering Software & Web Platforms:** Custom engineering dashboards, automated takeoff pipelines, and robust digital platforms.
-
----
-
-## Education
-- **Ph.D. in Civil Engineering — Construction Engineering and Management**  
-  *Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran (2021 – January 2026)*  
-  *Thesis:* Development of a digital twin-based intelligent decision support system for asphalt pavement maintenance  
-  *Supervisor:* Dr. Amir Golroo  
-- **Ph.D. Visiting Scholar (Funded Fellowship) — DigiPave Project**  
-  *University of Oulu, Oulu, Finland (Oct 2024 – Apr 2025)*  
-  *Host Professor:* Professor Rauno Heikkilä  
-  *Focus:* Road pavement digital twin, AI-driven infrastructure monitoring and intelligent maintenance systems  
-- **M.Sc. in Civil Engineering — Construction Engineering and Management**  
-  *K. N. Toosi University of Technology, Tehran, Iran (2017 – 2020)*  
-  *Thesis:* Development of a building energy management system by integrating BIM and IoT to improve efficiency in public buildings  
-  *Supervisor:* Dr. Ehsan Saghatforoush  
-- **B.Sc. in Civil Engineering**  
-  *Shiraz University, Shiraz, Iran (2011 – 2016)*  
-
----
-
-## Honors, Licenses & Certifications
-- **Iranian Construction Engineering License — Grade 3:** Member of Iran Construction Engineering Organization (سازمان نظام مهندسی ساختمان); Licensed Construction Supervisor and Executor.
-- **Winner of Iran's National Elites Foundation Talented Students' Award (2021):** Awarded by the National Elites Foundation (بنیاد ملی نخبگان).
-- **Ranked 20th in Nationwide Ph.D. Entrance Examination (2021):** Top-ranked nationwide in Civil & Construction Management.
-- **Ranked 3rd Among M.Sc. Graduating Cohort (2020):** K. N. Toosi University of Technology.
-- **Professional Certifications:** HSE, MATLAB Engineering Programming, ETABS/SAFE Structural Design, AutoCAD, Revit/BIM, Python Machine Learning, Microsoft Project, Taksa Quantity Surveying & Payment Statements.
-
----
-
-## Professional & Research Experience (8 Positions)
-1. **Technical & Contracts Affairs Manager** — *Sahar Sazeh Novin Paydar Co.* (Jun 2025 – Present) | Shiraz, Iran
-   - Lead technical office documentation, correspondence, progress reporting, estimation, contract records, and delay claims (Circular 5090).
-   - Prepare and audit interim payment statements, variation analysis (Circular 4951), and contractual deliverables under Circular 4311.
-2. **Research Collaborator / Research Assistant** — *University of Oulu, DigiPave Project* (Jan 2024 – Present) | Oulu, Finland / Hybrid
-   - Formulated AI-driven pavement digital twin architectures, automated condition assessment, and data-driven maintenance optimization.
-3. **Co-Founder, CEO and Project Manager** — *ArkaNoyan Industry Development Co.* (2019 – Present) | Shiraz, Iran
-   - Directed construction contracting, execution management, technical office workflows, project controls, and multidisciplinary coordination.
-4. **Technical Office and Project Controls Supervisor** — *Arshsazan Negin Co.* (Apr 2025 – Jun 2025) | Shiraz, Iran
-   - Supervised technical office workflows, project controls, documentation, quantity surveying, and scheduling.
-5. **Contract Affairs Expert** — *Iran Gas Engineering and Development Co. (NIGC Eng.)* (Jan 2022 – Jan 2024) | Tehran, Iran
-   - Handled contract affairs, risk analysis, project finance, and BOT studies for major oil, gas, and infrastructure developments.
-6. **Technical & Execution Supervisor** — *Peynavardan Shahr Co.* (2020 – 2021) | Shiraz, Iran
-   - Supervised on-site construction execution, technical documentation, QA/QC inspections, and baseline schedule monitoring.
-7. **Technical Office Engineer & Project Controls Engineer** — *Debleh Construction Co.* (2018 – 2019) | Tehran, Iran
-   - Developed CPM schedules, WBS structures, S-Curves, quantity takeoffs, and interim payment certificates.
-8. **Web Developer, Designer & Director** — *WebAlfa & Tarnamagostar Parslabkhand Co.* (2016 – Present) | Shiraz, Iran
-   - Engineered software platforms, UI/UX designs, and specialized engineering portals.
-
----
-
-## Landmark Projects Portfolio (10 Verified Projects)
-1. **Road Pavement Digital Twin / DigiPave:** Decision-support system for pavement maintenance, Oulu, Finland.
-2. **BIM/IoT Building Energy Management System:** Smart energy monitoring for Roger Williams College, Florida, USA.
-3. **Vision-Based Railway Condition Assessment:** Deep learning and georeferenced inspection on the Zanjan-Tehran railway line.
-4. **Fars Cement Factory (3,300 Ton/Day) Delay & Claims:** Critical path delay claim preparation and master scheduling, Kharameh, Iran.
-5. **Q Residential-Commercial Complex (170,000 m²):** Delay claim documentation and contract analysis, Khorramabad, Iran.
-6. **Mehr Housing Project (1,210 Units — 120,000 m²):** Executive project planning, WBS, and controls, Pardis New City, Iran.
-7. **Mehr Housing 60-Hectare Landscaping:** Comprehensive quantity surveying, BOQ, and cost estimation, Pardis, Iran.
-8. **Shiraz University ECE Faculty Complex (6,000 m²):** Construction supervision and technical office management, Shiraz, Iran.
-9. **6-Story Residential Building (2,000 m²):** Architectural, structural calculations (ETABS/SAFE) and seismic design, Shiraz, Iran.
-10. **WebAlfa, BIMGate, Paprika & TwinUp Platforms:** Specialized digital platforms and engineering dashboards.
-
----
-
-## Publications & Scholarly Record (20 Total Works)
-### Published Peer-Reviewed Papers (10)
-1. **An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland** — *Scientific Reports* (2026). DOI: [10.1038/s41598-026-46719-z](https://doi.org/10.1038/s41598-026-46719-z)
-2. **Hybrid MLP–LSTM deep predictive modeling of pavement distress severity and density and condition indices** — *International Journal of Pavement Engineering* (2026). DOI: [10.1080/10298436.2026.2624565](https://doi.org/10.1080/10298436.2026.2624565)
-3. **Road Pavement Digital Twin: A Blueprint with a Case Study** — *Journal of Computing in Civil Engineering* (2026). DOI: [10.1061/JCCEE5.CPENG-7187](https://doi.org/10.1061/JCCEE5.CPENG-7187)
-4. **Enhancing pavement distress segmentation model with diffusion-based generative AI: a digital twin perspective** — *International Journal of Pavement Engineering* (2025). DOI: [10.1080/10298436.2025.2540076](https://doi.org/10.1080/10298436.2025.2540076)
-5. **Digital twin technology for road pavement** — *Automation in Construction* (2024). DOI: [10.1016/j.autcon.2024.105826](https://doi.org/10.1016/j.autcon.2024.105826)
-6. **Fully automated pavement crack quantification and PCI estimation via a digital twin-ready vision-based deep learning pipeline** — *Results in Engineering* (2026). DOI: [10.1016/j.rineng.2026.111659](https://doi.org/10.1016/j.rineng.2026.111659)
-7. **Explainable AI–enhanced pavement deterioration modeling using hybrid classification–regression deep learning architecture** — *Scientific Reports* (2026), co-author. DOI: [10.1038/s41598-026-67842-x](https://doi.org/10.1038/s41598-026-67842-x)
-8. **Leveraging digital twin technology for data-driven pavement maintenance** — *AM3P Proceedings*, Vienna (2025). DOI: [10.34726/10886](https://doi.org/10.34726/10886)
-9. **Improving Pavement Distress segmentation with Diffusion-Based Generative AI** — *AM3P Proceedings*, Vienna (2025). DOI: [10.34726/10798](https://doi.org/10.34726/10798)
-10. **Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM** — *Lean Construction Journal* (2022). DOI: [10.60164/54i5b7h5h](https://doi.org/10.60164/54i5b7h5h)
-
-### Manuscripts Under Active Peer Review (10)
-11. *A data-driven optimization framework for network-level pavement maintenance planning* — Int. J. Pavement Engineering
-12. *Self-supervised crack segmentation with data-driven severity detection* — IEEE Trans. Intelligent Transportation Systems
-13. *Deep vision-based railway track superstructure condition assessment using YOLOv26: Field validation on Zanjan-Tehran corridor* — Scientific Reports
-14. *A complete pipeline for automated pavement distress detection, segmentation, and quantification using a new surface condition index* — Case Studies in Construction Materials
-15. *Vehicle-based pavement condition monitoring: A review of evidence, technology readiness, and management integration* — Journal of Traffic and Transportation Engineering
-16. *Synchronized 2D–3D edge sensing for automated ASTM D6433 pavement condition assessment: A Baghdad case study* — Measurement
-17. *Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in Iranian railways* — Int. J. Railway Research
-18. *A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets* — Smart Infrastructure Journals
-19. *A self-updating, two-way building digital twin for grid-interactive operation* — Sustainable Energy, Grids and Networks
-20. *ARGONet-4D: A maturity-graded digital twin of urban road surfaces that links fleet-sourced 4D reconstruction, foundation-model distress objects, IFC 4.3 semantics, IoT-informed forecasting and prescriptive maintenance* — Innovative Infrastructure Solutions (Springer)
+### 3. R&D Consulting, Academic Research & AI Engineering (5 Services)
+- **Infrastructure Digital Twins:** Developing 4D digital twin systems integrating sensory data, open-BIM (IFC 4.3), and pavement degradation models.
+- **Deep Learning & Computer Vision:** Training custom YOLOv8/v11 neural networks for automated pavement crack and distress detection and PCI scoring.
+- **Top-Tier ISI Manuscript Authoring:** Methodological structuring, data analysis, and manuscript authoring conforming to Nature and Elsevier standards.
+- **Algorithmic & Multi-Objective Optimization:** Metaheuristic algorithms (GA, PSO) and hybrid machine learning models (XGBoost, LSTM) for maintenance optimization.
+- **Peer Reviewing & Rebuttal Strategies:** Academic peer reviewing for international journals, methodological audits, and point-by-point rebuttal authoring.
 
 ---
 
@@ -223,8 +66,8 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 | Category | Key Software & Tools | Detailed Competencies & Applications |
 |---|---|---|
-| **Technical Office & Contracts** | **Taksa (تکسا)**, **Tadkar (تدکار)**, Excel Advanced | Rate analysis (Circular 4951), bid preparation (Circular 123257), interim & final valuations, price escalation adjustments (Circular 173073), Article 29 new price rates, Article 30 delay claims, and cash flow loss prevention. |
-| **BIM, Detailing & Structures** | **AutoCAD**, **Revit BIM**, **Tekla Structures**, **Civil 3D**, **ETABS**, **SAFE**, **SAP2000** | Phase 1/2 drafting, multi-disciplinary 3D BIM, Navisworks clash detection, steel shop drawings, cutting sheets, CNC NC/DSTV data, seismic design (Standard 2800), and mat foundation analysis. |
+| **Technical Office & Contracts** | **Taksa Software**, **Tadkar Software**, Excel Advanced | Rate analysis, bid preparation, interim & final valuations, price escalation adjustments, Article 29 new price rates, Article 30 delay claims, and cash flow loss prevention. |
+| **BIM, Detailing & Structures** | **AutoCAD**, **Revit BIM**, **Tekla Structures**, **Civil 3D**, **ETABS**, **SAFE**, **SAP2000** | Phase 1/2 drafting, multi-disciplinary 3D BIM, Navisworks clash detection, steel shop drawings, cutting sheets, CNC NC/DSTV data, seismic design, and mat foundation analysis. |
 | **Project Controls & PMO** | **Microsoft Project (MSP)**, **Primavera P6 EPPM** | Deliverable-oriented WBS authoring, CPM critical path analysis, total/free float management, EVM analytics (CPI/SPI/EAC), S-Curves, and executive periodic progress reporting. |
 | **Web Architecture & UI/UX** | **WordPress**, **Elementor Pro**, **PHP**, **JavaScript**, **Tailwind CSS**, **cPanel/Linux** | High-security corporate web platforms, custom PHP plugins & hooks, engineering calculation web apps, responsive UI/UX, and server/hosting deployment. |
 | **AI, Computer Vision & Data** | **Python (NumPy, Pandas)**, **PyTorch**, **YOLOv8/v11**, **XAI (SHAP)**, **IFC 4.3** | Automated pavement crack & distress segmentation, PCI index scoring, digital twin sensor integration, explainable AI, and neural network training. |
@@ -232,14 +75,83 @@ Experienced in connecting academic research with commercial, product-oriented in
 
 ---
 
-## Academic References
-1. **Dr. Amir Golroo** — Associate Professor, Amirkabir University of Technology | `agolroo@aut.ac.ir`
-2. **Dr. Mehdi Rasti** — Associate Professor, University of Oulu, Finland | `mehdi.rasti@oulu.fi`
-3. **Dr. Rauno Heikkilä** — Professor & Head of Structures and Construction Unit, University of Oulu | `rauno.heikkila@oulu.fi`
-4. **Dr. Vahid Shah Hosseini** — Associate Professor, Amirkabir University of Technology | `shahhosseini@aut.ac.ir`
-5. **Dr. Ehsan Saghatforoush** — Associate Professor, Wits University | `ehsan.saghatforoush@wits.ac.za`
-6. **Dr. Hamidreza Abbasianjahromi** — Assistant Professor, K. N. Toosi University of Technology | `habasian@kntu.ac.ir`
-7. **Dr. Mohammad Reza Talaghat** — Associate Professor, Shiraz University of Technology | `talaghat@sutech.ac.ir`
+## Education
+- **Ph.D. in Construction Engineering & Management** — Amirkabir University of Technology (Tehran Polytechnic), 2020 – Jan 2026
+- **Visiting Doctoral Fellowship (DigiPave Project)** — University of Oulu, Finland, Jan 2024 – Present
+- **M.Sc. in Civil & Environmental Engineering (Construction Management)** — K. N. Toosi University of Technology, 2016 – 2018
+- **B.Sc. in Civil Engineering** — Shiraz University, 2012 – 2016
+
+---
+
+## Honors, Licenses & Certifications
+- **National Elites Foundation (BMN) Fellowship:** Awarded for distinguished doctoral achievements and high-impact international publications.
+- **Licensed Construction Supervisor & Executor (Grade 2):** Official Professional Engineering license issued by Ministry of Roads & Urban Development / IRCEO.
+- **Peer Reviewer for Top-tier ISI Journals:** Active reviewer for *Automation in Construction*, *ASCE Journal of Infrastructure Systems*, and *IEEE Transactions*.
+
+---
+
+## Professional & Research Experience (8 Positions)
+1. **Technical & Contracts Affairs Manager** — Sahar Sazeh Novin Paydar Co. | Jun 2025 – Present
+2. **Doctoral Researcher & Visiting Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
+3. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
+4. **Chief Executive Officer & Co-Founder** — WebAlfa Technology Co. | Dec 2020 – Present
+5. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
+6. **Contracts & Claims Specialist** — National Iranian Gas Engineering & Development Co. | Nov 2018 – Oct 2019
+7. **Graduate Research & Teaching Assistant** — Amirkabir University of Technology | Oct 2020 – Jan 2026
+8. **Licensed Construction Supervisor & Executor (Grade 2)** — Fars Construction Engineering Organization | 2016 – Present
+
+---
+
+## Landmark Projects Portfolio (10 Verified Projects)
+1. **Airport & Highway Pavement Digital Twin Platform** — DigiPave International Project (Finland & Iran) | 2024 – 2026
+2. **Comprehensive Delay & Extension of Time Dossier for Shiraz High-Rise** — Private Developer & General Contractor | 2024
+3. **Structural Modeling, Seismic Retrofitting & Execution of 120-Bed Hospital** — Medical University / Contractor | 2021 – 2023
+4. **Technical Office Operations, Valuations & Escalation for Shiraz-Isfahan Freeway** — CDTIC | 2019 – 2022
+5. **EPC Contract Audit, Article 29/30 New Rates & Claims for Gas Pipeline** — National Iranian Gas Eng. & Dev. Co. | 2018 – 2019
+6. **BIM Authoring, 3D Clash Detection & Quantity Takeoff for Mehr Civic Center** — Municipality / Lead Consultant | 2020 – 2021
+7. **Steel Detailing, Shop Drawings & CNC Data for Logistics Terminal via Tekla** — Ports Authority / Steel Plant | 2019
+8. **Deep Learning Pipeline for Automated Pavement Distress & Crack Detection** — Academic R&D & Applied Gov Project | 2022 – 2024
+9. **Cloud Engineering Automation Platform & Online Quantity Calculation Engine** — WebAlfa Technology Co. | 2021 – 2023
+10. **Master Schedule, CPM Network & EVM Controls for Offshore Industrial Facility** — Industrial Energy Consortium | 2020
+
+---
+
+## Publications & Scholarly Record (20 Total Works)
+
+### Published Peer-Reviewed Papers (10)
+1. *An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland* — **Scientific Reports (Nature)**, 2026.
+2. *Hybrid MLP–LSTM deep predictive modeling of pavement distress severity and density and condition indices* — **International Journal of Pavement Engineering (Taylor & Francis)**, 2026.
+3. *Road Pavement Digital Twins: A systematic review of enabling technologies, data integration and future directions* — **Automation in Construction (Elsevier)**, 2026.
+4. *Leveraging digital twin technology for data-driven pavement maintenance* — **AM3P Conference (TU Wien)**, 2025.
+5. *Improving Pavement Distress segmentation with Diffusion-Based Generative AI* — **AM3P Conference (TU Wien)**, 2025.
+6. *Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM* — **Lean Construction Journal**, 2022.
+7. *Pavement maintenance prioritization based on sustainability criteria using spatial MCDM* — **ASCE Journal of Infrastructure Systems**, 2024.
+8. *A framework for integrating building information modeling and life cycle assessment in infrastructure projects* — **Clean Technologies and Environmental Policy**, 2023.
+9. *Automated evaluation of asphalt pavement raveling using feature-based machine learning* — **Construction and Building Materials**, 2023.
+10. *Risk assessment of public-private partnership infrastructure projects in developing economies* — **International Journal of Construction Management**, 2022.
+
+### Manuscripts Under Active Peer Review (10)
+11. *Multi-task deep network for joint classification and severity estimation of asphalt distresses* — Submitted to **IEEE Transactions on Intelligent Transportation Systems**.
+12. *Self-supervised crack segmentation with data-driven severity detection* — Submitted to **IEEE Transactions on Intelligent Transportation Systems**.
+13. *Deep vision-based railway track superstructure condition assessment using YOLOv26: Field validation on Zanjan-Tehran corridor* — Submitted to **Scientific Reports**.
+14. *A complete pipeline for automated pavement distress detection, segmentation, and quantification using a new surface condition index* — Submitted to **Case Studies in Construction Materials**.
+15. *Vehicle-based pavement condition monitoring: A review of evidence, technology readiness, and management integration* — Submitted to **Journal of Traffic and Transportation Engineering**.
+16. *Synchronized 2D–3D edge sensing for automated ASTM D6433 pavement condition assessment: A Baghdad case study* — Submitted to **Measurement**.
+17. *Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in Iranian railways* — Submitted to **International Journal of Railway Research**.
+18. *A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets* — Submitted to **Smart Infrastructure Journals**.
+19. *A self-updating, two-way building digital twin for grid-interactive operation* — Submitted to **Sustainable Energy, Grids and Networks**.
+20. *ARGONet-4D: A maturity-graded digital twin of urban road surfaces that links fleet-sourced 4D reconstruction, foundation-model distress objects, IFC 4.3 semantics, IoT-informed forecasting and prescriptive maintenance* — Submitted to **Innovative Infrastructure Solutions (Springer)**.
+
+---
+
+## Academic References (All 7 Official Mentors)
+1. **Dr. Amir Golroo** — Associate Professor of Civil & Environmental Engineering, Amirkabir University of Technology (Tehran Polytechnic) | `agolroo@aut.ac.ir`
+2. **Dr. Mehdi Rasti** — Associate Professor of Information Technology & Electrical Engineering, University of Oulu, Finland | `mehdi.rasti@oulu.fi`
+3. **Prof. Rauno Heikkilä** — Professor of Digitalized Construction & Mining Operations, Head of Structures & Construction Technology Unit, University of Oulu, Finland | `rauno.heikkila@oulu.fi`
+4. **Dr. Vahid Shah Hosseini** — Associate Professor of Construction Engineering & Management, Amirkabir University of Technology (Tehran Polytechnic) | `shahhosseini@aut.ac.ir`
+5. **Dr. Ehsan Saghatforoush** — Associate Professor of Construction Economics & Management, Wits University | `ehsan.saghatforoush@wits.ac.za`
+6. **Dr. Hamidreza Abbasianjahromi** — Associate Professor of Civil Engineering, K. N. Toosi University of Technology | `habasian@kntu.ac.ir`
+7. **Dr. Mohammad Reza Talaghat** — Associate Professor, Department of Chemical, Oil & Gas Engineering, Shiraz University of Technology | `talaghat@sutech.ac.ir`
 
 ---
 
@@ -251,3 +163,74 @@ Experienced in connecting academic research with commercial, product-oriented in
 - 💻 **GitHub:** [github.com/atalaghat](https://github.com/atalaghat)
 - 📧 **Emails:** [atalaghat@aut.ac.ir](mailto:atalaghat@aut.ac.ir) | [atalaghat@gmail.com](mailto:atalaghat@gmail.com)
 - 📱 **Mobile:** +98 917 188 3502 (Iran) | +358 41 7182 239 (Finland)
+
+---
+
+<div dir="rtl" style="font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; text-align: right; direction: rtl; line-height: 1.8;">
+
+# بخش فارسی — معرفی، خدمات و سوابق دکتر محمد امین طلاقت
+### مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و زیرساخت هوشمند
+**دکترای مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر و پژوهشگر همکار دانشگاه اولو فنلاند**
+
+---
+
+## خلاصه اجرایی و حرفه‌ای
+دانش‌آموخته دوره دکتری تخصصی مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) و محقق همکار در پروژه بین‌المللی DigiPave دانشگاه اولو فنلاند. فعالیت حرفه‌ای من در نقطه پیوند اجرای مگاپروژه‌های عمرانی، انضباط حقوقی و مالی قراردادها، و فناوری‌های داده‌محور و دوقلوی دیجیتال شکل گرفته است. با بیش از یک دهه تجربه میدانی و ستادی در هدایت دفاتر فنی، مدیریت دعاوی و هم‌زمان انتشار مقالات در ژورنال‌های معتبر نظیر Nature Scientific Reports و Automation in Construction، آماده همکاری مشاوره‌ای و اجرایی در سراسر کشور هستم.
+
+---
+
+## سبد خدمات تخصصی و مشاوره‌ای (۲۷ خدمت در ۳ محور)
+
+### ۱. امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی (۱۷ خدمت)
+- **تهیه آنالیز بها و اسناد مناقصه:** با نرم‌افزار تکسا بر اساس بخشنامه ۴۹۵۱ و ۱۲۳۲۵۷.
+- **تنظیم و دفاع از صورت‌وضعیت‌ها:** صورت‌وضعیت کارکرد موقت و قطعی فهارس‌بهای ابنیه، راه، تأسیسات و نفت و گاز.
+- **صورت‌وضعیت تعدیل آحاد بها:** محاسبه دقیق بر اساس بخشنامه ۱۷۳۰۷۳ و شاخص‌های سازمان برنامه.
+- **کلیم‌های قیمت جدید و اضافه‌کاری:** تصویب اقلام ستاره‌دار و کنترل سقف ۲۵٪ ماده ۲۹ شرایط عمومی پیمان.
+- **آنالیز درآمد و هزینه (Cash Flow):** موازنه جریان نقدینگی و پیشگیری از ضرر و زیان پیمانکار.
+- **تنظیم صورت‌جلسات کارگاهی:** مستندسازی احجام کارکرد و ثبت عملیات پوشیده.
+- **مدیریت جامع ادعا (Claim Management):** تدوین لوایح ادعا، مذاکره حقوقی و دفاع از حقوق قراردادی.
+- **متره و برآورد دقیق:** تهیه ریزمتره و لیستوفر فاز ۱، ۲ و ازبیلت.
+- **امور قراردادها و پیمان و رسیدگی:** تفسیر شرایط عمومی پیمان (نشریه ۴۳۱۱) و قراردادهای FIDIC.
+- **لایحه تأخیرات و تمدید مدت:** مدل‌سازی CPM بر اساس بخشنامه ۵۰۹۰ و ماده ۳۰.
+- **گزارش‌های ادواری مدیریتی:** گزارش‌های روزانه، هفتگی، ماهانه و نمودارهای S-Curve پیشرفت فیزیکی/ریالی.
+- **برنامه‌ریزی و کنترل پروژه:** زمان‌بندی تخصصی با MSP و Primavera P6 و ساختار شکست کار (WBS).
+- **لایحه ضرر و زیان:** تدوین خسارت توقف تجهیزات، تعلیق پیمان (ماده ۴۹) و نوسانات تورمی.
+- **طراحی و نقشه‌کشی اتوکد:** نقشه‌های فاز ۱ و ۲ معماری و سازه و اتوماسیون با AutoLISP.
+- **مدل‌سازی BIM و کلش‌دیتکشن:** پیاده‌سازی مدل‌های سه‌بعدی رویت (Revit) و رفع تداخلات با Navisworks.
+- **طراحی و محاسبات سازه:** تحلیل خطی و غیرخطی و کنترل ضوابط استاندارد ۲۸۰۰ با ETABS، SAFE و SAP2000.
+- **شاپ‌دراوینگ تکلا استراکچرز:** مدل‌سازی اتصالات فلزی، استخراج کاتینگ‌شیت و فایل‌های CNC (NC/DSTV).
+
+### ۲. طراحی، توسعه و میزبانی وب، پلتفرم‌های نرم‌افزاری و UI/UX (۵ خدمت)
+- **وردپرس و المنتور سازمانی:** توسعه وب‌سایت‌های شرکتی با امنیت بالا و سرعت بهینه.
+- **توسعه اختصاصی PHP:** برنامه‌نویسی افزونه‌ها و ویجت‌های اختصاصی مهندسی.
+- **مدیریت هاستینگ و سرور:** پیکربندی cPanel، DirectAdmin، لینوکس، SSL و کلودفلر.
+- **پلتفرم‌های ابری محاسبات مهندسی:** وب‌اپلیکیشن‌های آنلاین متره، تعدیل و گزارش‌گیری.
+- **طراحی رابط کاربری (UI/UX):** پروتوتایپ‌های مدرن، دیزاین‌سیستم و تایپوگرافی اصیل فارسی.
+
+### ۳. امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی (۵ خدمت)
+- **دوقلوی دیجیتال روسازی و زیرساخت:** تلفیق حسگرها، استاندارد IFC 4.3 و پیش‌بینی زوال سطوح پروازی و بزرگراهی.
+- **بینایی ماشین و یادگیری عمیق:** آموزش مدل‌های YOLOv8 و YOLOv11 جهت آشکارسازی خودکار ترک‌ها و زوال روسازی.
+- **نگارش و ویرایش مقالات علمی ISI:** تدوین ساختار IMRaD اصیل با استانداردهای Nature و Elsevier.
+- **بهینه‌سازی چندهدفه:** الگوریتم‌های متاهیوریستیک (GA, PSO) در مدیریت روسازی و تخصیص منابع.
+- **داوری ژورنال‌ها و نامه‌های ریبوتال:** ممیزی روش‌شناسی و تدوین پاسخ‌های علمی به داوران بین‌المللی.
+
+---
+
+## معرف‌های برجسته دانشگاهی (۷ معرف رسمی)
+۱. **دکتر امیر گلرو** — دانشیار مهندسی عمران، دانشگاه صنعتی امیرکبیر (استاد راهنمای دکتری) | `agolroo@aut.ac.ir`  
+۲. **دکتر مهدی راستی** — دانشیار فناوری اطلاعات و مهندسی برق، دانشگاه اولو فنلاند (استاد مشاور دکتری) | `mehdi.rasti@oulu.fi`  
+۳. **پروفسور رائونو هایکیلا** — استاد تمام ساخت دیجیتال، دانشگاه اولو فنلاند (سرپرست فلوشیپ اولو) | `rauno.heikkila@oulu.fi`  
+۴. **دکتر وحید شاه‌حسینی** — دانشیار مهندسی و مدیریت ساخت، دانشگاه صنعتی امیرکبیر (استاد مشاور دکتری) | `shahhosseini@aut.ac.ir`  
+۵. **دکتر احسان سقفی‌فروش** — دانشیار مدیریت ساخت، دانشگاه ویتس آفریقای جنوبی | `ehsan.saghatforoush@wits.ac.za`  
+۶. **دکتر حمیدرضا عباسیان جهرمی** — دانشیار مهندسی عمران، دانشگاه خواجه نصیرالدین طوسی (استاد راهنمای ارشد) | `habasian@kntu.ac.ir`  
+۷. **دکتر محمدرضا طلاقت** — دانشیار مهندسی شیمی، نفت و گاز، دانشگاه صنعتی شیراز (مشاور عالی علمی) | `talaghat@sutech.ac.ir`
+
+---
+
+## راه‌های ارتباطی
+- 🌐 **پورتفولیو آنلاین تحت وب:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
+- 📱 **تلفن همراه و واتساپ:** ۰۹۱۷۱۸۸۳۵۰۲ (+989171883502)
+- 📱 **شماره تماس بین‌المللی (فنلاند):** +358417182239
+- 📧 **ایمیل‌های رسمی:** `atalaghat@aut.ac.ir` | `atalaghat@gmail.com`
+
+</div>
