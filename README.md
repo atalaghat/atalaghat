@@ -19,7 +19,7 @@
 ---
 
 ## Executive Profile
-Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Visiting Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
+Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
 
 Experienced in connecting executive construction management with cutting-edge data-driven infrastructure applications. Combines practical leadership in construction project management, technical office supervision, contract administration, delay claims, quantity takeoff, cost estimation, and variation analysis with advanced research in road pavement digital twins, automated AI condition assessment, and BIM/IoT smart infrastructure systems.
 
@@ -77,7 +77,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## Education
 - **Ph.D. in Construction Engineering & Management** — Amirkabir University of Technology (Tehran Polytechnic), 2020 – Jan 2026
-- **Visiting Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland, Jan 2024 – Present
+- **Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland, Jan 2024 – Present
 - **M.Sc. in Civil & Environmental Engineering (Construction Management)** — K. N. Toosi University of Technology, 2016 – 2018
 - **B.Sc. in Civil Engineering** — Shiraz University, 2012 – 2016
 
@@ -92,7 +92,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## Professional & Research Experience (8 Positions)
 1. **Technical & Contracts Affairs Manager** — Sahar Sazeh Novin Paydar Co. | Jun 2025 – Present
-2. **Visiting Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
+2. **Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
 3. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
 4. **Chief Executive Officer & Co-Founder** — WebAlfa Technology Co. | Dec 2020 – Present
 5. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
