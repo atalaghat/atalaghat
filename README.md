@@ -9,7 +9,7 @@
 [![i10-index](https://img.shields.io/badge/i10--index-1-FFBB28?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 [![Scientific Works](https://img.shields.io/badge/Scientific%20Works-20%20(10%20Pub%20%7C%2010%20Review)-10B981?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 [![Amirkabir University](https://img.shields.io/badge/Ph.D.-Amirkabir%20University-blue?style=flat)](https://aut.ac.ir)
-[![University of Oulu](https://img.shields.io/badge/Fellow-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
+[![University of Oulu](https://img.shields.io/badge/Research%20Assistant-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
 [![PE License](https://img.shields.io/badge/IRCEO-Licensed%20Supervisor%20%26%20Executor-purple?style=flat)](https://farscee.ir)
 
 </div>
@@ -19,7 +19,7 @@
 ---
 
 ## Executive Profile
-Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration at the **University of Oulu (Finland)** on the DigiPave project.
+Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Visiting Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
 
 Experienced in connecting executive construction management with cutting-edge data-driven infrastructure applications. Combines practical leadership in construction project management, technical office supervision, contract administration, delay claims, quantity takeoff, cost estimation, and variation analysis with advanced research in road pavement digital twins, automated AI condition assessment, and BIM/IoT smart infrastructure systems.
 
@@ -77,7 +77,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## Education
 - **Ph.D. in Construction Engineering & Management** — Amirkabir University of Technology (Tehran Polytechnic), 2020 – Jan 2026
-- **Visiting Doctoral Fellowship (DigiPave Project)** — University of Oulu, Finland, Jan 2024 – Present
+- **Visiting Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland, Jan 2024 – Present
 - **M.Sc. in Civil & Environmental Engineering (Construction Management)** — K. N. Toosi University of Technology, 2016 – 2018
 - **B.Sc. in Civil Engineering** — Shiraz University, 2012 – 2016
 
@@ -92,7 +92,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## Professional & Research Experience (8 Positions)
 1. **Technical & Contracts Affairs Manager** — Sahar Sazeh Novin Paydar Co. | Jun 2025 – Present
-2. **Doctoral Researcher & Visiting Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
+2. **Visiting Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
 3. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
 4. **Chief Executive Officer & Co-Founder** — WebAlfa Technology Co. | Dec 2020 – Present
 5. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
@@ -170,7 +170,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 # بخش فارسی — معرفی، خدمات و سوابق دکتر محمد امین طلاقت
 ### مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و زیرساخت هوشمند
-**دکترای مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر و پژوهشگر همکار دانشگاه اولو فنلاند**
+**دکترای مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر و دستیار پژوهشی دانشگاه اولو کشور فنلاند**
 
 ---
 

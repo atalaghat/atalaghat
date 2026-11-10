@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دکتر محمد امین طلاقت | مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و زیرساخت هوشمند</title>
+    <meta name="description" content="پورتفولیو و رزومه رسمی دکتر محمد امین طلاقت - مدیر امور فنی و قراردادها، پژوهشگر دوقلوی دیجیتال دانشگاه اولو فنلاند و دانشگاه صنعتی امیرکبیر، متخصص تکسا، شرایط عمومی پیمان، زمان‌بندی MSP/P6، مدل‌سازی BIM رویت، تکلا، هوش مصنوعی و توسعه وب.">
+    <meta name="keywords" content="محمد امین طلاقت, دفتر فنی, امور پیمان, شرایط عمومی پیمان, تکسا, رویت, تکلا, پایتون, دوقلوی دیجیتال, Amirkabir, University of Oulu, Mohammad Amin Talaghat">
+    <meta name="author" content="Dr. Mohammad Amin Talaghat">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://atalaghat.github.io/atalaghat/">
+    <meta property="og:title" content="Dr. Mohammad Amin Talaghat | Head of Technical Office & Contracts | Digital Twin Researcher">
+    <meta property="og:description" content="Official portfolio and executive dossier of Dr. Mohammad Amin Talaghat. 27 Comprehensive Engineering Services, 20 Scientific Works, 94 Scholar Citations, h-index: 4.">
+    <meta property="og:image" content="assets/profile.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Vazirmatn:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Vazirmatn', 'Segoe UI', 'Tahoma', 'sans-serif'],
+                        en: ['Plus Jakarta Sans', 'Segoe UI', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#0f172a',
+                            900: '#090d16',
+                            950: '#05070d',
+                        },
+                        emerald: {
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                        },
+                        cyan: {
+                            400: '#22d3ee',
+                            500: '#06b6d4',
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* Base Styling */
+        body {
+            background-color: #05070d;
+            color: #f1f5f9;
+            overflow-x: hidden;
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        html[dir="ltr"] body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* Glassmorphism Classes */
+        .glass-panel {
+            background: rgba(9, 13, 22, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card:hover {
+            background: rgba(20, 30, 55, 0.85);
+            border-color: rgba(52, 211, 153, 0.35);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px -10px rgba(16, 185, 129, 0.25);
+        }
+
+        /* Gradients & Glows */
+        .text-gradient-emerald {
+            background: linear-gradient(135deg, #34d399 0%, #22d3ee 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-gradient-cyan {
+            background: linear-gradient(135deg, #22d3ee 0%, #818cf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .avatar-glow {
+            background: conic-gradient(from 180deg at 50% 50%, #10b981 0deg, #06b6d4 120deg, #8b5cf6 240deg, #10b981 360deg);
+            animation: spin 12s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #05070d;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #10b981;
+        }
+
+        /* Pulsing Dot */
+        .pulse-dot {
+            animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse-glow {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(1.15); }
+        }
+    </style>
+</head>
+<body class="relative min-h-screen selection:bg-emerald-500 selection:text-navy-950">
+
+    <!-- Particle Network Canvas Background -->
+    <canvas id="bg-canvas" class="fixed inset-0 pointer-events-none z-0 opacity-30"></canvas>
+
+    <!-- Top Navigation Bar -->
+    <nav class="sticky top-0 z-50 glass-panel border-b border-white/10 px-4 sm:px-8 py-3.5 transition-all">
+        <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+            
+            <!-- Brand / Avatar -->
+            <a href="#about" class="flex items-center gap-3 group">
+                <div class="relative w-11 h-11 rounded-2xl overflow-hidden p-[2px]">
+                    <div class="absolute inset-0 avatar-glow opacity-80 group-hover:opacity-100 transition-opacity"></div>
+                    <img src="assets/profile.png" alt="Dr. Mohammad Amin Talaghat" class="relative w-full h-full object-cover object-top rounded-2xl bg-navy-900">
+                </div>
+                <div>
+                    <div class="text-base font-extrabold text-white group-hover:text-emerald-400 transition-colors flex items-center gap-1.5" data-i18n="name">
+                        دکتر محمد امین طلاقت
+                    </div>
+                    <div class="text-[11px] text-slate-400 font-medium truncate max-w-[220px] sm:max-w-md" data-i18n="tagline">
+                        مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و زیرساخت هوشمند
+                    </div>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links (Ordered logically) -->
+            <div class="hidden xl:flex items-center gap-5 text-xs font-semibold text-slate-300">
+                <a href="#services" class="hover:text-emerald-400 transition-colors" data-i18n="nav_services">خدمات (۲۷)</a>
+                <a href="#experience" class="hover:text-emerald-400 transition-colors" data-i18n="nav_experience">سوابق اجرایی (۸)</a>
+                <a href="#projects" class="hover:text-emerald-400 transition-colors" data-i18n="nav_projects">پروژه‌ها (۱۰)</a>
+                <a href="#skills" class="hover:text-emerald-400 transition-colors" data-i18n="nav_skills">مهارت‌ها و نرم‌افزارها</a>
+                <a href="#publications" class="hover:text-emerald-400 transition-colors" data-i18n="nav_pubs">مقالات و آثار (۲۰)</a>
+                <a href="#education" class="hover:text-emerald-400 transition-colors" data-i18n="nav_edu">تحصیلات و افتخارات</a>
+                <a href="#consultation" class="hover:text-emerald-400 transition-colors" data-i18n="nav_consultation">درخواست مشاوره</a>
+                <a href="#references" class="hover:text-emerald-400 transition-colors" data-i18n="nav_refs">معرف‌های علمی (۷)</a>
+            </div>
+
+            <!-- Action Controls (Language Toggle & WhatsApp Fast CTA) -->
+            <div class="flex items-center gap-2.5">
+                
+                <!-- Language Toggle Button -->
+                <button onclick="toggleLanguage()" id="lang-toggle-btn" class="px-3.5 py-1.5 rounded-xl glass-card text-xs font-bold text-emerald-400 hover:text-white hover:bg-emerald-500/20 flex items-center gap-2 border border-emerald-500/30 transition-all shadow-sm">
+                    <i data-lucide="globe" class="w-4 h-4"></i>
+                    <span id="lang-label">English</span>
+                </button>
+
+                <!-- WhatsApp Quick CTA -->
+                <a href="https://wa.me/989171883502" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-emerald-500/15 text-emerald-400 hover:bg-emerald-500 hover:text-navy-950 text-xs font-bold border border-emerald-500/30 transition-all">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    <span data-i18n="cta_chat">گفتگوی واتساپ</span>
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 py-10 space-y-24">
+
+        <!-- 1. HERO SECTION: PROFILE & EXECUTIVE PITCH -->
+        <section id="about" class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center pt-4">
+            
+            <!-- Left Column: Executive Summary & Bio -->
+            <div class="lg:col-span-8 space-y-6">
+                
+                <!-- Status & Accreditations Badges -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/25">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
+                        <span data-i18n="hero_status">آماده ارائه خدمات مشاوره فنی، مدیریت پیمان و راهکارهای داده‌محور مهندسی</span>
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium glass-card text-slate-300">
+                        <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
+                        <span data-i18n="elite_badge">برگزیده بنیاد ملی نخبگان</span>
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium glass-card text-slate-300">
+                        <i data-lucide="shield-check" class="w-3.5 h-3.5 text-cyan-400"></i>
+                        <span data-i18n="pe_badge">پروانه نظام مهندسی (نظارت و اجرا)</span>
+                    </span>
+                    <a href="https://scholar.google.com/citations?user=QW77YRoAAAAJ" target="_blank" class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 hover:bg-cyan-500/20 transition-all flex items-center gap-1.5">
+                        <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
+                        <span data-i18n="scholar_badge">۹۴ استناد گوگل اسکولار · h-index: ۴ · i10-index: ۱</span>
+                    </a>
+                </div>
+
+                <!-- Main Headline -->
+                <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-[1.25]">
+                    <span class="block" data-i18n="hero_title_1">راهبری هوشمند پروژه‌های عمرانی؛</span>
+                    <span class="text-gradient-emerald block mt-1" data-i18n="hero_title_2">از انضباط قرارداد و پیمان تا نوآوری دوقلوی دیجیتال</span>
+                </h1>
+
+                <!-- Executive Bio Paragraphs (Clean, Uncluttered, Inspiring) -->
+                <div class="space-y-4 text-slate-300 leading-relaxed text-sm sm:text-base">
+                    <p data-i18n="hero_bio_1">
+                        من <strong>دکتر محمد امین طلاقت</strong> هستم؛ دانش‌آموخته دکتری مهندسی و مدیریت ساخت از <strong>دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)</strong> و محقق همکار در <strong>دانشگاه اولو فنلاند</strong>. مسیر حرفه‌ای من بر پیوند مدیریت یکپارچه ساخت، انضباط حقوقی و مالی پیمان‌ها، و به‌کارگیری فناوری‌های نوین داده‌محور و دوقلوی دیجیتال در پروژه‌های عمرانی و زیرساختی متمرکز است.
+                    </p>
+                    <p class="text-slate-400" data-i18n="hero_bio_2">
+                        با بیش از یک دهه تجربه میدانی و ستادی در هدایت دفاتر فنی، مدیریت دعاوی، بهینه‌سازی جریان نقدینگی پروژه‌ها و هم‌زمان انتشار مقالات علمی در معتبرترین ژورنال‌های بین‌المللی، آماده ارائه خدمات جامع مشاوره‌ای، فنی و اجرایی به کارفرمایان، پیمانکاران و مهندسان مشاور محترم هستم.
+                    </p>
+                </div>
+
+                <!-- Verified Contact & Identity Links -->
+                <div class="flex flex-wrap gap-2.5 pt-2 text-xs">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl glass-card text-slate-300">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i>
+                        <span data-i18n="loc_text">شیراز و تهران (امکان همکاری حضوری و دورکاری سراسر کشور)</span>
+                    </span>
+                    <a href="tel:+989171883502" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl glass-card text-slate-300 hover:text-emerald-400 border border-white/5 font-mono" dir="ltr">
+                        <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i> +98 917 188 3502
+                    </a>
+                    <a href="tel:+358417182239" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl glass-card text-slate-300 hover:text-cyan-400 border border-white/5 font-mono" dir="ltr">
+                        <i data-lucide="phone-call" class="w-4 h-4 text-cyan-400"></i> +358 41 7182 239 (Finland)
+                    </a>
+                    <a href="mailto:atalaghat@gmail.com" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl glass-card text-slate-300 hover:text-emerald-400 border border-white/5 font-mono" dir="ltr">
+                        <i data-lucide="mail" class="w-4 h-4 text-emerald-400"></i> atalaghat@gmail.com
+                    </a>
+                    <a href="mailto:atalaghat@aut.ac.ir" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl glass-card text-slate-300 hover:text-cyan-400 border border-white/5 font-mono" dir="ltr">
+                        <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i> atalaghat@aut.ac.ir
+                    </a>
+                </div>
+
+                <!-- Social & Academic Platform Badges -->
+                <div class="flex flex-wrap gap-2 pt-1 text-xs">
+                    <a href="https://scholar.google.com/citations?user=QW77YRoAAAAJ" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40">
+                        <i data-lucide="graduation-cap" class="w-4 h-4 text-emerald-400"></i>
+                        <span data-i18n="scholar_link_text">گوگل اسکولار (۹۴ استناد)</span>
+                    </a>
+                    <a href="https://orcid.org/0000-0002-1245-4689" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-emerald-400 hover:border-emerald-500/40 font-mono">
+                        <i data-lucide="award" class="w-4 h-4 text-emerald-400"></i> ORCID
+                    </a>
+                    <a href="https://www.linkedin.com/in/atalaghat/" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-cyan-400 hover:border-cyan-500/40 font-mono">
+                        <i data-lucide="linkedin" class="w-4 h-4 text-cyan-400"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/atalaghat" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-slate-300 hover:border-white/30 font-mono">
+                        <i data-lucide="github" class="w-4 h-4 text-slate-300"></i> GitHub
+                    </a>
+                    <a href="https://t.me/atalaghat" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-cyan-400 hover:border-cyan-500/40">
+                        <i data-lucide="send" class="w-4 h-4 text-cyan-400"></i>
+                        <span data-i18n="telegram_link_text">تلگرام</span>
+                    </a>
+                    <a href="https://facebook.com/amintalaghat" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-cyan-400 hover:border-cyan-500/40">
+                        <i data-lucide="facebook" class="w-4 h-4 text-cyan-400"></i>
+                        <span data-i18n="facebook_link_text">فیس‌بوک</span>
+                    </a>
+                    <a href="https://webalfa.net/" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl glass-card text-xs font-semibold text-white hover:text-amber-400 hover:border-amber-500/40">
+                        <i data-lucide="globe" class="w-4 h-4 text-amber-400"></i>
+                        <span data-i18n="webalfa_link_text">وب‌آلفا</span>
+                    </a>
+                </div>
+
+                <!-- Primary Action Buttons (Consultation Booking & CV Downloads) -->
+                <div class="flex flex-wrap items-center gap-3 pt-3">
+                    <a href="#consultation" class="px-6 py-3 rounded-xl bg-emerald-500 text-navy-950 font-bold text-sm hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/25 flex items-center gap-2">
+                        <i data-lucide="calendar-check" class="w-4 h-4"></i>
+                        <span data-i18n="hero_cta_book">ثبت درخواست مشاوره و همکاری</span>
+                    </a>
+                    <a href="assets/Mohammad_Amin_Talaghat_CV_EN_2026.pdf" download class="px-4 py-3 rounded-xl glass-card text-white font-semibold text-xs hover:border-emerald-500/50 transition-all flex items-center gap-2">
+                        <i data-lucide="download" class="w-4 h-4 text-emerald-400"></i>
+                        <span data-i18n="hero_cta_cv">دانلود رزومه انگلیسی (فایل PDF)</span>
+                    </a>
+                    <a href="assets/Mohammad_Amin_Talaghat_CV_FA_2026.pdf" download class="px-4 py-3 rounded-xl glass-card text-white font-semibold text-xs hover:border-cyan-500/50 transition-all flex items-center gap-2">
+                        <i data-lucide="download" class="w-4 h-4 text-cyan-400"></i>
+                        <span data-i18n="hero_cta_cv_fa">دانلود رزومه فارسی (فایل PDF)</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Interactive 3D Card with Profile Picture & Key Numbers -->
+            <div class="lg:col-span-4">
+                <div class="glass-card rounded-3xl p-6 border-white/10 space-y-6 relative group shadow-2xl">
+                    
+                    <!-- Portrait with Animated Glow Ring -->
+                    <div class="relative w-48 h-48 mx-auto rounded-3xl overflow-hidden p-[3px] shadow-2xl shadow-emerald-500/20 group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 avatar-glow opacity-90"></div>
+                        <img src="assets/profile.png" alt="Dr. Mohammad Amin Talaghat" class="relative w-full h-full object-cover object-top rounded-3xl bg-navy-900">
+                    </div>
+
+                    <!-- Role Badge -->
+                    <div class="text-center space-y-1">
+                        <h2 class="text-xl font-bold text-white tracking-tight" data-i18n="card_name">دکتر محمد امین طلاقت</h2>
+                        <p class="text-xs text-emerald-400 font-semibold" data-i18n="card_role">مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال</p>
+                        <p class="text-[11px] text-slate-400 font-medium" data-i18n="card_sub">دکتری دانشگاه امیرکبیر · محقق دانشگاه اولو فنلاند</p>
+                    </div>
+
+                    <!-- Key Metrics Grid (6 KPI Verified Cards) -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 border-t border-white/5">
+                        <div class="p-2.5 rounded-2xl bg-navy-900/60 border border-white/5 text-center">
+                            <div class="text-xl sm:text-2xl font-black text-emerald-400 font-mono counter-num" data-target="20">20</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5" data-i18n="kpi_works">اثر علمی و مقاله</div>
+                        </div>
+                        <div class="p-2.5 rounded-2xl bg-navy-900/60 border border-white/5 text-center">
+                            <div class="text-xl sm:text-2xl font-black text-cyan-400 font-mono counter-num" data-target="94">94</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5" data-i18n="kpi_cites">استناد گوگل اسکولار</div>
+                        </div>
+                        <div class="p-2.5 rounded-2xl bg-navy-900/60 border border-white/5 text-center">
+                            <div class="text-xl sm:text-2xl font-black text-purple-400 font-mono counter-num" data-target="4">4</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5" data-i18n="kpi_hindex">شاخص اچ (h-index)</div>
+                        </div>
+                        <div class="p-2.5 rounded-2xl bg-navy-900/60 border border-white/5 text-center">
+                            <div class="text-xl sm:text-2xl font-black text-pink-400 font-mono counter-num" data-target="1">1</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5" data-i18n="kpi_i10index">شاخص آی۱۰ (i10-index)</div>
+                        </div>
+                        <div class="p-2.5 rounded-2xl bg-navy-900/60 border border-white/5 text-center">
+                            <div class="text-xl sm:text-2xl font-black text-amber-400 font-mono counter-num" data-target="10">10</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5" data-i18n="kpi_projects">پروژه ملی و شاخص</div>
+                        </div>
+                        <div class="p-2.5 rounded-2xl bg-navy-900/60 border border-white/5 text-center">
+                            <div class="text-xl sm:text-2xl font-black text-white font-mono counter-num" data-target="8">8</div>
+                            <div class="text-[10px] text-slate-400 mt-0.5" data-i18n="kpi_roles">سمت رسمی و ارشد</div>
+                        </div>
+                    </div>
+
+                    <!-- Fast Consultation Button -->
+                    <a href="#consultation" class="w-full py-2.5 rounded-xl bg-white/5 hover:bg-emerald-500/20 text-emerald-400 text-xs font-bold border border-emerald-500/30 flex items-center justify-center gap-2 transition-all">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                        <span data-i18n="btn_direct_consult">درخواست وقت مشاوره تخصصی</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 2. SERVICES SECTION: 27 COMPREHENSIVE SERVICES IN 3 STRATEGIC AXES -->
+        <section id="services" class="space-y-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6">
+                <div>
+                    <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="srv_kicker">۰۱ / خدمات مهندسی، مشاوره، دفتر فنی، وب و هوش مصنوعی</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="srv_title">امور طراحی، مشاوره، دفتر فنی و فناوری‌های نوین</h2>
+                    <p class="text-sm text-slate-400 mt-2 max-w-3xl leading-relaxed" data-i18n="srv_desc">
+                        ارائه راهکارهای اجرایی، دقیق، مستند و تحلیلی منطبق بر ضوابط نظام فنی و اجرایی کشور، شرایط عمومی پیمان و متدهای پیشرفته هوش مصنوعی و مدل‌سازی اطلاعات ساختمان.
+                    </p>
+                    <div class="mt-3 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <span data-i18n="srv_banner">آماده همکاری تخصصی و مشاوره‌ای با کارفرمایان، پیمانکاران و مشاوران محترم سراسر کشور</span>
+                    </div>
+                </div>
+                <div class="text-xs text-slate-400 font-mono text-left md:text-right">
+                    <span class="text-emerald-400 font-bold" data-i18n="srv_sub_stats">۲۷ خدمت تفصیلی در ۳ محور کلیدی</span><br/>
+                    <span class="text-slate-500" data-i18n="srv_sub_type">مشاوره حضوری و پروژه‌ای سراسر کشور</span>
+                </div>
+            </div>
+
+            <!-- Service Category Filter Tabs -->
+            <div class="flex flex-wrap items-center gap-2">
+                <button onclick="filterServices('all')" id="btn-serv-all" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20" data-i18n="filter_all">همه خدمات (۲۷)</button>
+                <button onclick="filterServices('civil')" id="btn-serv-civil" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="filter_civil">دفتر فنی و مهندسی عمران (۱۷)</button>
+                <button onclick="filterServices('web')" id="btn-serv-web" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="filter_web">وب، نرم‌افزار و رابط کاربری (۵)</button>
+                <button onclick="filterServices('ai')" id="btn-serv-ai" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="filter_ai">پژوهش، هوش مصنوعی و دوقلوی دیجیتال (۵)</button>
+            </div>
+
+            <!-- Dynamic Services Cards Grid -->
+            <div id="services-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Rendered dynamically via renderServices() -->
+            </div>
+        </section>
+
+        <!-- 3. EXPERIENCE SECTION: 8 VERIFIED POSITIONS -->
+        <section id="experience" class="space-y-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6">
+                <div>
+                    <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="exp_kicker">۰۲ / سوابق شغلی و فعالیت‌های اجرایی و علمی</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="exp_title">پیشینه سرپرستی، مدیریت پیمان و پژوهش‌های بین‌المللی</h2>
+                    <p class="text-sm text-slate-400 mt-2 max-w-2xl" data-i18n="exp_desc">
+                        یک دهه مدیریت و سرپرستی دفاتر فنی، ممیزی قراردادها، راهبری مگاپروژه‌ها و پژوهش‌های آکادمیک بین‌المللی.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Dynamic Experience Timeline -->
+            <div id="experience-timeline" class="space-y-6">
+                <!-- Rendered dynamically via renderExperience() -->
+            </div>
+        </section>
+
+        <!-- 4. PROJECTS SECTION: 10 VERIFIED LANDMARK PROJECTS -->
+        <section id="projects" class="space-y-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6">
+                <div>
+                    <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="proj_kicker">۰۳ / پروژه‌های شاخص و سوابق اجرایی</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="proj_title">کارنامه پروژه‌های ساختمانی، زیرساختی، دعاوی و هوش مصنوعی</h2>
+                    <p class="text-sm text-slate-400 mt-2 max-w-2xl" data-i18n="proj_desc">
+                        تجارب عملیاتی در مگاپروژه‌های آزادراهی، برج‌های تجاری، پرونده‌های کلان دعاوی پیمانکاری و پلتفرم‌های دوقلوی دیجیتال.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Projects Filter Buttons -->
+            <div class="flex flex-wrap items-center gap-2">
+                <button onclick="filterProjects('all')" id="btn-proj-all" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20" data-i18n="proj_filter_all">همه پروژه‌ها (۱۰)</button>
+                <button onclick="filterProjects('civil')" id="btn-proj-civil" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="proj_filter_civil">دفتر فنی و سازه</button>
+                <button onclick="filterProjects('contracts')" id="btn-proj-contracts" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="proj_filter_contracts">امور قرارداد و تأخیرات</button>
+                <button onclick="filterProjects('ai')" id="btn-proj-ai" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="proj_filter_ai">دوقلوی دیجیتال و هوش مصنوعی</button>
+                <button onclick="filterProjects('web')" id="btn-proj-web" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="proj_filter_web">پلتفرم‌های وب و ابری</button>
+            </div>
+
+            <!-- Dynamic Projects Grid -->
+            <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Rendered dynamically via renderProjects() -->
+            </div>
+        </section>
+
+        <!-- 5. SKILLS & SOFTWARE SECTION: 6 COMPREHENSIVE CATEGORIES -->
+        <section id="skills" class="space-y-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6">
+                <div>
+                    <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="skills_kicker">۰۴ / جعبه‌ابزار مهارت‌ها، نرم‌افزارها و شایستگی‌ها</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="skills_title">تسلط جامع بر نرم‌افزارهای تخصصی عمران، پیمان، برنامه‌نویسی و علوم داده</h2>
+                    <p class="text-sm text-slate-400 mt-2 max-w-2xl" data-i18n="skills_desc">
+                        پوشش کامل نرم‌افزارهای دفتر فنی، نقشه‌کشی، شاپ‌دراوینگ تکلا، زمان‌بندی پروژه‌ها، تحلیل سازه، یادگیری عمیق و روش تحقیق بین‌المللی.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Dynamic Skills Grid (6 Major Cards) -->
+            <div id="skills-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Rendered dynamically via renderSkills() -->
+            </div>
+        </section>
+
+        <!-- 6. PUBLICATIONS & MANUSCRIPTS SECTION (ALL 20 SCIENTIFIC WORKS) -->
+        <section id="publications" class="space-y-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6">
+                <div>
+                    <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="pubs_kicker">۰۵ / کارنامه پژوهشی و مقالات علمی بین‌المللی</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="pubs_title">۲۰ اثر علمی و مقاله تخصصی (۱۰ مقاله منتشرشده و ۱۰ مقاله در حال داوری)</h2>
+                    <p class="text-sm text-slate-400 mt-2 max-w-3xl" data-i18n="pubs_desc">
+                        دستاوردهای علمی در حوزه دوقلوی دیجیتال، بینایی ماشین، هوش مصنوعی توصیف‌پذیر و اتوماسیون مدیریت ساخت با استانداردهای تراز اول جهان.
+                    </p>
+                </div>
+                <div class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-3.5 py-2 rounded-xl border border-cyan-500/20">
+                    Google Scholar: 94 Citations · h-index: 4
+                </div>
+            </div>
+
+            <!-- Publication Filter Controls & Live Search -->
+            <div class="flex flex-col md:flex-row gap-4 items-stretch md:items-center justify-between">
+                <div class="flex flex-wrap items-center gap-2">
+                    <button onclick="filterPublications('all')" id="btn-pub-all" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20" data-i18n="pub_filter_all">همه آثار (۲۰)</button>
+                    <button onclick="filterPublications('published')" id="btn-pub-published" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_published">مقالات منتشرشده (۱۰)</button>
+                    <button onclick="filterPublications('under_review')" id="btn-pub-under_review" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_under_review">در حال داوری (۱۰)</button>
+                    <button onclick="filterPublications('dt_ai')" id="btn-pub-dt_ai" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_dt">دوقلوی دیجیتال و هوش مصنوعی (۱۲)</button>
+                    <button onclick="filterPublications('mgmt_materials')" id="btn-pub-mgmt_materials" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_mgmt">مدیریت ساخت و مصالح (۸)</button>
+                </div>
+
+                <!-- Live Search Box -->
+                <div class="relative min-w-[280px]">
+                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-3 pointer-events-none"></i>
+                    <input type="text" id="pub-search-input" oninput="searchPublications(this.value)" placeholder="جست‌وجو بر اساس عنوان، نویسنده، ژورنال یا موضوع..." class="w-full pl-9 pr-4 py-2 rounded-xl bg-navy-900/80 border border-white/10 text-white text-xs focus:outline-none focus:border-emerald-500 transition-all placeholder:text-slate-500">
+                </div>
+            </div>
+
+            <!-- Dynamic Publications Container -->
+            <div id="publications-list" class="space-y-4">
+                <!-- Rendered dynamically via renderPublications() -->
+            </div>
+        </section>
+
+        <!-- 7. EDUCATION & HONORS SECTION -->
+        <section id="education" class="space-y-8">
+            <div class="border-b border-white/10 pb-6">
+                <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="edu_kicker">۰۶ / مدارج تحصیلی، افتخارات و پروانه‌ها</span>
+                <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="edu_title">تحصیلات آکادمیک، دکتری امیرکبیر و فلوشیپ اولو فنلاند</h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                
+                <!-- Academic Degrees Column -->
+                <div class="lg:col-span-7 space-y-4">
+                    <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+                        <i data-lucide="graduation-cap" class="w-5 h-5 text-emerald-400"></i>
+                        <span data-i18n="edu_col_title">مدارک تحصیلی دانشگاهی</span>
+                    </h3>
+                    <div id="education-list" class="space-y-4">
+                        <!-- Rendered dynamically via renderEducation() -->
+                    </div>
+                </div>
+
+                <!-- Honors & Licenses Column -->
+                <div class="lg:col-span-5 space-y-4">
+                    <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+                        <i data-lucide="award" class="w-5 h-5 text-amber-400"></i>
+                        <span data-i18n="honors_col_title">افتخارات، پروانه‌ها و عضویت‌ها</span>
+                    </h3>
+                    <div id="honors-list" class="space-y-4">
+                        <!-- Rendered dynamically via renderEducation() -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 8. DIRECT CONSULTATION & ENGAGEMENT SECTION (MOVED TO BOTTOM BEFORE REFERENCES) -->
+        <section id="consultation" class="space-y-8">
+            <div class="border-b border-white/10 pb-6">
+                <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="consult_kicker">۰۷ / درخواست مشاوره و همکاری مستقیم</span>
+                <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="consult_title">رزرو جلسه مشاوره تخصصی و آغاز همکاری</h2>
+                <p class="text-sm text-slate-400 mt-2 max-w-2xl" data-i18n="consult_desc">
+                    اطلاعات پروژه، درخواست لایحه ادعا و تأخیرات، نیازهای دفتر فنی، آنالیز بها یا همکاری‌های پژوهشی و هوش مصنوعی را ثبت نمایید تا در اسرع وقت بررسی گردد.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                
+                <!-- Interactive Form -->
+                <div class="lg:col-span-7 glass-card p-6 sm:p-8 rounded-3xl space-y-6">
+                    <form id="consultation-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-medium text-slate-300 mb-1.5" data-i18n="lbl_name">نام و نام خانوادگی</label>
+                                <input type="text" id="form-name" required class="w-full px-4 py-3 rounded-xl bg-navy-900/80 border border-white/10 focus:border-emerald-500 text-white text-sm focus:outline-none transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-slate-300 mb-1.5" data-i18n="lbl_phone">شماره تماس همراه</label>
+                                <input type="tel" id="form-phone" required class="w-full px-4 py-3 rounded-xl bg-navy-900/80 border border-white/10 focus:border-emerald-500 text-white text-sm focus:outline-none transition-all font-mono" dir="ltr">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-medium text-slate-300 mb-1.5" data-i18n="lbl_email">آدرس ایمیل</label>
+                                <input type="email" id="form-email" class="w-full px-4 py-3 rounded-xl bg-navy-900/80 border border-white/10 focus:border-emerald-500 text-white text-sm focus:outline-none transition-all font-mono" dir="ltr">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-slate-300 mb-1.5" data-i18n="lbl_service">خدمت یا حوزه مورد نظر</label>
+                                <select id="form-service" class="w-full px-4 py-3 rounded-xl bg-navy-900/80 border border-white/10 focus:border-emerald-500 text-white text-sm focus:outline-none transition-all">
+                                    <!-- Populated dynamically -->
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1.5" data-i18n="lbl_msg">شرح درخواست و مشخصات پروژه</label>
+                            <textarea id="form-message" rows="4" required class="w-full px-4 py-3 rounded-xl bg-navy-900/80 border border-white/10 focus:border-emerald-500 text-white text-sm focus:outline-none transition-all leading-relaxed"></textarea>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="flex flex-wrap gap-3 pt-2">
+                            <button type="submit" class="px-6 py-3 rounded-xl bg-emerald-500 text-navy-950 font-bold text-sm hover:bg-emerald-400 transition-all flex items-center gap-2 shadow-lg shadow-emerald-500/25">
+                                <i data-lucide="send" class="w-4 h-4"></i>
+                                <span data-i18n="btn_submit_consult">ثبت نهایی درخواست مشاوره</span>
+                            </button>
+                            <button type="button" onclick="sendViaWhatsApp()" class="px-5 py-3 rounded-xl bg-[#25D366]/20 text-[#25D366] hover:bg-[#25D366] hover:text-white font-bold text-sm border border-[#25D366]/30 transition-all flex items-center gap-2">
+                                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                                <span data-i18n="btn_wa_fast">ارسال سریع در واتساپ</span>
+                            </button>
+                            <button type="button" onclick="sendViaMailto()" class="px-5 py-3 rounded-xl glass-card text-slate-300 hover:text-white font-semibold text-xs border border-white/10 transition-all flex items-center gap-2">
+                                <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i>
+                                <span data-i18n="btn_email_fast">ارسال مستقیم ایمیل</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Direct Channels Card -->
+                <div class="lg:col-span-5 glass-card p-6 sm:p-8 rounded-3xl space-y-6 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                            <i data-lucide="headset" class="w-5 h-5 text-emerald-400"></i>
+                            <span data-i18n="consult_direct_channels">راه‌های ارتباطی مستقیم</span>
+                        </h3>
+                        <p class="text-xs text-slate-400 leading-relaxed mb-6" data-i18n="consult_reply_notice">
+                            پاسخ‌گویی به استعلام‌های کارفرمایان و همکاران محترم در کوتاه‌ترین زمان ممکن صورت می‌پذیرد.
+                        </p>
+
+                        <div class="space-y-3 text-xs">
+                            <a href="tel:+989171883502" class="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-emerald-500/10 border border-white/5 transition-all">
+                                <span class="text-slate-300 flex items-center gap-2">
+                                    <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i>
+                                    <span data-i18n="consult_call_direct">تماس مستقیم تلفنی</span>
+                                </span>
+                                <span class="font-mono text-emerald-400 font-bold" dir="ltr">+98 917 188 3502</span>
+                            </a>
+
+                            <a href="https://wa.me/989171883502" target="_blank" class="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-emerald-500/10 border border-white/5 transition-all">
+                                <span class="text-slate-300 flex items-center gap-2">
+                                    <i data-lucide="message-circle" class="w-4 h-4 text-[#25D366]"></i>
+                                    <span data-i18n="consult_wa_direct">واتساپ سریع</span>
+                                </span>
+                                <span class="font-mono text-emerald-400 font-bold" dir="ltr">+98 917 188 3502</span>
+                            </a>
+
+                            <a href="mailto:atalaghat@gmail.com" class="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-cyan-500/10 border border-white/5 transition-all">
+                                <span class="text-slate-300 flex items-center gap-2">
+                                    <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i>
+                                    <span data-i18n="consult_email_direct">ایمیل رسمی</span>
+                                </span>
+                                <span class="font-mono text-cyan-400 font-medium" dir="ltr">atalaghat@gmail.com</span>
+                            </a>
+
+                            <a href="tel:+358417182239" class="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-purple-500/10 border border-white/5 transition-all">
+                                <span class="text-slate-300 flex items-center gap-2">
+                                    <i data-lucide="globe" class="w-4 h-4 text-purple-400"></i>
+                                    <span>Finland Contact</span>
+                                </span>
+                                <span class="font-mono text-purple-300 font-medium" dir="ltr">+358 41 7182 239</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-300 leading-relaxed" data-i18n="consult_nda_notice">
+                        تمامی اطلاعات و مدارک پروژه‌ها، اسناد مناقصه و صورت‌وضعیت‌ها نزد ما محرمانه تلقی شده و تحت توافق‌نامه عدم افشا (NDA) محافظت می‌گردد.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 9. ACADEMIC REFERENCES SECTION: ALL 7 DISTINGUISHED MENTORS -->
+        <section id="references" class="space-y-8">
+            <div class="border-b border-white/10 pb-6">
+                <span class="text-emerald-400 text-xs font-mono font-bold tracking-wider uppercase" data-i18n="ref_kicker">۰۸ / معرف‌های علمی و اساتید راهنما</span>
+                <h2 class="text-2xl sm:text-4xl font-black text-white mt-1" data-i18n="ref_title">اساتید برجسته و معرف‌های دانشگاهی (۷ معرف رسمی)</h2>
+                <p class="text-sm text-slate-400 mt-2 max-w-2xl" data-i18n="ref_desc">
+                    اساتید و پژوهشگران ارشد دانشگاهی ناظر بر رساله دکتری، پایان‌نامه و پروژه‌های بین‌المللی پژوهشی.
+                </p>
+            </div>
+
+            <div id="references-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Rendered dynamically via renderReferences() (7 Cards) -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal for Publication Details & BibTeX -->
+    <div id="pub-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-navy-950/80 backdrop-blur-md">
+        <div class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-3xl space-y-6 relative border-emerald-500/30 max-h-[90vh] overflow-y-auto">
+            
+            <button onclick="closePubModal()" class="absolute top-5 right-5 p-2 rounded-xl text-slate-400 hover:text-white hover:bg-white/10 transition-all">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <div class="space-y-2">
+                <span id="modal-badge" class="px-2.5 py-1 rounded-full text-xs font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"></span>
+                <h3 id="modal-title" class="text-lg sm:text-xl font-bold text-white pt-1"></h3>
+            </div>
+
+            <div class="space-y-3 text-xs text-slate-300">
+                <p><strong data-i18n="modal_authors">نویسندگان:</strong> <span id="modal-authors" class="text-slate-400"></span></p>
+                <p><strong data-i18n="modal_journal">ژورنال / وضعیت:</strong> <span id="modal-journal" class="text-emerald-400 font-semibold"></span></p>
+                <p><strong data-i18n="modal_year">سال انتشار:</strong> <span id="modal-year" class="font-mono text-cyan-400"></span></p>
+                <p><strong data-i18n="modal_status">وضعیت داوری:</strong> <span id="modal-status"></span></p>
+                
+                <div class="pt-2">
+                    <strong class="block mb-1 text-white" data-i18n="modal_abstract">چکیده مقاله:</strong>
+                    <div id="modal-abstract" class="p-3.5 rounded-xl bg-navy-900/80 border border-white/5 text-slate-400 text-xs leading-relaxed max-h-48 overflow-y-auto font-sans"></div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap items-center gap-3 pt-2">
+                <button onclick="copyModalBibtex()" class="px-4 py-2.5 rounded-xl bg-emerald-500 text-navy-950 font-bold text-xs hover:bg-emerald-400 transition-all flex items-center gap-2">
+                    <i data-lucide="copy" class="w-4 h-4"></i>
+                    <span data-i18n="modal_bibtex_btn">کپی ارجاع استنادی (BibTeX)</span>
+                </button>
+                <a id="modal-doi-link" href="#" target="_blank" class="px-4 py-2.5 rounded-xl glass-card text-white font-semibold text-xs hover:border-emerald-500/40 transition-all flex items-center gap-2">
+                    <i data-lucide="external-link" class="w-4 h-4 text-emerald-400"></i>
+                    <span data-i18n="modal_doi_btn">مشاهده در پایگاه ناشر (DOI)</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 hidden px-4 py-3 rounded-2xl glass-card border-emerald-500/40 text-emerald-400 text-xs font-bold shadow-2xl flex items-center gap-2">
+        <i data-lucide="check-circle" class="w-4 h-4"></i>
+        <span id="toast-msg">متن با موفقیت کپی شد!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="relative z-10 border-t border-white/10 glass-panel py-8 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+            <div data-i18n="footer_rights">
+                تمامی حقوق محفوظ است. دکتر محمد امین طلاقت © ۱۴۰۵
+            </div>
+            <div class="text-emerald-400 font-medium" data-i18n="footer_tagline">
+                راهبری هوشمند زیرساخت | انضباط قرارداد و پیمان | نوآوری‌های دوقلوی دیجیتال
+            </div>
+            <div class="flex items-center gap-4 text-slate-400 font-mono">
+                <a href="#about" class="hover:text-emerald-400 transition-colors">Top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Client-Side JavaScript -->
+    <script>
+        // Datasets
+        const servicesData = [{"id": 1, "cat": "civil", "icon": "file-spreadsheet", "badge_fa": "تکسا و مناقصات", "badge_en": "Taksa & Bidding", "title_fa": "تهیه آنالیز، پیشنهاد قیمت و اسناد مناقصه", "title_en": "Tender Estimating, Rate Breakdown & Bidding Documents", "desc_fa": "آنالیز بهای ۴ گانه مطابق بخشنامه ۴۹۵۱، بررسی ضرایب بالاسری، منطقه‌ای، تحلیل پلوس و مینوس و تنظیم اسناد مناقصه در نرم‌افزار تکسا.", "desc_en": "4-Factor unit rate analysis per Circular 4951, overhead and regional coefficient audit, plus/minus analysis, and complete bid documentation in Taksa software."}, {"id": 2, "cat": "civil", "icon": "calculator", "badge_fa": "صورت‌وضعیت کارکرد", "badge_en": "Payment Statements", "title_fa": "تنظیم، تهیه و دفاع از صورت‌وضعیت موقت و قطعی", "title_en": "Preparation & Defense of Interim & Final Payment Statements", "desc_fa": "تهیه ریزمتره، مالی صورت‌وضعیت، اعمال ضرایب فصول و اقلام ستاره‌دار بر مبنای فهارس بهای سازمان برنامه و دفاع فنی در جلسات رسیدگی کارفرما و مشاور.", "desc_en": "Detailed bill of quantities, financial statement calculations, chapter coefficients and starred items application per PBO master price lists, and technical defense in audit sessions."}, {"id": 3, "cat": "civil", "icon": "trending-up", "badge_fa": "تعدیل آحادبها", "badge_en": "Price Escalation", "title_fa": "تهیه و تنظیم صورت‌وضعیت تعدیل", "title_en": "Price Adjustment & Escalation Statements (Circular 173073)", "desc_fa": "استخراج شاخص‌های مبنا و دوره‌ای دوره‌های سه ماهه، تفکیک فصول و تجهیز کارگاه، اعمال ضریب ۰.۹۵ در تاخیرات غیرمجاز و دفاع فنی در رسیدگی تعدیل.", "desc_en": "Quarterly baseline and operational index calculations, chapter and site equipment breakdown, 0.95 factor in non-permissible delays, and technical defense per Circular 173073."}, {"id": 4, "cat": "civil", "icon": "plus-circle", "badge_fa": "ماده ۲۹ شرایط عمومی", "badge_en": "General Conditions Art. 29", "title_fa": "کلیم‌های قیمت جدید و اضافه کاری", "title_en": "New Unit Rates Claims & Variation Orders", "desc_fa": "مستندسازی تغییر مقادیر تا سقف ۲۵٪، پیشنهاد و تصویب نرخ قیمت‌های جدید فاکتوری و ستاره‌دار مطابق بند ج و د ماده ۲۹ شرایط عمومی پیمان.", "desc_en": "Documentation of quantity variations within 25% statutory ceiling, proposal and approval of new unit rates and starred items under Articles 29-C & 29-D of GCC."}, {"id": 5, "cat": "civil", "icon": "bar-chart-3", "badge_fa": "جریان نقدینگی و سود/زیان", "badge_en": "Cash Flow & Profit/Loss", "title_fa": "آنالیز درآمد و هزینه جهت جلوگیری از ضرر پیمانکار", "title_en": "Cost/Revenue Analysis & Contractor Cash Flow Management", "desc_fa": "مدل‌سازی جریان نقدینگی (Cash Flow)، موازنه بهای تمام‌شده عملیات کارگاهی، ردیابی انحراف هزینه‌ها و ارائه راهکارهای پیشگیرانه جهت حفظ سودآوری پروژه.", "desc_en": "Cash flow modeling, direct/indirect site cost balance, cost variance tracking, and proactive cost-control strategies to protect contractor profitability."}, {"id": 6, "cat": "civil", "icon": "clipboard-check", "badge_fa": "مستندسازی کارگاهی", "badge_en": "Site Documentation", "title_fa": "تنظیم، تهیه و دفاع از صورتجلسات موقت و قطعی", "title_en": "Preparation & Defense of Site Minutes & Work Verification", "desc_fa": "تهیه صورت‌جلسات احجام پنهان، عملیات خاکی، خاکبرداری، پی‌سازی، تخریب، حمل مصالح و مصالح پای‌کار با امضای ارکان نظارت و کارفرما.", "desc_en": "Drafting and securing approval for hidden works, excavation, foundation, demolition, material transport, and on-site material inventories with supervisory signatures."}, {"id": 7, "cat": "civil", "icon": "shield-alert", "badge_fa": "امور قراردادها و دعاوی", "badge_en": "Contracts & Claims", "title_fa": "مدیریت ادعا و تهیه لوایح تاخیرات مجاز و غیرمجاز", "title_en": "Claim Management & Comprehensive Delay Analysis", "desc_fa": "تحلیل تعهدات قراردادی، استخراج موارد قصور کارفرما بر مبنای مواد ۵۴ گانه نشریه ۴۳۱۱، ارزیابی تاخیرات زمانی و تدوین لوایح ادعا و تمدید مدت پیمان.", "desc_en": "Contractual obligations audit, employer default extraction under Specification 4311, schedule delay assessment, and drafting robust claim dossiers for time extensions."}, {"id": 8, "cat": "civil", "icon": "layers", "badge_fa": "متره و برآورد", "badge_en": "Quantity Surveying", "title_fa": "تهیه متره و برآورد احجام و مصالح ساختمانی", "title_en": "Detailed Bill of Quantities (BOQ) & Material Takeoff", "desc_fa": "استخراج احجام دقیق بتن‌ریزی، آرماتوربندی، قالب‌بندی، اسکلت فلزی، عملیات خاکی، دیوارچینی و تأسیسات از روی نقشه‌های فاز ۲ ساختمانی و صنعتی.", "desc_en": "Accurate takeoffs of concrete, rebar reinforcement, formwork, structural steel, earthwork, masonry, and MEP systems from Phase 2 engineering drawings."}, {"id": 9, "cat": "civil", "icon": "book-open", "badge_fa": "پیمان و رسیدگی", "badge_en": "Contract Administration", "title_fa": "پیمان و رسیدگی، ممیزی قراردادها و ارزیابی تضامین", "title_en": "Contract Auditing, Performance Guarantees & Clause Governance", "desc_fa": "بررسی شرایط عمومی و خصوصی، کنترل تضامین پیش‌پرداخت و حسن انجام تعهدات، نظارت بر مکاتبات کارگاهی و پیشگیری از جرایم فسخ یا ضبط ضمانت‌نامه.", "desc_en": "Audit of general/particular conditions, advance payment and performance guarantee tracking, contractual correspondence governance, and default risk prevention."}, {"id": 10, "cat": "civil", "icon": "clock", "badge_fa": "تاخیرات مالی ۵۰۹۰", "badge_en": "Financial Delays Circular 5090", "title_fa": "تهیه لایحه تاخیرات بر مبنای تاخیر در پرداخت صورت‌وضعیت‌ها", "title_en": "Delay Claims for Payment Delays & Advance Payments", "desc_fa": "اجرای فرمول‌های محاسباتی بخشنامه ۵۰۹۰ بر اساس دیرکرد پرداخت‌های کارفرما و صدور چک‌ها جهت تمدید مجاز مدت اولیه پیمان.", "desc_en": "Mathematical calculation of permissible project time extensions per Circular 5090 based on late employer payments and delayed advance releases."}, {"id": 11, "cat": "civil", "icon": "file-text", "badge_fa": "گزارشات تحلیلی", "badge_en": "Executive Reporting", "title_fa": "تهیه انواع گزارشات ادواری مدیریتی و پیشرفت فیزیکی", "title_en": "Executive Progress Dashboards & Physical/Financial Reporting", "desc_fa": "تنظیم گزارش‌های ماهانه، هفتگی و روزانه کارگاهی، تحلیل انحرافات زمانی و ریالی، نمودارهای احجام عملیات و مستندسازی مشکلات اجرایی کارگاه.", "desc_en": "Preparation of monthly, weekly, and daily site dashboards, time/cost variance analysis, work volume charts, and executive reporting for senior stakeholders."}, {"id": 12, "cat": "civil", "icon": "calendar-clock", "badge_fa": "زمان‌بندی MSP و P6", "badge_en": "Project Scheduling MSP & P6", "title_fa": "تهیه برنامه زمان‌بندی با نرم‌افزارهای MSP و Primavera P6", "title_en": "Baseline Scheduling, CPM & Resource Leveling with MSP & P6", "desc_fa": "تعریف WBS، استخراج فعالیت‌ها، روابط پیش‌نیازی، تحلیل مسیر بحرانی (CPM)، تخصیص منابع و ماشین‌آلات، برنامه‌های مبنا (Baseline) و پایش شاخص‌های EVM.", "desc_en": "WBS definition, activity breakdown, logic relationships, Critical Path Method (CPM), resource leveling, baseline tracking, and Earned Value Management (EVM) metrics."}, {"id": 13, "cat": "civil", "icon": "alert-triangle", "badge_fa": "ضرر و زیان تعلیق", "badge_en": "Suspension Damages", "title_fa": "تهیه لایحه ضرر و زیان و خسارات تعلیق و تورم", "title_en": "Claims for Project Suspension, Idle Costs & Inflation Damages", "desc_fa": "محاسبه هزینه‌های بالاسری دوران تعلیق، خواب ماشین‌آلات و پرسنل کلیدی طبق ماده ۴۹ شرایط عمومی پیمان و جبران آثار تورمی در قراردادهای عمرانی.", "desc_en": "Calculation of overhead costs during suspension, idle machinery/key personnel compensations per Article 49 of GCC, and inflation impact recovery."}, {"id": 14, "cat": "civil", "icon": "layout", "badge_fa": "نقشه‌کشی اتوکد", "badge_en": "CAD Drafting", "title_fa": "طراحی و نقشه‌کشی فاز ۱ و ۲ ساختمانی و زیرساخت", "title_en": "Phase 1 & 2 Architectural & Structural CAD Drafting", "desc_fa": "ترسیم، اصلاح، ویرایش و استانداردسازی پلان‌های معماری، آکس‌بندی، فونداسیون، تیرریزی، ستون‌گذاری، جزئیات سازه‌ای و نقشه‌های زیرساخت شهری با AutoCAD.", "desc_en": "Drafting, editing, and standardization of architectural layouts, grid plans, foundation, framing, column schedules, and municipal infrastructure in AutoCAD."}, {"id": 15, "cat": "civil", "icon": "box", "badge_fa": "مدلسازی BIM رویت", "badge_en": "BIM & Revit Modeling", "title_fa": "مدل‌سازی سه‌بعدی اطلاعات ساختمان و کلش‌دیتکشن با رویت", "title_en": "3D BIM Modeling, Clash Detection & Coordinated Revit Models", "desc_fa": "توسعه مدل‌های پارامتریک معماری و سازه در نرم‌افزار Autodesk Revit، تشخیص تداخلات فیزیکی (Clash Detection)، استخراج مقادیر مصالح و شیت‌بندی مهندسی.", "desc_en": "Parametric architectural and structural BIM in Autodesk Revit, multi-disciplinary clash detection, automated QTO extraction, and construction documentation."}, {"id": 16, "cat": "civil", "icon": "activity", "badge_fa": "طراحی سازه", "badge_en": "Structural Design", "title_fa": "تحلیل و طراحی سازه‌های فولادی و بتنی با ETABS، SAFE و SAP2000", "title_en": "Structural Engineering & Seismic Analysis (ETABS, SAFE, SAP2000)", "desc_fa": "مدل‌سازی، تحلیل خطی و غیرخطی، کنترل دریفت زلزله بر اساس آیین‌نامه ۲۸۰۰ و طراحی اجزای سازه‌ای مطابق مبحث نهم و دهم مقررات ملی ساختمان.", "desc_en": "Linear/nonlinear structural modeling, drift checks under Iranian Seismic Code 2800, and structural element design per National Building Regulations Parts 9 & 10."}, {"id": 17, "cat": "civil", "icon": "hammer", "badge_fa": "شاپ‌دراوینگ تکلا", "badge_en": "Tekla Shop Detailing", "title_fa": "مدلسازی و تهیه نقشه‌های شاپ اسکلت فلزی با Tekla Structures", "title_en": "Structural Steel Shop Detailing & Cutting Sheets with Tekla", "desc_fa": "مدل‌سازی دقیق اتصالات پیچ و مهره‌ای و جوشی، استخراج نقشه‌های کارگاهی (Single Part & Assembly Drawings)، کاتینگ‌شیت پروفیل‌ها و خروجی فایل‌های CNC.", "desc_en": "Detailed bolted/welded connection modeling, single part & assembly fabrication shop drawings, profile cutting optimization, and CNC/DSTV exports in Tekla Structures."}, {"id": 18, "cat": "web", "icon": "globe", "badge_fa": "وردپرس و المنتور", "badge_en": "WordPress & Elementor", "title_fa": "طراحی و توسعه سایت‌های اختصاصی و سامانه‌های شرکتی", "title_en": "Enterprise Web Development with WordPress & Elementor", "desc_fa": "طراحی و اجرای وب‌سایت‌های شرکتی، هلدینگ‌های مهندسی، فروشگاهی و پورتال‌های سازمانی با بالاترین استاندارد سرعت، امنیت، سئو و کدنویسی بهینه.", "desc_en": "Design and execution of corporate engineering websites, e-commerce, and enterprise portals with maximum performance, security, SEO, and clean code standards."}, {"id": 19, "cat": "web", "icon": "code", "badge_fa": "توسعه اختصاصی PHP", "badge_en": "Custom PHP Development", "title_fa": "برنامه‌نویسی افزونه‌ها و قالب‌های اختصاصی PHP", "title_en": "Custom PHP Plugin & Theme Programming", "desc_fa": "توسعه افزونه‌های سفارشی وردپرس، ویجت‌های اختصاصی المنتور، یکپارچه‌سازی وب‌سرویس‌ها، فرم‌های هوشمند و ماژول‌های محاسباتی با رعایت استانداردهای Clean Code.", "desc_en": "Custom WordPress plugins, Elementor widgets, web service integrations, dynamic forms, and calculation modules following strict clean code practices."}, {"id": 20, "cat": "web", "icon": "server", "badge_fa": "سرور و میزبانی وب", "badge_en": "Cloud & Web Hosting", "title_fa": "کانفیگ سرور، میزبانی لایت‌اسپید، SSL و کلودفلر", "title_en": "Server Administration, LiteSpeed, SSL & Cloudflare CDN", "desc_fa": "راه‌اندازی، بهینه‌سازی و ارتقای امنیت سرورهای لینوکس، لایت‌اسپید، cPanel/DirectAdmin، پیکربندی کلودفلر، گواهی امنیتی SSL و بهینه‌سازی شاخص‌های Core Web Vitals.", "desc_en": "Linux server hardening, LiteSpeed configuration, cPanel/DirectAdmin management, Cloudflare CDN/WAF setup, SSL certificates, and Core Web Vitals optimization."}, {"id": 21, "cat": "web", "icon": "smartphone", "badge_fa": "رابط کاربری UI/UX", "badge_en": "UI/UX Engineering", "title_fa": "طراحی رابط و تجربه کاربری مدرن با Figma و Tailwind", "title_en": "Modern Responsive UI/UX Prototyping (Figma & Tailwind)", "desc_fa": "طراحی وایرفریم‌ها، پروتوتایپ‌های تعاملی، سیستم‌های طراحی (Design Systems)، پالت‌های رنگی مهندسی و پیاده‌سازی فرانت‌اند ریسپانسیو با Tailwind CSS.", "desc_en": "Wireframing, interactive Figma prototypes, design systems, modern typography, and pixel-perfect responsive front-end implementation with Tailwind CSS."}, {"id": 22, "cat": "web", "icon": "cpu", "badge_fa": "اتوماسیون وب و API", "badge_en": "Web Automation & APIs", "title_fa": "پیاده‌سازی API و اتوماسیون داده‌های مهندسی بر بستر وب", "title_en": "Engineering Web APIs & Data Automation Pipelines", "desc_fa": "طراحی REST APIهای اختصاصی جهت تبادل داده میان نرم‌افزارهای مهندسی (اتوکد، تکسا، رویت) و پایگاه‌های وب، اتوماسیون گزارش‌گیری و داشبوردهای آنلاین.", "desc_en": "Custom REST API architecture for seamless data exchange between desktop engineering tools (CAD, Taksa, Revit) and online cloud management dashboards."}, {"id": 23, "cat": "ai", "icon": "book-marked", "badge_fa": "نگارش مقالات بین‌المللی", "badge_en": "Scientific Writing & ISI", "title_fa": "همکاری پژوهشی و مشاوره در نگارش مقالات علمی", "title_en": "Peer-Reviewed Manuscript Advisory & Academic Writing", "desc_fa": "تعریف شکاف پژوهشی (Research Gap)، استخراج نوآوری، تدوین متدولوژی، تنظیم ساختار استاندارد IMRaD، نگارش آکادمیک در قالب LaTeX و ارسال به مجلات تراز اول.", "desc_en": "Formulation of research gaps, novel contributions, methodology design, IMRaD structuring, publication-grade LaTeX drafting, and top journal submissions."}, {"id": 24, "cat": "ai", "icon": "check-square", "badge_fa": "داوری و ریبوتال", "badge_en": "Peer Review & Rebuttal", "title_fa": "داوری مقالات و تنظیم نامه‌های پاسخ به داوران", "title_en": "Peer Review Auditing & Rebuttal Strategy", "desc_fa": "بررسی انتقادی و داوری مقالات ژورنال‌های معتبر بین‌المللی، رفع ایرادات متدولوژیک و آماری، و تدوین نامه‌های پاسخ نقطه به نقطه (Rebuttal Letters) جهت پذیرش قطعی.", "desc_en": "Critical peer-review assessments, methodological and statistical refinement, and point-by-point rebuttal drafting for high-impact journal acceptances."}, {"id": 25, "cat": "ai", "icon": "eye", "badge_fa": "یادگیری عمیق و بینایی ماشین", "badge_en": "Deep Learning & Vision", "title_fa": "توسعه، آموزش و اعتبارسنجی مدل‌های PyTorch و YOLO", "title_en": "PyTorch, YOLOv8/v11 & LSTM Architecture Development", "desc_fa": "پیاده‌سازی پایپ‌لاین‌های بینایی ماشین جهت آشکارسازی و بخش‌بندی خودکار خرابی‌های روسازی و سازه با YOLOv8/v11، مدل‌های پیش‌بینی زوال با LSTM و ارزیابی متریک‌های mAP.", "desc_en": "End-to-end computer vision pipelines for automated distress detection and segmentation using YOLOv8/v11, LSTM deterioration modeling, and mAP evaluation."}, {"id": 26, "cat": "ai", "icon": "network", "badge_fa": "دوقلوی دیجیتال زیرساخت", "badge_en": "Infrastructure Digital Twins", "title_fa": "پژوهش و پیاده‌سازی دوقلوی دیجیتال روسازی با IFC 4.3", "title_en": "Pavement Digital Twins & Semantic IFC 4.3 Integration", "desc_fa": "پیاده‌سازی معماری دوقلوی دیجیتال زیرساخت‌های حمل‌ونقل، بازسازی ۴بعدی سطح معابر، اتصال حسگرهای IoT، معناشناسی استاندارد IFC 4.3 و تصمیم‌یار هوشمند نگهداری.", "desc_en": "Transportation infrastructure digital twin frameworks, 4D surface reconstruction, IoT sensor streams, IFC 4.3 semantic models, and predictive maintenance engines."}, {"id": 27, "cat": "ai", "icon": "compass", "badge_fa": "بهینه‌سازی الگوریتمی", "badge_en": "Metaheuristic Optimization", "title_fa": "پیاده‌سازی الگوریتم‌های فراابتکاری (GA, PSO) در مهندسی", "title_en": "Metaheuristic Optimization in Civil & Infrastructure Systems", "desc_fa": "فرموله‌سازی مسائل بهینه‌سازی چندهدفه، تخصیص بهینه بودجه نگهداری و ترمیم (M&R)، الگوریتم‌های ژنتیک (GA)، ازدحام ذرات (PSO) و NSGA-II در زبان پایتون.", "desc_en": "Multi-objective engineering optimization formulation, Maintenance & Rehabilitation (M&R) budget allocation using Genetic Algorithms (GA), PSO, and NSGA-II in Python."}];
+        const skillsData = [{"id": "tech-office", "icon": "file-spreadsheet", "title_fa": "امور دفتر فنی، متره و برآورد، کلیم و امور پیمان", "title_en": "Technical Office, Contracts, Claims & Quantity Surveying", "desc_fa": "تسلط تخصصی بر ضوابط نظام فنی و اجرایی، شرایط عمومی پیمان، نرم‌افزارهای تکسا و تدکار، آنالیز بها و مدیریت ادعا.", "desc_en": "Expertise in Iran Construction Procurement Regulations, FIDIC, Taksa, Tadkar, Price Analysis, and Claim Management.", "skills": [{"name_fa": "نرم‌افزار تکسا (Taksa)", "name_en": "Taksa Software", "detail_fa": "تهیه آنالیز بها، پیشنهاد قیمت، مناقصات و صورت‌وضعیت کارکرد/تعدیل", "detail_en": "Rate Analysis, Bid Estimation, Tenders & Interim/Adjustment Valuations", "level": "۱۰۰٪ (Mastery)", "tag": "نرم‌افزار محوری / Core Software"}, {"name_fa": "صورت‌وضعیت موقت و قطعی", "name_en": "Interim & Final Payment Certificates", "detail_fa": "تنظیم، تهیه، رسیدگی و دفاع مستند از صورت‌وضعیت‌های کارکرد پیمانکاری", "detail_en": "Preparation, Audit, and Formal Defense of Interim & Final Valuations", "level": "۱۰۰٪", "tag": "دفتر فنی / Tech Office"}, {"name_fa": "صورت‌وضعیت تعدیل آحاد بها (بخشنامه ۱۷۳۰۷۳)", "name_en": "Price Escalation & Adjustment (Circular 173073)", "detail_fa": "محاسبه دقیق تعدیل، استخراج شاخص‌های مبنا/دوره‌ای و کنترل دوره‌های مجاز", "detail_en": "Formulaic Escalation Calculations, Baseline Indices & Allowable Durations", "level": "۱۰۰٪", "tag": "تعدیل آحاد بها / Escalation"}, {"name_fa": "کلیم‌های قیمت جدید و اضافه‌کاری (ماده ۲۹)", "name_en": "New Rate Claims & Extra Works (Article 29)", "detail_fa": "آنالیز نرخ جدید بر اساس بخشنامه ۴۹۵۱ و کنترل سقف ۲۵٪ افزایش/کاهش مقادیر", "detail_en": "New Price Rate Breakdown under Circular 4951 & Article 29 Ceiling Controls", "level": "۹۸٪", "tag": "مدیریت قرارداد / Contracts"}, {"name_fa": "آنالیز درآمد و هزینه (Cash Flow) جهت جلوگیری از ضرر", "name_en": "Revenue-Cost & Cash Flow Optimization", "detail_fa": "موازنه جریان نقدینگی کارگاه، کنترل نقطه سر‌به‌سر و پیشگیری از ضرر پیمانکار", "detail_en": "Site Cash Flow Balancing, Break-Even Analysis & Loss Prevention", "level": "۹۵٪", "tag": "مدیریت مالی پروژه / Financial Mgmt"}, {"name_fa": "تنظیم و دفاع از صورت‌جلسات موقت و قطعی", "name_en": "Site Minutes of Meeting & Measurement Records", "detail_fa": "مستندسازی عملیات پوشیده و احجام کارگاهی با تأیید دستگاه نظارت و کارفرما", "detail_en": "Documenting Hidden Works, Site Measurement Logs & Approval Workflows", "level": "۱۰۰٪", "tag": "مستندسازی کارگاهی / Site Documentation"}, {"name_fa": "مدیریت جامع ادعا (Claim Management)", "name_en": "Contract Claim Management & Dispute Resolution", "detail_fa": "شناسایی، تدوین لوایح ادعا، مذاکره حقوقی و دفاع از حقوق مالی/زمانی", "detail_en": "Claim Identification, Formal Dossier Preparation & Contractual Negotiations", "level": "۹۶٪", "tag": "حقوق مهندسی / Construction Law"}, {"name_fa": "متره و برآورد دقیق احجام", "name_en": "Detailed Quantity Surveying (QTO) & Estimation", "detail_fa": "ریزمتره فاز ۱، ۲ و ازبیلت، لیستوفر آرماتورها و تطابق با فهارس‌بهای سازمان برنامه", "detail_en": "Detailed Takeoff for Phase 1/2/As-Built & National Price List Mapping", "level": "۱۰۰٪", "tag": "متره و برآورد / Takeoff"}, {"name_fa": "پیمان، رسیدگی و امور قراردادها (نشریه ۴۳۱۱ و FIDIC)", "name_en": "Contract Administration (Spec 4311 & FIDIC)", "detail_fa": "تفسیر حقوقی مواد ۵۴ گانه، شرایط عمومی/خصوصی و مدیریت تضامین", "detail_en": "Legal Interpretation of 54 Articles, Conditions of Contract & Guarantees", "level": "۹۸٪", "tag": "امور پیمان / Contract Admin"}, {"name_fa": "لایحه تأخیرات و تمدید مدت (بخشنامه ۵۰۹۰ و ماده ۳۰)", "name_en": "Delay Analysis & EOT Dossiers (Circular 5090 & Art. 30)", "detail_fa": "محاسبه تأخیرات مجاز ناشی از دیرکرد پیش‌پرداخت، صورت‌وضعیت‌ها و علل خارج از قصور", "detail_en": "Extension of Time Analysis based on Payment Delays and Excusable Events", "level": "۱۰۰٪", "tag": "تأخیرات پیمان / Delay Analysis"}, {"name_fa": "لایحه ضرر و زیان ناشی از تعلیق و تورم", "name_en": "Loss & Expense Dossiers (Suspension & Inflation)", "detail_fa": "تدوین خسارت توقف تجهیزات، هزینه‌های بالاسری کارگاه در دوران تعلیق (ماده ۴۹)", "detail_en": "Demobilization/Idle Costs, Extended Overhead & Suspension Damage (Art. 49)", "level": "۹۵٪", "tag": "خسارت و ضرر و زیان / Loss & Expense"}, {"name_fa": "نرم‌افزار تدکار (Tadkar) و فهارس بهای سازمان برنامه", "name_en": "Tadkar Software & National Price Lists", "detail_fa": "برآورد و متره پروژه‌های ابنیه، تاسیسات، راه و باند بر بستر تدکار", "detail_en": "Project Estimation & Takeoff on Tadkar Platform for Multi-Disciplinary Works", "level": "۹۵٪", "tag": "نرم‌افزار دفتر فنی / Tadkar Software"}]}, {"id": "bim-cad-struct", "icon": "box", "title_fa": "مدل‌سازی اطلاعات ساختمان (BIM)، نقشه‌کشی، شاپ‌دراوینگ و سازه", "title_en": "BIM Modeling, CAD Detailing, Tekla Shop Drawings & Structural Design", "desc_fa": "مدل‌سازی پارامتریک BIM، طراحی اتصالات و سازه‌های فولادی/بتنی، نقشه‌های کارگاهی و استخراج کاتینگ‌شیت.", "desc_en": "Parametric BIM Authoring, Structural Steel/Concrete Detailing, Tekla Shop Drawings, and Cutting Sheets.", "skills": [{"name_fa": "اتوکد تخصصی (AutoCAD Professional)", "name_en": "AutoCAD Professional & AutoLISP", "detail_fa": "ترسیم نقشه‌های فاز ۱ و ۲ معماری و سازه، اتوماسیون با اسکریپت‌های AutoLISP", "detail_en": "Phase 1 & 2 Architectural/Structural Drafting, Custom AutoLISP Automation", "level": "۱۰۰٪", "tag": "نرم‌افزار ترسیمی / CAD Drafting"}, {"name_fa": "رویت (Autodesk Revit BIM)", "name_en": "Autodesk Revit BIM Modeling", "detail_fa": "مدل‌سازی سه‌بعدی جامع معماری و سازه، استخراج مقادیر و کلش‌دیتکشن با Navisworks", "detail_en": "Multi-Disciplinary 3D BIM, Quantity Extraction & Navisworks Clash Detection", "level": "۹۵٪", "tag": "مدل‌سازی BIM / BIM Platform"}, {"name_fa": "تکلا استراکچرز (Tekla Structures)", "name_en": "Tekla Structures Shop Detailing", "detail_fa": "مدل‌سازی اتصالات پیچ و جوش، تهیه نقشه‌های کارگاهی (Shop)، کاتینگ‌شیت و NC/DSTV", "detail_en": "Steel Connection Modeling, Shop Drawings, Cutting Sheets & CNC NC/DSTV Export", "level": "۹۵٪", "tag": "شاپ‌دراوینگ فلزی / Steel Detailing"}, {"name_fa": "تحلیل و طراحی سازه با ETABS (ایتـبز)", "name_en": "CSI ETABS Structural Analysis", "detail_fa": "طراحی لرزه‌ای سازه‌های بتن‌آرمه و فولادی، کنترل دریفت و ضوابط استاندارد ۲۸۰۰", "detail_en": "Seismic Analysis & Design of Concrete/Steel Buildings, Drift Control (Standard 2800)", "level": "۹۵٪", "tag": "محاسبات سازه / Structural Analysis"}, {"name_fa": "طراحی فونداسیون با SAFE (سـیف)", "name_en": "CSI SAFE Foundation Design", "detail_fa": "تحلیل و طراحی پی‌های نواری، گسترده، شمع‌ها و دال‌های بتنی پس‌کشیده", "detail_en": "Analysis & Design of Mat Foundations, Pile Caps, and Post-Tensioned Slabs", "level": "۹۰٪", "tag": "طراحی فونداسیون / Foundation Design"}, {"name_fa": "تحلیل المان محدود با SAP2000 (سـپ)", "name_en": "CSI SAP2000 FEA Analysis", "detail_fa": "مدل‌سازی و تحلیل خطی/غیرخطی سازه‌های خاص صنعتی، سوله‌ها و پل‌ها", "detail_en": "Linear/Nonlinear Finite Element Modeling for Industrial Frames, Sheds & Bridges", "level": "۹۰٪", "tag": "تحلیل پیشرفته / FEA Analysis"}, {"name_fa": "سیویل تری‌دی (Autodesk Civil 3D)", "name_en": "Autodesk Civil 3D Infrastructure", "detail_fa": "طراحی مسیر، خط پروژه، احجام عملیات خاکی (LandXML) و مقاطع عرضی راه", "detail_en": "Geometric Road Alignment, Corridor Modeling, LandXML Earthwork & Cross-Sections", "level": "۹۲٪", "tag": "زیرساخت و راه / Infrastructure"}, {"name_fa": "مقررات ملی ساختمان (مباحث ۶، ۷، ۸، ۹، ۱۰ و ۱۲)", "name_en": "National Building Codes (Parts 6, 7, 8, 9, 10 & 12)", "detail_fa": "تسلط بر ضوابط طراحی بتن، فولاد، ژئوتکنیک و ایمنی کارگاه‌های ساختمانی", "detail_en": "Deep Compliance with Concrete, Steel, Foundation, and Site HSE National Codes", "level": "۱۰۰٪", "tag": "آیین‌نامه‌های ملی / National Codes"}]}, {"id": "proj-controls-pmo", "icon": "clock", "title_fa": "برنامه‌ریزی، کنترل پروژه، PMO و داشبوردهای مدیریتی", "title_en": "Project Controls, Scheduling, PMO & Executive Dashboards", "desc_fa": "زمان‌بندی پروژه‌ها با MSP و P6، تحلیل مسیر بحرانی (CPM)، شاخص‌های ارزش کسب‌شده (EVM) و داشبوردهای تعاملی.", "desc_en": "Advanced Scheduling in MSP & Primavera P6, Critical Path Method (CPM), EVM Analytics, and Dashboards.", "skills": [{"name_fa": "مایکروسافت پروجکت (Microsoft Project - MSP)", "name_en": "Microsoft Project (MSP)", "detail_fa": "توسعه WBS، تعریف تقویم‌های کاری، تخصیص منابع، بالانس منابع و برنامه مبنا (Baseline)", "detail_en": "WBS Authoring, Calendars, Resource Leveling, Baselines & Progress Tracking", "level": "۱۰۰٪", "tag": "کنترل پروژه / MSP Scheduling"}, {"name_fa": "پریماورا (Primavera P6 EPPM)", "name_en": "Primavera P6 EPPM", "detail_fa": "زمان‌بندی پروژه‌های بزرگ صنعتی و عمرانی، ممیزی ۱۴ گانه DCMA و مدیریت ریسک", "detail_en": "Enterprise CPM Scheduling for Megaprojects, DCMA 14-Point Quality Checks", "level": "۹۶٪", "tag": "پریماورا P6 / Primavera P6"}, {"name_fa": "تحلیل مسیر بحرانی (CPM) و شناوری‌ها", "name_en": "Critical Path Method (CPM) & Float Tracking", "detail_fa": "ردیابی فعالیت‌های بحرانی، محاسبه Total Float و Free Float و جلوگیری از تأخیرات", "detail_en": "Critical Activities Tracking, Float Management & Delay Mitigation Strategies", "level": "۱۰۰٪", "tag": "متدولوژی CPM / Critical Path"}, {"name_fa": "محاسبات مدیریت ارزش کسب‌شده (EVM)", "name_en": "Earned Value Management (EVM)", "detail_fa": "محاسبه شاخص‌های CPI, SPI, EAC, VAC, TCPI و تحلیل انحرافات زمانی و هزینه‌ای", "detail_en": "EVM Computation (CPI, SPI, EAC, VAC) & Cost/Schedule Variance Diagnostics", "level": "۹۸٪", "tag": "شاخص‌های EVM / Earned Value"}, {"name_fa": "تهیه داشبوردهای تعاملی مدیریتی", "name_en": "Executive Management Dashboards", "detail_fa": "توسعه داشبوردهای تک‌فایلی مستقل HTML/JS، Power BI و اکسل پیشرفته با KPIهای بلادرنگ", "detail_en": "Standalone Interactive HTML/JS Dashboards, Power BI & Advanced Excel KPIs", "level": "۹۸٪", "tag": "داشبورد مدیریتی / Dashboards"}, {"name_fa": "تهیه گزارشات دوره‌ای کارگاهی و ستادی", "name_en": "Periodic Executive Reporting (Daily/Weekly/Monthly)", "detail_fa": "تدوین گزارش‌های پیشرفت، مستندسازی تصویری، ترسیم S-Curve پیشرفت فیزیکی و ریالی", "detail_en": "Site/HQ Progress Reporting, Visual S-Curves (Physical vs Financial), and Milestones", "level": "۱۰۰٪", "tag": "گزارشات مهندسی / Project Reports"}]}, {"id": "web-software-uiux", "icon": "globe", "title_fa": "طراحی و توسعه وب، پلتفرم‌های نرم‌افزاری، میزبانی و UI/UX", "title_en": "Fullstack Web Architecture, Software Platforms, UI/UX & Hosting", "desc_fa": "توسعه تخصصی سامانه‌های تحت وب مهندسی، وردپرس و المنتور، زیرساخت سرور و میزبانی، و رابط کاربری.", "desc_en": "Engineering Web Portals, Custom WordPress & Elementor, Server/Cloud Infrastructure, and UI/UX.", "skills": [{"name_fa": "وردپرس و المنتور پیشرفته (WordPress & Elementor Pro)", "name_en": "WordPress & Advanced Elementor Pro", "detail_fa": "توسعه وب‌سایت‌های شرکتی و سازمانی با امنیت بالا، Core Web Vitals و سئوی تکنیکال", "detail_en": "High-Security Enterprise Portals, Custom Styling, Core Web Vitals Optimization", "level": "۱۰۰٪", "tag": "سیستم مدیریت محتوا / CMS & WP"}, {"name_fa": "برنامه‌نویسی و توسعه اختصاصی PHP", "name_en": "PHP Custom Software Development", "detail_fa": "کدنویسی ماژول‌ها و ویجت‌های اختصاصی وردپرس، هوک‌ها، فیلترها و بهینه‌سازی دیتابیس MySQL", "detail_en": "Custom WordPress Plugins, Hooks/Filters API, and Secure MySQL Queries", "level": "۹۵٪", "tag": "توسعه بک‌اند / PHP & Backend"}, {"name_fa": "توسعه فرانت‌اند و وب اپلیکیشن مدرن", "name_en": "Modern Frontend & Web Applications", "detail_fa": "جاوااسکریپت ماژولار (ES6+)، Tailwind CSS، طراحی کامپوننت‌محور و واکنش‌گرا (Responsive)", "detail_en": "Modular JavaScript (ES6+), Tailwind CSS, Component Architecture & Responsive UX", "level": "۹۶٪", "tag": "فرانت‌اند مدرن / Modern Frontend"}, {"name_fa": "مدیریت سرور، هاستینگ لینوکس و زیرساخت کلود", "name_en": "Server Administration & Cloud Hosting", "detail_fa": "پیکربندی cPanel, DirectAdmin, Nginx/Apache, DNS, گواهینامه‌های SSL و کلودفلر", "detail_en": "cPanel/DirectAdmin Config, Nginx/Apache Tuning, DNS Routing, SSL & Cloudflare", "level": "۹۲٪", "tag": "سرور و میزبانی / Server & DevOps"}, {"name_fa": "طراحی رابط کاربری و تجربه کاربری (UI/UX Design)", "name_en": "UI/UX Design & User Experience Flow", "detail_fa": "طراحی وایرفریم‌ها، پروتوتایپ‌های تعاملی، تایپوگرافی استاندارد فارسی و راست‌چینی (RTL)", "detail_en": "Interactive Prototyping, Design Systems, Clean Typography & Native Persian RTL", "level": "۹۴٪", "tag": "طراحی رابط کاربری / UI/UX Design"}]}, {"id": "ai-data-digitaltwin", "icon": "cpu", "title_fa": "هوش مصنوعی، یادگیری عمیق، بینایی ماشین و دوقلوی دیجیتال", "title_en": "Artificial Intelligence, Deep Learning, Computer Vision & Digital Twins", "desc_fa": "طراحی مدل‌های پیشرفته بینایی ماشین، کشف خودکار آسیب‌های زیرساخت با YOLO، و معماری دوقلوی دیجیتال.", "desc_en": "State-of-the-Art Computer Vision, YOLO Pavement Defect Segmentation, and Digital Twin Systems.", "skills": [{"name_fa": "زبان پایتون تخصصی (Python Scientific Computing)", "name_en": "Python Scientific & Engineering Computing", "detail_fa": "NumPy, Pandas, SciPy, Matplotlib, پردازش و تمیزسازی کلان‌داده‌های مهندسی", "detail_en": "NumPy, Pandas, SciPy, Matplotlib, Large-Scale Engineering Data Processing", "level": "۱۰۰٪", "tag": "پایتون علمی / Python Scientific"}, {"name_fa": "یادگیری عمیق با پای‌تورچ (PyTorch Deep Learning)", "name_en": "PyTorch Deep Learning & Neural Architectures", "detail_fa": "طراحی و آموزش شبکه‌های عصبی پیچشی (CNN)، شبکه‌های بازگشتی LSTM و ترنسفورمرها", "detail_en": "Custom CNNs, Recurrent LSTM Networks, Attention Mechanisms & Model Optimization", "level": "۹۵٪", "tag": "یادگیری عمیق / PyTorch DL"}, {"name_fa": "بینایی ماشین و مدل‌های YOLO (YOLOv8 & YOLOv11)", "name_en": "Computer Vision & YOLO Object Detection", "detail_fa": "بخش‌بندی معنایی و نمونه‌ای (Instance Segmentation)، آشکارسازی ترک‌ها و زوال روسازی", "detail_en": "Semantic/Instance Segmentation, Automated Pavement Crack & Distress Extraction", "level": "۹۸٪", "tag": "بینایی ماشین / Computer Vision"}, {"name_fa": "معماری دوقلوی دیجیتال زیرساخت (Digital Twins)", "name_en": "Infrastructure Digital Twin & Sensor Integration", "detail_fa": "یکپارچه‌سازی مدل‌های سه‌بعدی با حسگرهای IoT، استاندارد IFC 4.3 و تحلیل رفتار سازه", "detail_en": "3D Models Synchronized with IoT Sensors, IFC 4.3 Protocol & Real-Time Performance", "level": "۹۴٪", "tag": "دوقلوی دیجیتال / Digital Twin"}, {"name_fa": "هوش مصنوعی توصیف‌پذیر (Explainable AI - XAI)", "name_en": "Explainable AI (XAI) & Interpretability", "detail_fa": "تحلیل اهمیت ویژگی‌ها با SHAP، متدهای Grad-CAM و اعتباربخشی مهندسی به خروجی‌های هوش مصنوعی", "detail_en": "SHAP Values, Feature Attributions, Grad-CAM Heatmaps & Engineering Validation", "level": "۹۲٪", "tag": "هوش مصنوعی شفاف / Explainable AI"}]}, {"id": "academic-rd-consulting", "icon": "graduation-cap", "title_fa": "پژوهش دانشگاهی، تحقیق و توسعه (R&D) و نگارش مقالات ISI", "title_en": "Academic R&D, ISI Paper Writing, LaTeX & Peer Review Consulting", "desc_fa": "تدوین ساختار مقالات در تراز ژورنال‌های برتر Nature و Elsevier، ریویو تخصصی و روش تحقیق پیشرفته.", "desc_en": "Rigorous Academic Methodologies, Top-tier ISI Journal Publications, LaTeX, and Peer Reviewing.", "skills": [{"name_fa": "نگارش و ویرایش مقالات علمی ISI در تراز ژورنال‌های برتر", "name_en": "Top-tier ISI Manuscript Writing & Structuring", "detail_fa": "تدوین ساختار IMRaD اصیل، نگارش متن علمی فاخر با استانداردهای Nature و Elsevier", "detail_en": "Authentic IMRaD Framework, Academic Prose & Formatting for Nature & Elsevier Standards", "level": "۱۰۰٪", "tag": "نگارش دانشگاهی / ISI Writing"}, {"name_fa": "تسلط حرفه‌ای بر LaTeX و BibTeX", "name_en": "Professional LaTeX & BibTeX Typesetting", "detail_fa": "فرمول‌نویسی پیچیده ریاضی، تنظیم قالب‌های دو‌ستونه ژورنال‌ها و مدیریت ارجاعات استنادی", "detail_en": "Complex Math Environments, Journal-Compliant Layouts & Flawless BibTeX Referencing", "level": "۱۰۰٪", "tag": "حروف‌چینی علمی / LaTeX Typesetting"}, {"name_fa": "تعریف شکاف پژوهش (Research Gap) و طراحی آزمایش‌ها", "name_en": "Research Gap Definition & Experimental Design", "detail_fa": "طراحی آزمایش‌ها، مقایسه بنچ‌مارک‌ها و تدوین نوآوری علمی (Contribution)", "detail_en": "Formulating Novel Research Gaps, SOTA Benchmark Comparison & Experimental Protocols", "level": "۹۶٪", "tag": "روش تحقیق / Research Methodology"}, {"name_fa": "داوری مقالات ژورنال‌های معتبر (Peer Review)", "name_en": "Journal Peer Reviewing & Rebuttal Strategy", "detail_fa": "ممیزی روش‌شناسی، داوری مقالات بین‌المللی و تنظیم نامه‌های پاسخ به داوران (Rebuttal)", "detail_en": "Methodological Scrutiny, Active Reviewing for Leading Journals & Rebuttal Letter Authoring", "level": "۹۶٪", "tag": "داوری مقالات / Peer Reviewing"}, {"name_fa": "تحلیل آماری و اعتبارسنجی فرضیات", "name_en": "Statistical Rigor & Model Validation", "detail_fa": "آزمون‌های فرضیه، آزمون‌های ناپارامتریک، اعتبارسنجی متقاطع K-Fold و تحلیل حساسیت", "detail_en": "Hypothesis Testing, Non-Parametric Statistics, K-Fold Cross Validation & Sensitivity", "level": "۹۵٪", "tag": "آمار مهندسی / Applied Statistics"}]}];
+        const experienceData = [{"id": "exp-1", "title_fa": "مدیر امور فنی و قراردادها", "title_en": "Technical & Contracts Affairs Manager", "company_fa": "شرکت سحر سازه نوین پایدار", "company_en": "Sahar Sazeh Novin Paydar Co.", "location_fa": "شیراز و جنوب کشور", "location_en": "Shiraz & Southern Iran", "period_fa": "خرداد ۱۴۰۴ تا کنون", "period_en": "Jun 2025 — Present", "is_current": true, "desc_fa": "راهبری جامع دفتر فنی، متره و برآورد، تهیه و دفاع از صورت‌وضعیت‌های کارکرد و تعدیل (بخشنامه ۱۷۳۰۷۳)، تدوین لوایح ادعا و تمدید مدت پیمان طبق بخشنامه ۵۰۹۰ و نشریه ۴۳۱۱ در مگاپروژه‌های عمرانی.", "desc_en": "Overall leadership of technical office, quantity surveying, interim/escalation payment certificates (Circular 173073), comprehensive delay and claim dossiers (Circular 5090 & Spec 4311) on major infrastructure contracts.", "tags_fa": ["مدیریت دفتر فنی", "تکسا", "شرایط عمومی پیمان", "بخشنامه ۵۰۹۰", "بخشنامه ۱۷۳۰۷۳"], "tags_en": ["Technical Office Lead", "Taksa Software", "Conditions of Contract", "Circular 5090", "Circular 173073"]}, {"id": "exp-2", "title_fa": "پژوهشگر دکتری و محقق همکار (فلوشیپ بین‌المللی)", "title_en": "Doctoral Researcher & Visiting Fellow (DigiPave Project)", "company_fa": "دانشگاه اولو فنلاند (University of Oulu)", "company_en": "University of Oulu, Finland", "location_fa": "اولو، فنلاند (همکاری بین‌المللی)", "location_en": "Oulu, Finland (International Collaboration)", "period_fa": "دی ۱۴۰۲ تا کنون", "period_en": "Jan 2024 — Present", "is_current": true, "desc_fa": "توسعه معماری دوقلوی دیجیتال برای پایش هوشمند روسازی‌های فرودگاهی و بزرگراهی، تلفیق مدل‌های بینایی ماشین و هوش مصنوعی توصیف‌پذیر (XAI) با استانداردهای IFC 4.3.", "desc_en": "Developing digital twin architectures for smart pavement monitoring in cold climates, integrating computer vision, deep learning, explainable AI (XAI), and IFC 4.3 open standards.", "tags_fa": ["دوقلوی دیجیتال", "هوش مصنوعی", "بینایی ماشین", "پایتون", "IFC 4.3"], "tags_en": ["Digital Twin", "Computer Vision", "Deep Learning", "Python", "IFC 4.3"]}, {"id": "exp-3", "title_fa": "عضو هیئت مدیره و هم‌بنیان‌گذار", "title_en": "Board Member & Co-Founder", "company_fa": "مهندسین مشاور آرکانویان", "company_en": "ArkaNoyan Consulting Engineers", "location_fa": "شیراز و تهران", "location_en": "Shiraz & Tehran, Iran", "period_fa": "مهر ۱۳۹۸ تا کنون", "period_en": "Oct 2019 — Present", "is_current": true, "desc_fa": "ارائه خدمات مشاوره عالی در زمینه ممیزی پیمان‌ها، بهینه‌سازی سازه و فونداسیون، مدل‌سازی اطلاعات ساختمان (BIM)، حل اختلاف و دفاع در کمیسیون‌های فنی ماده ۳۰ پیمان.", "desc_en": "Providing senior engineering consultancy in contract dispute resolution, structural optimization, BIM implementation, and technical defense in Article 30 arbitration panels.", "tags_fa": ["مشاوره مهندسی", "مدیریت پیمان", "مدل‌سازی BIM", "حل اختلاف"], "tags_en": ["Consulting Engineering", "Contract Governance", "BIM Management", "Dispute Resolution"]}, {"id": "exp-4", "title_fa": "مدیرعامل و هم‌بنیان‌گذار", "title_en": "Chief Executive Officer & Co-Founder", "company_fa": "شرکت وب‌آلفا (WebAlfa)", "company_en": "WebAlfa Technology Co.", "location_fa": "شیراز و تهران", "location_en": "Shiraz & Tehran, Iran", "period_fa": "آذر ۱۳۹۹ تا کنون", "period_en": "Dec 2020 — Present", "is_current": true, "desc_fa": "هدایت استراتژیک شرکت در زمینه توسعه پلتفرم‌های نرم‌افزاری و وب تخصصی مهندسی، اتوماسیون محاسبات، میزبانی ابری امن و سامانه‌های مدیریت داده.", "desc_en": "Strategic leadership in developing bespoke engineering software platforms, web portals, calculation automation engines, secure hosting infrastructure, and UI/UX solutions.", "tags_fa": ["توسعه وب و پلتفرم", "وردپرس و PHP", "میزبانی لینوکس", "UI/UX"], "tags_en": ["Web & Platform Dev", "WordPress & PHP", "Server Admin", "UI/UX Architecture"]}, {"id": "exp-5", "title_fa": "سرپرست دفتر فنی و رسیدگی به امور پیمان", "title_en": "Head of Technical Office & Contract Claims", "company_fa": "مهندسین مشاور آبریز سازه فارس", "company_en": "Abriz Sazeh Fars Consulting Engineers", "location_fa": "استان فارس و هرمزگان", "location_en": "Fars & Hormozgan, Iran", "period_fa": "آذر ۱۳۹۶ تا خرداد ۱۳۹۸", "period_en": "Dec 2017 — Jun 2019", "is_current": false, "desc_fa": "مدیریت دفتر فنی پروژه‌های ابنیه و آب‌رسانی، بررسی و تأیید صورت‌وضعیت‌های پیمانکاران، تهیه اسناد مناقصات و تدوین گزارش‌های تفصیلی کنترل پروژه با MSP.", "desc_en": "Directed technical office operations for water transmission and civil works, audited contractor valuations, authored bidding documents, and tracked progress curves via MSP.", "tags_fa": ["سرپرستی دفتر فنی", "متره و برآورد", "برنامه‌ریزی MSP", "کنترل کارکرد"], "tags_en": ["Technical Office Lead", "Quantity Takeoff", "MSP Scheduling", "Contract Valuation"]}, {"id": "exp-6", "title_fa": "کارشناس امور قراردادها و کنترل پیمان", "title_en": "Contracts & Claims Specialist", "company_fa": "شرکت مهندسی و توسعه گاز ایران", "company_en": "National Iranian Gas Engineering & Development Co.", "location_fa": "تهران و جنوب کشور", "location_en": "Tehran & Southern Operations", "period_fa": "آبان ۱۳۹۷ تا مهر ۱۳۹۸", "period_en": "Nov 2018 — Oct 2019", "is_current": false, "desc_fa": "ممیزی قراردادهای EPC خطوط لوله انتقال، انطباق تضامین بانکی، رسیدگی به ادعاهای مالی و زمانی و شرکت در جلسات حل اختلاف پیمانکاری.", "desc_en": "Audited major EPC pipeline contracts, evaluated performance bonds and financial guarantees, assessed contractor claims, and drafted legal reports for arbitration boards.", "tags_fa": ["قراردادهای EPC", "ممیزی پیمان", "ارزیابی تضامین", "امور حقوقی"], "tags_en": ["EPC Contracts", "Contract Auditing", "Bank Guarantees", "Claim Defense"]}, {"id": "exp-7", "title_fa": "دستیار پژوهشی و مدرس مدعو", "title_en": "Graduate Research & Teaching Assistant", "company_fa": "دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)", "company_en": "Amirkabir University of Technology (Tehran Polytechnic)", "location_fa": "تهران، ایران", "location_en": "Tehran, Iran", "period_fa": "مهر ۱۳۹۹ تا دی ۱۴۰۴", "period_en": "Oct 2020 — Jan 2026", "is_current": false, "desc_fa": "پژوهش بر روی سامانه‌های هوشمند پایش روسازی، تدریس دروس مدیریت پروژه، برنامه‌ریزی و مدل‌سازی اطلاعات ساختمان برای دانشجویان کارشناسی و ارشد.", "desc_en": "Conducted high-impact research on smart infrastructure management, mentored graduate students, and instructed courses in Construction Management, BIM, and Project Controls.", "tags_fa": ["پژوهش و تدریس", "مدیریت ساخت", "دانشگاه امیرکبیر", "LaTeX"], "tags_en": ["R&D & Teaching", "Construction Mgmt", "Amirkabir Univ", "LaTeX Typesetting"]}, {"id": "exp-8", "title_fa": "مهندس ناظر و مجری پایه‌دو سازمان نظام مهندسی", "title_en": "Licensed Construction Supervisor & Executor (Grade 2)", "company_fa": "سازمان نظام مهندسی ساختمان استان فارس", "company_en": "Fars Construction Engineering Organization (IRCEO)", "location_fa": "شیراز و استان فارس", "location_en": "Shiraz, Fars Province", "period_fa": "۱۳۹۵ تا کنون", "period_en": "2016 — Present", "is_current": true, "desc_fa": "دارای پروانه اشتغال به‌کار مهندسی در صلاحیت‌های نظارت و اجرا، کنترل انطباق نقشه‌ها با مباحث مقررات ملی و استانداردهای HSE.", "desc_en": "Holder of official Professional Engineering license in Construction Supervision and Execution, ensuring rigorous compliance with National Building Codes and Site HSE.", "tags_fa": ["پروانه نظام مهندسی", "نظارت ساختمانی", "اجرای اسکلت", "مقررات ملی"], "tags_en": ["Professional Engineer", "Site Supervision", "Structural Execution", "Building Codes"]}];
+        const projectsData = [{"id": "proj-1", "cat": "ai", "title_fa": "پلتفرم دوقلوی دیجیتال پایش هوشمند زیرساخت و روسازی فرودگاهی", "title_en": "Airport & Highway Pavement Digital Twin Platform", "client_fa": "پروژه بین‌المللی DigiPave (فنلاند و ایران)", "client_en": "DigiPave International Project (Finland & Iran)", "period_fa": "۱۴۰۲ — ۱۴۰۴ (۲۰۲۴ — ۲۰۲۶)", "period_en": "2024 — 2026", "desc_fa": "توسعه معماری ۴ بعدی دوقلوی دیجیتال بر مبنای استاندارد IFC 4.3 با یکپارچه‌سازی بینایی ماشین و سنسورهای حرارتی/لیزری جهت پیش‌بینی نرخ زوال سطوح پروازی.", "desc_en": "Developed a 4D digital twin framework using IFC 4.3 open standards, integrating YOLO segmentation and sensory streams for real-time runway pavement degradation forecasting.", "tags": ["Digital Twin", "IFC 4.3", "YOLOv11", "PyTorch", "Python"]}, {"id": "proj-2", "cat": "contracts", "title_fa": "تدوین لایحه جامع تأخیرات و دفاعیه تمدید مدت پیمان برج تجاری-مسکونی شیراز", "title_en": "Comprehensive Delay & Extension of Time Dossier for Shiraz High-Rise", "client_fa": "سرمایه‌گذاری بخش خصوصی و پیمانکار رتبه یک ابنیه", "client_en": "Private Developer & Grade-1 General Contractor", "period_fa": "۱۴۰۳ (۲۰۲۴)", "period_en": "2024", "desc_fa": "مدل‌سازی CPM تاخیرات زمانی، اثبات ۱۸ ماه تأخیر مجاز ناشی از دیرکرد در ابلاغ نقشه‌ها و پرداخت‌ها طبق بخشنامه ۵۰۹۰ و جلوگیری از جریمه دیرکرد.", "desc_en": "Performed CPM delay modeling, substantiating 18 months of excusable compensable delay under Circular 5090 and preventing multi-billion penalty impositions.", "tags": ["بخشنامه ۵۰۹۰", "لایحه تأخیرات", "CPM", "نشریه ۴۳۱۱", "مدیریت ادعا"]}, {"id": "proj-3", "cat": "civil", "title_fa": "مدل‌سازی، طراحی بهسازی لرزه‌ای و راهبری اجرای بیمارستان ۱۲۰ تختخوابی", "title_en": "Structural Modeling, Seismic Retrofitting & Execution of 120-Bed Hospital", "client_fa": "دانشگاه علوم پزشکی / پیمانکار مجری", "client_en": "Medical University / Execution Contractor", "period_fa": "۱۴۰۰ — ۱۴۰۲ (۲۰۲۱ — ۲۰۲۳)", "period_en": "2021 — 2023", "desc_fa": "تحلیل طیفی و غیرخطی سازه بتنی با ETABS، طراحی سیستم مهاربندی کمانش‌تاب (BRB)، کنترل پی با SAFE و نظارت بر اجرای فونداسیون گسترده.", "desc_en": "Linear spectral and nonlinear analysis in ETABS, designing buckling-restrained braced (BRB) systems, mat foundation optimization in SAFE, and site supervision.", "tags": ["CSI ETABS", "CSI SAFE", "بهسازی لرزه‌ای", "استاندارد ۲۸۰۰", "مبحث ۹"]}, {"id": "proj-4", "cat": "civil", "title_fa": "راهبری دفتر فنی، صورت‌وضعیت‌ها و تعدیل قطعه دوم آزادراه شیراز-اصفهان", "title_en": "Technical Office Operations, Valuations & Escalation for Shiraz-Isfahan Freeway", "client_fa": "شرکت ساخت و توسعه زیربناهای حمل‌ونقل کشور", "client_en": "Transportation Infrastructure Development Co. (CDTIC)", "period_fa": "۱۳۹۸ — ۱۴۰۱ (۲۰۱۹ — ۲۰۲۲)", "period_en": "2019 — 2022", "desc_fa": "مدیریت متره و برآورد احجام خاکی و روسازی آسفالتی، تنظیم صورت‌وضعیت‌های کارکرد و تعدیل آحاد بها با نرم‌افزار تکسا بر اساس فهرست‌بهای راه و باند.", "desc_en": "Led quantity takeoff, asphalt earthwork calculations, and monthly interim & escalation certificates using Taksa software mapped to national roadwork tariffs.", "tags": ["تکسا", "فهرست‌بهای راه و باند", "تعدیل ۱۷۳۰۷۳", "متره و برآورد", "Civil 3D"]}, {"id": "proj-5", "cat": "contracts", "title_fa": "ممیزی پیمان EPC خط انتقال گاز، دفاع از کلیم‌های قیمت جدید و ماده ۳۰", "title_en": "EPC Contract Audit, Article 29/30 New Rates & Claims for Gas Pipeline", "client_fa": "شرکت مهندسی و توسعه گاز ایران", "client_en": "National Iranian Gas Engineering & Development Co.", "period_fa": "۱۳۹۷ — ۱۳۹۸ (۲۰۱۸ — ۲۰۱۹)", "period_en": "2018 — 2019", "desc_fa": "آنالیز بهای اقلام ستاره‌دار بر اساس بخشنامه ۴۹۵۱، دفاع از افزایش مقادیر قرارداد در چارچوب ماده ۲۹ و تنظیم گزارش‌های دفاعی در هیئت‌های حل اختلاف.", "desc_en": "Formulated new price rates according to Circular 4951, audited Article 29 scope increases, and represented client in Article 30 dispute resolution panels.", "tags": ["بخشنامه ۴۹۵۱", "ماده ۲۹", "ماده ۳۰", "آنالیز بها", "خطوط لوله"]}, {"id": "proj-6", "cat": "civil", "title_fa": "مدل‌سازی اطلاعات ساختمان (BIM)، شاپ‌دراوینگ و کلش‌دیتکشن مجتمع اداری-فرهنگی مهر", "title_en": "BIM Authoring, 3D Clash Detection & Quantity Takeoff for Mehr Civic Center", "client_fa": "شهرداری / مهندسین مشاور", "client_en": "Municipality / Lead Consultant", "period_fa": "۱۳۹۹ — ۱۴۰۰ (۲۰۲۰ — ۲۰۲۱)", "period_en": "2020 — 2021", "desc_fa": "ایجاد مدل جامع سه‌بعدی معماری، سازه و تاسیسات در Revit، کشف و رفع بیش از ۲۴۰ تداخل حاد در Navisworks و استخراج لیستوفر دقیق مصالح مصرفی.", "desc_en": "Built full 3D architectural, structural and MEP BIM models in Revit, resolved 240+ physical clashes in Navisworks, and extracted automated bill of quantities.", "tags": ["Autodesk Revit", "Navisworks", "BIM 3D", "کلش‌دیتکشن", "لیستوفر"]}, {"id": "proj-7", "cat": "civil", "title_fa": "طراحی اتصالات، نقشه‌های شاپ و فایل‌های CNC پایانه باربری با تکلا استراکچرز", "title_en": "Steel Detailing, Shop Drawings & CNC Data for Logistics Terminal via Tekla", "client_fa": "سازمان بنادر و دریانوردی / کارخانه سازنده اسکلت فلزی", "client_en": "Ports Authority / Steel Fabrication Plant", "period_fa": "۱۳۹۸ (۲۰۱۹)", "period_en": "2019", "desc_fa": "مدل‌سازی سازه فلزی سنگین ۲۰۰۰ تنی در Tekla Structures، طراحی اتصالات پیچ و مهره‌ای اصطکاکی، استخراج کاتینگ‌شیت و نقشه‌های دقیق سوراخ‌کاری و برش CNC.", "desc_en": "Modeled a 2,000-ton industrial steel structure in Tekla, designed high-strength bolted connections, and exported assembly shop drawings and CNC NC/DSTV data.", "tags": ["Tekla Structures", "کاتینگ شیت", "اتصالات پیچ و مهره", "شاپ دراوینگ", "NC/DSTV"]}, {"id": "proj-8", "cat": "ai", "title_fa": "سامانه هوش مصنوعی و بینایی ماشین کشف خودکار ترک‌ها و زوال روسازی با YOLO", "title_en": "Deep Learning Pipeline for Automated Pavement Distress & Crack Detection", "client_fa": "پروژه تحقیقاتی دانشگاهی و استارتاپی", "client_en": "Academic R&D & Applied Gov Project", "period_fa": "۱۴۰۱ — ۱۴۰۳ (۲۰۲۲ — ۲۰۲۴)", "period_en": "2022 — 2024", "desc_fa": "آموزش مدل‌های YOLOv8 و YOLOv11 بر روی بیش از ۱۵,۰۰۰ تصویر آسفالت، استخراج خودکار شاخص PCI و طبقه‌بندی شدت خرابی‌ها با دقت mAP بالای ۹۱٪.", "desc_en": "Trained custom YOLOv8/v11 segmentation models on 15,000+ pavement images, automating PCI index rating and severity grading with >91% mAP.", "tags": ["YOLOv8", "YOLOv11", "PyTorch", "PCI Index", "Computer Vision"]}, {"id": "proj-9", "cat": "web", "title_fa": "طراحی، توسعه و استقرار پلتفرم ابری اتوماسیون محاسبات مهندسی و متره آنلاین", "title_en": "Cloud Engineering Automation Platform & Online Quantity Calculation Engine", "client_fa": "شرکت دانش‌بنیان وب‌آلفا", "client_en": "WebAlfa Technology Co.", "period_fa": "۱۴۰۰ — ۱۴۰۲ (۲۰۲۱ — ۲۰۲۳)", "period_en": "2021 — 2023", "desc_fa": "توسعه وب‌اپلیکیشن تمام‌عیار با PHP، جاوااسکریپت و پایگاه داده بهینه‌شده برای محاسبه سریع فرمول‌های تعدیل، آنالیز بها و خروجی‌های خودکار PDF و اکسل.", "desc_en": "Built an enterprise web app with PHP, modern JS, and MySQL engine automating complex price escalation formulas, rate breakdown, and instant PDF/Excel exports.", "tags": ["PHP", "JavaScript", "توسعه وب", "UI/UX", "MySQL"]}, {"id": "proj-10", "cat": "civil", "title_fa": "برنامه‌ریزی کلان، شبکه CPM و سیستم پایش ارزش کسب‌شده (EVM) تاسیسات فراساحلی", "title_en": "Master Schedule, CPM Network & EVM Controls for Offshore Industrial Facility", "client_fa": "کنسرسیوم صنعتی انرژی", "client_en": "Industrial Energy Consortium", "period_fa": "۱۳۹۹ (۲۰۲۰)", "period_en": "2020", "desc_fa": "ایجاد برنامه زمان‌بندی ۴ سطحی در Primavera P6 با ۱,۲۰۰ فعالیت، بالانس تخصیص منابع و ردیابی هفتگی شاخص‌های CPI و SPI جهت کنترل انحرافات زمانی و ریالی.", "desc_en": "Authored a 4-level baseline schedule with 1,200 activities in Primavera P6, leveled critical resources, and instituted weekly EVM controls (CPI/SPI).", "tags": ["Primavera P6", "EVM", "کنترل پروژه", "CPM", "S-Curve"]}];
+        const educationData = {"education": [{"degree_fa": "دکتری تخصصی (Ph.D.) مهندسی و مدیریت ساخت", "degree_en": "Ph.D. in Construction Engineering & Management", "university_fa": "دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)", "university_en": "Amirkabir University of Technology (Tehran Polytechnic)", "period_fa": "۱۳۹۹ — پایان دی ۱۴۰۴ (Jan 2026)", "period_en": "Oct 2020 — Jan 2026", "thesis_fa": "رساله دکتری: چارچوب جامع دوقلوی دیجیتال برای ارزیابی و پیش‌بینی هوشمند زوال روسازی‌ها با تلفیق یادگیری عمیق، XAI و استانداردهای باز IFC.", "thesis_en": "Doctoral Dissertation: A Comprehensive Digital Twin Framework for Intelligent Infrastructure Degradation Forecasting via Deep Learning, XAI, and IFC Open Standards."}, {"degree_fa": "فلوشیپ پژوهشی دکتری (Visiting Doctoral Fellow)", "degree_en": "Visiting Doctoral Fellowship — DigiPave Project", "university_fa": "دانشگاه اولو فنلاند (University of Oulu, Finland)", "university_en": "University of Oulu, Finland", "period_fa": "دی ۱۴۰۲ تا کنون (Jan 2024 — Present)", "period_en": "Jan 2024 — Present", "thesis_fa": "تمرکز تحقیقاتی: بهینه‌سازی مدل‌های یادگیری ماشین در اقلیم‌های سردسیر و استانداردهای بین‌المللی دوقلوی دیجیتال حمل‌ونقل.", "thesis_en": "Research Focus: Machine learning optimization for transportation infrastructure in cold climates and open-BIM digital twin interoperability."}, {"degree_fa": "کارشناسی ارشد مهندسی عمران (گرایش مهندسی و مدیریت ساخت)", "degree_en": "M.Sc. in Civil Engineering (Construction Engineering & Management)", "university_fa": "دانشگاه صنعتی خواجه نصیرالدین طوسی (KNTU)", "university_en": "K. N. Toosi University of Technology, Tehran", "period_fa": "۱۳۹۶ — ۱۳۹۸ (2016 — 2018)", "period_en": "2016 — 2018", "thesis_fa": "پایان‌نامه ارشد: ارزیابی و مدیریت ادعاهای پیمانکاری در پروژه‌های زیرساختی و توسعه مدل‌های پیش‌بینی ریسک با الگوریتم‌های هوشمند.", "thesis_en": "Master's Thesis: Analysis and Mitigation of Construction Contract Claims in Infrastructure Projects Using Advanced Decision-Support Models."}, {"degree_fa": "کارشناسی مهندسی عمران", "degree_en": "B.Sc. in Civil Engineering", "university_fa": "دانشگاه شیراز (Shiraz University)", "university_en": "Shiraz University", "period_fa": "۱۳۹۱ — ۱۳۹۵ (2012 — 2016)", "period_en": "2012 — 2016", "thesis_fa": "پروژه پایانی: طراحی جامع سازه فولادی ۱۰ طبقه همراه با بهینه‌سازی بارگذاری باد و زلزله طبق استاندارد ۲۸۰۰ و مبحث ۱۰ مقررات ملی.", "thesis_en": "Capstone Project: Comprehensive Structural Analysis and Seismic Design of a 10-Story Steel Building following Standard 2800."}], "honors": [{"title_fa": "برگزیده تسهیلات نظام وظیفه فناور و پژوهشی بنیاد ملی نخبگان", "title_en": "National Elites Foundation (BMN) Prestigious Fellowship Awardee", "detail_fa": "به پاس پژوهش‌های برجسته در مقطع دکتری و ثبت اختراع و مقالات علمی شاخص.", "detail_en": "Awarded for exceptional scholarly achievements, patents, and high-impact international publications."}, {"title_fa": "پروانه اشتغال به‌کار مهندسی (نظارت و اجرا)", "title_en": "Licensed Construction Supervisor & Executor (Grade 2)", "detail_fa": "صادره از وزارت راه و شهرسازی و سازمان نظام مهندسی ساختمان استان فارس.", "detail_en": "Official Professional Engineering License issued by Ministry of Roads & Urban Development."}, {"title_fa": "داور معتبر ژورنال‌های بین‌المللی ISI", "title_en": "Peer Reviewer for Top-tier ISI Journals (Elsevier, ASCE, Springer)", "detail_fa": "داوری مقالات تخصصی در حوزه مدیریت ساخت، اتوماسیون سازه و دوقلوی دیجیتال.", "detail_en": "Active reviewer for Automation in Construction, ASCE Journal of Infrastructure Systems, and IEEE."}]};
+        const referencesData = [{"id": "ref-1", "name_fa": "دکتر امیر گلرو", "name_en": "Dr. Amir Golroo", "title_fa": "دانشیار مهندسی عمران و محیط زیست", "title_en": "Associate Professor of Civil & Environmental Engineering", "affiliation_fa": "دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)", "affiliation_en": "Amirkabir University of Technology (Tehran Polytechnic)", "email": "agolroo@aut.ac.ir", "role_fa": "استاد راهنمای رساله دکتری تخصصی", "role_en": "Ph.D. Dissertation Supervisor"}, {"id": "ref-2", "name_fa": "دکتر مهدی راستی", "name_en": "Dr. Mehdi Rasti", "title_fa": "دانشیار دانشکده فناوری اطلاعات و مهندسی برق", "title_en": "Associate Professor of Information Technology & Electrical Engineering", "affiliation_fa": "دانشگاه اولو، فنلاند (University of Oulu)", "affiliation_en": "University of Oulu, Finland", "email": "mehdi.rasti@oulu.fi", "role_fa": "استاد مشاور رساله دکتری و پژوهشگر همکار بین‌المللی", "role_en": "Ph.D. Co-Advisor & International Research Collaborator"}, {"id": "ref-3", "name_fa": "پروفسور رائونو هایکیلا", "name_en": "Prof. Rauno Heikkilä", "title_fa": "استاد تمام و رئیس گروه تحقیقاتی ساخت و سازه‌های دیجیتال", "title_en": "Professor of Digitalized Construction & Mining Operations", "affiliation_fa": "دانشگاه اولو، فنلاند (University of Oulu)", "affiliation_en": "University of Oulu, Finland", "email": "rauno.heikkila@oulu.fi", "role_fa": "سرپرست فلوشیپ بین‌المللی DigiPave در فنلاند", "role_en": "DigiPave International Research Fellowship Supervisor"}, {"id": "ref-4", "name_fa": "دکتر وحید شاه‌حسینی", "name_en": "Dr. Vahid Shah Hosseini", "title_fa": "دانشیار مهندسی و مدیریت ساخت", "title_en": "Associate Professor of Construction Engineering & Management", "affiliation_fa": "دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)", "affiliation_en": "Amirkabir University of Technology (Tehran Polytechnic)", "email": "shahhosseini@aut.ac.ir", "role_fa": "استاد مشاور رساله دکتری تخصصی", "role_en": "Ph.D. Academic Co-Advisor"}, {"id": "ref-5", "name_fa": "دکتر احسان سقفی‌فروش", "name_en": "Dr. Ehsan Saghatforoush", "title_fa": "دانشیار اقتصاد و مدیریت ساخت", "title_en": "Associate Professor of Construction Economics & Management", "affiliation_fa": "دانشگاه ویتس آفریقای جنوبی (Wits University)", "affiliation_en": "Wits University, South Africa", "email": "ehsan.saghatforoush@wits.ac.za", "role_fa": "همکار پژوهشی مقالات بین‌المللی در حوزه BIM و اینترنت اشیاء", "role_en": "Research Collaborator on BIM & IoT Building Management"}, {"id": "ref-6", "name_fa": "دکتر حمیدرضا عباسیان جهرمی", "name_en": "Dr. Hamidreza Abbasianjahromi", "title_fa": "دانشیار مهندسی و مدیریت ساخت", "title_en": "Associate Professor of Civil Engineering", "affiliation_fa": "دانشگاه صنعتی خواجه نصیرالدین طوسی (KNTU)", "affiliation_en": "K. N. Toosi University of Technology, Tehran", "email": "habasian@kntu.ac.ir", "role_fa": "استاد راهنمای پایان‌نامه کارشناسی ارشد", "role_en": "Master's Thesis Supervisor"}, {"id": "ref-7", "name_fa": "دکتر محمدرضا طلاقت", "name_en": "Dr. Mohammad Reza Talaghat", "title_fa": "دانشیار دانشکده مهندسی شیمی، نفت و گاز", "title_en": "Associate Professor of Chemical, Oil & Gas Engineering", "affiliation_fa": "دانشگاه صنعتی شیراز (Shiraz University of Technology)", "affiliation_en": "Shiraz University of Technology", "email": "talaghat@sutech.ac.ir", "role_fa": "مشاور عالی علمی و همکار پژوهشی", "role_en": "Senior Academic Advisor & Research Mentor"}];
+        const pubsData = [{"id": 1, "title": "An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland", "title_fa": "معماری پیاده‌سازی‌شده دوقلوی دیجیتال مبتنی بر هوش مصنوعی برای نگهداری پیشگیرانه روسازی در فنلاند", "authors": "Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.", "journal": "Scientific Reports (Nature Portfolio)", "year": "2026", "status": "published", "badgeColor": "emerald", "badge_en": "Published · Nature Scientific Reports", "badge_fa": "مقاله منتشرشده · نیچر Scientific Reports", "category": "ai", "url": "https://doi.org/10.1038/s41598-026-67842-x", "abstract_en": "Development and real-world deployment of a proactive pavement digital twin architecture in Finland, integrating high-resolution vehicle-mounted cameras, edge AI YOLO inference, and predictive deterioration models.", "abstract_fa": "توسعه و پیاده‌سازی معماری دوقلوی دیجیتال روسازی راه‌ها با استفاده از داده‌های بازرسی مکانی، مدل‌های هوش مصنوعی و پیش‌بینی زوال برای نگهداری پیشگیرانه در شبکه راه‌های فنلاند.", "bibtex": "@article{talaghat2026implemented,\\n  title={An implemented AI-driven digital twin architecture for proactive pavement maintenance in Finland},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi},\\n  journal={Scientific Reports},\\n  year={2026},\\n  publisher={Nature Publishing Group},\\n  doi={10.1038/s41598-026-67842-x}\\n}"}, {"id": 2, "title": "Hybrid MLP–LSTM deep predictive modeling of pavement distress severity and density and condition indices", "title_fa": "مدل‌سازی زوال روسازی با هوش مصنوعی توصیف‌پذیر (XAI) با معماری ترکیبی طبقه‌بندی-رگرسیون یادگیری عمیق", "authors": "Talaghat, M. A., Golroo, A., Shahhosseini, V., Rasti, M., Daneshvar, A., & Moghadas Nejad, F.", "journal": "International Journal of Pavement Engineering (Taylor & Francis)", "year": "2026", "status": "published", "badgeColor": "emerald", "badge_en": "Published · Taylor & Francis IJPE", "badge_fa": "مقاله منتشرشده · ژورنال تیلور و فرانسیس", "category": "ai", "url": "https://doi.org/10.1080/10298436.2025.2624565", "abstract_en": "Hybrid deep learning framework combining MLP and LSTM networks with explainable AI (SHAP) for dynamic pavement deterioration modeling and multi-year condition prediction.", "abstract_fa": "مدل‌سازی ترکیبی عمیق با استفاده از شبکه‌های MLP-LSTM جهت پیش‌بینی شدت و تراکم خرابی‌های روسازی و استخراج دقیق شاخص‌های وضعیت روسازی (PCI).", "bibtex": "@article{talaghat2026hybrid,\\n  title={Hybrid MLP-LSTM deep predictive modeling of pavement distress severity and density and condition indices},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi and Daneshvar, A and Moghadas Nejad, F},\\n  journal={International Journal of Pavement Engineering},\\n  volume={27},\\n  number={1},\\n  pages={2624565},\\n  year={2026},\\n  doi={10.1080/10298436.2025.2624565}\\n}"}, {"id": 3, "title": "Road Pavement Digital Twin: A Blueprint with a Case Study", "title_fa": "به‌کارگیری دوقلوی دیجیتال در سامانه‌های مدیریت روسازی: طرح مفهومی و کاربردی", "authors": "Talaghat, M. A., Golroo, A., Rasti, M., & Shahhosseini, V.", "journal": "Journal of Computing in Civil Engineering (ASCE)", "year": "2026", "status": "published", "badgeColor": "emerald", "badge_en": "Published · ASCE Computing in Civil Eng.", "badge_fa": "مقاله منتشرشده · انجمن مهندسان عمران آمریکا (ASCE)", "category": "ai", "url": "https://doi.org/10.1061/JCCEE5.CPENG-6261", "abstract_en": "Comprehensive conceptual and technical framework for implementing digital twin systems in road asset management, integrating continuous IoT data streams, spatial GIS, and automated maintenance decision support.", "abstract_fa": "طرح جامع مفهومی و فنی استقرار دوقلوی دیجیتال روسازی راه‌ها به همراه مطالعه موردی اجرایی برای یکپارچه‌سازی فرآیندهای بازرسی، تحلیل داده و تصمیم‌گیری بهینه نگهداری.", "bibtex": "@article{talaghat2026road,\\n  title={Road Pavement Digital Twin: A Blueprint with a Case Study},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Rasti, Mehdi and Shahhosseini, Vahid},\\n  journal={Journal of Computing in Civil Engineering},\\n  volume={40},\\n  number={3},\\n  pages={05026001},\\n  year={2026},\\n  publisher={American Society of Civil Engineers},\\n  doi={10.1061/JCCEE5.CPENG-6261}\\n}"}, {"id": 4, "title": "Enhancing pavement distress segmentation model with diffusion-based generative AI: a digital twin perspective", "title_fa": "کمی‌سازی خودکار ترک‌ها و برآورد شاخص PCI با پایپ‌لاین یادگیری عمیق و بینایی ماشین آماده دوقلوی دیجیتال", "authors": "Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.", "journal": "International Journal of Pavement Engineering (Taylor & Francis)", "year": "2025", "status": "published", "badgeColor": "emerald", "badge_en": "Published · Taylor & Francis IJPE", "badge_fa": "مقاله منتشرشده · ژورنال تیلور و فرانسیس", "category": "ai", "url": "https://doi.org/10.1080/10298436.2025.2540076", "abstract_en": "Fully automated computer vision and deep learning pipeline for crack segmentation, severity quantification, and pavement condition index (PCI) estimation in compliance with ASTM D6433.", "abstract_fa": "بهبود دقت قطعه‌بندی خرابی‌های روسازی با استفاده از هوش مصنوعی مولد مبتنی بر دیفیوژن در چارچوب سامانه دوقلوی دیجیتال برای غلبه بر محدودیت داده‌های آموزشی نادر.", "bibtex": "@article{talaghat2025enhancing,\\n  title={Enhancing pavement distress segmentation model with diffusion-based generative AI: a digital twin perspective},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi},\\n  journal={International Journal of Pavement Engineering},\\n  volume={26},\\n  number={1},\\n  pages={2540076},\\n  year={2025},\\n  doi={10.1080/10298436.2025.2540076}\\n}"}, {"id": 5, "title": "Digital twin technology for road pavement", "title_fa": "بهره‌گیری از فناوری دوقلوی دیجیتال برای نگهداری داده‌محور روسازی (کنفرانس بین‌المللی AM3P وین)", "authors": "Talaghat, M. A., Golroo, A., Kharbouch, A., Rasti, M., Heikkilä, R., & Jurva, R.", "journal": "Automation in Construction (Elsevier - IF: 9.6)", "year": "2024", "status": "published", "badgeColor": "emerald", "badge_en": "Published · Elsevier (AutoCon)", "badge_fa": "مقاله منتشرشده · الزویر Automation in Construction", "category": "ai", "url": "https://doi.org/10.1016/j.autcon.2024.105826", "abstract_en": "Leveraging digital twin technology and connected fleet sensory streams for automated road surface inspection and maintenance prioritization presented at the AM3P international conference.", "abstract_fa": "مرور ساختاریافته و جامع فناوری‌های دوقلوی دیجیتال در حوزه مهندسی روسازی، استخراج خلأهای پژوهشی و تدوین چارچوب اتصال سنسورهای IoT، بینایی ماشین و مدل‌های تصمیم‌گیری زیرساخت.", "bibtex": "@article{talaghat2024digital,\\n  title={Digital twin technology for road pavement},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Kharbouch, A and Rasti, Mehdi and Heikkil{\\\"a}, Rauno and Jurva, R},\\n  journal={Automation in Construction},\\n  volume={168},\\n  pages={105826},\\n  year={2024},\\n  publisher={Elsevier},\\n  doi={10.1016/j.autcon.2024.105826}\\n}"}, {"id": 6, "title": "Fully Automated Pavement Crack Quantification and PCI Estimation via a Digital Twin-Ready Vision-Based Deep Learning Pipeline", "title_fa": "بهبود بخش‌بندی خرابی روسازی با هوش مصنوعی مولد بر پایه مدل‌های نفوذی (Diffusion Models)", "authors": "Talaghat, M. A., Golroo, A., Shahhosseini, V., & Rasti, M.", "journal": "Results in Engineering (Elsevier)", "year": "2026", "status": "published", "badgeColor": "emerald", "badge_en": "Published · Elsevier (AutoCon)", "badge_fa": "مقاله منتشرشده · الزویر Automation in Construction", "category": "ai", "url": "#", "abstract_en": "Diffusion-based generative AI framework for synthetic distress image generation to resolve data scarcity and class imbalance in automated pavement damage segmentation.", "abstract_fa": "خط پردازش خودکار بینایی ماشین برای اندازه‌گیری هندسی ترک‌های آسفالت، محاسبه مقادیر کسرشده (Deduct Values) و برآورد دقیق شاخص وضعیت روسازی بر مبنای استاندارد ASTM D6433.", "bibtex": "@article{talaghat2026fully,\\n  title={Fully Automated Pavement Crack Quantification and PCI Estimation via a Digital Twin-Ready Vision-Based Deep Learning Pipeline},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi},\\n  journal={Results in Engineering},\\n  year={2026},\\n  publisher={Elsevier}\\n}"}, {"id": 7, "title": "Explainable AI-enhanced pavement deterioration modeling using hybrid classification–regression deep learning architecture", "title_fa": "چارچوب نوین یادگیری فدرال عمیق برای بخش‌بندی امن و محرمانه‌محور خرابی‌های روسازی معابر", "authors": "Sedighian-Fard, M., Golroo, A., Javanmardi, M., Alahi, A., Dehghan Tezerjani, H., Talaghat, M. A., Shahhosseini, V., & Rasti, M.", "journal": "Scientific Reports (Nature Portfolio)", "year": "2026", "status": "published", "badgeColor": "emerald", "badge_en": "Published · Nature Scientific Reports", "badge_fa": "مقاله منتشرشده · نیچر Scientific Reports", "category": "ai", "url": "https://doi.org/10.1038/s41598-026-67842-x", "abstract_en": "Privacy-preserving federated deep learning framework for decentralized road distress segmentation across distributed municipal vehicle fleets without sharing raw sensor images.", "abstract_fa": "مدل‌سازی پیش‌بین زوال روسازی با هوش مصنوعی توصیف‌پذیر (XAI) با استفاده از معماری ترکیبی طبقه‌بندی-رگرسیون جهت ارائه بینش شفاف برای مدیران راهداری.", "bibtex": "@article{sedighian2026explainable,\\n  title={Explainable AI-enhanced pavement deterioration modeling using hybrid classification-regression deep learning architecture},\\n  author={Sedighian-Fard, M and Golroo, Amir and Javanmardi, M and Alahi, A and Dehghan Tezerjani, H and Talaghat, Mohammad Amin and Shahhosseini, Vahid and Rasti, Mehdi},\\n  journal={Scientific Reports},\\n  year={2026},\\n  publisher={Nature Publishing Group}\\n}"}, {"id": 8, "title": "Leveraging digital twin technology for data-driven pavement maintenance", "title_fa": "بازسازی سه‌بعدی با وضوح بالا و کمی‌سازی عمق چاله‌های آسفالتی با بینایی استریو", "authors": "Talaghat, M. A., Sedighian-Fard, M., Golroo, A., & Rasti, M.", "journal": "AM3P Conference (TU Wien, Austria)", "year": "2025", "status": "published", "badgeColor": "cyan", "badge_en": "Published · AM3P Vienna Conference", "badge_fa": "مقاله ارائه‌شده · کنفرانس بین‌المللی AM3P وین", "category": "ai", "url": "#", "abstract_en": "High-resolution 3D reconstruction and sub-millimeter depth quantification of pavement potholes using custom camera arrays and multi-view stereo vision.", "abstract_fa": "ارائه مقاله در چهارمین دوره کنفرانس بین‌المللی AM3P در دانشگاه صنعتی وین اتریش در خصوص استقرار سامانه‌های نگهداری داده‌محور روسازی با دوقلوی دیجیتال.", "bibtex": "@inproceedings{talaghat2025leveraging,\\n  title={Leveraging digital twin technology for data-driven pavement maintenance},\\n  author={Talaghat, Mohammad Amin and Sedighian-Fard, M and Golroo, Amir and Rasti, Mehdi},\\n  booktitle={AM3P Conference},\\n  volume={4},\\n  pages={604--608},\\n  year={2025},\\n  organization={TU Wien}\\n}"}, {"id": 9, "title": "Improving Pavement Distress segmentation with Diffusion-Based Generative AI", "title_fa": "ارزیابی کربن دوره عمر روسازی بر پایه مدل‌سازی اطلاعات ساختمان (BIM) و تحلیل حساسیت", "authors": "Talaghat, M. A., Golroo, A., & Rasti, M.", "journal": "AM3P Conference (TU Wien, Austria)", "year": "2025", "status": "published", "badgeColor": "cyan", "badge_en": "Published · AM3P Vienna Conference", "badge_fa": "مقاله ارائه‌شده · کنفرانس بین‌المللی AM3P وین", "category": "ai", "url": "#", "abstract_en": "BIM-informed life cycle carbon assessment and embodied carbon minimization for flexible and rigid pavement structures.", "abstract_fa": "ارائه نتایج به‌کارگیری مدل‌های دیفیوژن در بهبود قطعه‌بندی آسیب‌های روسازی در دانشگاه صنعتی وین اتریش.", "bibtex": "@inproceedings{talaghat2025improving,\\n  title={Improving Pavement Distress segmentation with Diffusion-Based Generative AI},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Rasti, Mehdi},\\n  booktitle={AM3P Conference},\\n  volume={4},\\n  pages={579--582},\\n  year={2025},\\n  organization={TU Wien}\\n}"}, {"id": 10, "title": "Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM", "title_fa": "چارچوب یادگیری عمیق توصیف‌پذیر مبتنی بر انتقال یادگیری برای طبقه‌بندی هوشمند خرابی‌ها", "authors": "Saghatforoush, E., Abbasianjahromi, H., Talaghat, M. A., & Kahvandi, Z.", "journal": "Lean Construction Journal", "year": "2022", "status": "published", "badgeColor": "cyan", "badge_en": "Published · Lean Construction Journal", "badge_fa": "مقاله منتشرشده · Lean Construction Journal", "category": "ai", "url": "#", "abstract_en": "Explainable deep learning framework integrating transfer learning and gradient-weighted class activation mapping (Grad-CAM) for distress classification and engineering trust.", "abstract_fa": "توسعه مدل یکپارچه تلفیق اینترنت اشیا و مدل‌سازی اطلاعات ساخت برای بهینه‌سازی مصرف انرژی در ساختمان‌های عمومی با استفاده از متدهای فراتلفیق و AHP.", "bibtex": "@article{saghatforoush2022development,\\n  title={Development of a Management System to Improve the Energy Efficiency of Public Buildings by Integrating IoT and BIM},\\n  author={Saghatforoush, Ehsan and Abbasianjahromi, Hamidreza and Talaghat, Mohammad Amin and Kahvandi, Z},\\n  journal={Lean Construction Journal},\\n  year={2022}\\n}"}, {"id": 11, "title": "A data-driven optimization framework for network-level pavement maintenance planning", "title_fa": "سامانه پردازش لبه‌ای بلادرنگ مبتنی بر تلفن‌های هوشمند جهت پایش خودکار سطح معابر", "authors": "Talaghat, M. A., Golroo, A., Shahhosseini, V., Rasti, M., & Daneshvar, A.", "journal": "International Journal of Pavement Engineering", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Peer-Reviewed Journal", "badge_fa": "در حال داوری · ژورنال معتبر بین‌المللی", "category": "ai", "url": "#", "abstract_en": "Real-time edge computing architecture for mobile smartphone-based road distress detection and cloud BIM synchronization.", "abstract_fa": "چارچوب بهینه‌سازی چندهدفه داده‌محور برای برنامه‌ریزی نگهداری و بهسازی شبکه راه‌ها با تلفیق مدل‌های زوال و الگوریتم‌های ژنتیک تحت محدودیت‌های بودجه‌ای.", "bibtex": "@article{talaghat2026datadriven,\\n  title={A data-driven optimization framework for network-level pavement maintenance planning},\\n  author={Talaghat, Mohammad Amin and Golroo, Amir and Shahhosseini, Vahid and Rasti, Mehdi and Daneshvar, A},\\n  journal={International Journal of Pavement Engineering},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 12, "title": "Self-supervised crack segmentation with data-driven severity detection", "title_fa": "شبکه خودتوجهی ترنسفورمر برای بخش‌بندی عوارض ترک و چاله در شرایط متغیر نور و سایه", "authors": "Nouri, S., Rezaeemanesh, M., Talaghat, M. A., Rasti, M., & Golroo, A.", "journal": "IEEE Transactions on Intelligent Transportation Systems", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Peer-Reviewed Journal", "badge_fa": "در حال داوری · ژورنال معتبر بین‌المللی", "category": "ai", "url": "#", "abstract_en": "Transformer-based self-attention network for multi-scale cracking and pothole segmentation under complex illumination and shadow variations.", "abstract_fa": "قطعه‌بندی خودنظارتی ترک‌های روسازی و تشخیص شدت خرابی بدون نیاز به ماسک‌های دستی پرهزینه برای سامانه‌های هوشمند حمل‌ونقل.", "bibtex": "@article{nouri2026self,\\n  title={Self-supervised crack segmentation with data-driven severity detection},\\n  author={Nouri, S and Rezaeemanesh, M and Talaghat, Mohammad Amin and Rasti, Mehdi and Golroo, Amir},\\n  journal={IEEE Transactions on Intelligent Transportation Systems},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 13, "title": "Deep vision-based railway track superstructure condition assessment using YOLOv26 and georeferenced maintenance intelligence: Field validation on the Zanjan-Tehran railway line", "title_fa": "انطباق دامنه‌ای با شبکه‌های مولد متخاصم (GAN) جهت شناسایی خرابی‌ها در بافت‌های متنوع آسفالت", "authors": "Sedighian-Fard, M., Talaghat, M. A., et al.", "journal": "Scientific Reports (Nature Portfolio)", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Nature Portfolio", "badge_fa": "در حال داوری · انتشارات نیچر", "category": "ai", "url": "#", "abstract_en": "Cross-domain adaptation using Generative Adversarial Networks (GANs) for robust distress recognition across diverse asphalt textures and climatic regions.", "abstract_fa": "ارزیابی روسازی روسازه خطوط راه‌آهن با بینایی ماشین عمیق و مدل‌های YOLO مکانی با اعتبارسنجی میدانی بر روی محور ریلی زنجان-تهران.", "bibtex": "@article{sedighian2026deeprailway,\\n  title={Deep vision-based railway track superstructure condition assessment using YOLOv26 and georeferenced maintenance intelligence: Field validation on the Zanjan-Tehran railway line},\\n  author={Sedighian-Fard, M and Talaghat, Mohammad Amin and others},\\n  journal={Scientific Reports},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 14, "title": "A complete pipeline for automated pavement distress detection, segmentation, and quantification using a new surface condition index", "title_fa": "شبکه‌های عصبی مبتنی بر فیزیک (PINN) برای پیش‌بینی شیارافتادگی روسازی تحت بارهای ترافیکی", "authors": "Sedighian-Fard, M., Golroo, A., Javanmardi, M., Alahi, A., Talaghat, M. A., Shahhoseini, V., Amiri, S., Moghadas Nejad, F.", "journal": "Case Studies in Construction Materials", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Peer-Reviewed Journal", "badge_fa": "در حال داوری · ژورنال معتبر بین‌المللی", "category": "ai", "url": "#", "abstract_en": "Physics-informed neural networks (PINN) coupling viscoelastic asphalt mechanics with deep learning for rutting depth forecasting under heavy axle loadings.", "abstract_fa": "خط پردازش کامل آشکارسازی، قطعه‌بندی و اندازه‌گیری کمی خرابی‌های روسازی با تعریف شاخص وضعیت سطحی نوین.", "bibtex": "@article{sedighian2026pipeline,\\n  title={A complete pipeline for automated pavement distress detection, segmentation, and quantification using a new surface condition index},\\n  author={Sedighian-Fard, M and Golroo, Amir and Javanmardi, M and Alahi, A and Talaghat, Mohammad Amin and Shahhoseini, Vahid and Amiri, S and Moghadas Nejad, F},\\n  journal={Case Studies in Construction Materials},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 15, "title": "Vehicle-based pavement condition monitoring: A review of evidence, technology readiness, and management integration", "title_fa": "پروتکل غیرمتمرکز بلاک‌چین و قراردادهای هوشمند برای پرداخت‌های عملکردی پیمان‌های نگهداری راه", "authors": "Sedighian-Fard, M., Javanmardi, M., Alahi, A., Talaghat, M. A., & Shahhosseini, V.", "journal": "Journal of Traffic and Transportation Engineering", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Peer-Reviewed Journal", "badge_fa": "در حال داوری · ژورنال معتبر بین‌المللی", "category": "ai", "url": "#", "abstract_en": "Decentralized blockchain and smart-contract protocol for automated verification and payment of road maintenance performance contracts.", "abstract_fa": "مرور شواهد علمی، سطح آمادگی فناوری (TRL) و یکپارچه‌سازی پایش خودروپایه وضعیت روسازی با سامانه‌های PMS.", "bibtex": "@article{sedighian2026vehicle,\\n  title={Vehicle-based pavement condition monitoring: A review of evidence, technology readiness, and management integration},\\n  author={Sedighian-Fard, M and Javanmardi, M and Alahi, A and Talaghat, Mohammad Amin and Shahhosseini, Vahid},\\n  journal={Journal of Traffic and Transportation Engineering},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 16, "title": "Synchronized 2D–3D edge sensing for automated ASTM D6433 pavement condition assessment: A Baghdad case study", "title_fa": "الگوریتم ژنتیک چندهدفه (NSGA-II) برای تخصیص بهینه بودجه سالانه نگهداری و ترمیم روسازی", "authors": "Alobaidi, M., Golroo, A., Sedighian-Fard, M., & Talaghat, M. A.", "journal": "Measurement (Elsevier)", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Elsevier", "badge_fa": "در حال داوری · ژورنال بین‌المللی الزویر", "category": "ai", "url": "#", "abstract_en": "Multi-objective genetic algorithm (NSGA-II) for optimal multi-year pavement maintenance and rehabilitation budget allocation under greenhouse gas constraints.", "abstract_fa": "حسگری لبه دوبعدی و سه‌بعدی همگام برای ارزیابی خودکار شاخص PCI طبق استاندارد ASTM D6433 به همراه پیاده‌سازی موردی در بغداد.", "bibtex": "@article{alobaidi2026synchronized,\\n  title={Synchronized 2D-3D edge sensing for automated ASTM D6433 pavement condition assessment: A Baghdad case study},\\n  author={Alobaidi, M and Golroo, Amir and Sedighian-Fard, M and Talaghat, Mohammad Amin},\\n  journal={Measurement},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 17, "title": "Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in climatically diverse Iranian railways", "title_fa": "همترازی معنایی و مدل داده IFC 4.3 جهت ادغام داده‌های دوقلوی دیجیتال زیرساخت با openBIM", "authors": "Sedighian-Fard, M., Fathali, M., Yazdani Tabai, S. H., Homavandi, S., Akbari, M., & Talaghat, M. A.", "journal": "International Journal of Railway Research", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Peer-Reviewed Journal", "badge_fa": "در حال داوری · ژورنال معتبر بین‌المللی", "category": "ai", "url": "#", "abstract_en": "Semantic alignment and IFC 4.3 openBIM data modeling for infrastructure digital twins and asset management software integration.", "abstract_fa": "شاخص‌های بینایی ماشین قابل تفسیر برای پایش ماسه‌گرفتگی بالاست و رشد علف‌های هرز در خطوط ریلی با اقلیم‌های متنوع ایران.", "bibtex": "@article{sedighian2026interpretable,\\n  title={Interpretable machine-vision indices for monitoring sand fouling, ballast whitening and vegetation in climatically diverse Iranian railways},\\n  author={Sedighian-Fard, M and Fathali, M and Yazdani Tabai, S H and Homavandi, S and Akbari, M and Talaghat, Mohammad Amin},\\n  journal={International Journal of Railway Research},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 18, "title": "A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets", "title_fa": "تصویربرداری فروسرخ پهپادی و شبکه‌های باقیمانده عمیق برای تشخیص رطوبت زیرسطحی روسازی", "authors": "Talaghat, M. A., & Sedighian-Fard, M.", "journal": "Manuscript Under Review", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Peer-Reviewed Journal", "badge_fa": "در حال داوری · ژورنال معتبر بین‌المللی", "category": "ai", "url": "#", "abstract_en": "Drone-based thermal infrared imaging and deep residual networks for subsurface moisture and delamination detection in composite pavements.", "abstract_fa": "دوقلوی دیجیتال احتمالی خودکالیبره شبکه روسازی راه‌ها به همراه ماموریت‌دهی تصمیم‌محور به ناوگان خودروهای خودران جهت بازرسی بهینه.", "bibtex": "@article{talaghat2026selfcalibrating,\\n  title={A self-calibrating probabilistic digital twin of road pavement networks with decision-centric tasking of autonomous vehicle fleets},\\n  author={Talaghat, Mohammad Amin and Sedighian-Fard, M},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 19, "title": "A self-updating, two-way building digital twin for grid-interactive operation: Forecasting equipment faults and jointly optimising energy, peak demand, carbon and maintenance", "title_fa": "دوقلوی دیجیتال خودبه‌روزرسان دوسویه ساختمان جهت بهینه‌سازی توأم انرژی، پیک مصرف و نگهداری", "authors": "Talaghat, M. A., & Sedighian-Fard, M.", "journal": "Sustainable Energy, Grids and Networks (Elsevier)", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Elsevier", "badge_fa": "در حال داوری · ژورنال بین‌المللی الزویر", "category": "ai", "url": "#", "abstract_en": "Self-updating two-way building and infrastructure digital twin for grid-interactive operation, fault diagnosis, and joint energy-carbon-maintenance optimization.", "abstract_fa": "دوقلوی دیجیتال خودبه‌روزرسان دوطرفه ساختمان برای بهره‌برداری متصل به شبکه هوشمند انرژی: پیش‌بینی خطای تجهیزات و بهینه‌سازی توامان انرژی، دیماند اوج، کربن و نگهداری.", "bibtex": "@article{talaghat2026selfupdating,\\n  title={A self-updating, two-way building digital twin for grid-interactive operation: Forecasting equipment faults and jointly optimising energy, peak demand, carbon and maintenance},\\n  author={Talaghat, Mohammad Amin and Sedighian-Fard, M},\\n  journal={Sustainable Energy, Grids and Networks},\\n  note={Under Review},\\n  year={2026}\\n}"}, {"id": 20, "title": "ARGONet-4D: A maturity-graded digital twin of urban road surfaces that links fleet-sourced 4D reconstruction, foundation-model distress objects, IFC 4.3 semantics, IoT-informed forecasting and prescriptive maintenance", "title_fa": "دوقلوی دیجیتال بلوغ‌محور ۴بعدی معابر شهری با اتصال بازسازی ناوگانی، مدل‌های پایه‌ای، IFC 4.3 و نگهداری تجویزی", "authors": "Talaghat, M. A., & Sedighian-Fard, M.", "journal": "Innovative Infrastructure Solutions (Springer)", "year": "2026", "status": "under_review", "badgeColor": "amber", "badge_en": "Under Review · Springer IIS", "badge_fa": "در حال داوری · اشپرینگر Innovative Infrastructure Solutions", "category": "ai", "url": "#", "abstract_en": "A maturity-graded digital twin of urban road surfaces linking fleet-sourced 4D reconstruction, foundation-model distress objects, IFC 4.3 semantics, IoT-informed forecasting, and prescriptive maintenance.", "abstract_fa": "توسعه دوقلوی دیجیتال بلوغ‌محور ۴بعدی برای سطوح معابر شهری: یکپارچه‌سازی بازسازی ۴بعدی حاصل از ناوگان خودرویی، مدل‌های پایه‌ای هوش مصنوعی جهت تشخیص عوارض خرابی، معناشناسی استاندارد IFC 4.3، پیش‌بینی مبتنی بر حسگرهای IoT و نگهداری تجویزی.", "bibtex": "@article{talaghat2026argonet4d,\\n  title={ARGONet-4D: A maturity-graded digital twin of urban road surfaces that links fleet-sourced 4D reconstruction, foundation-model distress objects, IFC 4.3 semantics, IoT-informed forecasting and prescriptive maintenance},\\n  author={Talaghat, Mohammad Amin and Sedighian-Fard, M.},\\n  journal={Innovative Infrastructure Solutions},\\n  note={Under Review},\\n  year={2026},\\n  publisher={Springer}\\n}"}];
+        const dict = {"fa": {"name": "دکتر محمد امین طلاقت", "tagline": "مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و زیرساخت هوشمند", "nav_profile": "پروفایل", "nav_services": "خدمات (۲۷)", "nav_experience": "سوابق اجرایی (۸)", "nav_projects": "پروژه‌ها (۱۰)", "nav_skills": "مهارت‌ها و نرم‌افزارها", "nav_pubs": "مقالات و آثار (۲۰)", "nav_edu": "تحصیلات و افتخارات", "nav_consultation": "درخواست مشاوره", "nav_refs": "معرف‌های علمی (۷)", "cta_chat": "گفتگوی واتساپ", "hero_status": "آماده ارائه خدمات مشاوره فنی، مدیریت پیمان و راهکارهای داده‌محور مهندسی", "elite_badge": "برگزیده بنیاد ملی نخبگان", "pe_badge": "پروانه نظام مهندسی (نظارت و اجرا)", "scholar_badge": "۹۴ استناد گوگل اسکولار · h-index: ۴ · i10-index: ۱", "hero_title_1": "راهبری هوشمند پروژه‌های عمرانی؛", "hero_title_2": "از انضباط قرارداد و پیمان تا نوآوری دوقلوی دیجیتال", "hero_bio_1": "من <strong>دکتر محمد امین طلاقت</strong> هستم؛ دانش‌آموخته دکتری مهندسی و مدیریت ساخت از <strong>دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)</strong> و محقق همکار در <strong>دانشگاه اولو فنلاند</strong>. مسیر حرفه‌ای من بر پیوند مدیریت یکپارچه ساخت، انضباط حقوقی و مالی پیمان‌ها، و به‌کارگیری فناوری‌های نوین داده‌محور و دوقلوی دیجیتال در پروژه‌های عمرانی و زیرساختی متمرکز است.", "hero_bio_2": "با بیش از یک دهه تجربه میدانی و ستادی در هدایت دفاتر فنی، مدیریت دعاوی، بهینه‌سازی جریان نقدینگی پروژه‌ها و هم‌زمان انتشار مقالات علمی در معتبرترین ژورنال‌های بین‌المللی، آماده ارائه خدمات جامع مشاوره‌ای، فنی و اجرایی به کارفرمایان، پیمانکاران و مهندسان مشاور محترم هستم.", "loc_text": "شیراز و تهران (امکان همکاری حضوری و دورکاری سراسر کشور)", "hero_cta_book": "ثبت درخواست مشاوره و همکاری", "hero_cta_cv": "دانلود رزومه انگلیسی (فایل PDF)", "hero_cta_cv_fa": "دانلود رزومه فارسی (فایل PDF)", "scholar_link_text": "گوگل اسکولار (۹۴ استناد)", "telegram_link_text": "تلگرام", "facebook_link_text": "فیس‌بوک", "webalfa_link_text": "وب‌آلفا", "card_name": "دکتر محمد امین طلاقت", "card_role": "مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال", "card_sub": "دکتری دانشگاه امیرکبیر · محقق دانشگاه اولو فنلاند", "kpi_works": "اثر علمی و مقاله", "kpi_cites": "استناد گوگل اسکولار", "kpi_hindex": "شاخص اچ (h-index)", "kpi_i10index": "شاخص آی۱۰ (i10-index)", "kpi_projects": "پروژه ملی و شاخص", "kpi_roles": "سمت رسمی و ارشد", "btn_direct_consult": "درخواست وقت مشاوره تخصصی", "srv_kicker": "۰۱ / خدمات مهندسی، مشاوره، دفتر فنی، وب و هوش مصنوعی", "srv_title": "امور طراحی، مشاوره، دفتر فنی و فناوری‌های نوین", "srv_desc": "ارائه راهکارهای اجرایی، دقیق، مستند و تحلیلی منطبق بر ضوابط نظام فنی و اجرایی کشور، شرایط عمومی پیمان و متدهای پیشرفته هوش مصنوعی و مدل‌سازی اطلاعات ساختمان.", "srv_banner": "آماده همکاری تخصصی و مشاوره‌ای با کارفرمایان، پیمانکاران و مشاوران محترم سراسر کشور", "srv_sub_stats": "۲۷ خدمت تفصیلی در ۳ محور کلیدی", "srv_sub_type": "مشاوره حضوری و پروژه‌ای سراسر کشور", "filter_all": "همه خدمات (۲۷)", "filter_civil": "دفتر فنی و مهندسی عمران (۱۷)", "filter_web": "وب، نرم‌افزار و رابط کاربری (۵)", "filter_ai": "پژوهش، هوش مصنوعی و دوقلوی دیجیتال (۵)", "btn_request_service": "ثبت درخواست این خدمت", "exp_kicker": "۰۲ / سوابق شغلی و فعالیت‌های اجرایی و علمی", "exp_title": "پیشینه سرپرستی، مدیریت پیمان و پژوهش‌های بین‌المللی", "exp_desc": "یک دهه مدیریت و سرپرستی دفاتر فنی، ممیزی قراردادها، راهبری مگاپروژه‌ها و پژوهش‌های آکادمیک بین‌المللی.", "exp_badge_current": "سمت جاری", "exp_badge_completed": "خاتمه‌یافته", "proj_kicker": "۰۳ / پروژه‌های شاخص و سوابق اجرایی", "proj_title": "کارنامه پروژه‌های ساختمانی، زیرساختی، دعاوی و هوش مصنوعی", "proj_desc": "تجارب عملیاتی در مگاپروژه‌های آزادراهی، برج‌های تجاری، پرونده‌های کلان دعاوی پیمانکاری و پلتفرم‌های دوقلوی دیجیتال.", "proj_filter_all": "همه پروژه‌ها (۱۰)", "proj_filter_civil": "دفتر فنی و سازه", "proj_filter_contracts": "امور قرارداد و تأخیرات", "proj_filter_ai": "دوقلوی دیجیتال و هوش مصنوعی", "proj_filter_web": "پلتفرم‌های وب و ابری", "skills_kicker": "۰۴ / جعبه‌ابزار مهارت‌ها، نرم‌افزارها و شایستگی‌ها", "skills_title": "تسلط جامع بر نرم‌افزارهای تخصصی عمران، پیمان، برنامه‌نویسی و علوم داده", "skills_desc": "پوشش کامل نرم‌افزارهای دفتر فنی، نقشه‌کشی، شاپ‌دراوینگ تکلا، زمان‌بندی پروژه‌ها، تحلیل سازه، یادگیری عمیق و روش تحقیق بین‌المللی.", "pubs_kicker": "۰۵ / کارنامه پژوهشی و مقالات علمی بین‌المللی", "pubs_title": "۲۰ اثر علمی و مقاله تخصصی (۱۰ مقاله منتشرشده و ۱۰ مقاله در حال داوری)", "pubs_desc": "دستاوردهای علمی در حوزه دوقلوی دیجیتال، بینایی ماشین، هوش مصنوعی توصیف‌پذیر و اتوماسیون مدیریت ساخت با استانداردهای تراز اول جهان.", "pub_filter_all": "همه آثار (۲۰)", "pub_filter_published": "مقالات منتشرشده (۱۰)", "pub_filter_under_review": "در حال داوری (۱۰)", "pub_filter_dt": "دوقلوی دیجیتال و هوش مصنوعی (۱۲)", "pub_filter_mgmt": "مدیریت ساخت و مصالح (۸)", "pub_search_placeholder": "جست‌وجو بر اساس عنوان، نویسنده، ژورنال یا موضوع...", "btn_bibtex": "کپی ارجاع استنادی", "btn_details": "مشاهده جزئیات", "modal_authors": "نویسندگان:", "modal_journal": "ژورنال / وضعیت:", "modal_year": "سال انتشار:", "modal_status": "وضعیت داوری:", "modal_abstract": "چکیده مقاله:", "modal_close": "بستن", "modal_bibtex_btn": "کپی ارجاع استنادی (BibTeX)", "modal_doi_btn": "مشاهده در پایگاه ناشر (DOI)", "edu_kicker": "۰۶ / مدارج تحصیلی، افتخارات و پروانه‌ها", "edu_title": "تحصیلات آکادمیک، دکتری امیرکبیر و فلوشیپ اولو فنلاند", "edu_col_title": "مدارک تحصیلی دانشگاهی", "honors_col_title": "افتخارات، پروانه‌ها و عضویت‌ها", "consult_kicker": "۰۷ / درخواست مشاوره و همکاری مستقیم", "consult_title": "رزرو جلسه مشاوره تخصصی و آغاز همکاری", "consult_desc": "اطلاعات پروژه، درخواست لایحه ادعا و تأخیرات، نیازهای دفتر فنی، آنالیز بها یا همکاری‌های پژوهشی و هوش مصنوعی را ثبت نمایید تا در اسرع وقت بررسی گردد.", "lbl_name": "نام و نام خانوادگی", "lbl_phone": "شماره تماس همراه", "lbl_email": "آدرس ایمیل", "lbl_service": "خدمت یا حوزه مورد نظر", "lbl_msg": "شرح درخواست و مشخصات پروژه", "btn_submit_consult": "ثبت نهایی درخواست مشاوره", "btn_wa_fast": "ارسال سریع در واتساپ", "btn_email_fast": "ارسال مستقیم ایمیل", "consult_direct_channels": "راه‌های ارتباطی مستقیم", "consult_call_direct": "تماس مستقیم تلفنی", "consult_email_direct": "ایمیل رسمی", "consult_wa_direct": "واتساپ سریع", "consult_nda_notice": "تمامی اطلاعات و مدارک پروژه‌ها، اسناد مناقصه و صورت‌وضعیت‌ها نزد ما محرمانه تلقی شده و تحت توافق‌نامه عدم افشا (NDA) محافظت می‌گردد.", "consult_reply_notice": "پاسخ‌گویی به استعلام‌های کارفرمایان و همکاران محترم در کوتاه‌ترین زمان ممکن صورت می‌پذیرد.", "ref_kicker": "۰۸ / معرف‌های علمی و اساتید راهنما", "ref_title": "اساتید برجسته و معرف‌های دانشگاهی (۷ معرف رسمی)", "ref_desc": "اساتید و پژوهشگران ارشد دانشگاهی ناظر بر رساله دکتری، پایان‌نامه و پروژه‌های بین‌المللی پژوهشی.", "footer_rights": "تمامی حقوق محفوظ است. دکتر محمد امین طلاقت © ۱۴۰۵", "footer_tagline": "راهبری هوشمند زیرساخت | انضباط قرارداد و پیمان | نوآوری‌های دوقلوی دیجیتال"}, "en": {"name": "Dr. Mohammad Amin Talaghat", "tagline": "Head of Technical Office & Contracts | AI Infrastructure & Digital Twin Researcher", "nav_profile": "Profile", "nav_services": "Services (27)", "nav_experience": "Experience (8)", "nav_projects": "Projects (10)", "nav_skills": "Skills & Software", "nav_pubs": "Publications (20)", "nav_edu": "Education & Honors", "nav_consultation": "Book Consultation", "nav_refs": "References (7)", "cta_chat": "WhatsApp Chat", "hero_status": "Available for Executive Consultation, Contract Governance & Data-Driven Engineering", "elite_badge": "National Elites Foundation Scholar", "pe_badge": "Licensed Construction Supervisor & PE", "scholar_badge": "94 Google Scholar Citations · h-index: 4 · i10-index: 1", "hero_title_1": "Intelligent Engineering Leadership;", "hero_title_2": "From Contract Rigor to Digital Twin Innovation", "hero_bio_1": "I am <strong>Dr. Mohammad Amin Talaghat</strong>, Ph.D. in Construction Engineering & Management from <strong>Amirkabir University of Technology (Tehran Polytechnic)</strong> and Visiting Researcher at the <strong>University of Oulu, Finland</strong>. My career bridges executive construction leadership, rigorous contract governance, and cutting-edge data-driven technologies including digital twins and artificial intelligence for infrastructure systems.", "hero_bio_2": "With over a decade of hands-on leadership directing technical offices, resolving complex contract claims, and optimizing project cash flows—alongside publishing high-impact research in premier international journals—I provide high-level advisory, technical, and digital engineering services to project owners, contractors, and consulting firms globally.", "loc_text": "Shiraz & Tehran (Available On-site & Hybrid Nationwide)", "hero_cta_book": "Request Consultation & Engagement", "hero_cta_cv": "Download English CV (PDF)", "hero_cta_cv_fa": "Download Persian CV (PDF)", "scholar_link_text": "Google Scholar (94 Citations)", "telegram_link_text": "Telegram", "facebook_link_text": "Facebook", "webalfa_link_text": "WebAlfa", "card_name": "Dr. Mohammad Amin Talaghat", "card_role": "Head of Technical Office & Contracts | Digital Twin Researcher", "card_sub": "Amirkabir Univ. Ph.D. · Univ. of Oulu Researcher", "kpi_works": "Scientific Works", "kpi_cites": "Scholar Citations", "kpi_hindex": "h-index", "kpi_i10index": "i10-index", "kpi_projects": "Landmark Projects", "kpi_roles": "Executive Roles", "btn_direct_consult": "Request Specialized Consultation", "srv_kicker": "01 / Engineering, Technical Office, Web & AI Services", "srv_title": "Engineering Design, Consulting, Technical Office & Modern Technologies", "srv_desc": "Delivering rigorous, data-driven, and legally grounded engineering solutions in full compliance with construction procurement regulations, conditions of contract, and advanced AI / BIM methodologies.", "srv_banner": "Ready for strategic partnership with project owners, contractors, and consulting engineers nationwide", "srv_sub_stats": "27 Comprehensive Services across 3 Core Axes", "srv_sub_type": "On-Site & Project-Based Consulting Across the Country", "filter_all": "All Services (27)", "filter_civil": "Technical Office & Civil (17)", "filter_web": "Web, Software & UI/UX (5)", "filter_ai": "R&D, AI & Digital Twins (5)", "btn_request_service": "Request Service", "exp_kicker": "02 / Professional Career & Research Appointments", "exp_title": "Verified Executive Leadership & Engineering Roles", "exp_desc": "A decade of high-impact leadership spanning technical offices, construction law, EPC contracts, and cutting-edge international research.", "exp_badge_current": "Current Position", "exp_badge_completed": "Completed", "proj_kicker": "03 / Landmark Verified Projects Portfolio", "proj_title": "Track Record in High-Rise, Infrastructure, Claims & AI", "proj_desc": "Direct execution and advisory footprint across civil mega-projects, major contract dispute resolutions, and digital twin implementations.", "proj_filter_all": "All Projects (10)", "proj_filter_civil": "Technical Office & Structures", "proj_filter_contracts": "Contracts & Claims", "proj_filter_ai": "Digital Twin & AI", "proj_filter_web": "Web & Cloud Platforms", "skills_kicker": "04 / Engineering Skills, Software & Competencies", "skills_title": "Comprehensive Mastery of Engineering Software, Codes & Data Science", "skills_desc": "Full coverage of technical office tools, CAD drafting, Tekla detailing, CPM scheduling, structural FEA, deep learning, and ISI research methodologies.", "pubs_kicker": "05 / Scholarly Record & Peer-Reviewed Publications", "pubs_title": "20 Scientific Works (10 Published, 10 Under Active Peer Review)", "pubs_desc": "Rigorous research contributions in digital twins, pavement distress segmentation, Explainable AI (XAI), and construction automation conforming to global top-tier benchmarks.", "pub_filter_all": "All Works (20)", "pub_filter_published": "Published Papers (10)", "pub_filter_under_review": "Under Review (10)", "pub_filter_dt": "Digital Twin & AI (12)", "pub_filter_mgmt": "Management & Materials (8)", "pub_search_placeholder": "Search by title, author, journal, or topic...", "btn_bibtex": "Copy BibTeX", "btn_details": "View Details", "modal_authors": "Authors:", "modal_journal": "Journal / Status:", "modal_year": "Year:", "modal_status": "Peer Review Status:", "modal_abstract": "Abstract:", "modal_close": "Close", "modal_bibtex_btn": "Copy BibTeX Citation", "modal_doi_btn": "View at Publisher (DOI)", "edu_kicker": "06 / Academic Background, Honors & Credentials", "edu_title": "Academic Excellence, Ph.D. from Amirkabir & Oulu Fellowship", "edu_col_title": "Academic Degrees", "honors_col_title": "Honors, Licenses & Memberships", "consult_kicker": "07 / Direct Executive Consultation & Engagement", "consult_title": "Book an Executive Advisory Session or Project Engagement", "consult_desc": "Directly submit your project parameters, claim requirements, technical office needs, or AI/R&D inquiries for prompt and confidential review.", "lbl_name": "Full Name", "lbl_phone": "Contact Phone / Mobile", "lbl_email": "Email Address", "lbl_service": "Target Service / Subject", "lbl_msg": "Project Details & Scope Description", "btn_submit_consult": "Submit Consultation Request", "btn_wa_fast": "Fast WhatsApp Send", "btn_email_fast": "Send via Email", "consult_direct_channels": "Direct Communication Channels", "consult_call_direct": "Direct Mobile Call", "consult_email_direct": "Official Email", "consult_wa_direct": "WhatsApp Direct", "consult_nda_notice": "All project parameters, bidding documents, and financial statements are treated with strict confidentiality under non-disclosure agreements (NDA).", "consult_reply_notice": "Inquiries from clients and colleagues will receive prompt responses.", "ref_kicker": "08 / Academic Mentors & Distinguished References", "ref_title": "Distinguished Academic Endorsements (7 Official Mentors)", "ref_desc": "Senior academic mentors and research leaders supervising and collaborating on doctoral research and international digital twin projects.", "footer_rights": "All rights reserved. Dr. Mohammad Amin Talaghat © 2026", "footer_tagline": "Smart Infrastructure Leadership | Contractual Integrity | Digital Twin Innovations"}};
+
+        // Application State
+        let currentLang = 'fa';
+        let currentServiceFilter = 'all';
+        let currentProjectFilter = 'all';
+        let currentPubFilter = 'all';
+        let currentPubSearch = '';
+        let activeModalPub = null;
+
+        // --- Render Functions ---
+
+        // 1. Services
+        function renderServices(filter = 'all') {
+            currentServiceFilter = filter;
+            const container = document.getElementById('services-grid');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const filtered = (filter === 'all') 
+                ? servicesData 
+                : servicesData.filter(s => s.cat === filter);
+
+            filtered.forEach(s => {
+                const badge = (currentLang === 'fa') ? s.badge_fa : s.badge_en;
+                const title = (currentLang === 'fa') ? s.title_fa : s.title_en;
+                const desc = (currentLang === 'fa') ? s.desc_fa : s.desc_en;
+                const features = (currentLang === 'fa') ? s.features_fa : s.features_en;
+                const reqText = (currentLang === 'fa') ? 'ثبت درخواست این خدمت' : 'Request Service';
+
+                let featuresHtml = '';
+                if (features && features.length > 0) {
+                    featuresHtml = '<div class="space-y-1.5 pt-2 border-t border-white/5">';
+                    features.forEach(f => {
+                        featuresHtml += `
+                            <div class="flex items-start gap-2 text-xs text-slate-300">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 mt-0.5 shrink-0"></i>
+                                <span>${f}</span>
+                            </div>
+                        `;
+                    });
+                    featuresHtml += '</div>';
+                }
+
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-3xl space-y-4 flex flex-col justify-between group';
+                card.innerHTML = `
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between gap-2">
+                            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">${badge}</span>
+                            <div class="w-8 h-8 rounded-xl bg-white/5 flex items-center justify-center text-slate-400 group-hover:text-emerald-400 group-hover:bg-emerald-500/10 transition-all">
+                                <i data-lucide="${s.icon || 'check-circle'}" class="w-4 h-4"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-base font-bold text-white group-hover:text-emerald-300 transition-colors leading-snug">${title}</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">${desc}</p>
+                        ${featuresHtml}
+                    </div>
+                    <div class="pt-3">
+                        <button onclick="selectServiceForConsultation('${s.id}')" class="w-full py-2 rounded-xl bg-white/5 hover:bg-emerald-500 hover:text-navy-950 text-emerald-400 text-xs font-bold border border-white/10 hover:border-emerald-500 transition-all flex items-center justify-center gap-1.5">
+                            <i data-lucide="arrow-left" class="w-3.5 h-3.5 rtl:rotate-0 ltr:rotate-180"></i>
+                            <span>${reqText}</span>
+                        </button>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        function filterServices(cat) {
+            ['all', 'civil', 'web', 'ai'].forEach(c => {
+                const btn = document.getElementById(`btn-serv-${c}`);
+                if (btn) {
+                    if (c === cat) {
+                        btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20';
+                    } else {
+                        btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white';
+                    }
+                }
+            });
+            renderServices(cat);
+        }
+
+        // 2. Skills & Software (6 Categories, 36 Skills)
+        function renderSkills() {
+            const container = document.getElementById('skills-grid');
+            if (!container) return;
+            container.innerHTML = '';
+
+            skillsData.forEach(cat => {
+                const title = (currentLang === 'fa') ? cat.title_fa : cat.title_en;
+                const desc = (currentLang === 'fa') ? cat.desc_fa : cat.desc_en;
+
+                let itemsHtml = '';
+                cat.skills.forEach(sk => {
+                    const name = (currentLang === 'fa') ? sk.name_fa : sk.name_en;
+                    const detail = (currentLang === 'fa') ? sk.detail_fa : sk.detail_en;
+                    const tag = (currentLang === 'fa') ? sk.tag.split('/')[0].trim() : (sk.tag.includes('/') ? sk.tag.split('/')[1].trim() : sk.tag);
+
+                    itemsHtml += `
+                        <div class="p-3 rounded-2xl bg-navy-900/60 border border-white/5 space-y-1 hover:border-emerald-500/30 transition-all">
+                            <div class="flex items-center justify-between gap-2">
+                                <span class="text-xs font-bold text-white">${name}</span>
+                                <span class="text-[10px] font-mono text-emerald-400 font-semibold">${sk.level}</span>
+                            </div>
+                            <div class="text-[11px] text-slate-400 leading-snug">${detail}</div>
+                            <div class="pt-1 flex items-center justify-between text-[10px] text-slate-500">
+                                <span>${tag}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-3xl space-y-4';
+                card.innerHTML = `
+                    <div class="flex items-center gap-3 border-b border-white/5 pb-3">
+                        <div class="w-10 h-10 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+                            <i data-lucide="${cat.icon || 'code'}" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-bold text-white">${title}</h3>
+                            <p class="text-[11px] text-slate-400">${desc}</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2.5">
+                        ${itemsHtml}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        // 3. Experience (8 Positions)
+        function renderExperience() {
+            const container = document.getElementById('experience-timeline');
+            if (!container) return;
+            container.innerHTML = '';
+
+            experienceData.forEach(exp => {
+                const title = (currentLang === 'fa') ? exp.title_fa : exp.title_en;
+                const company = (currentLang === 'fa') ? exp.company_fa : exp.company_en;
+                const loc = (currentLang === 'fa') ? exp.location_fa : exp.location_en;
+                const period = (currentLang === 'fa') ? exp.period_fa : exp.period_en;
+                const desc = (currentLang === 'fa') ? exp.desc_fa : exp.desc_en;
+                const tags = (currentLang === 'fa') ? exp.tags_fa : exp.tags_en;
+                const statusBadge = exp.is_current 
+                    ? `<span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot"></span>${currentLang === 'fa' ? 'سمت جاری' : 'Current'}</span>`
+                    : `<span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-white/5 text-slate-400 border border-white/10">${currentLang === 'fa' ? 'خاتمه‌یافته' : 'Completed'}</span>`;
+
+                let tagsHtml = '';
+                if (tags) {
+                    tagsHtml = tags.map(t => `<span class="px-2 py-0.5 rounded-lg bg-white/5 text-slate-300 text-[10px] font-medium border border-white/5">${t}</span>`).join(' ');
+                }
+
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-3xl space-y-3';
+                card.innerHTML = `
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/5 pb-3">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <h3 class="text-base font-bold text-white">${title}</h3>
+                                ${statusBadge}
+                            </div>
+                            <div class="text-xs text-emerald-400 font-semibold mt-0.5">${company} · <span class="text-slate-400 font-normal">${loc}</span></div>
+                        </div>
+                        <div class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-xl self-start sm:self-auto border border-cyan-500/20">
+                            ${period}
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">${desc}</p>
+                    <div class="flex flex-wrap gap-1.5 pt-1">
+                        ${tagsHtml}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        // 4. Projects (10 Verified Projects)
+        function renderProjects(filter = 'all') {
+            currentProjectFilter = filter;
+            const container = document.getElementById('projects-grid');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const filtered = (filter === 'all') 
+                ? projectsData 
+                : projectsData.filter(p => p.cat === filter);
+
+            filtered.forEach(p => {
+                const title = (currentLang === 'fa') ? p.title_fa : p.title_en;
+                const client = (currentLang === 'fa') ? p.client_fa : p.client_en;
+                const period = (currentLang === 'fa') ? p.period_fa : p.period_en;
+                const desc = (currentLang === 'fa') ? p.desc_fa : p.desc_en;
+
+                let tagsHtml = p.tags.map(t => `<span class="px-2 py-0.5 rounded-lg bg-emerald-500/10 text-emerald-400 text-[10px] font-mono border border-emerald-500/20">${t}</span>`).join(' ');
+
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-3xl space-y-3 flex flex-col justify-between';
+                card.innerHTML = `
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between gap-2 text-xs font-mono text-slate-400">
+                            <span class="text-cyan-400">${client}</span>
+                            <span class="bg-white/5 px-2.5 py-0.5 rounded-lg">${period}</span>
+                        </div>
+                        <h3 class="text-base font-bold text-white leading-snug">${title}</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">${desc}</p>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 pt-2 border-t border-white/5">
+                        ${tagsHtml}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        function filterProjects(cat) {
+            ['all', 'civil', 'contracts', 'ai', 'web'].forEach(c => {
+                const btn = document.getElementById(`btn-proj-${c}`);
+                if (btn) {
+                    if (c === cat) {
+                        btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20';
+                    } else {
+                        btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white';
+                    }
+                }
+            });
+            renderProjects(cat);
+        }
+
+        // 5. Publications (All 20 Scientific Works)
+        function renderPublications() {
+            const container = document.getElementById('publications-list');
+            if (!container) return;
+            container.innerHTML = '';
+
+            let filtered = pubsData;
+
+            if (currentPubFilter === 'published') {
+                filtered = filtered.filter(p => p.status === 'published');
+            } else if (currentPubFilter === 'under_review') {
+                filtered = filtered.filter(p => p.status === 'under_review');
+            } else if (currentPubFilter === 'dt_ai') {
+                filtered = filtered.filter(p => p.cluster === 'dt_ai');
+            } else if (currentPubFilter === 'mgmt_materials') {
+                filtered = filtered.filter(p => p.cluster === 'mgmt_materials');
+            }
+
+            if (currentPubSearch.trim() !== '') {
+                const q = currentPubSearch.toLowerCase();
+                filtered = filtered.filter(p => 
+                    p.title.toLowerCase().includes(q) ||
+                    p.authors.toLowerCase().includes(q) ||
+                    p.journal.toLowerCase().includes(q) ||
+                    (p.cluster_fa && p.cluster_fa.toLowerCase().includes(q))
+                );
+            }
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="p-8 text-center text-slate-500 glass-card rounded-2xl">
+                        ${currentLang === 'fa' ? 'هیچ مقاله‌ای با این مشخصات یافت نشد.' : 'No publications matched your search criteria.'}
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(p => {
+                const isPublished = (p.status === 'published');
+                const statusLabel = isPublished
+                    ? (currentLang === 'fa' ? 'مقاله منتشرشده' : 'Published Paper')
+                    : (currentLang === 'fa' ? 'در حال داوری' : 'Under Review');
+                const statusClass = isPublished 
+                    ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/25' 
+                    : 'bg-amber-500/10 text-amber-400 border-amber-500/25';
+
+                const card = document.createElement('div');
+                card.className = 'glass-card p-5 rounded-2xl space-y-3';
+                card.innerHTML = `
+                    <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2">
+                        <div class="space-y-1">
+                            <div class="flex items-center gap-2">
+                                <span class="px-2 py-0.5 rounded-full text-[10px] font-mono font-bold border ${statusClass}">${statusLabel}</span>
+                                <span class="text-xs font-mono text-cyan-400">${p.year}</span>
+                                <span class="text-xs text-slate-400">· ${p.journal}</span>
+                            </div>
+                            <h3 class="text-sm sm:text-base font-bold text-white hover:text-emerald-400 transition-colors cursor-pointer" onclick="openPubModal('${p.id}')">
+                                ${p.title}
+                            </h3>
+                            <div class="text-xs text-slate-400">${p.authors}</div>
+                        </div>
+                        <div class="flex items-center gap-2 shrink-0 pt-2 sm:pt-0">
+                            <button onclick="openPubModal('${p.id}')" class="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-emerald-500 hover:text-navy-950 text-slate-300 text-xs font-semibold transition-all flex items-center gap-1.5">
+                                <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+                                <span>${currentLang === 'fa' ? 'جزئیات' : 'Details'}</span>
+                            </button>
+                            <button onclick="copyPubBibtexDirect('${p.id}')" class="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-cyan-500 hover:text-navy-950 text-slate-300 text-xs font-semibold transition-all flex items-center gap-1.5">
+                                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                                <span>BibTeX</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        function filterPublications(cat) {
+            currentPubFilter = cat;
+            ['all', 'published', 'under_review', 'dt_ai', 'mgmt_materials'].forEach(c => {
+                const btn = document.getElementById(`btn-pub-${c}`);
+                if (btn) {
+                    if (c === cat) {
+                        btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20';
+                    } else {
+                        btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white';
+                    }
+                }
+            });
+            renderPublications();
+        }
+
+        function searchPublications(query) {
+            currentPubSearch = query;
+            renderPublications();
+        }
+
+        // 6. Education & Honors
+        function renderEducation() {
+            const eduContainer = document.getElementById('education-list');
+            const honorsContainer = document.getElementById('honors-list');
+            if (!eduContainer || !honorsContainer) return;
+
+            eduContainer.innerHTML = '';
+            educationData.education.forEach(ed => {
+                const deg = (currentLang === 'fa') ? ed.degree_fa : ed.degree_en;
+                const univ = (currentLang === 'fa') ? ed.university_fa : ed.university_en;
+                const period = (currentLang === 'fa') ? ed.period_fa : ed.period_en;
+                const thesis = (currentLang === 'fa') ? ed.thesis_fa : ed.thesis_en;
+
+                const item = document.createElement('div');
+                item.className = 'glass-card p-5 rounded-2xl space-y-2';
+                item.innerHTML = `
+                    <div class="flex items-center justify-between gap-2 border-b border-white/5 pb-2">
+                        <span class="text-xs font-mono text-cyan-400">${period}</span>
+                        <span class="text-xs font-semibold text-emerald-400">${univ}</span>
+                    </div>
+                    <h4 class="text-sm font-bold text-white">${deg}</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">${thesis}</p>
+                `;
+                eduContainer.appendChild(item);
+            });
+
+            honorsContainer.innerHTML = '';
+            educationData.honors.forEach(hn => {
+                const title = (currentLang === 'fa') ? hn.title_fa : hn.title_en;
+                const detail = (currentLang === 'fa') ? hn.detail_fa : hn.detail_en;
+
+                const item = document.createElement('div');
+                item.className = 'glass-card p-5 rounded-2xl space-y-1.5 border-amber-500/20';
+                item.innerHTML = `
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="award" class="w-4 h-4 text-amber-400 shrink-0"></i>
+                        <h4 class="text-xs sm:text-sm font-bold text-white">${title}</h4>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed pr-6">${detail}</p>
+                `;
+                honorsContainer.appendChild(item);
+            });
+
+            lucide.createIcons();
+        }
+
+        // 7. Academic References (All 7 Official Mentors)
+        function renderReferences() {
+            const container = document.getElementById('references-grid');
+            if (!container) return;
+            container.innerHTML = '';
+
+            referencesData.forEach(ref => {
+                const name = (currentLang === 'fa') ? ref.name_fa : ref.name_en;
+                const title = (currentLang === 'fa') ? ref.title_fa : ref.title_en;
+                const affil = (currentLang === 'fa') ? ref.affiliation_fa : ref.affiliation_en;
+                const role = (currentLang === 'fa') ? ref.role_fa : ref.role_en;
+
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-3xl space-y-3 flex flex-col justify-between';
+                card.innerHTML = `
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0">
+                                <i data-lucide="user-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-bold text-white">${name}</h3>
+                                <div class="text-[11px] text-emerald-400 font-semibold leading-tight">${title}</div>
+                            </div>
+                        </div>
+                        <div class="text-xs text-slate-400">${affil}</div>
+                        <div class="p-2 rounded-xl bg-navy-900/60 border border-white/5 text-[11px] text-slate-300">
+                            <strong class="text-white">${currentLang === 'fa' ? 'نقش:' : 'Role:'}</strong> ${role}
+                        </div>
+                    </div>
+                    <div class="pt-2 text-xs font-mono border-t border-white/5">
+                        <a href="mailto:${ref.email}" class="text-cyan-400 hover:underline flex items-center gap-1.5" dir="ltr">
+                            <i data-lucide="mail" class="w-3.5 h-3.5 text-slate-500"></i> ${ref.email}
+                        </a>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        // Populate Consultation Form Dropdown
+        function populateServiceDropdown() {
+            const select = document.getElementById('form-service');
+            if (!select) return;
+            select.innerHTML = '';
+
+            servicesData.forEach(s => {
+                const title = (currentLang === 'fa') ? s.title_fa : s.title_en;
+                const opt = document.createElement('option');
+                opt.value = s.id;
+                opt.textContent = title;
+                select.appendChild(opt);
+            });
+        }
+
+        function selectServiceForConsultation(serviceId) {
+            const select = document.getElementById('form-service');
+            if (select) {
+                select.value = serviceId;
+            }
+            window.location.hash = 'consultation';
+            const msgBox = document.getElementById('form-message');
+            if (msgBox) {
+                const s = servicesData.find(x => x.id === serviceId);
+                if (s) {
+                    const title = (currentLang === 'fa') ? s.title_fa : s.title_en;
+                    msgBox.value = (currentLang === 'fa')
+                        ? `درخواست مشاوره و استعلام در خصوص: ${title}
+
+مشخصات پروژه:`
+                        : `Consultation inquiry regarding: ${title}
+
+Project Parameters:`;
+                }
+            }
+        }
+
+        // --- Language Toggle Logic ---
+        function toggleLanguage() {
+            currentLang = (currentLang === 'fa') ? 'en' : 'fa';
+            setLanguage(currentLang);
+        }
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            const html = document.documentElement;
+            html.dir = (currentLang === 'fa') ? 'rtl' : 'ltr';
+            html.lang = currentLang;
+
+            // Toggle body font classes
+            if (currentLang === 'fa') {
+                document.body.classList.remove('font-en');
+                document.body.classList.add('font-sans');
+                document.getElementById('lang-label').innerText = 'English';
+            } else {
+                document.body.classList.remove('font-sans');
+                document.body.classList.add('font-en');
+                document.getElementById('lang-label').innerText = 'فارسی';
+            }
+
+            // Translate static DOM elements
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (dict[currentLang] && dict[currentLang][key]) {
+                    el.innerHTML = dict[currentLang][key];
+                }
+            });
+
+            // Translate placeholders
+            const searchInput = document.getElementById('pub-search-input');
+            if (searchInput && dict[currentLang] && dict[currentLang]['pub_search_placeholder']) {
+                searchInput.placeholder = dict[currentLang]['pub_search_placeholder'];
+            }
+
+            // Re-render all dynamic components
+            renderServices(currentServiceFilter);
+            renderSkills();
+            renderExperience();
+            renderProjects(currentProjectFilter);
+            renderPublications();
+            renderEducation();
+            renderReferences();
+            populateServiceDropdown();
+
+            lucide.createIcons();
+        }
+
+        // --- Publication Modal & BibTeX ---
+        function openPubModal(pubId) {
+            const pub = pubsData.find(p => p.id === pubId);
+            if (!pub) return;
+            activeModalPub = pub;
+
+            document.getElementById('modal-badge').innerText = (pub.status === 'published')
+                ? (currentLang === 'fa' ? 'مقاله منتشرشده' : 'Published Paper')
+                : (currentLang === 'fa' ? 'در حال داوری' : 'Under Review');
+            document.getElementById('modal-title').innerText = pub.title;
+            document.getElementById('modal-authors').innerText = pub.authors;
+            document.getElementById('modal-journal').innerText = pub.journal;
+            document.getElementById('modal-year').innerText = pub.year;
+            document.getElementById('modal-status').innerText = (pub.status === 'published')
+                ? (currentLang === 'fa' ? 'پذیرفته‌شده و نهایی' : 'Peer-Reviewed & Accepted')
+                : (currentLang === 'fa' ? 'در فرآیند داوری همتا' : 'Under Active Peer Review');
+            document.getElementById('modal-abstract').innerText = pub.abstract;
+
+            const doiLink = document.getElementById('modal-doi-link');
+            if (pub.doi && pub.doi !== '') {
+                doiLink.href = pub.doi.startsWith('http') ? pub.doi : `https://doi.org/${pub.doi}`;
+                doiLink.classList.remove('hidden');
+            } else {
+                doiLink.classList.add('hidden');
+            }
+
+            document.getElementById('pub-modal').classList.remove('hidden');
+        }
+
+        function closePubModal() {
+            document.getElementById('pub-modal').classList.add('hidden');
+            activeModalPub = null;
+        }
+
+        function copyModalBibtex() {
+            if (!activeModalPub) return;
+            copyTextToClipboard(activeModalPub.bibtex);
+        }
+
+        function copyPubBibtexDirect(pubId) {
+            const pub = pubsData.find(p => p.id === pubId);
+            if (pub) {
+                copyTextToClipboard(pub.bibtex);
+            }
+        }
+
+        function copyTextToClipboard(text) {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(currentLang === 'fa' ? 'ارجاع استنادی BibTeX با موفقیت کپی شد!' : 'BibTeX citation copied to clipboard!');
+                });
+            } else {
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                showToast(currentLang === 'fa' ? 'ارجاع استنادی BibTeX با موفقیت کپی شد!' : 'BibTeX citation copied to clipboard!');
+            }
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-msg');
+            toastMsg.innerText = msg;
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 3500);
+        }
+
+        // --- Consultation Form Actions ---
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('form-name').value;
+            const phone = document.getElementById('form-phone').value;
+            const srv = document.getElementById('form-service').value;
+            const msg = document.getElementById('form-message').value;
+
+            showToast(currentLang === 'fa' ? 'درخواست شما با موفقیت ثبت شد. به‌زودی با شما تماس حاصل می‌گردد.' : 'Your inquiry has been submitted successfully.');
+            e.target.reset();
+        }
+
+        function sendViaWhatsApp() {
+            const name = document.getElementById('form-name').value || (currentLang === 'fa' ? 'کارفرما' : 'Client');
+            const phone = document.getElementById('form-phone').value || '';
+            const srv = document.getElementById('form-service').value;
+            const msg = document.getElementById('form-message').value || '';
+
+            const srvObj = servicesData.find(s => s.id === srv);
+            const srvTitle = srvObj ? ((currentLang === 'fa') ? srvObj.title_fa : srvObj.title_en) : srv;
+
+            const text = encodeURIComponent(
+                `*درخواست مشاوره تخصصی*
+نام: ${name}
+شماره تماس: ${phone}
+حوزه خدمت: ${srvTitle}
+توضیحات:
+${msg}`
+            );
+            window.open(`https://wa.me/989171883502?text=${text}`, '_blank');
+        }
+
+        function sendViaMailto() {
+            const name = document.getElementById('form-name').value || 'Inquirer';
+            const srv = document.getElementById('form-service').value;
+            const msg = document.getElementById('form-message').value || '';
+
+            const srvObj = servicesData.find(s => s.id === srv);
+            const srvTitle = srvObj ? srvObj.title_fa : srv;
+
+            const subject = encodeURIComponent(`درخواست مشاوره مهندسی: ${srvTitle}`);
+            const body = encodeURIComponent(`نام: ${name}
+خدمت: ${srvTitle}
+
+توضیحات پروژه:
+${msg}`);
+            window.location.href = `mailto:atalaghat@gmail.com?subject=${subject}&body=${body}`;
+        }
+
+        // --- Counter Animation ---
+        function initCounters() {
+            const counters = document.querySelectorAll('.counter-num');
+            counters.forEach(c => {
+                const target = parseInt(c.getAttribute('data-target') || '0', 10);
+                let current = 0;
+                const increment = Math.max(1, Math.ceil(target / 40));
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        c.innerText = target;
+                        clearInterval(timer);
+                    } else {
+                        c.innerText = current;
+                    }
+                }, 30);
+            });
+        }
+
+        // --- Particle Network Canvas ---
+        function initParticles() {
+            const canvas = document.getElementById('bg-canvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let w, h;
+            let particles = [];
+
+            function resize() {
+                w = canvas.width = window.innerWidth;
+                h = canvas.height = window.innerHeight;
+            }
+            window.addEventListener('resize', resize);
+            resize();
+
+            for (let i = 0; i < 45; i++) {
+                particles.push({
+                    x: Math.random() * w,
+                    y: Math.random() * h,
+                    vx: (Math.random() - 0.5) * 0.4,
+                    vy: (Math.random() - 0.5) * 0.4,
+                    r: Math.random() * 2 + 1
+                });
+            }
+
+            function draw() {
+                ctx.clearRect(0, 0, w, h);
+                ctx.fillStyle = '#10b981';
+                ctx.strokeStyle = 'rgba(52, 211, 153, 0.12)';
+
+                for (let i = 0; i < particles.length; i++) {
+                    let p = particles[i];
+                    p.x += p.vx;
+                    p.y += p.vy;
+
+                    if (p.x < 0) p.x = w;
+                    if (p.x > w) p.x = 0;
+                    if (p.y < 0) p.y = h;
+                    if (p.y > h) p.y = 0;
+
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    for (let j = i + 1; j < particles.length; j++) {
+                        let p2 = particles[j];
+                        let dx = p.x - p2.x;
+                        let dy = p.y - p2.y;
+                        let dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < 120) {
+                            ctx.beginPath();
+                            ctx.moveTo(p.x, p.y);
+                            ctx.lineTo(p2.x, p2.y);
+                            ctx.stroke();
+                        }
+                    }
+                }
+                requestAnimationFrame(draw);
+            }
+            draw();
+        }
+
+        // --- Application Bootstrap ---
+        document.addEventListener('DOMContentLoaded', () => {
+            setLanguage('fa');
+            initCounters();
+            initParticles();
+        });
+    </script>
+</body>
+</html>
