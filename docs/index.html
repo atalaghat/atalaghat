@@ -536,8 +536,6 @@
                     <button onclick="filterPublications('all')" id="btn-pub-all" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-500 text-navy-950 shadow-lg shadow-emerald-500/20" data-i18n="pub_filter_all">همه آثار (۲۰)</button>
                     <button onclick="filterPublications('published')" id="btn-pub-published" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_published">مقالات منتشرشده (۱۰)</button>
                     <button onclick="filterPublications('under_review')" id="btn-pub-under_review" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_under_review">در حال داوری (۱۰)</button>
-                    <button onclick="filterPublications('dt_ai')" id="btn-pub-dt_ai" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_dt">دوقلوی دیجیتال و هوش مصنوعی (۱۲)</button>
-                    <button onclick="filterPublications('mgmt_materials')" id="btn-pub-mgmt_materials" class="px-4 py-2 rounded-xl text-xs font-bold transition-all glass-card text-slate-300 hover:text-white" data-i18n="pub_filter_mgmt">مدیریت ساخت و مصالح (۸)</button>
                 </div>
 
                 <!-- Live Search Box -->
@@ -890,19 +888,15 @@
                 cat.skills.forEach(sk => {
                     const name = (currentLang === 'fa') ? sk.name_fa : sk.name_en;
                     const detail = (currentLang === 'fa') ? sk.detail_fa : sk.detail_en;
-                    const level = (currentLang === 'fa') ? (sk.level_fa || sk.level) : (sk.level_en || sk.level);
                     const tag = (currentLang === 'fa') ? (sk.tag_fa || (sk.tag ? sk.tag.split('/')[0].trim() : '')) : (sk.tag_en || (sk.tag ? (sk.tag.includes('/') ? sk.tag.split('/')[1].trim() : sk.tag) : ''));
 
                     itemsHtml += `
-                        <div class="p-3 rounded-2xl bg-navy-900/60 border border-white/5 space-y-1 hover:border-emerald-500/30 transition-all">
+                        <div class="p-3.5 rounded-2xl bg-navy-900/60 border border-white/5 space-y-1.5 hover:border-emerald-500/30 transition-all">
                             <div class="flex items-center justify-between gap-2">
-                                <span class="text-xs font-bold text-white">${name}</span>
-                                <span class="text-[10px] font-mono text-emerald-400 font-semibold">${level}</span>
+                                <span class="text-xs font-bold text-white tracking-tight">${name}</span>
+                                <span class="text-[10px] font-mono text-emerald-400 px-2 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 font-medium shrink-0">${tag}</span>
                             </div>
-                            <div class="text-[11px] text-slate-300 leading-snug">${detail}</div>
-                            <div class="pt-1 flex items-center justify-between text-[10px] text-slate-400 font-mono">
-                                <span>${tag}</span>
-                            </div>
+                            <div class="text-[11px] text-slate-300 leading-relaxed">${detail}</div>
                         </div>
                     `;
                 });
@@ -1046,10 +1040,6 @@
                 filtered = filtered.filter(p => p.status === 'published');
             } else if (currentPubFilter === 'under_review') {
                 filtered = filtered.filter(p => p.status === 'under_review');
-            } else if (currentPubFilter === 'dt_ai') {
-                filtered = filtered.filter(p => p.cluster === 'dt_ai');
-            } else if (currentPubFilter === 'mgmt_materials') {
-                filtered = filtered.filter(p => p.cluster === 'mgmt_materials');
             }
 
             if (currentPubSearch.trim() !== '') {
@@ -1115,7 +1105,7 @@
 
         function filterPublications(cat) {
             currentPubFilter = cat;
-            ['all', 'published', 'under_review', 'dt_ai', 'mgmt_materials'].forEach(c => {
+            ['all', 'published', 'under_review'].forEach(c => {
                 const btn = document.getElementById(`btn-pub-${c}`);
                 if (btn) {
                     if (c === cat) {
