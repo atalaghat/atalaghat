@@ -102,17 +102,19 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ---
 
-## Landmark Projects Portfolio (10 Verified Projects)
+## Landmark Projects Portfolio (12 Verified Projects)
 1. **Smart Pavement Management System & Infrastructure Digital Twin Platform (DigiPave)** — University of Oulu & City of Oulu, Finland | 2024 – 2026
 2. **Loss & Expense Claim, Circular 5090 Delay Dossier & Contracts Administration for Simakan Water Transmission** — Sahar Sazeh Novin Paydar Co. / Fars Regional Water Authority | 2024 – 2026
-3. **Project Planning, CPM Controls & Concrete Monitoring for Shiraz District 4 & 10 Water Reservoirs** — Sahar Sazeh Novin Paydar Co. / Shiraz Municipality | 2024 – 2026
-4. **Comprehensive Delay Claim & Extension of Time Dossier for Kio Commercial-Residential Complex (170,000 m²)** — Private Consortium / Grade 1 General Contractor | 2022 – 2023
-5. **Master Scheduling & Project Controls for 1,210-Unit Mehr Housing Project (120,000 m²)** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
-6. **Quantity Surveying, Civil 3D Earthwork Estimating & Technical Office for 60-Hectare Landscaping** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
-7. **EPC Contract Audit, Article 29/30 Claims & Unit Rate Analysis for Gas Transmission Pipelines** — National Iranian Gas Engineering & Development Co. (NIGEC) | 2021 – 2023
-8. **Construction Supervision & Technical Execution for Shiraz University ECE Faculty (6,000 m²)** — Shiraz University / Tarh Mana Shahr Co. | 2015 – 2016
-9. **Full Structural Modeling, Analysis & Engineering Drawings for 6-Story Building (2,000 m²)** — Private Client / Fars Construction Engineering Organization | 2020 – 2021
-10. **Architecture & Full-Stack Development of WebAlfa, BIMGate, Paprika & Cloud Platforms** — Arka Noyan Industry Development Co. / WebAlfa | 2020 – 2025
+3. **Project Controls & Scheduling, Delay Analysis, Loss & Expense Claim, and Contracts for Fars Cement Plant (3,300 t/d)** — Sahar Sazeh Novin Paydar Co. / Fars Cement Co. | 2024 – 2026
+4. **Project Planning, CPM Controls & Concrete Monitoring for Shiraz District 4 & 10 Water Reservoirs** — Sahar Sazeh Novin Paydar Co. / Shiraz Municipality | 2024 – 2026
+5. **Comprehensive Delay Claim & Extension of Time Dossier for Kio Commercial-Residential Complex (170,000 m²)** — Private Consortium / Grade 1 General Contractor | 2022 – 2023
+6. **Building Smart Energy Management System & IoT/BIM Digital Twin (TwinUp Platform)** — Roger Williams College, Florida, USA / Arka Noyan Industry Development Co. | 2020 – 2022
+7. **Master Scheduling & Project Controls for 1,210-Unit Mehr Housing Project (120,000 m²)** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
+8. **Quantity Surveying, Civil 3D Earthwork Estimating & Technical Office for 60-Hectare Landscaping** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
+9. **EPC Contract Audit, Article 29/30 Claims & Unit Rate Analysis for Gas Transmission Pipelines** — National Iranian Gas Engineering & Development Co. (NIGEC) | 2021 – 2023
+10. **Construction Supervision & Technical Execution for Shiraz University ECE Faculty (6,000 m²)** — Shiraz University / Tarh Mana Shahr Co. | 2015 – 2016
+11. **Full Structural Modeling, Analysis & Engineering Drawings for 6-Story Building (2,000 m²)** — Private Client / Fars Construction Engineering Organization | 2020 – 2021
+12. **Architecture & Full-Stack Development of WebAlfa, BIMGate, Paprika & Cloud Platforms** — Arka Noyan Industry Development Co. / WebAlfa | 2020 – 2025
 
 ---
 
