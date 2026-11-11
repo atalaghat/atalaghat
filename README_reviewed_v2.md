@@ -4,6 +4,9 @@ Civil engineer and construction management researcher working on AI-driven digit
 
 I completed my Ph.D. in Construction Engineering and Management at Amirkabir University of Technology in January 2026. My research includes collaboration with the University of Oulu on the DigiPave project and a visiting research period from October 2024 to April 2025.
 
+
+**لینک رسمی پورتفولیو و استعلام سوابق:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
+
 Alongside research, I serve as Technical and Contracts Affairs Manager at Sahar Sazeh Novin Paydar. My professional experience covers technical office management, project planning and controls, quantity surveying, cost estimation, contract administration and delay claims. I also work in web and engineering software development through ArkaNoyan and WebAlfa.
 
 ## Research and engineering interests

@@ -1,5 +1,5 @@
 # Mohammad Amin Talaghat, Ph.D.
-### Head of Technical Office & Contracts | Contracts & Technical Affairs Manager
+### Contracts & Technical Affairs Specialist | Contracts & Technical Affairs Manager
 **Civil Engineering & Infrastructure Management Professional | Ph.D. in Construction Management**
 
 🌐 **Official Interactive Executive Portfolio:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)

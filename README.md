@@ -171,7 +171,7 @@ Experienced in connecting executive construction management with cutting-edge da
 <div dir="rtl" style="font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; text-align: right; direction: rtl; line-height: 1.8;">
 
 # بخش فارسی — معرفی، خدمات و سوابق دکتر محمد امین طلاقت
-### مدیر امور فنی و پیمان | پژوهشگر دوقلوی دیجیتال و زیرساخت هوشمند
+### متخصص امور فنی و قراردادی | پژوهشگر هوش مصنوعی و دوقلوی دیجیتال و زیرساخت هوشمند
 **دکترای مهندسی و مدیریت ساخت از دانشگاه صنعتی امیرکبیر و دستیار پژوهشی دانشگاه اولو کشور فنلاند**
 
 ---
