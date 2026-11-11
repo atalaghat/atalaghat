@@ -1,5 +1,5 @@
 # Mohammad Amin Talaghat, Ph.D.
-### Head of Technical Office & Contracts | Contracts & Technical Affairs Manager
+### Contracts & Technical Affairs Specialist | AI & Digital Twin Researcher
 **Civil Engineering & Infrastructure Management Professional | Ph.D. in Construction Management**
 
 <div align="center">
@@ -9,7 +9,7 @@
 [![i10-index](https://img.shields.io/badge/i10--index-1-FFBB28?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 [![Scientific Works](https://img.shields.io/badge/Scientific%20Works-20%20(10%20Pub%20%7C%2010%20Review)-10B981?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 [![Amirkabir University](https://img.shields.io/badge/Ph.D.-Amirkabir%20University-blue?style=flat)](https://aut.ac.ir)
-[![University of Oulu](https://img.shields.io/badge/Research%20Assistant-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
+[![University of Oulu](https://img.shields.io/badge/Visiting%20Research%20Assistant-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
 [![PE License](https://img.shields.io/badge/IRCEO-Licensed%20Supervisor%20%26%20Executor-purple?style=flat)](https://farscee.ir)
 
 </div>
@@ -19,7 +19,7 @@
 ---
 
 ## Executive Profile
-Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
+Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Visiting Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
 
 Experienced in connecting executive construction management with cutting-edge data-driven infrastructure applications. Combines practical leadership in construction project management, technical office supervision, contract administration, delay claims, quantity takeoff, cost estimation, and variation analysis with advanced research in road pavement digital twins, automated AI condition assessment, and BIM/IoT smart infrastructure systems.
 
