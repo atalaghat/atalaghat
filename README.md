@@ -53,12 +53,12 @@ Experienced in connecting executive construction management with cutting-edge da
 - **Online Engineering Calculation Portals:** Bespoke web applications for automated engineering calculations, escalation, and instant PDF/Excel exports.
 - **UI/UX Design & Frontend Development:** Responsive layouts, modern design systems, clean typography, and seamless user experiences.
 
-### 3. R&D Consulting, Academic Research & AI Engineering (5 Services)
-- **Infrastructure Digital Twins:** Developing 4D digital twin systems integrating sensory data, open-BIM (IFC 4.3), and pavement degradation models.
-- **Deep Learning & Computer Vision:** Training custom YOLOv8/v11 neural networks for automated pavement crack and distress detection and PCI scoring.
-- **Top-Tier ISI Manuscript Authoring:** Methodological structuring, data analysis, and manuscript authoring conforming to Nature and Elsevier standards.
-- **Algorithmic & Multi-Objective Optimization:** Metaheuristic algorithms (GA, PSO) and hybrid machine learning models (XGBoost, LSTM) for maintenance optimization.
-- **Peer Reviewing & Rebuttal Strategies:** Academic peer reviewing for international journals, methodological audits, and point-by-point rebuttal authoring.
+### 3. R&D Consulting, Academic Research & AI Engineering (5 Core Specializations)
+- **Computer Vision: Automated Detection & Segmentation:** High-fidelity computer vision pipelines utilizing custom YOLOv8/v11, foundation models, and diffusion-based generative AI for automated pavement distress classification, crack instance segmentation, multi-modal UAV thermal infrared analysis, and quantitative Surface Condition Index (SCI/PCI) scoring.
+- **Deep Predictive Modeling & Deterioration Forecasting:** Non-linear deep predictive architectures combining Hybrid MLP–LSTM and deep residual networks (ResNet) to forecast infrastructure deterioration rates, distress severity/density metrics, and equipment fault anomalies over decadal horizons.
+- **Multi-Objective Engineering Optimization & Prescriptive Decision Systems:** Mathematical formulation of complex constrained multi-objective engineering optimization problems using NSGA-II/III, Genetic Algorithms (GA), and PSO for multi-year capital budget allocation, joint energy-carbon-maintenance trade-offs, and autonomous inspection fleet tasking.
+- **4D Infrastructure Digital Twins & Semantic IFC 4.3 Integration:** Cyber-physical digital twin implementations adhering to open-BIM and buildingSMART IFC 4.3 standards, synchronizing real-time IoT sensory streams, vehicle fleet-sourced 4D surface reconstruction, and proactive maintenance decision-support systems.
+- **Top-Tier ISI Manuscript Governance, LaTeX Typesetting & Peer Review:** Strategic manuscript structuring conforming to Nature Portfolio, Elsevier, and ASCE benchmarks, rigorous research gap formulation, advanced LaTeX/BibTeX mathematical typography, and evidence-bounded peer review rebuttal authoring.
 
 ---
 
@@ -161,10 +161,16 @@ Experienced in connecting executive construction management with cutting-edge da
 - 🌐 **Interactive Portfolio:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
 - 📄 **ORCID:** [0000-0002-1245-4689](https://orcid.org/0000-0002-1245-4689)
 - 🔬 **Google Scholar:** [Mohammad Amin Talaghat (94 Citations · h-index: 4 · i10-index: 1)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+- 📚 **ResearchGate:** [researchgate.net/profile/Mohammad-Talaghat-4](https://www.researchgate.net/profile/Mohammad-Talaghat-4)
 - 💼 **LinkedIn:** [linkedin.com/in/atalaghat](https://www.linkedin.com/in/atalaghat/)
 - 💻 **GitHub:** [github.com/atalaghat](https://github.com/atalaghat)
+- 🚀 **Contra Freelance Portfolio:** [contra.com/atalaghat](https://contra.com/atalaghat)
+- 🤖 **Kaggle:** [kaggle.com/atalaghat](https://www.kaggle.com/atalaghat)
+- 🤗 **Hugging Face:** [huggingface.co/atalaghat](https://huggingface.co/atalaghat)
+- 💬 **Telegram:** [t.me/atalaghat](https://t.me/atalaghat)
+- 📘 **Facebook:** [facebook.com/amintalaghat](https://facebook.com/amintalaghat)
 - 📧 **Emails:** [atalaghat@aut.ac.ir](mailto:atalaghat@aut.ac.ir) | [atalaghat@gmail.com](mailto:atalaghat@gmail.com)
-- 📱 **Mobile:** +98 917 188 3502 (Iran) | +358 41 7182 239 (Finland)
+- 📱 **Mobile & WhatsApp:** +98 917 188 3502 (Iran) | +358 41 7182 239 (Finland)
 
 ---
 
@@ -209,12 +215,12 @@ Experienced in connecting executive construction management with cutting-edge da
 - **پلتفرم‌های ابری محاسبات مهندسی:** وب‌اپلیکیشن‌های آنلاین متره، تعدیل و گزارش‌گیری.
 - **طراحی رابط کاربری (UI/UX):** پروتوتایپ‌های مدرن، دیزاین‌سیستم و تایپوگرافی اصیل فارسی.
 
-### ۳. امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی (۵ خدمت)
-- **دوقلوی دیجیتال روسازی و زیرساخت:** تلفیق حسگرها، استاندارد IFC 4.3 و پیش‌بینی زوال سطوح پروازی و بزرگراهی.
-- **بینایی ماشین و یادگیری عمیق:** آموزش مدل‌های YOLOv8 و YOLOv11 جهت آشکارسازی خودکار ترک‌ها و زوال روسازی.
-- **نگارش و ویرایش مقالات علمی ISI:** تدوین ساختار IMRaD اصیل با استانداردهای Nature و Elsevier.
-- **بهینه‌سازی چندهدفه:** الگوریتم‌های متاهیوریستیک (GA, PSO) در مدیریت روسازی و تخصیص منابع.
-- **داوری ژورنال‌ها و نامه‌های ریبوتال:** ممیزی روش‌شناسی و تدوین پاسخ‌های علمی به داوران بین‌المللی.
+### ۳. امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی (۵ تخصص محوری)
+- **بینایی ماشین، آشکارسازی و بخش‌بندی عوارض (Detection & Segmentation):** پیاده‌سازی پایپ‌لاین‌های پیشرفته بینایی ماشین با YOLOv8 و YOLOv11، مدل‌های پایه‌ای (Foundation Models)، بخش‌بندی زوال و ترک با هوش مصنوعی مولد بر پایه انتشار (Diffusion Models)، تصویربرداری فروسرخ حرارتی پهپادی و محاسبه کمی شاخص‌های شرایط سطح (PCI/SCI).
+- **مدل‌سازی یادگیری عمیق پیش‌بین و پیش‌بینی سری زمانی (Deep Predictive Modeling):** توسعه مدل‌های ترکیبی Hybrid MLP-LSTM و شبکه‌های باقیمانده عمیق (ResNet) جهت پیش‌بینی دقیق نرخ زوال غیرخطی روسازی، برآورد شدت و تراکم خرابی‌ها و زوال تجهیزات در سامانه‌های متصل به شبکه هوشمند در افق‌های بلندمدت ده‌ساله.
+- **بهینه‌سازی چندهدفه، الگوریتم‌های فراابتکاری و تصمیم‌یار تجویزی (Optimization):** فرموله‌سازی ریاضی مسائل بهینه‌سازی چندهدفه مقید مهندسی، تخصیص بهینه بودجه‌های نگهداری و ترمیم (M&R)، الگوریتم‌های ژنتیک (GA)، ازدحام ذرات (PSO)، الگوریتم‌های NSGA-II/III و بهینه‌سازی توامان هزینه، انرژی و چرخه عمر.
+- **معماری دوقلوی دیجیتال زیرساخت بر پایه استاندارد IFC 4.3 و اینترنت اشیاء (IoT):** پیاده‌سازی چارچوب‌های دوقلوی دیجیتال سایبر-فیزیکی بر بستر open-BIM، یکپارچه‌سازی داده‌های جفت‌شده با مدل‌های ۳بعدی، اتصال بی‌درنگ حسگرهای IoT، بازسازی ۴بعدی حاصل از تصویربرداری و لیدار ناوگان خودرویی و تصمیم‌یار هوشمند.
+- **هدایت پژوهش، نگارش مقالات ISI، حروف‌چینی LaTeX و داوری ژورنال‌ها:** تدوین استراتژیک مقالات علمی در تراز ژورنال‌های Nature Portfolio، Elsevier و ASCE، نگارش ساختار IMRaD، حروف‌چینی بی‌نقص فرمول‌های ریاضی در LaTeX، مدیریت ارجاعات BibTeX و تنظیم نامه‌های پاسخ مستدل به داوران (Rebuttal Letters).
 
 ---
 
@@ -231,7 +237,15 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## راه‌های ارتباطی
 - 🌐 **پورتفولیو آنلاین تحت وب:** [https://atalaghat.github.io/atalaghat/](https://atalaghat.github.io/atalaghat/)
-- 📱 **تلفن همراه و واتساپ:** ۰۹۱۷۱۸۸۳۵۰۲ (+989171883502)
+- 🔬 **گوگل اسکولار (استنادات علمی):** [Google Scholar Profile](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+- 📚 **ریسرچ‌گیت (پروفایل پژوهشی):** [ResearchGate Profile](https://www.researchgate.net/profile/Mohammad-Talaghat-4)
+- 📄 **شناسه بین‌المللی ارکید:** [ORCID: 0000-0002-1245-4689](https://orcid.org/0000-0002-1245-4689)
+- 💼 **لینکدین (ارتباط حرفه‌ای):** [LinkedIn Profile](https://www.linkedin.com/in/atalaghat/)
+- 💻 **گیت‌هاب (مخازن کد):** [GitHub Profile](https://github.com/atalaghat)
+- 🚀 **پورتفولیوی فریلنسری کنترا:** [Contra Profile](https://contra.com/atalaghat)
+- 🤖 **کگل و هاگینگ‌فیس:** [Kaggle](https://www.kaggle.com/atalaghat) | [Hugging Face](https://huggingface.co/atalaghat)
+- 💬 **تلگرام و فیسبوک:** [Telegram](https://t.me/atalaghat) | [Facebook](https://facebook.com/amintalaghat)
+- 📱 **تلفن همراه و واتساپ مستقیم:** ۰۹۱۷۱۸۸۳۵۰۲ (+989171883502)
 - 📱 **شماره تماس بین‌المللی (فنلاند):** +358417182239
 - 📧 **ایمیل‌های رسمی:** `atalaghat@aut.ac.ir` | `atalaghat@gmail.com`
 
