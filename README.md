@@ -11,7 +11,7 @@
 [![Behance](https://img.shields.io/badge/Behance-Portfolio-1769ff?style=flat&logo=behance&logoColor=white)](https://www.behance.net/atalaghat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atalaghat/)
 [![Amirkabir University](https://img.shields.io/badge/Ph.D.-Amirkabir%20University-blue?style=flat)](https://aut.ac.ir)
-[![University of Oulu](https://img.shields.io/badge/Visiting%20Research%20Assistant-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
+[![University of Oulu](https://img.shields.io/badge/Research%20Assistant-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
 [![PE License](https://img.shields.io/badge/IRCEO-Licensed%20Supervisor%20%26%20Executor-purple?style=flat)](https://farscee.ir)
 
 </div>
@@ -21,7 +21,7 @@
 ---
 
 ## Executive Profile
-Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Visiting Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
+Civil engineer and construction management professional with a completed **Ph.D. in Construction Management** from Amirkabir University of Technology (Tehran Polytechnic) and international research collaboration as **Research Assistant at the University of Oulu (Finland)** on the DigiPave project.
 
 Experienced in connecting executive construction management with cutting-edge data-driven infrastructure applications. Combines practical leadership in construction project management, technical office supervision, contract administration, delay claims, quantity takeoff, cost estimation, and variation analysis with advanced research in road pavement digital twins, automated AI condition assessment, and BIM/IoT smart infrastructure systems.
 
