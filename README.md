@@ -7,7 +7,9 @@
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-94%20Citations-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 [![h-index](https://img.shields.io/badge/h--index-4-00C49F?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
 [![i10-index](https://img.shields.io/badge/i10--index-1-FFBB28?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
-[![Scientific Works](https://img.shields.io/badge/Scientific%20Works-20%20(10%20Pub%20%7C%2010%20Review)-10B981?style=flat)](https://scholar.google.com/citations?user=QW77YRoAAAAJ)
+[![Wellfound](https://img.shields.io/badge/Wellfound-Verified%20Profile-black?style=flat&logo=angellist&logoColor=white)](https://wellfound.com/u/atalaghat)
+[![Behance](https://img.shields.io/badge/Behance-Portfolio-1769ff?style=flat&logo=behance&logoColor=white)](https://www.behance.net/atalaghat)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atalaghat/)
 [![Amirkabir University](https://img.shields.io/badge/Ph.D.-Amirkabir%20University-blue?style=flat)](https://aut.ac.ir)
 [![University of Oulu](https://img.shields.io/badge/Visiting%20Research%20Assistant-Univ.%20of%20Oulu%2C%20Finland-003366?style=flat)](https://www.oulu.fi)
 [![PE License](https://img.shields.io/badge/IRCEO-Licensed%20Supervisor%20%26%20Executor-purple?style=flat)](https://farscee.ir)
@@ -25,9 +27,36 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ---
 
+## Executive Leadership & Enterprise Platforms
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏢 Arka Noyan Consulting Engineers
+**Board Member & Co-Founder | Senior Construction Management Consultant**
+- **Core Focus:** Project Management Office (PMO), Contract Administration, BIM 4D/5D Modeling, Structural Optimization, Claims & Delay Analysis.
+- **Track Record:** Over a decade of engineering consultancy, major civil infrastructure, high-rise, and industrial projects.
+- **Link:** [Arka Noyan Profile](https://atalaghat.github.io/atalaghat/#companies)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 WebAlfa Technology Ecosystem
+**Founder & Chief Technology Officer (CTO) | Digital Systems Architect**
+- **Core Focus:** Cloud Engineering Platforms, Pavement Digital Twins, AI/CV Infrastructure Solutions, Enterprise Full-Stack Web Systems.
+- **Key Products:** BIMGate, TwinUp, Paprika, WebAlfa Cloud Portals.
+- **Link:** [https://webalfa.net/](https://webalfa.net/)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Comprehensive Professional Services & Consulting Areas (English Overview)
 
-### 1. Civil Engineering, Technical Office & Project Controls (17 Services)
+### 1. Civil Engineering, Technical Office & Project Controls (18 Services)
 - **Rate Breakdown & Bidding Strategy:** Rate analysis, bid submission, and tender document preparation via Taksa software.
 - **Interim & Final Payment Certificates:** Comprehensive preparation, audit, and contractual defense of contractor payment certificates.
 - **Price Escalation & Adjustment:** Precise price escalation computations, baseline and periodic indices verification under standard regulations.
@@ -35,12 +64,13 @@ Experienced in connecting executive construction management with cutting-edge da
 - **Cash Flow & Loss Prevention:** Revenue/cost balancing, site cash flow optimization, and contractor loss mitigation.
 - **Site Minutes & Measurement Records:** Official documentation and measurement of site operations and hidden works.
 - **Contract Claim Management:** Claim identification, legal substantiation, claim dossier authoring, and contractual negotiations.
+- **Loss & Disruption Claims Dossier & Defense:** Comprehensive quantification and defense of claims for idle machinery, project suspension (Article 49), market inflation, and contractual damages.
+- **Delay Analysis & Extension of Time (EOT):** CPM-based delay modeling, excusable delay justification, and financial delay assessments under Circular 5090 and Article 30.
+- **Project Management Domains & PMO Implementation:** Comprehensive implementation of PMBOK project management knowledge areas, PMO governance, EVM tracking, and executive KPI dashboards.
 - **Detailed Quantity Surveying (QTO):** Detailed takeoff for Phase 1, Phase 2, and As-Built drawings mapped to national tariff systems.
 - **Contract Administration & Review:** Legal scrutiny of General Conditions of Contract (Spec 4311) and international FIDIC contracts.
-- **Delay Analysis & Extension of Time (EOT):** CPM-based delay modeling, excusable delay justification, and financial delay assessments.
 - **Management Progress Reporting:** Executive periodic progress reports (daily, weekly, monthly), visual documentation, and physical/financial S-Curves.
 - **CPM Project Scheduling:** Master scheduling via Microsoft Project (MSP) and Primavera P6 EPPM, WBS structuring, and resource leveling.
-- **Loss & Expense Claims:** Evaluation of damages resulting from project suspension, inflation, idle equipment, and market fluctuations.
 - **Architectural & Structural Drafting:** Drafting Phase 1 and Phase 2 engineering drawings via AutoCAD and AutoLISP scripting.
 - **BIM Modeling & Clash Detection:** Comprehensive 3D BIM modeling and interdisciplinary clash detection via Autodesk Revit and Navisworks.
 - **Structural Engineering & Seismic Design:** Seismic modeling and structural analysis for reinforced concrete and steel structures via ETABS, SAFE, and SAP2000.
@@ -90,15 +120,14 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ---
 
-## Professional & Research Experience (8 Positions)
-1. **Technical & Contracts Affairs Manager** — Sahar Sazeh Novin Paydar Co. | Jun 2025 – Present
-2. **Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
-3. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
-4. **Chief Executive Officer & Co-Founder** — WebAlfa Technology Co. | Dec 2020 – Present
-5. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
-6. **Contracts & Claims Specialist** — National Iranian Gas Engineering & Development Co. | Nov 2018 – Oct 2019
-7. **Graduate Research & Teaching Assistant** — Amirkabir University of Technology | Oct 2020 – Jan 2026
-8. **Licensed Construction Supervisor & Executor (Grade 2)** — Fars Construction Engineering Organization | 2016 – Present
+## Professional & Research Experience (7 Key Positions)
+1. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
+2. **Founder & Chief Technology Officer (CTO)** — WebAlfa Technology Co. | Dec 2020 – Present
+3. **Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
+4. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
+5. **Contracts & Claims Specialist** — National Iranian Gas Engineering & Development Co. | Nov 2018 – Oct 2019
+6. **Graduate Research & Teaching Assistant** — Amirkabir University of Technology | Oct 2020 – Jan 2026
+7. **Licensed Construction Supervisor & Executor (Grade 2)** — Fars Construction Engineering Organization | 2016 – Present
 
 ---
 
@@ -164,7 +193,9 @@ Experienced in connecting executive construction management with cutting-edge da
 - 📚 **ResearchGate:** [researchgate.net/profile/Mohammad-Talaghat-4](https://www.researchgate.net/profile/Mohammad-Talaghat-4)
 - 💼 **LinkedIn:** [linkedin.com/in/atalaghat](https://www.linkedin.com/in/atalaghat/)
 - 💻 **GitHub:** [github.com/atalaghat](https://github.com/atalaghat)
-- 🚀 **Contra Freelance Portfolio:** [contra.com/atalaghat](https://contra.com/atalaghat)
+- 🚀 **Wellfound Career Profile:** [wellfound.com/u/atalaghat](https://wellfound.com/u/atalaghat)
+- 🎨 **Adobe Behance Portfolio:** [behance.net/atalaghat](https://www.behance.net/atalaghat)
+- 💼 **Contra Freelance Portfolio:** [contra.com/atalaghat](https://contra.com/atalaghat)
 - 🤖 **Kaggle:** [kaggle.com/atalaghat](https://www.kaggle.com/atalaghat)
 - 🤗 **Hugging Face:** [huggingface.co/atalaghat](https://huggingface.co/atalaghat)
 - 💬 **Telegram:** [t.me/atalaghat](https://t.me/atalaghat)
@@ -187,9 +218,34 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ---
 
+## راهبری اجرایی و شرکت‌های همکار
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏢 شرکت مهندسین مشاور و توسعه صنعت آرکا نویان
+**عضو هیئت مدیره و هم‌بنیان‌گذار | مشاور ارشد مهندسی و مدیریت ساخت**
+- **حوزه‌های کلیدی:** استقرار دفتر مدیریت پروژه (PMO)، مدیریت امور پیمان و رسیدگی، مدل‌سازی BIM 4D/5D، بهینه‌سازی محاسبات سازه، تحلیل تاخیرات و دفاع از حقوق قراردادی پیمانکاران و کارفرمایان.
+- **پیوند رزومه:** [مشاهده بخش آرکا نویان](https://atalaghat.github.io/atalaghat/#companies)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 اکوسیستم توسعه فناوری و پلتفرم‌های ابری وب‌آلفا (WebAlfa)
+**بنیان‌گذار و مدیر ارشد فناوری (CTO) | معمار سامانه‌های هوش مصنوعی و دوقلوی دیجیتال**
+- **حوزه‌های کلیدی:** سامانه‌های ابری محاسبات مهندسی، معماری دوقلوی دیجیتال زیرساخت، بینایی ماشین کاربردی، سامانه‌های نرم‌افزاری مقیاس‌پذیر و پلتفرم‌های BIMGate، TwinUp و Paprika.
+- **نشانی پلتفرم:** [webalfa.net](https://webalfa.net/)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## سبد خدمات تخصصی و مشاوره‌ای (۲۷ خدمت در ۳ محور)
 
-### ۱. امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی (۱۷ خدمت)
+### ۱. امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی (۱۸ خدمت)
 - **تهیه آنالیز بها و اسناد مناقصه:** با نرم‌افزار تکسا بر اساس بخشنامه ۴۹۵۱ و ۱۲۳۲۵۷.
 - **تنظیم و دفاع از صورت‌وضعیت‌ها:** صورت‌وضعیت کارکرد موقت و قطعی فهارس‌بهای ابنیه، راه، تأسیسات و نفت و گاز.
 - **صورت‌وضعیت تعدیل آحاد بها:** محاسبه دقیق بر اساس بخشنامه ۱۷۳۰۷۳ و شاخص‌های سازمان برنامه.
@@ -197,12 +253,13 @@ Experienced in connecting executive construction management with cutting-edge da
 - **آنالیز درآمد و هزینه (Cash Flow):** موازنه جریان نقدینگی و پیشگیری از ضرر و زیان پیمانکار.
 - **تنظیم صورت‌جلسات کارگاهی:** مستندسازی احجام کارکرد و ثبت عملیات پوشیده.
 - **مدیریت جامع ادعا (Claim Management):** تدوین لوایح ادعا، مذاکره حقوقی و دفاع از حقوق قراردادی.
+- **تهیه ادعاها و لوایح ضرر و زیان و دفاع از لوایح:** ارزیابی و تدوین دقیق خسارت‌های ناشی از تعلیق کارگاه (ماده ۴۹)، بیکاری ماشین‌آلات و پرسنل، تورم و نوسانات ارزی، و دفاع مستند در مراجع کارفرمایی و حل اختلاف.
+- **تحلیل تاخیرات، لایحه تاخیرات و تمدید مدت پیمان:** مدل‌سازی تاخیرات بر مبنای شبکه CPM، تفکیک تاخیرات مجاز و غیرمجاز، و پیاده‌سازی بخشنامه ۵۰۹۰ و ماده ۳۰ شرایط عمومی پیمان.
+- **پیاده‌سازی حوزه‌های مدیریت پروژه و استقرار دفتر PMO:** استقرار نظام‌های ۱۰ گانه PMBOK، طراحی ساختار شکست کار (WBS)، سیستم‌های کنترل هزینه و زمان بر پایه ارزش کسب‌شده (EVM) و داشبوردهای مدیریتی.
 - **متره و برآورد دقیق:** تهیه ریزمتره و لیستوفر فاز ۱، ۲ و ازبیلت.
 - **امور قراردادها و پیمان و رسیدگی:** تفسیر شرایط عمومی پیمان (نشریه ۴۳۱۱) و قراردادهای FIDIC.
-- **لایحه تأخیرات و تمدید مدت:** مدل‌سازی CPM بر اساس بخشنامه ۵۰۹۰ و ماده ۳۰.
 - **گزارش‌های ادواری مدیریتی:** گزارش‌های روزانه، هفتگی، ماهانه و نمودارهای S-Curve پیشرفت فیزیکی/ریالی.
 - **برنامه‌ریزی و کنترل پروژه:** زمان‌بندی تخصصی با MSP و Primavera P6 و ساختار شکست کار (WBS).
-- **لایحه ضرر و زیان:** تدوین خسارت توقف تجهیزات، تعلیق پیمان (ماده ۴۹) و نوسانات تورمی.
 - **طراحی و نقشه‌کشی اتوکد:** نقشه‌های فاز ۱ و ۲ معماری و سازه و اتوماسیون با AutoLISP.
 - **مدل‌سازی BIM و کلش‌دیتکشن:** پیاده‌سازی مدل‌های سه‌بعدی رویت (Revit) و رفع تداخلات با Navisworks.
 - **طراحی و محاسبات سازه:** تحلیل خطی و غیرخطی و کنترل ضوابط استاندارد ۲۸۰۰ با ETABS، SAFE و SAP2000.
@@ -242,7 +299,9 @@ Experienced in connecting executive construction management with cutting-edge da
 - 📄 **شناسه بین‌المللی ارکید:** [ORCID: 0000-0002-1245-4689](https://orcid.org/0000-0002-1245-4689)
 - 💼 **لینکدین (ارتباط حرفه‌ای):** [LinkedIn Profile](https://www.linkedin.com/in/atalaghat/)
 - 💻 **گیت‌هاب (مخازن کد):** [GitHub Profile](https://github.com/atalaghat)
-- 🚀 **پورتفولیوی فریلنسری کنترا:** [Contra Profile](https://contra.com/atalaghat)
+- 🚀 **پروفایل استخدام بین‌المللی ولمفاند:** [Wellfound Profile](https://wellfound.com/u/atalaghat)
+- 🎨 **پورتفولیوی تخصصی ادوبی بهنس:** [Adobe Behance Profile](https://www.behance.net/atalaghat)
+- 💼 **پورتفولیوی فریلنسری بین‌المللی کنترا:** [Contra Profile](https://contra.com/atalaghat)
 - 🤖 **کگل و هاگینگ‌فیس:** [Kaggle](https://www.kaggle.com/atalaghat) | [Hugging Face](https://huggingface.co/atalaghat)
 - 💬 **تلگرام و فیسبوک:** [Telegram](https://t.me/atalaghat) | [Facebook](https://facebook.com/amintalaghat)
 - 📱 **تلفن همراه و واتساپ مستقیم:** ۰۹۱۷۱۸۸۳۵۰۲ (+989171883502)
