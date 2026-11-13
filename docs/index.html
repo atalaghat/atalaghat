@@ -1793,14 +1793,75 @@ Project Parameters:`;
             }
         }
 
-        function showToast(msg) {
-            const toast = document.getElementById('toast');
-            const toastMsg = document.getElementById('toast-msg');
-            toastMsg.innerText = msg;
-            toast.classList.remove('hidden');
-            setTimeout(() => {
-                toast.classList.add('hidden');
-            }, 3500);
+        function showToast(msg, icon = 'check-circle-2') {
+            const toastNotify = document.getElementById('toast-notify');
+            const toastText = document.getElementById('toast-text');
+            const toastIcon = document.getElementById('toast-icon');
+
+            if (toastNotify && toastText) {
+                toastText.innerText = msg;
+                if (toastIcon) {
+                    toastIcon.setAttribute('data-lucide', icon);
+                    if (window.lucide) lucide.createIcons();
+                }
+                toastNotify.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+                toastNotify.classList.add('opacity-100', 'translate-y-0');
+
+                if (window._toastTimeout) clearTimeout(window._toastTimeout);
+                window._toastTimeout = setTimeout(() => {
+                    toastNotify.classList.remove('opacity-100', 'translate-y-0');
+                    toastNotify.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+                }, 3200);
+            }
+
+            // Fallback for older #toast element if present
+            const oldToast = document.getElementById('toast');
+            const oldToastMsg = document.getElementById('toast-msg');
+            if (oldToast && oldToastMsg) {
+                oldToastMsg.innerText = msg;
+                oldToast.classList.remove('hidden');
+                setTimeout(() => {
+                    oldToast.classList.add('hidden');
+                }, 3500);
+            }
+        }
+
+        function copyToClipboard(text, successMsg) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(successMsg || ((currentLang === 'fa') ? 'در کلیپ‌بورد کپی شد ✓' : 'Copied to clipboard ✓'));
+                }).catch(() => {
+                    showToast(text);
+                });
+            } else {
+                // Fallback for older browsers
+                const tempInput = document.createElement('input');
+                tempInput.value = text;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                try {
+                    document.execCommand('copy');
+                    showToast(successMsg || ((currentLang === 'fa') ? 'در کلیپ‌بورد کپی شد ✓' : 'Copied to clipboard ✓'));
+                } catch (e) {
+                    showToast(text);
+                }
+                document.body.removeChild(tempInput);
+            }
+        }
+
+        function initScrollReveal() {
+            const elements = document.querySelectorAll('.reveal-fade-up');
+            if (!elements || elements.length === 0) return;
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.04, rootMargin: '0px 0px -20px 0px' });
+
+            elements.forEach(el => observer.observe(el));
         }
 
         // --- Consultation Form Actions ---
