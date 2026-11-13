@@ -120,22 +120,23 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ---
 
-## Professional & Research Experience (7 Key Positions)
-1. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
-2. **Founder & Chief Technology Officer (CTO)** — WebAlfa Technology Co. | Dec 2020 – Present
-3. **Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
-4. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
-5. **Contracts & Claims Specialist** — National Iranian Gas Engineering & Development Co. | Nov 2018 – Oct 2019
-6. **Graduate Research & Teaching Assistant** — Amirkabir University of Technology | Oct 2020 – Jan 2026
-7. **Licensed Construction Supervisor & Executor (Grade 2)** — Fars Construction Engineering Organization | 2016 – Present
+## Professional & Research Experience (8 Key Positions)
+1. **Director of Technical Affairs & Contracts** — Sahar Sazeh Novin Paydar Co. | Jun 2025 – Present
+2. **Board Member & Co-Founder** — ArkaNoyan Consulting Engineers | Oct 2019 – Present
+3. **Founder & Chief Technology Officer (CTO)** — WebAlfa Technology Co. | Dec 2020 – Present
+4. **Research Assistant & Fellow (DigiPave Project)** — University of Oulu, Finland | Jan 2024 – Present
+5. **Head of Technical Office & Contract Claims** — Abriz Sazeh Fars Consulting Engineers | Dec 2017 – Jun 2019
+6. **Contracts & Claims Specialist** — National Iranian Gas Engineering & Development Co. | Nov 2018 – Oct 2019
+7. **Graduate Research & Teaching Assistant** — Amirkabir University of Technology | Oct 2020 – Jan 2026
+8. **Licensed Construction Supervisor & Executor (Grade 2)** — Fars Construction Engineering Organization | 2016 – Present
 
 ---
 
 ## Landmark Projects Portfolio (12 Verified Projects)
 1. **Smart Pavement Management System & Infrastructure Digital Twin Platform (DigiPave)** — University of Oulu & City of Oulu, Finland | 2024 – 2026
-2. **Loss & Expense Claim, Circular 5090 Delay Dossier & Contracts Administration for Simakan Water Transmission** — Arka Noyan Consulting Engineers / Fars Regional Water Authority | 2024 – 2026
-3. **Project Controls & Scheduling, Delay Analysis, Loss & Expense Claim, and Contracts for Fars Cement Plant (3,300 t/d)** — Arka Noyan Consulting Engineers / Fars Cement Co. | 2024 – 2026
-4. **Project Planning, CPM Controls & Concrete Monitoring for Shiraz District 4 & 10 Water Reservoirs** — Arka Noyan Consulting Engineers / Shiraz Municipality | 2024 – 2026
+2. **Loss & Expense Claim, Circular 5090 Delay Dossier & Contracts Administration for Simakan Water Transmission** — Sahar Sazeh Novin Paydar Co. / Fars Regional Water Authority | 2024 – 2026
+3. **Project Controls & Scheduling, Delay Analysis, Loss & Expense Claim, and Contracts for Fars Cement Plant (3,300 t/d)** — Sahar Sazeh Novin Paydar Co. / Fars Cement Co. | 2024 – 2026
+4. **Project Planning, CPM Controls & Concrete Monitoring for Shiraz District 4 & 10 Water Reservoirs** — Sahar Sazeh Novin Paydar Co. / Shiraz Municipality | 2024 – 2026
 5. **Comprehensive Delay Claim & Extension of Time Dossier for Kio Commercial-Residential Complex (170,000 m²)** — Private Consortium / Grade 1 General Contractor | 2022 – 2023
 6. **Building Smart Energy Management System & IoT/BIM Digital Twin (TwinUp Platform)** — Roger Williams College, Florida, USA / Arka Noyan Industry Development Co. | 2020 – 2022
 7. **Master Scheduling & Project Controls for 1,210-Unit Mehr Housing Project (120,000 m²)** — Vanoosh Shahr Co. / Pardis New Town Development Corp. | 2019 – 2020
