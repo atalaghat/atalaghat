@@ -29,24 +29,29 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## Executive Leadership & Enterprise Platforms
 
+> **Note on Service Coverage & Academic Independence:**  
+> All professional services on this platform are officially delivered by executive corporate entities: **Arka Noyan** delivers the full *Civil Engineering, Technical Office & Construction Management* package (18 services), while **WebAlfa** provides the *Enterprise Web Development, WordPress & Cloud Software* package (5 services). All scientific research, ISI publications, digital twin modeling, and peer review are conducted independently in Dr. Mohammad Amin Talaghat's **individual academic capacity (شخصیت حقیقی)**.
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🏢 Arka Noyan Consulting Engineers
-**Board Member & Co-Founder | Senior Construction Management Consultant**
-- **Core Focus:** Project Management Office (PMO), Contract Administration, BIM 4D/5D Modeling, Structural Optimization, Claims & Delay Analysis.
-- **Track Record:** Over a decade of engineering consultancy, major civil infrastructure, high-rise, and industrial projects.
-- **Link:** [Arka Noyan Profile](https://atalaghat.github.io/atalaghat/#companies)
+**Official Provider: Civil Engineering, Technical Office & Project Controls Package**  
+*Board Member & Co-Founder | Senior Construction Management Consultant*
+- **Service Coverage:** Covers the 18 civil engineering services on this platform, including Technical Office, Quantity Takeoff (QTO) & Price Analysis, Conditions of Contract & Delay Analysis (Circulars 5090 & 173073), PMO & EVM Project Controls, BIM 4D/5D Modeling, and Structural Design (ETABS/SAFE).
+- **Track Record:** Over 7 years of engineering consultancy and project governance across high-rise, commercial, and industrial megaprojects.
+- **Link:** [Arka Noyan Profile & Services](https://atalaghat.github.io/atalaghat/#companies)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🚀 WebAlfa Technology Ecosystem
-**Founder & Chief Technology Officer (CTO) | Digital Systems Architect**
-- **Core Focus:** Cloud Engineering Platforms, Pavement Digital Twins, AI/CV Infrastructure Solutions, Enterprise Full-Stack Web Systems.
-- **Key Products:** BIMGate, TwinUp, Paprika, WebAlfa Cloud Portals.
-- **Link:** [https://webalfa.net/](https://webalfa.net/)
+**Official Provider: Web Development, Enterprise CMS & Cloud Software Package**  
+*Founder & Chief Technology Officer (CTO) | Digital Systems Architect*
+- **Service Coverage:** Covers the 5 web and digital services on this platform, including Bespoke Full-Stack Web Development, Enterprise WordPress & Elementor Systems, Custom Cloud Software & RESTful APIs, Modern UI/UX Architecture, and Technical SEO & Security SLA (99.9%).
+- **Track Record:** 50+ deployed web portals, cloud platforms, and enterprise digital solutions.
+- **Link:** [WebAlfa Official Portal](https://webalfa.net/) | [Web Services Package](https://atalaghat.github.io/atalaghat/#services)
 
 </td>
 </tr>
@@ -56,7 +61,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## Comprehensive Professional Services & Consulting Areas (English Overview)
 
-### 1. Civil Engineering, Technical Office & Project Controls (18 Services)
+### 1. Civil Engineering, Technical Office & Project Controls — Powered by Arka Noyan (18 Services)
 - **Rate Breakdown & Bidding Strategy:** Rate analysis, bid submission, and tender document preparation via Taksa software.
 - **Interim & Final Payment Certificates:** Comprehensive preparation, audit, and contractual defense of contractor payment certificates.
 - **Price Escalation & Adjustment:** Precise price escalation computations, baseline and periodic indices verification under standard regulations.
@@ -76,14 +81,14 @@ Experienced in connecting executive construction management with cutting-edge da
 - **Structural Engineering & Seismic Design:** Seismic modeling and structural analysis for reinforced concrete and steel structures via ETABS, SAFE, and SAP2000.
 - **Tekla Structures Detailing & CNC Data:** Heavy industrial steel connection modeling, assembly shop drawings, cutting sheets, and CNC NC/DSTV generation.
 
-### 2. Software Architecture, Web Platforms, UI/UX & Hosting (5 Services)
+### 2. Software Architecture, Web Platforms, UI/UX & Hosting — Powered by WebAlfa (5 Services)
 - **Enterprise WordPress & Elementor Pro:** High-security corporate web platforms, customized architecture, and Core Web Vitals optimization.
 - **Custom PHP & Backend Engineering:** Bespoke WordPress plugin development, custom hooks/filters, and secure database optimization.
 - **Server Administration & Cloud Hosting:** Linux server configuration, cPanel, DirectAdmin, Nginx/Apache tuning, SSL, and Cloudflare CDN.
 - **Online Engineering Calculation Portals:** Bespoke web applications for automated engineering calculations, escalation, and instant PDF/Excel exports.
 - **UI/UX Design & Frontend Development:** Responsive layouts, modern design systems, clean typography, and seamless user experiences.
 
-### 3. R&D Consulting, Academic Research & AI Engineering (5 Core Specializations)
+### 3. Academic Research, ISI Publications & AI Engineering — Individual Capacity (5 Specializations)
 - **Computer Vision: Automated Detection & Segmentation:** High-fidelity computer vision pipelines utilizing custom YOLOv8/v11, foundation models, and diffusion-based generative AI for automated pavement distress classification, crack instance segmentation, multi-modal UAV thermal infrared analysis, and quantitative Surface Condition Index (SCI/PCI) scoring.
 - **Deep Predictive Modeling & Deterioration Forecasting:** Non-linear deep predictive architectures combining Hybrid MLP–LSTM and deep residual networks (ResNet) to forecast infrastructure deterioration rates, distress severity/density metrics, and equipment fault anomalies over decadal horizons.
 - **Multi-Objective Engineering Optimization & Prescriptive Decision Systems:** Mathematical formulation of complex constrained multi-objective engineering optimization problems using NSGA-II/III, Genetic Algorithms (GA), and PSO for multi-year capital budget allocation, joint energy-carbon-maintenance trade-offs, and autonomous inspection fleet tasking.
@@ -221,22 +226,29 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## راهبری اجرایی و شرکت‌های همکار
 
+> **یادداشت تفکیک خدمات و استقلال پژوهشی:**  
+> کلیه خدمات تخصصی ارائه‌شده در این پلتفرم از طریق شرکت‌های تحت راهبری اجرا می‌گردند: **شرکت آرکا نویان** پوشش‌دهنده رسمی پکیج خدمات مهندسی عمران، دفتر فنی و مدیریت ساخت (۱۸ خدمت) است و **وب‌آلفا** مجری پکیج طراحی وب، وردپرس سازمانی و نرم‌افزار ابری (۵ خدمت) می‌باشد. کلیه فعالیت‌های پژوهشی، مقالات ISI و تحقیق و توسعه دانشگاهی به صورت مستقل و در قالب **شخصیت حقیقی** دکتر محمد امین طلاقت ارائه می‌گردد و ارتباطی با شرکت‌های حقوقی ندارد.
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🏢 شرکت مهندسین مشاور و توسعه صنعت آرکا نویان
-**عضو هیئت مدیره و هم‌بنیان‌گذار | مشاور ارشد مهندسی و مدیریت ساخت**
-- **حوزه‌های کلیدی:** استقرار دفتر مدیریت پروژه (PMO)، مدیریت امور پیمان و رسیدگی، مدل‌سازی BIM 4D/5D، بهینه‌سازی محاسبات سازه، تحلیل تاخیرات و دفاع از حقوق قراردادی پیمانکاران و کارفرمایان.
-- **پیوند رزومه:** [مشاهده بخش آرکا نویان](https://atalaghat.github.io/atalaghat/#companies)
+**پوشش‌دهنده رسمی: پکیج خدمات مهندسی عمران، دفتر فنی و امور پیمان**  
+*عضو هیئت مدیره و هم‌بنیان‌گذار | مشاور ارشد مهندسی و مدیریت ساخت*
+- **حوزه پوشش خدمات:** پوشش‌دهنده ۱۸ خدمت مهندسی سایت شامل دفتر فنی، متره و برآورد، آنالیز بها، رسیدگی به تاخیرات و ادعا (بخشنامه‌های ۵۰۹۰ و ۱۷۳۰۷۳)، استقرار سیستم‌های کنترل پروژه (PMO & EVM)، مدل‌سازی BIM 4D/5D و محاسبات سازه.
+- **سوابق:** بیش از ۷ سال مشاوره عالی و راهبری در مگاپروژه‌های ساختمانی، تجاری و صنعتی.
+- **پیوند رزومه:** [مشاهده بخش آرکا نویان و خدمات مهندسی](https://atalaghat.github.io/atalaghat/#companies)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🚀 اکوسیستم توسعه فناوری و پلتفرم‌های ابری وب‌آلفا (WebAlfa)
-**بنیان‌گذار و مدیر ارشد فناوری (CTO) | معمار سامانه‌های هوش مصنوعی و دوقلوی دیجیتال**
-- **حوزه‌های کلیدی:** سامانه‌های ابری محاسبات مهندسی، معماری دوقلوی دیجیتال زیرساخت، بینایی ماشین کاربردی، سامانه‌های نرم‌افزاری مقیاس‌پذیر و پلتفرم‌های BIMGate، TwinUp و Paprika.
-- **نشانی پلتفرم:** [webalfa.net](https://webalfa.net/)
+**پوشش‌دهنده رسمی: پکیج خدمات طراحی وب، وردپرس سازمانی و نرم‌افزار ابری**  
+*بنیان‌گذار و مدیر ارشد فناوری (CTO) | معمار سامانه‌های نرم‌افزاری و ابری*
+- **حوزه پوشش خدمات:** پوشش‌دهنده ۵ خدمت وب سایت شامل طراحی و برنامه‌نویسی وب‌سایت‌های اختصاصی، توسعه وردپرس و المنتور سازمانی با امنیت و سرعت بالا، معماری سامانه‌های ابری و وب‌سرویس‌ها، طراحی رابط کاربری (UI/UX) و بهینه‌سازی فنی سئو.
+- **سوابق:** بیش از ۵۰ سامانه وب و پلتفرم ابری مستقر با تعهد آپ‌تایم و امنیت ۹۹.۹٪.
+- **پیوند پلتفرم:** [وب‌سایت وب‌آلفا (webalfa.net)](https://webalfa.net/) | [مشاهده خدمات وب](https://atalaghat.github.io/atalaghat/#services)
 
 </td>
 </tr>
@@ -246,7 +258,7 @@ Experienced in connecting executive construction management with cutting-edge da
 
 ## سبد خدمات تخصصی و مشاوره‌ای (۲۷ خدمت در ۳ محور)
 
-### ۱. امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی (۱۸ خدمت)
+### ۱. امور طراحی، مشاوره و دفتر فنی پروژه‌های عمرانی — پوشش شرکت آرکا نویان (۱۸ خدمت)
 - **تهیه آنالیز بها و اسناد مناقصه:** با نرم‌افزار تکسا بر اساس بخشنامه ۴۹۵۱ و ۱۲۳۲۵۷.
 - **تنظیم و دفاع از صورت‌وضعیت‌ها:** صورت‌وضعیت کارکرد موقت و قطعی فهارس‌بهای ابنیه، راه، تأسیسات و نفت و گاز.
 - **صورت‌وضعیت تعدیل آحاد بها:** محاسبه دقیق بر اساس بخشنامه ۱۷۳۰۷۳ و شاخص‌های سازمان برنامه.
@@ -266,14 +278,14 @@ Experienced in connecting executive construction management with cutting-edge da
 - **طراحی و محاسبات سازه:** تحلیل خطی و غیرخطی و کنترل ضوابط استاندارد ۲۸۰۰ با ETABS، SAFE و SAP2000.
 - **شاپ‌دراوینگ تکلا استراکچرز:** مدل‌سازی اتصالات فلزی، استخراج کاتینگ‌شیت و فایل‌های CNC (NC/DSTV).
 
-### ۲. طراحی، توسعه و میزبانی وب، پلتفرم‌های نرم‌افزاری و UI/UX (۵ خدمت)
+### ۲. طراحی، توسعه و میزبانی وب، پلتفرم‌های نرم‌افزاری و UI/UX — پوشش وب‌آلفا (۵ خدمت)
 - **وردپرس و المنتور سازمانی:** توسعه وب‌سایت‌های شرکتی با امنیت بالا و سرعت بهینه.
 - **توسعه اختصاصی PHP:** برنامه‌نویسی افزونه‌ها و ویجت‌های اختصاصی مهندسی.
 - **مدیریت هاستینگ و سرور:** پیکربندی cPanel، DirectAdmin، لینوکس، SSL و کلودفلر.
 - **پلتفرم‌های ابری محاسبات مهندسی:** وب‌اپلیکیشن‌های آنلاین متره، تعدیل و گزارش‌گیری.
 - **طراحی رابط کاربری (UI/UX):** پروتوتایپ‌های مدرن، دیزاین‌سیستم و تایپوگرافی اصیل فارسی.
 
-### ۳. امور پژوهشی، تحقیق و توسعه (R&D) و هوش مصنوعی (۵ تخصص محوری)
+### ۳. امور پژوهشی، مقالات ISI و تحقیق و توسعه (R&D) — شخصیت حقیقی (۵ تخصص محوری)
 - **بینایی ماشین، آشکارسازی و بخش‌بندی عوارض (Detection & Segmentation):** پیاده‌سازی پایپ‌لاین‌های پیشرفته بینایی ماشین با YOLOv8 و YOLOv11، مدل‌های پایه‌ای (Foundation Models)، بخش‌بندی زوال و ترک با هوش مصنوعی مولد بر پایه انتشار (Diffusion Models)، تصویربرداری فروسرخ حرارتی پهپادی و محاسبه کمی شاخص‌های شرایط سطح (PCI/SCI).
 - **مدل‌سازی یادگیری عمیق پیش‌بین و پیش‌بینی سری زمانی (Deep Predictive Modeling):** توسعه مدل‌های ترکیبی Hybrid MLP-LSTM و شبکه‌های باقیمانده عمیق (ResNet) جهت پیش‌بینی دقیق نرخ زوال غیرخطی روسازی، برآورد شدت و تراکم خرابی‌ها و زوال تجهیزات در سامانه‌های متصل به شبکه هوشمند در افق‌های بلندمدت ده‌ساله.
 - **بهینه‌سازی چندهدفه، الگوریتم‌های فراابتکاری و تصمیم‌یار تجویزی (Optimization):** فرموله‌سازی ریاضی مسائل بهینه‌سازی چندهدفه مقید مهندسی، تخصیص بهینه بودجه‌های نگهداری و ترمیم (M&R)، الگوریتم‌های ژنتیک (GA)، ازدحام ذرات (PSO)، الگوریتم‌های NSGA-II/III و بهینه‌سازی توامان هزینه، انرژی و چرخه عمر.
